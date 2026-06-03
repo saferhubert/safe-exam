@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_SC } from "next/font/google";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
+import Script from "next/script";
 import "./globals.css";
 
 const notoSansSC = Noto_Sans_SC({
@@ -52,6 +53,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN" className={notoSansSC.className}>
+      <head>
+        {/* 百度统计 */}
+        <Script
+          id="baidu-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d8015ff6d776cefc09d01bf7d33fc928";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+`,
+          }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col">{children}</body>
     </html>
   );
