@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
-  verification: {
-    baidu: "codeva-YEDmQNhWIw",
+  other: {
+    "baidu-site-verification": "codeva-YEDmQNhWIw",
   },
 };
 
