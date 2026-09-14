@@ -3,7 +3,20 @@ import type { SubjectMeta } from "./types";
 export const SITE_NAME = "注安师免费学习平台";
 export const SITE_DESCRIPTION =
   "中级注册安全工程师免费学习平台，提供法律法规、安全管理、技术基础、专业实务等科目的学习笔记、思维导图、章节练习。100% 免费，助你高效通关。";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.zhuanshi365.cn";
+// 规范化站点域名：
+// 线上 Vercel 的环境变量历史上被设成了裸域 https://zhuanshi365.cn，
+// 而裸域实际是 308 跳转到 www，若 canonical 用裸域会与真实访问 URL 不一致。
+// 这里统一强制为 www 版本，避免 canonical / sitemap / JSON-LD 出现两种域名。
+function normalizeSiteUrl(raw: string): string {
+  const trimmed = raw.trim().replace(/\/+$/, "");
+  if (!trimmed) return "https://www.zhuanshi365.cn";
+  // 裸域 zhuanshi365.cn → www.zhuanshi365.cn
+  return trimmed.replace(/^https?:\/\/zhuanshi365\.cn$/i, "https://www.zhuanshi365.cn");
+}
+
+export const SITE_URL = normalizeSiteUrl(
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.zhuanshi365.cn"
+);
 
 // 线索表单「手动复制」降级模式展示的微信/联系方式
 // 通过 NEXT_PUBLIC_WECHAT_ID 配置；留空则不显示手动引导

@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
-import { SUBJECTS } from "@/lib/constants";
+import { SUBJECTS, SITE_URL } from "@/lib/constants";
 import { getChapters } from "@/lib/subjects";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.zhuanshi365.cn";
+  // 复用 constants 里已规范化为 www 的 SITE_URL，避免与 canonical 域名不一致
+  const baseUrl = SITE_URL;
   const entries: MetadataRoute.Sitemap = [];
 
   // 首页
