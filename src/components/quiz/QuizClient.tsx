@@ -146,6 +146,7 @@ export default function QuizClient({
         selectedAnswer={answers[currentQuestion.id] || ""}
         onAnswer={(answer) => handleAnswer(currentQuestion.id, answer)}
         showResult={false}
+        subject={subject}
       />
 
       {/* Navigation */}

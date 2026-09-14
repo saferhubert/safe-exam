@@ -1,0 +1,73 @@
+[
+  {
+    "number": 1,
+    "slug": "chapter-01",
+    "title": "安全生产管理基本理论",
+    "examWeight": 2,
+    "scoreNote": "6分（2025年）",
+    "sections": [
+      { "id": "s1", "title": "第一节 事故等级与危险源", "examWeight": 3 },
+      { "id": "s2", "title": "第二节 本质安全", "examWeight": 2 },
+      { "id": "s3", "title": "第三节 事故致因理论", "examWeight": 3 },
+      { "id": "s4", "title": "第四节 安全原理与原则", "examWeight": 3 },
+      { "id": "s5", "title": "第五节 人的心理与行为", "examWeight": 2 },
+      { "id": "s6", "title": "第六节 安全文化", "examWeight": 2 }
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "chapter-02",
+    "title": "安全生产管理内容",
+    "examWeight": 3,
+    "scoreNote": "44分（2025年）— 全科最高",
+    "sections": []
+  },
+  {
+    "number": 3,
+    "slug": "chapter-03",
+    "title": "安全评价",
+    "examWeight": 3,
+    "scoreNote": "17分（2025年）— 分值跃升",
+    "sections": []
+  },
+  {
+    "number": 4,
+    "slug": "chapter-04",
+    "title": "职业病危害预防和管理",
+    "examWeight": 2,
+    "scoreNote": "4分（2025年）",
+    "sections": []
+  },
+  {
+    "number": 5,
+    "slug": "chapter-05",
+    "title": "安全生产应急管理",
+    "examWeight": 3,
+    "scoreNote": "2分（2025年，波动大）",
+    "sections": []
+  },
+  {
+    "number": 6,
+    "slug": "chapter-06",
+    "title": "生产安全事故调查与分析",
+    "examWeight": 2,
+    "scoreNote": "5分（2025年）",
+    "sections": []
+  },
+  {
+    "number": 7,
+    "slug": "chapter-07",
+    "title": "安全生产监管监察",
+    "examWeight": 1,
+    "scoreNote": "1分（2025年）",
+    "sections": []
+  },
+  {
+    "number": 8,
+    "slug": "chapter-08",
+    "title": "安全生产统计分析",
+    "examWeight": 2,
+    "scoreNote": "2分（2025年）",
+    "sections": []
+  }
+]

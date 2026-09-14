@@ -5,6 +5,7 @@ import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getSubject, getChapters, getAdjacentChapters } from "@/lib/subjects";
+import { getInlineBySection } from "@/lib/content";
 import { SUBJECTS } from "@/lib/constants";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import {
@@ -15,6 +16,10 @@ import {
   ComparisonTable,
   VideoCard,
   MindMapEmbed,
+  InlineQuiz,
+  PracticeFrom,
+  SectionTracker,
+  InlineDataProvider,
 } from "@/components/content";
 import Badge from "@/components/ui/Badge";
 import dynamic from "next/dynamic";
@@ -106,6 +111,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   if (!existsSync(mdxPath)) notFound();
 
   const source = readFileSync(mdxPath, "utf-8");
+  // 按节取出随堂练习，注入 MDX 作用域，供 <PracticeFrom /> 使用
+  const inlineBySection = getInlineBySection(params.subject, params.chapter);
   const { content, frontmatter } = await compileMDX<ChapterFrontmatter>({
     source,
         options: {
@@ -114,6 +121,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         remarkPlugins: [remarkGfm],
       },
     },
+    // MDX 里可用 <PracticeFrom section="s1" /> 渲染该节随堂练习，
+    // 题目数据由外层 <InlineDataProvider> 在服务端注入。
     components: {
       table: (props: any) => (
         <div className="overflow-x-auto mb-4 rounded-lg border border-gray-200">
@@ -126,6 +135,9 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
       td: (props: any) => (
         <td className="p-3 border-b border-gray-100" {...props} />
       ),
+      // 为 h2 / h3 自动加锚点，便于题目「定位到知识点」直接跳转
+      h2: (props: any) => <h2 className="scroll-mt-24" {...props} />,
+      h3: (props: any) => <h3 className="scroll-mt-24" {...props} />,
       Callout,
       LawArticle,
       KeyPoint,
@@ -133,10 +145,13 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
       ComparisonTable,
       VideoCard,
       MindMapEmbed,
+      InlineQuiz,
+      PracticeFrom,
     },
   });
 
   return (
+    <InlineDataProvider data={inlineBySection}>
     <article>
       <Breadcrumb
         items={[
@@ -181,6 +196,15 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           </p>
         )}
       </div>
+
+      {/* 学习进度面板（按节） */}
+      {chapter.sections && chapter.sections.length > 0 && (
+        <SectionTracker
+          subject={params.subject}
+          chapter={params.chapter}
+          sections={chapter.sections}
+        />
+      )}
 
       {/* 文章正文 */}
       <div className="prose-cn bg-white rounded-xl border border-gray-200 p-6 sm:p-8 shadow-sm">
@@ -234,5 +258,6 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         <LeadForm />
       </div>
     </article>
+    </InlineDataProvider>
   );
 }

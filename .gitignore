@@ -32,3 +32,6 @@ next-env.d.ts
 
 # extracted PDF content (can be regenerated)
 src/content/laws/_extracted/
+
+# 本地提取的教材原文（体量大，不入库）
+.extract/

@@ -1,0 +1,473 @@
+{
+  "chapterNumber": 1,
+  "title": "第一章 安全生产管理基本理论 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-01-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "某起生产安全事故造成 2 人死亡、12 人重伤、直接经济损失 800 万元。根据《生产安全事故报告和调查处理条例》，该事故等级为（ ）。",
+      "options": [
+        { "key": "A", "text": "一般事故" },
+        { "key": "B", "text": "较大事故" },
+        { "key": "C", "text": "重大事故" },
+        { "key": "D", "text": "特别重大事故" }
+      ],
+      "answer": "B",
+      "explanation": "死亡 2 人＜3 人，按死亡人数属一般事故；但重伤 12 人落入 10（含）~50 人区间，属较大事故。三个指标是「或」的关系，就高不就低，故定为较大事故。",
+      "examPoint": "事故等级划分",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "事故等级划分" }
+    },
+    {
+      "id": "mgmt-01-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "某企业胶带机运转班长在巡检中发现机尾落料较多，便在胶带机运转时用铁锹清理落料，作业时其衣袖和铁锹一起被卷入皮带造成重伤。根据危险源在事故发生、发展中的作用，该「运转时清理落料」行为属于（ ）。",
+      "options": [
+        { "key": "A", "text": "第二类危险源" },
+        { "key": "B", "text": "第一类危险源" },
+        { "key": "C", "text": "第四类危险源" },
+        { "key": "D", "text": "第三类危险源" }
+      ],
+      "answer": "A",
+      "explanation": "第一类危险源是可能意外释放的能量本身（如旋转的飞轮）；第二类危险源是导致能量约束失效的因素。该行为属于人的失误／不安全行为，是使约束失效的因素，故为第二类危险源。",
+      "examPoint": "两类危险源",
+      "difficulty": "medium",
+      "source": "2025年真题改编",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "两类危险源" }
+    },
+    {
+      "id": "mgmt-01-s1-03",
+      "scope": "inline",
+      "type": "judge",
+      "stem": "第一类危险源决定了事故发生的可能性，第二类危险源决定了事故后果的严重程度。",
+      "options": [
+        { "key": "T", "text": "正确" },
+        { "key": "F", "text": "错误" }
+      ],
+      "answer": "F",
+      "explanation": "说反了。第一类危险源（能量本身）决定事故后果的严重程度；第二类危险源（约束失效因素）决定事故发生的可能性。企业安全工作重点是第二类危险源的控制。",
+      "examPoint": "两类危险源的区分",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "两类危险源" }
+    },
+    {
+      "id": "mgmt-01-s2-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "本质安全包含「失误-安全」和「故障-安全」两个方面。下列关于本质安全的说法，正确的是（ ）。",
+      "options": [
+        { "key": "A", "text": "操作人员误操作时不会发生事故，属于故障-安全功能" },
+        { "key": "B", "text": "设备发生故障时自动转为安全状态，属于失误-安全功能" },
+        { "key": "C", "text": "在设备上加装防护罩以防误操作，属于本质安全" },
+        { "key": "D", "text": "本质安全功能应在规划设计阶段就纳入，而不是事后补偿" }
+      ],
+      "answer": "D",
+      "explanation": "A、B 两项把概念说反了：误操作不出事是「失误-安全」（对人），设备故障自动转安全是「故障-安全」（对物）。C 错，事后加装防护装置属于事后补偿，不是本质安全。D 正确。",
+      "examPoint": "本质安全",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s2", "sectionTitle": "第二节 本质安全", "point": "失误-安全与故障-安全" }
+    },
+    {
+      "id": "mgmt-01-s3-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "海因里希事故因果连锁理论（多米诺骨牌）认为，事故的直接原因是（ ）。",
+      "options": [
+        { "key": "A", "text": "遗传及社会环境" },
+        { "key": "B", "text": "人的缺点" },
+        { "key": "C", "text": "人的不安全行为或物的不安全状态" },
+        { "key": "D", "text": "管理失误" }
+      ],
+      "answer": "C",
+      "explanation": "海因里希五块骨牌依次为：遗传及社会环境→人的缺点→人的不安全行为或物的不安全状态→事故→伤害。其中第三块「人的不安全行为或物的不安全状态」是造成事故的直接原因。D「管理失误」是博德理论的起点。",
+      "examPoint": "海因里希事故因果链理论",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点4",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "海因里希事故因果链理论" }
+    },
+    {
+      "id": "mgmt-01-s3-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "在储放能源的实验过程中使用耐压氧气罐、盛装放射性同位素的专用容器，按能量意外释放理论的 11 种屏蔽措施，这属于（ ）。",
+      "options": [
+        { "key": "A", "text": "限制能量" },
+        { "key": "B", "text": "防止能量蓄积" },
+        { "key": "C", "text": "控制能量释放" },
+        { "key": "D", "text": "设置屏蔽设施" }
+      ],
+      "answer": "C",
+      "explanation": "「控制能量释放」指采取控制措施控制能量的释放，典型例子即储放能源和实验时采用耐压氧气罐、盛装放射性同位素的专用容器等保护性容器。注意与「设置屏蔽设施」（防护罩、围栏、个体防护用品）区分。",
+      "examPoint": "能量意外释放理论11种屏蔽措施",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "能量意外释放理论" }
+    },
+    {
+      "id": "mgmt-01-s3-03",
+      "scope": "inline",
+      "type": "judge",
+      "stem": "轨迹交叉论突出强调砍断物的事件链，提倡采用可靠性高、结构完整性强的系统和设备。",
+      "options": [
+        { "key": "T", "text": "正确" },
+        { "key": "F", "text": "错误" }
+      ],
+      "answer": "T",
+      "explanation": "正确。轨迹交叉论强调砍断物的事件链，提倡采用可靠性高、结构完整性强的系统和设备，大力推广保险系统、防护系统和信号系统及高度自动化和遥控装置。",
+      "examPoint": "轨迹交叉论",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "轨迹交叉论" }
+    },
+    {
+      "id": "mgmt-01-s4-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "「3E 原则」中，造成人的不安全行为和物的不安全状态的原因可归结为技术原因、教育原因、身体和态度原因以及管理原因。该原则属于（ ）的运用原则。",
+      "options": [
+        { "key": "A", "text": "系统原理" },
+        { "key": "B", "text": "人本原理" },
+        { "key": "C", "text": "预防原理" },
+        { "key": "D", "text": "强制原理" }
+      ],
+      "answer": "C",
+      "explanation": "3E 原则属于预防原理的运用原则，对应工程技术对策、教育对策和法制对策。预防原理的四个原则：偶然损失原则、因果关系原则、3E原则、本质安全化原则。",
+      "examPoint": "安全原理的运用原则",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点9",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s4", "sectionTitle": "第四节 安全原理与原则", "point": "安全原理四大类" }
+    },
+    {
+      "id": "mgmt-01-s4-02",
+      "scope": "inline",
+      "type": "multi",
+      "stem": "人本原理的运用原则包括（ ）。",
+      "options": [
+        { "key": "A", "text": "动力原则" },
+        { "key": "B", "text": "能级原则" },
+        { "key": "C", "text": "封闭原则" },
+        { "key": "D", "text": "激励原则" },
+        { "key": "E", "text": "行为原则" }
+      ],
+      "answer": "ABDE",
+      "explanation": "人本原理的四个运用原则是：动力原则、能级原则、激励原则、行为原则。C「封闭原则」属于系统原理（动态相关性、整分合、反馈、封闭）。",
+      "examPoint": "人本原理运用原则",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点9",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s4", "sectionTitle": "第四节 安全原理与原则", "point": "人本原理" }
+    },
+    {
+      "id": "mgmt-01-s5-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "关于个性心理特征的说法，正确的是（ ）。",
+      "options": [
+        { "key": "A", "text": "性格是先天遗传决定的，后天难以改变" },
+        { "key": "B", "text": "气质是后天的，环境及教育对其改变较大" },
+        { "key": "C", "text": "气质是先天的，后天环境及教育对其改变微小和缓慢" },
+        { "key": "D", "text": "能力与岗位职责无需匹配，可通过培训完全弥补" }
+      ],
+      "answer": "C",
+      "explanation": "性格不是天生的、不由遗传决定，是后天社会实践形成的（A错）；气质是先天的，后天环境及教育对其改变微小和缓慢（B错、C对）；能力首先要求与岗位职责匹配（D错）。",
+      "examPoint": "个性心理特征",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点10",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s5", "sectionTitle": "第五节 人的心理与行为", "point": "性格与气质" }
+    },
+    {
+      "id": "mgmt-01-s5-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "某职工在工作中习惯「嫌麻烦、怕费劲、图方便、得过且过」，这种心理状态属于（ ）。",
+      "options": [
+        { "key": "A", "text": "侥幸心理" },
+        { "key": "B", "text": "省能心理" },
+        { "key": "C", "text": "逆反心理" },
+        { "key": "D", "text": "凑兴心理" }
+      ],
+      "answer": "B",
+      "explanation": "省能心理指以最小的能量获得最大效果，表现为嫌麻烦、怕费劲、图方便、得过且过的惰性心理。侥幸心理的核心是「认为事故是小概率事件」。",
+      "examPoint": "与安全密切相关的心理状态",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点12",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s5", "sectionTitle": "第五节 人的心理与行为", "point": "常见不安全心理状态" }
+    },
+    {
+      "id": "mgmt-01-s6-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "企业安全文化使价值观相同的人紧密联系在一起，形成凝聚力和向心力。这体现的是安全文化的（ ）。",
+      "options": [
+        { "key": "A", "text": "导向功能" },
+        { "key": "B", "text": "凝聚功能" },
+        { "key": "C", "text": "激励功能" },
+        { "key": "D", "text": "辐射和同化功能" }
+      ],
+      "answer": "B",
+      "explanation": "凝聚功能指会产生一种积极而强大的群体意识，将每个职工紧密地联系在一起，形成凝聚力和向心力。导向功能强调价值观/行为引导，激励功能强调树立目标，辐射和同化功能强调影响周边和新人融入。",
+      "examPoint": "安全文化的四个功能",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s6", "sectionTitle": "第六节 安全文化", "point": "安全文化的四个功能" }
+    },
+    {
+      "id": "mgmt-01-q-01",
+      "type": "single",
+      "stem": "某起生产安全事故造成 12 人死亡、55 人重伤、直接经济损失 3000 万元。该事故等级为（ ）。",
+      "options": [
+        { "key": "A", "text": "一般事故" },
+        { "key": "B", "text": "较大事故" },
+        { "key": "C", "text": "重大事故" },
+        { "key": "D", "text": "特别重大事故" }
+      ],
+      "answer": "C",
+      "explanation": "死亡 12 人落入 10（含）~30 人区间→重大事故；重伤 55 人落入 50（含）~100 人区间→重大事故；损失 3000 万落入 1000~5000 万→较大事故。就高不就低，取最高等级「重大事故」。",
+      "examPoint": "事故等级划分",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "事故等级划分" }
+    },
+    {
+      "id": "mgmt-01-q-02",
+      "type": "single",
+      "stem": "根据《生产安全事故信息报告和处置办法》，下列不属于「较大涉险事故」的是（ ）。",
+      "options": [
+        { "key": "A", "text": "涉险 10 人以上的事故" },
+        { "key": "B", "text": "造成 3 人以上被困或者下落不明的事故" },
+        { "key": "C", "text": "紧急疏散人员 300 人以上的事故" },
+        { "key": "D", "text": "危及重要场所和设施安全的事故" }
+      ],
+      "answer": "C",
+      "explanation": "紧急疏散人员应为「500 人以上」才构成较大涉险事故，C 项 300 人错误。其余三项均正确。",
+      "examPoint": "较大涉险事故",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "较大涉险事故" }
+    },
+    {
+      "id": "mgmt-01-q-03",
+      "type": "single",
+      "stem": "下列关于两类危险源的说法，正确的是（ ）。",
+      "options": [
+        { "key": "A", "text": "第一类危险源又称状态危险源" },
+        { "key": "B", "text": "第二类危险源包括物的故障、人的失误、环境不良和管理缺陷" },
+        { "key": "C", "text": "企业安全工作的重点是第一类危险源的控制" },
+        { "key": "D", "text": "第一类危险源决定了事故发生的可能性" }
+      ],
+      "answer": "B",
+      "explanation": "第一类危险源又称根源危险源（A错）；第二类危险源广义上包括物的故障、人的失误、环境不良及管理缺陷（B对）；企业安全工作的重点是第二类危险源的控制（C错）；第一类危险源决定事故后果的严重程度（D错）。",
+      "examPoint": "两类危险源",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s1", "sectionTitle": "第一节 事故等级与危险源", "point": "两类危险源" }
+    },
+    {
+      "id": "mgmt-01-q-04",
+      "type": "judge",
+      "stem": "本质安全的「失误-安全」和「故障-安全」两种功能可以是事后补偿加装的。",
+      "options": [
+        { "key": "T", "text": "正确" },
+        { "key": "F", "text": "错误" }
+      ],
+      "answer": "F",
+      "explanation": "错误。上述两种安全功能应该是设备、设施和技术工艺本身固有的，即在规划设计阶段就被纳入其中，而不是事后补偿的。",
+      "examPoint": "本质安全",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s2", "sectionTitle": "第二节 本质安全", "point": "本质安全的前提条件" }
+    },
+    {
+      "id": "mgmt-01-q-05",
+      "type": "single",
+      "stem": "博德管理失误论与海因里希事故因果链理论的主要区别在于，博德理论把（ ）放在事故链条的最前端。",
+      "options": [
+        { "key": "A", "text": "遗传及社会环境" },
+        { "key": "B", "text": "管理失误" },
+        { "key": "C", "text": "人的缺点" },
+        { "key": "D", "text": "事故" }
+      ],
+      "answer": "B",
+      "explanation": "海因里希理论的起点是「遗传及社会环境」，偏重人的本源；博德管理失误论把「控制不足-管理」放在首位，强调管理责任，认为管理欠缺使导致事故的基本原因出现。",
+      "examPoint": "事故致因理论对比",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点4/考点5",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "博德管理失误论" }
+    },
+    {
+      "id": "mgmt-01-q-06",
+      "type": "single",
+      "stem": "由影响了局部或全身性能量交换引起的伤害，主要指中毒、窒息和冻伤，属于（ ）。",
+      "options": [
+        { "key": "A", "text": "第一类伤害" },
+        { "key": "B", "text": "第二类伤害" },
+        { "key": "C", "text": "第三类伤害" },
+        { "key": "D", "text": "复合伤害" }
+      ],
+      "answer": "B",
+      "explanation": "第一类伤害是由施加了局部或全身性损伤阈值的能量引起的；第二类伤害是由影响了局部或全身性能量交换引起的，主要指中毒、窒息和冻伤。",
+      "examPoint": "能量意外释放理论",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "两类伤害" }
+    },
+    {
+      "id": "mgmt-01-q-07",
+      "type": "multi",
+      "stem": "预防事故必须从三个方面入手加以解决，根据轨迹交叉论，这三个方面包括（ ）。",
+      "options": [
+        { "key": "A", "text": "避免人的不安全行为" },
+        { "key": "B", "text": "避免物的不安全状态" },
+        { "key": "C", "text": "避免交叉" },
+        { "key": "D", "text": "避免管理失误" },
+        { "key": "E", "text": "避免能量蓄积" }
+      ],
+      "answer": "ABC",
+      "explanation": "轨迹交叉论的三个方面：①避免人的不安全行为 ②避免物的不安全状态 ③避免交叉（控制人与物的不安全发展态势，避免在时间和空间上产生交叉）。",
+      "examPoint": "轨迹交叉论",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "轨迹交叉论" }
+    },
+    {
+      "id": "mgmt-01-q-08",
+      "type": "single",
+      "stem": "「管理手段、管理过程等必须构成一个连续封闭的回路，才能形成有效的管理活动」，这体现的是系统原理中的（ ）。",
+      "options": [
+        { "key": "A", "text": "动态相关性原则" },
+        { "key": "B", "text": "整分合原则" },
+        { "key": "C", "text": "反馈原则" },
+        { "key": "D", "text": "封闭原则" }
+      ],
+      "answer": "D",
+      "explanation": "封闭原则指管理手段、管理过程等必须构成一个连续封闭的回路，才能形成有效的管理活动。反馈原则强调及时捕获、反馈各种安全生产信息。",
+      "examPoint": "系统原理运用原则",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点9",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s4", "sectionTitle": "第四节 安全原理与原则", "point": "系统原理" }
+    },
+    {
+      "id": "mgmt-01-q-09",
+      "type": "single",
+      "stem": "「事故后果以及后果的严重程度，都是随机的、难以预测的，无论事故损失的大小，都必须做好预防工作」，这体现的是预防原理中的（ ）。",
+      "options": [
+        { "key": "A", "text": "偶然损失原则" },
+        { "key": "B", "text": "因果关系原则" },
+        { "key": "C", "text": "3E 原则" },
+        { "key": "D", "text": "本质安全化原则" }
+      ],
+      "answer": "A",
+      "explanation": "偶然损失原则指事故后果以及后果的严重程度都是随机的、难以预测的，无论事故损失大小都必须做好预防工作。因果关系原则指诱发事故的因素存在则事故必然发生，只是迟早。",
+      "examPoint": "预防原理运用原则",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点9",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s4", "sectionTitle": "第四节 安全原理与原则", "point": "预防原理" }
+    },
+    {
+      "id": "mgmt-01-q-10",
+      "type": "single",
+      "stem": "四种气质类型中，被认为「兴奋性高、抑制能力差、行为不均衡、工作表现忽冷忽热有明显周期性」，且被称为「马路第一杀手」的是（ ）。",
+      "options": [
+        { "key": "A", "text": "胆汁质" },
+        { "key": "B", "text": "多血质" },
+        { "key": "C", "text": "黏液质" },
+        { "key": "D", "text": "抑郁质" }
+      ],
+      "answer": "A",
+      "explanation": "胆汁质的特征：对任何事物发生兴趣，具有很高的兴奋性，但抑制能力差，行为上表现出不均衡性，工作表现忽冷忽热，带有明显的周期性。胆汁质的人被认为是「马路第一杀手」，多血质排第二。",
+      "examPoint": "气质类型",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点10",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s5", "sectionTitle": "第五节 人的心理与行为", "point": "四种气质" }
+    },
+    {
+      "id": "mgmt-01-q-11",
+      "type": "single",
+      "stem": "根据马斯洛需要层次理论，下列需要中层次最低的是（ ）。",
+      "options": [
+        { "key": "A", "text": "安全需要" },
+        { "key": "B", "text": "生理需要" },
+        { "key": "C", "text": "归属与爱的需要" },
+        { "key": "D", "text": "尊严需要" }
+      ],
+      "answer": "B",
+      "explanation": "马斯洛需要层次由低到高依次为：生理需要→安全需要→归属与爱的需要→尊严需要→自我实现需要。最低层次是生理需要（食物、水分、空气、睡眠）。",
+      "examPoint": "马斯洛需要层次理论",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点11",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s5", "sectionTitle": "第五节 人的心理与行为", "point": "马斯洛需要层次理论" }
+    },
+    {
+      "id": "mgmt-01-q-12",
+      "type": "single",
+      "stem": "某新员工进厂后对厂区内的一切事务都感到新奇，喜欢主动尝试和了解。这种心理状态属于（ ）。",
+      "options": [
+        { "key": "A", "text": "省能心理" },
+        { "key": "B", "text": "侥幸心理" },
+        { "key": "C", "text": "好奇心理" },
+        { "key": "D", "text": "群体心理" }
+      ],
+      "answer": "C",
+      "explanation": "好奇心理是由兴趣驱使的，兴趣是人的心理特征之一。新员工进厂对一切事务都好奇，属于好奇心理。凑兴心理多见于精力旺盛、能量有余又缺乏经验的青年人。",
+      "examPoint": "不安全心理状态",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点12",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s5", "sectionTitle": "第五节 人的心理与行为", "point": "常见不安全心理状态" }
+    },
+    {
+      "id": "mgmt-01-q-13",
+      "type": "multi",
+      "stem": "企业安全文化的功能包括（ ）。",
+      "options": [
+        { "key": "A", "text": "导向功能" },
+        { "key": "B", "text": "凝聚功能" },
+        { "key": "C", "text": "激励功能" },
+        { "key": "D", "text": "辐射和同化功能" },
+        { "key": "E", "text": "惩戒功能" }
+      ],
+      "answer": "ABCD",
+      "explanation": "安全文化的四个功能：导向功能、凝聚功能、激励功能、辐射和同化功能。「惩戒功能」不属于安全文化的功能。",
+      "examPoint": "安全文化的四个功能",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s6", "sectionTitle": "第六节 安全文化", "point": "安全文化的四个功能" }
+    },
+    {
+      "id": "mgmt-01-q-14",
+      "type": "judge",
+      "stem": "系统安全论认为，可以根除一切危险源和危险，安全工作应致力于完全消除危险。",
+      "options": [
+        { "key": "T", "text": "正确" },
+        { "key": "F", "text": "错误" }
+      ],
+      "answer": "F",
+      "explanation": "错误。系统安全论认为不可能根除一切危险源和危险，可以减少来自现有危险源的危险性，应减少总的危险性而不是只消除几种选定的危险。只能把危险降低到可接受的程度。",
+      "examPoint": "系统安全论",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "系统安全论" }
+    },
+    {
+      "id": "mgmt-01-q-15",
+      "type": "single",
+      "stem": "根据能量意外释放理论，采用安全阀、逸出阀控制高压气体，或采用各种减振装置吸收冲击能量，属于 11 种屏蔽措施中的（ ）。",
+      "options": [
+        { "key": "A", "text": "防止能量蓄积" },
+        { "key": "B", "text": "延缓释放能量" },
+        { "key": "C", "text": "开辟释放能量的渠道" },
+        { "key": "D", "text": "限制能量" }
+      ],
+      "answer": "B",
+      "explanation": "延缓释放能量：缓慢地释放能量可以降低单位时间内释放的能量，减轻能量对人体的作用。典型例子有采用安全阀、逸出阀控制高压气体，采用全面崩落法管理煤巷顶板，用各种减振装置吸收冲击能量等。",
+      "examPoint": "能量意外释放理论11种屏蔽措施",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": { "chapter": "chapter-01", "sectionId": "s3", "sectionTitle": "第三节 事故致因理论", "point": "能量意外释放理论" }
+    }
+  ]
+}

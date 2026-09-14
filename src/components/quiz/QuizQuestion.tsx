@@ -3,12 +3,15 @@
 import { Check, X } from "lucide-react";
 import type { QuizQuestion } from "@/lib/types";
 import Badge from "../ui/Badge";
+import SourceLink from "./SourceLink";
 
 interface QuizQuestionCardProps {
   question: QuizQuestion;
   selectedAnswer: string;
   onAnswer: (answer: string) => void;
   showResult: boolean;
+  /** 科目 slug，用于「定位到知识点」链接 */
+  subject?: string;
 }
 
 const typeLabels: Record<string, string> = {
@@ -22,6 +25,7 @@ export default function QuizQuestionCard({
   selectedAnswer,
   onAnswer,
   showResult,
+  subject,
 }: QuizQuestionCardProps) {
   const isCorrect =
     showResult &&
@@ -150,6 +154,13 @@ export default function QuizQuestionCard({
           <p className="text-sm text-gray-700 leading-relaxed">
             {question.explanation}
           </p>
+          {subject && (
+            <SourceLink
+              sourceRef={question.sourceRef}
+              subject={subject}
+              source={question.source}
+            />
+          )}
         </div>
       )}
     </div>
