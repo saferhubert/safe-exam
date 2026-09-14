@@ -5,6 +5,14 @@ import SubjectCarousel from "@/components/home/SubjectCarousel";
 import QuickActions from "@/components/home/QuickActions";
 import FeatureList from "@/components/home/FeatureList";
 import DailyQuizWrapper from "@/components/home/DailyQuizWrapper";
+import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
 
 export default function HomePage() {
   return (

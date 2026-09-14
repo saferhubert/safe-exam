@@ -3,7 +3,11 @@ import type { SubjectMeta } from "./types";
 export const SITE_NAME = "注安师免费学习平台";
 export const SITE_DESCRIPTION =
   "中级注册安全工程师免费学习平台，提供法律法规、安全管理、技术基础、专业实务等科目的学习笔记、思维导图、章节练习。100% 免费，助你高效通关。";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://zhuanshi365.cn";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.zhuanshi365.cn";
+
+// 线索表单「手动复制」降级模式展示的微信/联系方式
+// 通过 NEXT_PUBLIC_WECHAT_ID 配置；留空则不显示手动引导
+export const WECHAT_ID = process.env.NEXT_PUBLIC_WECHAT_ID || "";
 
 export const SUBJECTS: SubjectMeta[] = [
   {

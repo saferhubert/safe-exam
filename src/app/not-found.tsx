@@ -1,5 +1,12 @@
 import Link from "next/link";
 import { FileQuestion } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "页面未找到 (404)",
+  description: "您访问的页面不存在或已被移除，请返回首页继续学习注安师免费课程。",
+  robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
   return (

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { Send, CheckCircle, AlertCircle, BookOpen } from "lucide-react";
-import { submitLead } from "@/lib/supabase";
-import { SUBJECTS } from "@/lib/constants";
+import { Send, CheckCircle, AlertCircle, BookOpen, Copy, Check } from "lucide-react";
+import { submitLead, getLeadChannel, formatLeadText } from "@/lib/supabase";
+import { SUBJECTS, WECHAT_ID } from "@/lib/constants";
 
 const INTENT_OPTIONS = [
   { value: "self_study", label: "我只需要免费资料自学" },
@@ -22,6 +22,8 @@ export default function LeadForm() {
   });
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [manualText, setManualText] = useState("");
+  const [copied, setCopied] = useState(false);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -35,15 +37,23 @@ export default function LeadForm() {
     setStatus("submitting");
     setErrorMsg("");
 
-    const result = await submitLead({
+    const lead = {
       name: form.name.trim(),
       contact: form.contact.trim(),
       subject: form.subject,
       intent: form.intent || "self_study",
       note: form.note.trim(),
-    });
+    };
+
+    const subjectLabel = SUBJECTS.find((s) => s.slug === form.subject)?.title;
+    const result = await submitLead(lead, subjectLabel);
 
     if (result.success) {
+      setStatus("success");
+      setForm({ name: "", contact: "", subject: "laws", intent: "", note: "" });
+    } else if (result.channel === "manual") {
+      // 未配置任何后端：降级为「复制后发微信」，保证线索不丢
+      setManualText(formatLeadText(lead, subjectLabel));
       setStatus("success");
       setForm({ name: "", contact: "", subject: "laws", intent: "", note: "" });
     } else {
@@ -52,7 +62,59 @@ export default function LeadForm() {
     }
   };
 
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(manualText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // 剪贴板不可用时，提示用户手动选中复制
+    }
+  };
+
   if (status === "success") {
+    // 手动复制模式
+    if (manualText) {
+      return (
+        <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+          <div className="text-center mb-4">
+            <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-3" />
+            <h3 className="text-lg font-semibold text-green-800 mb-2">再走最后一步就完成啦</h3>
+            <p className="text-sm text-green-700">
+              请复制下方信息，发送给我们的备考助手微信，即可领取资料包。
+            </p>
+          </div>
+          <pre className="whitespace-pre-wrap text-xs text-gray-700 bg-white border border-green-200 rounded-lg p-4 mb-3 font-sans">
+            {manualText}
+          </pre>
+          <button
+            type="button"
+            onClick={handleCopy}
+            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors shadow-sm"
+          >
+            {copied ? (
+              <>
+                <Check className="w-4 h-4" /> 已复制，请粘贴发送
+              </>
+            ) : (
+              <>
+                <Copy className="w-4 h-4" /> 一键复制信息
+              </>
+            )}
+          </button>
+          {WECHAT_ID ? (
+            <p className="text-xs text-green-700 text-center mt-3">
+              备考助手微信：<span className="font-semibold">{WECHAT_ID}</span>
+            </p>
+          ) : (
+            <p className="text-xs text-green-600 text-center mt-3">
+              复制后请发送给备考助手，我们会在 24 小时内回复。
+            </p>
+          )}
+        </div>
+      );
+    }
+
     return (
       <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-center">
         <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-3" />

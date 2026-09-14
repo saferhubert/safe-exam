@@ -14,11 +14,12 @@ export function buildMetadata({
   keywords,
   path,
 }: SeoProps): Metadata {
-  const fullTitle = `${title} | ${SITE_NAME}`;
+  // 若调用方已自带站点名后缀，则不再重复拼接（避免 "... | 注安师免费学习平台 | 注安师免费学习平台"）
+  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
   const url = path ? `${SITE_URL}${path}` : SITE_URL;
 
   return {
-    title: fullTitle,
+    title,
     description,
     keywords: keywords?.join(", "),
     openGraph: {
@@ -50,6 +51,9 @@ export function defaultMetadata(): Metadata {
       url: SITE_URL,
       siteName: SITE_NAME,
       locale: "zh_CN",
+    },
+    alternates: {
+      canonical: SITE_URL,
     },
   };
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
+import { SITE_URL } from "@/lib/constants";
 
 export interface BreadcrumbItem {
   label: string;
@@ -18,7 +19,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       "@type": "ListItem",
       position: i + 1,
       name: item.label,
-      item: item.href ? `https://safe-exam.vercel.app${item.href}` : undefined,
+      item: item.href ? `${SITE_URL}${item.href}` : undefined,
     })),
   };
 
