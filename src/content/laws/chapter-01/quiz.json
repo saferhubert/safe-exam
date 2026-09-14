@@ -8,216 +8,464 @@
       "type": "single",
       "stem": "根据《安全生产法》，安全生产工作应当坚持的方针是（ ）。",
       "options": [
-        { "key": "A", "text": "安全第一、预防为主" },
-        { "key": "B", "text": "安全第一、预防为主、综合治理" },
-        { "key": "C", "text": "预防为主、防消结合" },
-        { "key": "D", "text": "安全发展、生命至上" }
+        {
+          "key": "A",
+          "text": "安全第一、预防为主"
+        },
+        {
+          "key": "B",
+          "text": "安全第一、预防为主、综合治理"
+        },
+        {
+          "key": "C",
+          "text": "预防为主、防消结合"
+        },
+        {
+          "key": "D",
+          "text": "安全发展、生命至上"
+        }
       ],
       "answer": "B",
       "explanation": "《安全生产法》第三条明确规定：安全生产工作应当坚持安全第一、预防为主、综合治理的方针。注意：'综合治理'是2014年修订时新增的，选项A是2002年旧版表述，注意区分。",
       "examPoint": "安全生产方针",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "安全生产方针"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-01-002",
       "type": "single",
       "stem": "安全生产方针中\"综合治理\"是在哪一年修订《安全生产法》时新增的？（ ）",
       "options": [
-        { "key": "A", "text": "2002年" },
-        { "key": "B", "text": "2009年" },
-        { "key": "C", "text": "2014年" },
-        { "key": "D", "text": "2021年" }
+        {
+          "key": "A",
+          "text": "2002年"
+        },
+        {
+          "key": "B",
+          "text": "2009年"
+        },
+        {
+          "key": "C",
+          "text": "2014年"
+        },
+        {
+          "key": "D",
+          "text": "2021年"
+        }
       ],
       "answer": "C",
       "explanation": "2014年8月31日，全国人大常委会通过修改《安全生产法》的决定，新增了'综合治理'，使安全生产方针从'安全第一、预防为主'完善为'安全第一、预防为主、综合治理'。",
       "examPoint": "安全生产方针历史",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "安全生产方针历史"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-01-003",
       "type": "single",
       "stem": "\"安全第一\"的含义是（ ）。",
       "options": [
-        { "key": "A", "text": "把安全培训放在第一位" },
-        { "key": "B", "text": "在处理安全与生产关系时，把安全放在首位" },
-        { "key": "C", "text": "购买最好的安全设备" },
-        { "key": "D", "text": "安排最多的安全检查人员" }
+        {
+          "key": "A",
+          "text": "把安全培训放在第一位"
+        },
+        {
+          "key": "B",
+          "text": "在处理安全与生产关系时，把安全放在首位"
+        },
+        {
+          "key": "C",
+          "text": "购买最好的安全设备"
+        },
+        {
+          "key": "D",
+          "text": "安排最多的安全检查人员"
+        }
       ],
       "answer": "B",
       "explanation": "'安全第一'是指在处理安全与生产的关系时，把安全放在首位。当安全与生产发生矛盾时，生产必须服从安全。这是安全生产的核心理念。",
       "examPoint": "安全第一的内涵",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "安全第一的内涵"
+      }
     },
     {
       "id": "laws-01-004",
       "type": "single",
       "stem": "以下关于\"预防为主\"的表述，正确的是（ ）。",
       "options": [
-        { "key": "A", "text": "事故发生后及时处理" },
-        { "key": "B", "text": "将安全工作的重心放在预防事故上" },
-        { "key": "C", "text": "以惩罚为主要手段" },
-        { "key": "D", "text": "以安全设备为主要保障" }
+        {
+          "key": "A",
+          "text": "事故发生后及时处理"
+        },
+        {
+          "key": "B",
+          "text": "将安全工作的重心放在预防事故上"
+        },
+        {
+          "key": "C",
+          "text": "以惩罚为主要手段"
+        },
+        {
+          "key": "D",
+          "text": "以安全设备为主要保障"
+        }
       ],
       "answer": "B",
       "explanation": "'预防为主'的核心是将安全工作的重心放在预防事故上，做到关口前移，从源头消除事故隐患，防患于未然。",
       "examPoint": "预防为主的内涵",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "预防为主的内涵"
+      }
     },
     {
       "id": "laws-01-005",
       "type": "single",
       "stem": "根据《安全生产法》，安全生产工作机制中，生产经营单位的角色是（ ）。",
       "options": [
-        { "key": "A", "text": "参与" },
-        { "key": "B", "text": "监管" },
-        { "key": "C", "text": "负责" },
-        { "key": "D", "text": "监督" }
+        {
+          "key": "A",
+          "text": "参与"
+        },
+        {
+          "key": "B",
+          "text": "监管"
+        },
+        {
+          "key": "C",
+          "text": "负责"
+        },
+        {
+          "key": "D",
+          "text": "监督"
+        }
       ],
       "answer": "C",
       "explanation": "根据《安全生产法》第三条，安全生产工作机制是'生产经营单位负责、职工参与、政府监管、行业自律和社会监督'。生产经营单位承担主体责任，所以是'负责'。",
       "examPoint": "安全生产工作机制",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "安全生产工作机制"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-01-006",
       "type": "single",
       "stem": "根据《安全生产法》，政府在生产安全工作中的角色是（ ）。",
       "options": [
-        { "key": "A", "text": "负责" },
-        { "key": "B", "text": "参与" },
-        { "key": "C", "text": "监管" },
-        { "key": "D", "text": "自律" }
+        {
+          "key": "A",
+          "text": "负责"
+        },
+        {
+          "key": "B",
+          "text": "参与"
+        },
+        {
+          "key": "C",
+          "text": "监管"
+        },
+        {
+          "key": "D",
+          "text": "自律"
+        }
       ],
       "answer": "C",
       "explanation": "政府在安全生产工作中的角色是'监管'，即依法对生产经营单位的安全生产工作进行监督管理。'负责'是企业，'参与'是职工，'自律'是行业协会。",
       "examPoint": "安全生产工作机制",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "安全生产工作机制"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-01-007",
       "type": "multi",
       "stem": "安全生产工作机制包括以下哪些主体？（ ）",
       "options": [
-        { "key": "A", "text": "生产经营单位负责" },
-        { "key": "B", "text": "职工参与" },
-        { "key": "C", "text": "政府监管" },
-        { "key": "D", "text": "法院审判" }
+        {
+          "key": "A",
+          "text": "生产经营单位负责"
+        },
+        {
+          "key": "B",
+          "text": "职工参与"
+        },
+        {
+          "key": "C",
+          "text": "政府监管"
+        },
+        {
+          "key": "D",
+          "text": "法院审判"
+        }
       ],
       "answer": "ABC",
       "explanation": "安全生产工作机制为'生产经营单位负责、职工参与、政府监管、行业自律和社会监督'五个方面。法院审判不属于安全生产工作机制的内容。",
       "examPoint": "安全生产工作机制",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "安全生产工作机制"
+      }
     },
     {
       "id": "laws-01-008",
       "type": "multi",
       "stem": "以下属于安全生产领域改革发展意见基本原则的是（ ）。",
       "options": [
-        { "key": "A", "text": "坚持安全发展" },
-        { "key": "B", "text": "坚持改革创新" },
-        { "key": "C", "text": "坚持利润导向" },
-        { "key": "D", "text": "坚持源头防范" },
-        { "key": "E", "text": "坚持系统治理" }
+        {
+          "key": "A",
+          "text": "坚持安全发展"
+        },
+        {
+          "key": "B",
+          "text": "坚持改革创新"
+        },
+        {
+          "key": "C",
+          "text": "坚持利润导向"
+        },
+        {
+          "key": "D",
+          "text": "坚持源头防范"
+        },
+        {
+          "key": "E",
+          "text": "坚持系统治理"
+        }
       ],
       "answer": "ABDE",
       "explanation": "安全生产领域改革发展意见的五个基本原则是：坚持安全发展、坚持改革创新、坚持依法监管、坚持源头防范、坚持系统治理。'坚持利润导向'不在其中。",
       "examPoint": "改革发展意见",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s4",
+        "sectionTitle": "四、安全生产领域改革发展意见",
+        "point": "改革发展意见"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-01-009",
       "type": "multi",
       "stem": "\"综合治理\"的内涵包括综合运用（ ）等手段进行安全生产管理。",
       "options": [
-        { "key": "A", "text": "法律手段" },
-        { "key": "B", "text": "经济手段" },
-        { "key": "C", "text": "行政手段" },
-        { "key": "D", "text": "军事手段" }
+        {
+          "key": "A",
+          "text": "法律手段"
+        },
+        {
+          "key": "B",
+          "text": "经济手段"
+        },
+        {
+          "key": "C",
+          "text": "行政手段"
+        },
+        {
+          "key": "D",
+          "text": "军事手段"
+        }
       ],
       "answer": "ABC",
       "explanation": "综合治理是指综合运用法律、经济、行政、技术等多种手段，进行全方位、多角度的安全生产管理和监督。不包含军事手段。",
       "examPoint": "综合治理的内涵",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "综合治理的内涵"
+      }
     },
     {
       "id": "laws-01-010",
       "type": "multi",
       "stem": "根据《安全生产法》，以下关于职工在安全生产中的权利，正确的有哪些？（ ）",
       "options": [
-        { "key": "A", "text": "知情权" },
-        { "key": "B", "text": "建议权" },
-        { "key": "C", "text": "拒绝违章指挥权" },
-        { "key": "D", "text": "随意离岗权" }
+        {
+          "key": "A",
+          "text": "知情权"
+        },
+        {
+          "key": "B",
+          "text": "建议权"
+        },
+        {
+          "key": "C",
+          "text": "拒绝违章指挥权"
+        },
+        {
+          "key": "D",
+          "text": "随意离岗权"
+        }
       ],
       "answer": "ABC",
       "explanation": "职工在安全生产中享有知情权、建议权、拒绝违章指挥和强令冒险作业权、紧急撤离权等。但不能随意离岗，必须按规程操作。",
       "examPoint": "职工权利",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "职工权利"
+      }
     },
     {
       "id": "laws-01-011",
       "type": "judge",
       "stem": "\"安全第一\"意味着在生产过程中，只要安全就不需要管生产效率。",
       "options": [
-        { "key": "T", "text": "正确" },
-        { "key": "F", "text": "错误" }
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
       ],
       "answer": "F",
       "explanation": "'安全第一'并不是不要生产，而是强调在处理安全与生产关系时，把安全放在首位。生产必须安全，安全促进生产。两者是辩证统一的。",
       "examPoint": "安全第一的内涵",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "安全第一的内涵"
+      }
     },
     {
       "id": "laws-01-012",
       "type": "judge",
       "stem": "行业协会在安全生产工作中的角色是'自律'。",
       "options": [
-        { "key": "T", "text": "正确" },
-        { "key": "F", "text": "错误" }
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
       ],
       "answer": "T",
       "explanation": "正确。安全生产工作机制中，行业自律是重要环节。行业协会应当制定行规行约，加强行业自律，规范行业安全生产行为。",
       "examPoint": "安全生产工作机制",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "安全生产工作机制"
+      }
     },
     {
       "id": "laws-01-013",
       "type": "judge",
       "stem": "\"预防为主\"是指在事故发生后及时进行处理，防止事态扩大。",
       "options": [
-        { "key": "T", "text": "正确" },
-        { "key": "F", "text": "错误" }
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
       ],
       "answer": "F",
       "explanation": "'预防为主'是在事故发生前采取措施，而非事后处理。它强调的是关口前移、源头治理，通过预防措施避免事故发生。事后处理属于应急管理范畴。",
       "examPoint": "预防为主的内涵",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "一、安全生产方针",
+        "point": "预防为主的内涵"
+      }
     },
     {
       "id": "laws-01-014",
       "type": "judge",
       "stem": "社会监督是安全生产工作机制的组成部分之一。",
       "options": [
-        { "key": "T", "text": "正确" },
-        { "key": "F", "text": "错误" }
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
       ],
       "answer": "T",
       "explanation": "正确。根据《安全生产法》第三条，安全生产工作机制包含'社会监督'，即发挥社会公众、新闻媒体的监督作用。",
       "examPoint": "安全生产工作机制",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "二、安全生产工作机制",
+        "point": "安全生产工作机制"
+      }
     },
     {
       "id": "laws-01-015",
       "type": "judge",
       "stem": "安全生产领域改革发展意见是2016年12月由国务院单独发布的。",
       "options": [
-        { "key": "T", "text": "正确" },
-        { "key": "F", "text": "错误" }
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
       ],
       "answer": "F",
       "explanation": "错误。《关于推进安全生产领域改革发展的意见》是中共中央、国务院联合发布（中发〔2016〕32号），不是国务院单独发布。这是中共中央首次专门针对安全生产领域出台的纲领性文件，足以体现其重要性。",
       "examPoint": "改革发展意见",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s4",
+        "sectionTitle": "四、安全生产领域改革发展意见",
+        "point": "改革发展意见"
+      }
     }
   ]
 }

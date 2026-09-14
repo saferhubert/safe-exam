@@ -8,334 +8,751 @@
       "type": "single",
       "stem": "根据《矿山安全法》，每个矿井必须至少有（ ）能行人的安全出口。",
       "options": [
-        { "key": "A", "text": "一个以上" },
-        { "key": "B", "text": "两个以上" },
-        { "key": "C", "text": "三个以上" },
-        { "key": "D", "text": "四个以上" }
+        {
+          "key": "A",
+          "text": "一个以上"
+        },
+        {
+          "key": "B",
+          "text": "两个以上"
+        },
+        {
+          "key": "C",
+          "text": "三个以上"
+        },
+        {
+          "key": "D",
+          "text": "四个以上"
+        }
       ],
       "answer": "B",
       "explanation": "《矿山安全法》第十条规定：每个矿井必须有两个以上能行人的安全出口，出口之间的直线水平距离必须符合矿山安全规程和行业技术规范。",
       "examPoint": "矿山安全出口",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "矿山安全出口"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-002",
       "type": "single",
       "stem": "根据《矿山安全法》，关于矿山设计规定保留的矿柱、岩柱的处理，下列说法正确的是（ ）。",
       "options": [
-        { "key": "A", "text": "经论证在保证安全的前提下可以开采" },
-        { "key": "B", "text": "在规定期限内应当予以保护，不得开采或毁坏" },
-        { "key": "C", "text": "矿山企业根据需要可以自行决定是否开采" },
-        { "key": "D", "text": "经安全生产监督管理部门批准后可以开采" }
+        {
+          "key": "A",
+          "text": "经论证在保证安全的前提下可以开采"
+        },
+        {
+          "key": "B",
+          "text": "在规定期限内应当予以保护，不得开采或毁坏"
+        },
+        {
+          "key": "C",
+          "text": "矿山企业根据需要可以自行决定是否开采"
+        },
+        {
+          "key": "D",
+          "text": "经安全生产监督管理部门批准后可以开采"
+        }
       ],
       "answer": "B",
       "explanation": "《矿山安全法》第十四条规定：矿山设计规定保留的矿柱、岩柱，在规定的期限内，应当予以保护，不得开采或者毁坏。",
       "examPoint": "矿柱岩柱保护",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "矿柱岩柱保护"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-003",
       "type": "single",
       "stem": "根据《矿山安全法》，矿山企业必须从（ ）中按照国家规定提取安全技术措施专项费用。",
       "options": [
-        { "key": "A", "text": "矿产品销售额" },
-        { "key": "B", "text": "矿产品销售利润" },
-        { "key": "C", "text": "企业经营纯利润" },
-        { "key": "D", "text": "企业经营总收入额" }
+        {
+          "key": "A",
+          "text": "矿产品销售额"
+        },
+        {
+          "key": "B",
+          "text": "矿产品销售利润"
+        },
+        {
+          "key": "C",
+          "text": "企业经营纯利润"
+        },
+        {
+          "key": "D",
+          "text": "企业经营总收入额"
+        }
       ],
       "answer": "A",
       "explanation": "矿山企业必须从矿产品销售额中按照国家规定提取安全技术措施专项费用。",
       "examPoint": "安全技术措施费用",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "安全技术措施费用"
+      }
     },
     {
       "id": "laws-04-004",
       "type": "multi",
       "stem": "根据《矿山安全法》，矿山企业应对下列哪些危害安全的事故隐患采取预防措施？（ ）",
       "options": [
-        { "key": "A", "text": "冒顶片帮、边坡滑落和地表塌陷" },
-        { "key": "B", "text": "瓦斯爆炸、煤尘爆炸" },
-        { "key": "C", "text": "地面和井下的火灾、水害" },
-        { "key": "D", "text": "矿山员工违章操作" },
-        { "key": "E", "text": "爆破器材和爆破作业发生的危害" }
+        {
+          "key": "A",
+          "text": "冒顶片帮、边坡滑落和地表塌陷"
+        },
+        {
+          "key": "B",
+          "text": "瓦斯爆炸、煤尘爆炸"
+        },
+        {
+          "key": "C",
+          "text": "地面和井下的火灾、水害"
+        },
+        {
+          "key": "D",
+          "text": "矿山员工违章操作"
+        },
+        {
+          "key": "E",
+          "text": "爆破器材和爆破作业发生的危害"
+        }
       ],
       "answer": "ABCE",
       "explanation": "《矿山安全法》规定矿山企业必须对冒顶片帮、边坡滑落和地表塌陷；瓦斯爆炸、煤尘爆炸；冲击地压、瓦斯突出、井喷；地面和井下的火灾、水害；爆破器材和爆破作业发生的危害；粉尘、有毒有害气体等事故隐患采取预防措施。员工违章操作属于安全管理范畴，不属于此处列举的事故隐患类型。",
       "examPoint": "事故隐患预防",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "事故隐患预防"
+      }
     },
     {
       "id": "laws-04-005",
       "type": "single",
       "stem": "根据《消防法》，公众聚集场所在投入使用、营业前，建设单位或者使用单位应当向（ ）申请消防安全检查。",
       "options": [
-        { "key": "A", "text": "应急管理部门" },
-        { "key": "B", "text": "住房和城乡建设主管部门" },
-        { "key": "C", "text": "消防救援机构" },
-        { "key": "D", "text": "公安机关" }
+        {
+          "key": "A",
+          "text": "应急管理部门"
+        },
+        {
+          "key": "B",
+          "text": "住房和城乡建设主管部门"
+        },
+        {
+          "key": "C",
+          "text": "消防救援机构"
+        },
+        {
+          "key": "D",
+          "text": "公安机关"
+        }
       ],
       "answer": "C",
       "explanation": "《消防法》第十五条规定：公众聚集场所在投入使用、营业前，建设单位或者使用单位应当向场所所在地的县级以上地方人民政府消防救援机构申请消防安全检查。",
       "examPoint": "公众聚集场所消防安全",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "公众聚集场所消防安全"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-006",
       "type": "single",
       "stem": "根据《消防法》，对建筑消防设施应当至少（ ）进行一次全面检测。",
       "options": [
-        { "key": "A", "text": "每季度" },
-        { "key": "B", "text": "每半年" },
-        { "key": "C", "text": "每年" },
-        { "key": "D", "text": "每两年" }
+        {
+          "key": "A",
+          "text": "每季度"
+        },
+        {
+          "key": "B",
+          "text": "每半年"
+        },
+        {
+          "key": "C",
+          "text": "每年"
+        },
+        {
+          "key": "D",
+          "text": "每两年"
+        }
       ],
       "answer": "C",
       "explanation": "《消防法》第十六条规定：对建筑消防设施每年至少进行一次全面检测，确保完好有效，检测记录应当完整准确，存档备查。",
       "examPoint": "单位消防安全职责",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "单位消防安全职责"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-007",
       "type": "single",
       "stem": "根据《消防法》，下列单位中应当建立专职消防队的是（ ）。",
       "options": [
-        { "key": "A", "text": "大型铁矿石仓库" },
-        { "key": "B", "text": "民用机场" },
-        { "key": "C", "text": "大型体育场运营单位" },
-        { "key": "D", "text": "小型发电厂" }
+        {
+          "key": "A",
+          "text": "大型铁矿石仓库"
+        },
+        {
+          "key": "B",
+          "text": "民用机场"
+        },
+        {
+          "key": "C",
+          "text": "大型体育场运营单位"
+        },
+        {
+          "key": "D",
+          "text": "小型发电厂"
+        }
       ],
       "answer": "B",
       "explanation": "《消防法》第三十九条规定应当建立专职消防队的单位包括：大型核设施单位、大型发电厂、民用机场、主要港口；生产、储存易燃易爆危险品的大型企业；储备可燃的重要物资的大型仓库、基地等。民用机场属于应当建立专职消防队的单位。",
       "examPoint": "专职消防队建立",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "专职消防队建立"
+      }
     },
     {
       "id": "laws-04-008",
       "type": "multi",
       "stem": "根据《消防法》，下列单位中应当建立专职消防队的有（ ）。",
       "options": [
-        { "key": "A", "text": "大型核设施单位" },
-        { "key": "B", "text": "生产易燃易爆危险品的大型企业" },
-        { "key": "C", "text": "大型发电厂" },
-        { "key": "D", "text": "小型民用飞机场" },
-        { "key": "E", "text": "主要港口运营单位" }
+        {
+          "key": "A",
+          "text": "大型核设施单位"
+        },
+        {
+          "key": "B",
+          "text": "生产易燃易爆危险品的大型企业"
+        },
+        {
+          "key": "C",
+          "text": "大型发电厂"
+        },
+        {
+          "key": "D",
+          "text": "小型民用飞机场"
+        },
+        {
+          "key": "E",
+          "text": "主要港口运营单位"
+        }
       ],
       "answer": "ABCE",
       "explanation": "《消防法》第三十九条规定应当建立专职消防队的单位包括：大型核设施单位、大型发电厂、民用机场、主要港口；生产、储存易燃易爆危险品的大型企业；储备可燃的重要物资的大型仓库、基地等。注意民用机场无论大小均应建立专职消防队，而小型发电厂则不在其列。",
       "examPoint": "专职消防队建立",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "专职消防队建立"
+      }
     },
     {
       "id": "laws-04-009",
       "type": "single",
       "stem": "根据《消防法》，国家综合性消防救援队、专职消防队扑救火灾、应急救援，（ ）。",
       "options": [
-        { "key": "A", "text": "可以向火灾发生单位收取材料成本费" },
-        { "key": "B", "text": "不得收取任何费用" },
-        { "key": "C", "text": "可以收取适当的人工费用" },
-        { "key": "D", "text": "由当地政府决定是否收费" }
+        {
+          "key": "A",
+          "text": "可以向火灾发生单位收取材料成本费"
+        },
+        {
+          "key": "B",
+          "text": "不得收取任何费用"
+        },
+        {
+          "key": "C",
+          "text": "可以收取适当的人工费用"
+        },
+        {
+          "key": "D",
+          "text": "由当地政府决定是否收费"
+        }
       ],
       "answer": "B",
       "explanation": "《消防法》第四十九条规定：国家综合性消防救援队、专职消防队扑救火灾、应急救援，不得收取任何费用。",
       "examPoint": "灭火救援费用",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "灭火救援费用"
+      }
     },
     {
       "id": "laws-04-010",
       "type": "single",
       "stem": "根据《消防法》，火灾现场总指挥根据扑救火灾的需要，无权决定的事项是（ ）。",
       "options": [
-        { "key": "A", "text": "使用各种水源" },
-        { "key": "B", "text": "截断电力、可燃气体和可燃液体的输送" },
-        { "key": "C", "text": "划定警戒区，实行局部交通管制" },
-        { "key": "D", "text": "对火灾责任人进行行政拘留" }
+        {
+          "key": "A",
+          "text": "使用各种水源"
+        },
+        {
+          "key": "B",
+          "text": "截断电力、可燃气体和可燃液体的输送"
+        },
+        {
+          "key": "C",
+          "text": "划定警戒区，实行局部交通管制"
+        },
+        {
+          "key": "D",
+          "text": "对火灾责任人进行行政拘留"
+        }
       ],
       "answer": "D",
       "explanation": "火灾现场总指挥有权决定的事项包括：使用各种水源；截断电力、可燃气体和可燃液体的输送；划定警戒区实行局部交通管制；利用临近建筑物和有关设施；拆除或破损毗邻火灾现场的建筑物；调动供水、供电、供气等有关单位协助灭火救援。行政拘留属于公安机关的职权，不在火灾现场总指挥的权限范围内。",
       "examPoint": "灭火救援指挥",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "消防法",
+        "point": "灭火救援指挥"
+      }
     },
     {
       "id": "laws-04-011",
       "type": "single",
       "stem": "根据《道路交通安全法》，残疾人机动轮椅车、电动自行车在非机动车道内行驶时，最高时速不得超过（ ）。",
       "options": [
-        { "key": "A", "text": "10公里" },
-        { "key": "B", "text": "15公里" },
-        { "key": "C", "text": "20公里" },
-        { "key": "D", "text": "25公里" }
+        {
+          "key": "A",
+          "text": "10公里"
+        },
+        {
+          "key": "B",
+          "text": "15公里"
+        },
+        {
+          "key": "C",
+          "text": "20公里"
+        },
+        {
+          "key": "D",
+          "text": "25公里"
+        }
       ],
       "answer": "B",
       "explanation": "《道路交通安全法》第五十八条规定：残疾人机动轮椅车、电动自行车在非机动车道内行驶时，最高时速不得超过15公里。",
       "examPoint": "非机动车通行规定",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "道路交通安全法",
+        "point": "非机动车通行规定"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-012",
       "type": "single",
       "stem": "根据《道路交通安全法》，高速公路限速标志标明的最高时速不得超过（ ）。",
       "options": [
-        { "key": "A", "text": "100公里" },
-        { "key": "B", "text": "110公里" },
-        { "key": "C", "text": "120公里" },
-        { "key": "D", "text": "130公里" }
+        {
+          "key": "A",
+          "text": "100公里"
+        },
+        {
+          "key": "B",
+          "text": "110公里"
+        },
+        {
+          "key": "C",
+          "text": "120公里"
+        },
+        {
+          "key": "D",
+          "text": "130公里"
+        }
       ],
       "answer": "C",
       "explanation": "《道路交通安全法》第六十七条规定：高速公路限速标志标明的最高时速不得超过120公里。",
       "examPoint": "高速公路限速",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "高速公路限速"
+      }
     },
     {
       "id": "laws-04-013",
       "type": "single",
       "stem": "根据《道路交通安全法》，下列车辆中不得进入高速公路的是（ ）。",
       "options": [
-        { "key": "A", "text": "设计最高时速为80公里的机动车" },
-        { "key": "B", "text": "全挂拖斗车" },
-        { "key": "C", "text": "小型普通客车" },
-        { "key": "D", "text": "摩托车" }
+        {
+          "key": "A",
+          "text": "设计最高时速为80公里的机动车"
+        },
+        {
+          "key": "B",
+          "text": "全挂拖斗车"
+        },
+        {
+          "key": "C",
+          "text": "小型普通客车"
+        },
+        {
+          "key": "D",
+          "text": "摩托车"
+        }
       ],
       "answer": "B",
       "explanation": "《道路交通安全法》第六十七条规定：行人、非机动车、拖拉机、轮式专用机械车、铰接式客车、全挂拖斗车以及其他设计最高时速低于70公里的机动车，不得进入高速公路。",
       "examPoint": "高速公路特别规定",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "高速公路特别规定"
+      }
     },
     {
       "id": "laws-04-014",
       "type": "single",
       "stem": "根据《道路交通安全法》，机动车载运爆炸物品、易燃易爆化学物品，应当经（ ）批准。",
       "options": [
-        { "key": "A", "text": "应急管理部门" },
-        { "key": "B", "text": "公安机关" },
-        { "key": "C", "text": "交通运输管理部门" },
-        { "key": "D", "text": "市场监督管理部门" }
+        {
+          "key": "A",
+          "text": "应急管理部门"
+        },
+        {
+          "key": "B",
+          "text": "公安机关"
+        },
+        {
+          "key": "C",
+          "text": "交通运输管理部门"
+        },
+        {
+          "key": "D",
+          "text": "市场监督管理部门"
+        }
       ],
       "answer": "B",
       "explanation": "《道路交通安全法》第四十八条规定：机动车载运爆炸物品、易燃易爆化学物品以及剧毒、放射性等危险物品，应当经公安机关批准后，按指定的时间、路线、速度行驶，悬挂警示标志并采取必要的安全措施。",
       "examPoint": "危险物品运输",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "危险物品运输"
+      }
     },
     {
       "id": "laws-04-015",
       "type": "multi",
       "stem": "根据《特种设备安全法》，下列设备中属于特种设备的有（ ）。",
       "options": [
-        { "key": "A", "text": "锅炉" },
-        { "key": "B", "text": "电梯" },
-        { "key": "C", "text": "气瓶" },
-        { "key": "D", "text": "客运索道" },
-        { "key": "E", "text": "大型游乐设施" }
+        {
+          "key": "A",
+          "text": "锅炉"
+        },
+        {
+          "key": "B",
+          "text": "电梯"
+        },
+        {
+          "key": "C",
+          "text": "气瓶"
+        },
+        {
+          "key": "D",
+          "text": "客运索道"
+        },
+        {
+          "key": "E",
+          "text": "大型游乐设施"
+        }
       ],
       "answer": "ABCDE",
       "explanation": "《特种设备安全法》第二条规定，特种设备包括：锅炉、压力容器（含气瓶）、压力管道、电梯、起重机械、客运索道、大型游乐设施、场（厂）内专用机动车辆。以上五项均为特种设备。",
       "examPoint": "特种设备范围",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "特种设备安全法",
+        "point": "特种设备范围"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-016",
       "type": "multi",
       "stem": "根据《特种设备安全法》，下列设备的设计文件应当经负责特种设备安全监督管理的部门核准的检验机构鉴定，方可用于制造的有（ ）。",
       "options": [
-        { "key": "A", "text": "锅炉" },
-        { "key": "B", "text": "气瓶" },
-        { "key": "C", "text": "氧舱" },
-        { "key": "D", "text": "电梯" },
-        { "key": "E", "text": "大型游乐设施" }
+        {
+          "key": "A",
+          "text": "锅炉"
+        },
+        {
+          "key": "B",
+          "text": "气瓶"
+        },
+        {
+          "key": "C",
+          "text": "氧舱"
+        },
+        {
+          "key": "D",
+          "text": "电梯"
+        },
+        {
+          "key": "E",
+          "text": "大型游乐设施"
+        }
       ],
       "answer": "ABCE",
       "explanation": "《特种设备安全法》第二十条规定：锅炉、气瓶、氧舱、客运索道、大型游乐设施的设计文件，应当经负责特种设备安全监督管理的部门核准的检验机构鉴定，方可用于制造。电梯的设计文件不需经此鉴定。",
       "examPoint": "设计文件鉴定",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "特种设备安全法",
+        "point": "设计文件鉴定"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-017",
       "type": "single",
       "stem": "根据《特种设备安全法》，特种设备使用单位应当在特种设备投入使用前或者投入使用后（ ）日内向有关部门办理使用登记。",
       "options": [
-        { "key": "A", "text": "10" },
-        { "key": "B", "text": "15" },
-        { "key": "C", "text": "30" },
-        { "key": "D", "text": "60" }
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "60"
+        }
       ],
       "answer": "C",
       "explanation": "《特种设备安全法》第三十三条规定：特种设备使用单位应当在特种设备投入使用前或者投入使用后三十日内，向负责特种设备安全监督管理的部门办理使用登记，取得使用登记证书。",
       "examPoint": "使用登记",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "特种设备安全法",
+        "point": "使用登记"
+      }
     },
     {
       "id": "laws-04-018",
       "type": "single",
       "stem": "根据《特种设备安全法》，电梯的维护保养应当至少每（ ）日进行一次清洁、润滑、调整和检查。",
       "options": [
-        { "key": "A", "text": "7" },
-        { "key": "B", "text": "15" },
-        { "key": "C", "text": "30" },
-        { "key": "D", "text": "45" }
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "45"
+        }
       ],
       "answer": "B",
       "explanation": "《特种设备安全监察条例》规定：电梯应当至少每15日进行一次清洁、润滑、调整和检查。",
       "examPoint": "电梯维护保养",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "特种设备安全法",
+        "point": "电梯维护保养"
+      }
     },
     {
       "id": "laws-04-019",
       "type": "single",
       "stem": "根据《特种设备安全法》，特种设备检验、检测人员不得同时在（ ）个以上检验、检测机构中执业。",
       "options": [
-        { "key": "A", "text": "一" },
-        { "key": "B", "text": "两" },
-        { "key": "C", "text": "三" },
-        { "key": "D", "text": "四" }
+        {
+          "key": "A",
+          "text": "一"
+        },
+        {
+          "key": "B",
+          "text": "两"
+        },
+        {
+          "key": "C",
+          "text": "三"
+        },
+        {
+          "key": "D",
+          "text": "四"
+        }
       ],
       "answer": "B",
       "explanation": "《特种设备安全法》第五十一条规定：特种设备检验、检测机构的检验、检测人员不得同时在两个以上检验、检测机构中执业。",
       "examPoint": "检验检测人员管理",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "特种设备安全法",
+        "point": "检验检测人员管理"
+      }
     },
     {
       "id": "laws-04-020",
       "type": "single",
       "stem": "根据《建筑法》，建设单位应当自领取施工许可证之日起（ ）个月内开工。",
       "options": [
-        { "key": "A", "text": "1" },
-        { "key": "B", "text": "2" },
-        { "key": "C", "text": "3" },
-        { "key": "D", "text": "6" }
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
       ],
       "answer": "C",
       "explanation": "《建筑法》规定：建设单位应当自领取施工许可证之日起三个月内开工。因故不能按期开工的，应当向发证机关申请延期；延期以两次为限，每次不超过三个月。",
       "examPoint": "施工许可",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s5",
+        "sectionTitle": "建筑法",
+        "point": "施工许可"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-021",
       "type": "single",
       "stem": "根据《建筑法》，两个以上不同资质等级的单位实行联合共同承包的，应当按照（ ）的业务许可范围承揽工程。",
       "options": [
-        { "key": "A", "text": "资质等级高的单位" },
-        { "key": "B", "text": "资质等级低的单位" },
-        { "key": "C", "text": "双方协商确定的单位" },
-        { "key": "D", "text": "建设单位指定的单位" }
+        {
+          "key": "A",
+          "text": "资质等级高的单位"
+        },
+        {
+          "key": "B",
+          "text": "资质等级低的单位"
+        },
+        {
+          "key": "C",
+          "text": "双方协商确定的单位"
+        },
+        {
+          "key": "D",
+          "text": "建设单位指定的单位"
+        }
       ],
       "answer": "B",
       "explanation": "《建筑法》第二十七条规定：两个以上不同资质等级的单位实行联合共同承包的，应当按照资质等级低的单位的业务许可范围承揽工程。",
       "examPoint": "联合承包",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s5",
+        "sectionTitle": "建筑法",
+        "point": "联合承包"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-04-022",
       "type": "single",
       "stem": "根据《建筑法》，涉及建筑主体和承重结构变动的装修工程，建设单位应当在施工前委托（ ）提出设计方案。",
       "options": [
-        { "key": "A", "text": "施工单位" },
-        { "key": "B", "text": "监理单位" },
-        { "key": "C", "text": "原设计单位或者具有相应资质条件的设计单位" },
-        { "key": "D", "text": "建设行政主管部门" }
+        {
+          "key": "A",
+          "text": "施工单位"
+        },
+        {
+          "key": "B",
+          "text": "监理单位"
+        },
+        {
+          "key": "C",
+          "text": "原设计单位或者具有相应资质条件的设计单位"
+        },
+        {
+          "key": "D",
+          "text": "建设行政主管部门"
+        }
       ],
       "answer": "C",
       "explanation": "《建筑法》第四十九条规定：涉及建筑主体和承重结构变动的装修工程，建设单位应当在施工前委托原设计单位或者具有相应资质条件的设计单位提出设计方案；没有设计方案，不得擅自施工。",
       "examPoint": "装修工程安全管理",
-      "difficulty": "basic"
+      "difficulty": "basic",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "矿山安全法",
+        "point": "装修工程安全管理"
+      }
     }
   ]
 }

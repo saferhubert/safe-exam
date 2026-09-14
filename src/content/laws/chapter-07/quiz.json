@@ -8,274 +8,618 @@
       "type": "single",
       "stem": "根据《注册安全工程师分类管理办法》，中级注册安全工程师的注册有效期为（ ）。",
       "options": [
-        { "key": "A", "text": "3年" },
-        { "key": "B", "text": "5年" },
-        { "key": "C", "text": "6年" },
-        { "key": "D", "text": "10年" }
+        {
+          "key": "A",
+          "text": "3年"
+        },
+        {
+          "key": "B",
+          "text": "5年"
+        },
+        {
+          "key": "C",
+          "text": "6年"
+        },
+        {
+          "key": "D",
+          "text": "10年"
+        }
       ],
       "answer": "B",
       "explanation": "《注册安全工程师分类管理办法》规定，中级注册安全工程师注册有效期为5年。有效期满前3个月可提出延续注册申请。",
       "examPoint": "注册安全工程师注册有效期",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "注册安全工程师分类管理办法",
+        "point": "注册安全工程师注册有效期"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-002",
       "type": "single",
       "stem": "根据《注册安全工程师分类管理办法》，危险化学品生产单位安全生产管理人员中的中级及以上注册安全工程师比例应达到（ ）左右并逐步提高。",
       "options": [
-        { "key": "A", "text": "5%" },
-        { "key": "B", "text": "10%" },
-        { "key": "C", "text": "15%" },
-        { "key": "D", "text": "20%" }
+        {
+          "key": "A",
+          "text": "5%"
+        },
+        {
+          "key": "B",
+          "text": "10%"
+        },
+        {
+          "key": "C",
+          "text": "15%"
+        },
+        {
+          "key": "D",
+          "text": "20%"
+        }
       ],
       "answer": "C",
       "explanation": "危险物品的生产、储存以及矿山、金属冶炼单位中的中级及以上注安师比例应达到安全管理人员的15%左右并逐步提高。",
       "examPoint": "注册安全工程师配比要求",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "注册安全工程师分类管理办法",
+        "point": "注册安全工程师配比要求"
+      }
     },
     {
       "id": "laws-07-003",
       "type": "single",
       "stem": "根据《生产经营单位安全培训规定》，煤矿、非煤矿山、危险化学品、烟花爆竹、金属冶炼等生产经营单位新上岗从业人员的岗前安全培训时间不得少于（ ）学时。",
       "options": [
-        { "key": "A", "text": "24学时" },
-        { "key": "B", "text": "32学时" },
-        { "key": "C", "text": "48学时" },
-        { "key": "D", "text": "72学时" }
+        {
+          "key": "A",
+          "text": "24学时"
+        },
+        {
+          "key": "B",
+          "text": "32学时"
+        },
+        {
+          "key": "C",
+          "text": "48学时"
+        },
+        {
+          "key": "D",
+          "text": "72学时"
+        }
       ],
       "answer": "D",
       "explanation": "高危行业（煤矿、非煤矿山、危化品、烟花爆竹、金属冶炼）新上岗从业人员安全培训时间不得少于72学时，每年再培训时间不得少于20学时。一般单位为24学时。",
       "examPoint": "安全培训学时要求",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "生产经营单位安全培训规定",
+        "point": "安全培训学时要求"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-004",
       "type": "single",
       "stem": "根据《特种作业人员安全技术培训考核管理规定》，特种作业操作证的有效期为（ ），在全国范围内有效。",
       "options": [
-        { "key": "A", "text": "3年" },
-        { "key": "B", "text": "5年" },
-        { "key": "C", "text": "6年" },
-        { "key": "D", "text": "10年" }
+        {
+          "key": "A",
+          "text": "3年"
+        },
+        {
+          "key": "B",
+          "text": "5年"
+        },
+        {
+          "key": "C",
+          "text": "6年"
+        },
+        {
+          "key": "D",
+          "text": "10年"
+        }
       ],
       "answer": "C",
       "explanation": "特种作业操作证有效期为6年，每3年复审1次。连续从事本工种10年以上，经同意可延长至每6年复审1次。",
       "examPoint": "特种作业操作证有效期",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s3",
+        "sectionTitle": "特种作业人员安全技术培训考核管理规定",
+        "point": "特种作业操作证有效期"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-005",
       "type": "single",
       "stem": "根据《安全生产事故隐患排查治理暂行规定》，对挂牌督办并责令全部或者局部停产停业治理的重大事故隐患，安全监管监察部门收到生产经营单位恢复生产的申请报告后，应当在（ ）内进行现场审查。",
       "options": [
-        { "key": "A", "text": "5日" },
-        { "key": "B", "text": "7日" },
-        { "key": "C", "text": "10日" },
-        { "key": "D", "text": "15日" }
+        {
+          "key": "A",
+          "text": "5日"
+        },
+        {
+          "key": "B",
+          "text": "7日"
+        },
+        {
+          "key": "C",
+          "text": "10日"
+        },
+        {
+          "key": "D",
+          "text": "15日"
+        }
       ],
       "answer": "C",
       "explanation": "安全监管监察部门收到生产经营单位恢复生产的申请报告后，应当在10日内进行现场审查。审查合格的，对事故隐患进行核销，同意恢复生产经营。",
       "examPoint": "重大隐患恢复生产审查期限",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s5",
+        "sectionTitle": "安全生产事故隐患排查治理暂行规定",
+        "point": "重大隐患恢复生产审查期限"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-006",
       "type": "single",
       "stem": "根据《生产安全事故应急预案管理办法》，下列单位中应当对本单位编制的应急预案进行评审的是（ ）。",
       "options": [
-        { "key": "A", "text": "某中型食品加工企业" },
-        { "key": "B", "text": "某危险化学品储存企业" },
-        { "key": "C", "text": "某小型家具制造企业" },
-        { "key": "D", "text": "某服装批发企业" }
+        {
+          "key": "A",
+          "text": "某中型食品加工企业"
+        },
+        {
+          "key": "B",
+          "text": "某危险化学品储存企业"
+        },
+        {
+          "key": "C",
+          "text": "某小型家具制造企业"
+        },
+        {
+          "key": "D",
+          "text": "某服装批发企业"
+        }
       ],
       "answer": "B",
       "explanation": "矿山、金属冶炼企业和易燃易爆物品、危险化学品的生产、经营、储存企业，以及中型规模以上的其他生产经营单位应当对应急预案进行评审。其他单位进行论证。",
       "examPoint": "应急预案评审与论证",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s6",
+        "sectionTitle": "生产安全事故应急预案管理办法",
+        "point": "应急预案评审与论证"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-007",
       "type": "single",
       "stem": "根据《生产安全事故信息报告和处置办法》，下列情形中属于较大涉险事故的是（ ）。",
       "options": [
-        { "key": "A", "text": "涉险5人的事故" },
-        { "key": "B", "text": "造成2人被困的事故" },
-        { "key": "C", "text": "造成3人以上被困或者下落不明的事故" },
-        { "key": "D", "text": "紧急疏散200人的事故" }
+        {
+          "key": "A",
+          "text": "涉险5人的事故"
+        },
+        {
+          "key": "B",
+          "text": "造成2人被困的事故"
+        },
+        {
+          "key": "C",
+          "text": "造成3人以上被困或者下落不明的事故"
+        },
+        {
+          "key": "D",
+          "text": "紧急疏散200人的事故"
+        }
       ],
       "answer": "C",
       "explanation": "较大涉险事故包括：涉险10人以上；造成3人以上被困或下落不明；紧急疏散500人以上；对环境造成严重污染；危及重要场所和设施安全。",
       "examPoint": "较大涉险事故范围",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "注册安全工程师分类管理办法",
+        "point": "较大涉险事故范围"
+      }
     },
     {
       "id": "laws-07-008",
       "type": "single",
       "stem": "根据《安全生产严重失信主体名单管理办法》，严重失信主体名单的管理期限为（ ）。",
       "options": [
-        { "key": "A", "text": "1年" },
-        { "key": "B", "text": "2年" },
-        { "key": "C", "text": "3年" },
-        { "key": "D", "text": "5年" }
+        {
+          "key": "A",
+          "text": "1年"
+        },
+        {
+          "key": "B",
+          "text": "2年"
+        },
+        {
+          "key": "C",
+          "text": "3年"
+        },
+        {
+          "key": "D",
+          "text": "5年"
+        }
       ],
       "answer": "C",
       "explanation": "严重失信主体名单管理期限为3年。被列入对象自列入之日起满12个月，可以申请提前移出。管理期满后由作出决定的应急管理部门负责移出。",
       "examPoint": "失信名单管理期限",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s8",
+        "sectionTitle": "安全生产严重失信主体名单管理办法",
+        "point": "失信名单管理期限"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-009",
       "type": "single",
       "stem": "根据《高层民用建筑消防安全管理规定》，高层公共建筑内公众聚集场所在营业期间应当至少每（ ）进行一次防火巡查。",
       "options": [
-        { "key": "A", "text": "1小时" },
-        { "key": "B", "text": "2小时" },
-        { "key": "C", "text": "3小时" },
-        { "key": "D", "text": "4小时" }
+        {
+          "key": "A",
+          "text": "1小时"
+        },
+        {
+          "key": "B",
+          "text": "2小时"
+        },
+        {
+          "key": "C",
+          "text": "3小时"
+        },
+        {
+          "key": "D",
+          "text": "4小时"
+        }
       ],
       "answer": "B",
       "explanation": "高层公共建筑内公众聚集场所在营业期间应当至少每2小时进行一次防火巡查。高层住宅建筑应当每月至少开展一次防火检查，高层公共建筑应当每半个月至少开展一次防火检查。",
       "examPoint": "高层民用建筑防火巡查",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s11",
+        "sectionTitle": "工贸企业粉尘防爆安全规定",
+        "point": "高层民用建筑防火巡查"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-010",
       "type": "single",
       "stem": "根据《工贸企业粉尘防爆安全规定》，存在粉尘爆炸危险的工艺设备可以采用多种控爆措施，但不得单独采取（ ）。",
       "options": [
-        { "key": "A", "text": "泄爆措施" },
-        { "key": "B", "text": "隔爆措施" },
-        { "key": "C", "text": "惰化措施" },
-        { "key": "D", "text": "抑爆措施" }
+        {
+          "key": "A",
+          "text": "泄爆措施"
+        },
+        {
+          "key": "B",
+          "text": "隔爆措施"
+        },
+        {
+          "key": "C",
+          "text": "惰化措施"
+        },
+        {
+          "key": "D",
+          "text": "抑爆措施"
+        }
       ],
       "answer": "B",
       "explanation": "存在粉尘爆炸危险的工艺设备应当采用泄爆、隔爆、惰化、抑爆、抗爆等一种或者多种控爆措施，但不得单独采取隔爆措施。",
       "examPoint": "粉尘防爆控爆措施",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s12",
+        "sectionTitle": "建设项目安全设施「三同时」监督管理办法",
+        "point": "粉尘防爆控爆措施"
+      },
+      "scope": "inline"
     },
     {
       "id": "laws-07-011",
       "type": "single",
       "stem": "根据《建设项目安全设施「三同时」监督管理办法》，建设项目安全设施试运行时间应当不少于（ ），最长不得超过（ ）。",
       "options": [
-        { "key": "A", "text": "20日；120日" },
-        { "key": "B", "text": "30日；180日" },
-        { "key": "C", "text": "45日；180日" },
-        { "key": "D", "text": "60日；365日" }
+        {
+          "key": "A",
+          "text": "20日；120日"
+        },
+        {
+          "key": "B",
+          "text": "30日；180日"
+        },
+        {
+          "key": "C",
+          "text": "45日；180日"
+        },
+        {
+          "key": "D",
+          "text": "60日；365日"
+        }
       ],
       "answer": "B",
       "explanation": "试运行时间应当不少于30日，最长不得超过180日，国家有关部门有规定或者特殊要求的行业除外。危化品建设项目试生产期限应不少于30日，不超过1年。",
       "examPoint": "试运行时间要求",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "注册安全工程师分类管理办法",
+        "point": "试运行时间要求"
+      }
     },
     {
       "id": "laws-07-012",
       "type": "single",
       "stem": "根据《危险化学品输送管道安全管理规定》，下列管道中适用该规定的是（ ）。",
       "options": [
-        { "key": "A", "text": "某氯碱企业厂区内危险化学品管道" },
-        { "key": "B", "text": "某炼化企业的成品油运输管道" },
-        { "key": "C", "text": "某农药企业厂区外公共区域架空危险化学品管道" },
-        { "key": "D", "text": "城镇燃气管道" }
+        {
+          "key": "A",
+          "text": "某氯碱企业厂区内危险化学品管道"
+        },
+        {
+          "key": "B",
+          "text": "某炼化企业的成品油运输管道"
+        },
+        {
+          "key": "C",
+          "text": "某农药企业厂区外公共区域架空危险化学品管道"
+        },
+        {
+          "key": "D",
+          "text": "城镇燃气管道"
+        }
       ],
       "answer": "C",
       "explanation": "本规定适用于生产、储存危险化学品的单位在厂区外公共区域埋地、地面和架空的危险化学品输送管道。原油、天然气、煤层气和城镇燃气管道的安全管理，不适用本规定。",
       "examPoint": "危险化学品管道适用范围",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s15",
+        "sectionTitle": "工贸企业有限空间作业安全规定",
+        "point": "危险化学品管道适用范围"
+      }
     },
     {
       "id": "laws-07-013",
       "type": "single",
       "stem": "根据《工贸企业有限空间作业安全规定》，有限空间作业应当严格遵守的程序是（ ）。",
       "options": [
-        { "key": "A", "text": "先检测、再通风、后作业" },
-        { "key": "B", "text": "先通风、再检测、后作业" },
-        { "key": "C", "text": "先作业、再通风、后检测" },
-        { "key": "D", "text": "先检测、再作业、后通风" }
+        {
+          "key": "A",
+          "text": "先检测、再通风、后作业"
+        },
+        {
+          "key": "B",
+          "text": "先通风、再检测、后作业"
+        },
+        {
+          "key": "C",
+          "text": "先作业、再通风、后检测"
+        },
+        {
+          "key": "D",
+          "text": "先检测、再作业、后通风"
+        }
       ],
       "answer": "B",
       "explanation": "有限空间作业应当严格遵守「先通风、再检测、后作业」要求。作业前30分钟内检测合格后方可进入。",
       "examPoint": "有限空间作业程序",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s14",
+        "sectionTitle": "危险化学品重大危险源监督管理暂行规定",
+        "point": "有限空间作业程序"
+      }
     },
     {
       "id": "laws-07-014",
       "type": "single",
       "stem": "根据《建设项目安全设施「三同时」监督管理办法》，下列建设项目中不需要进行安全预评价的是（ ）。",
       "options": [
-        { "key": "A", "text": "非煤矿矿山建设项目" },
-        { "key": "B", "text": "生产、储存危险化学品的建设项目" },
-        { "key": "C", "text": "食品加工建设项目" },
-        { "key": "D", "text": "金属冶炼建设项目" }
+        {
+          "key": "A",
+          "text": "非煤矿矿山建设项目"
+        },
+        {
+          "key": "B",
+          "text": "生产、储存危险化学品的建设项目"
+        },
+        {
+          "key": "C",
+          "text": "食品加工建设项目"
+        },
+        {
+          "key": "D",
+          "text": "金属冶炼建设项目"
+        }
       ],
       "answer": "C",
       "explanation": "需进行安全预评价的项目包括：非煤矿矿山、生产储存危化品、生产储存烟花爆竹、金属冶炼、使用危化品达到规定数量的化工建设项目等。食品加工项目不属于上述范围。",
       "examPoint": "安全预评价适用范围",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "注册安全工程师分类管理办法",
+        "point": "安全预评价适用范围"
+      }
     },
     {
       "id": "laws-07-015",
       "type": "multi",
       "stem": "根据《特种作业人员安全技术培训考核管理规定》，下列情形中特种作业操作证复审或者延期复审不予通过的有（ ）。",
       "options": [
-        { "key": "A", "text": "健康体检不合格的" },
-        { "key": "B", "text": "有2次以上违章行为，并经查证确实的" },
-        { "key": "C", "text": "有安全生产违法行为，并给予行政处罚的" },
-        { "key": "D", "text": "离开特种作业岗位3个月的" },
-        { "key": "E", "text": "未按规定参加安全培训，或者考试不合格的" }
+        {
+          "key": "A",
+          "text": "健康体检不合格的"
+        },
+        {
+          "key": "B",
+          "text": "有2次以上违章行为，并经查证确实的"
+        },
+        {
+          "key": "C",
+          "text": "有安全生产违法行为，并给予行政处罚的"
+        },
+        {
+          "key": "D",
+          "text": "离开特种作业岗位3个月的"
+        },
+        {
+          "key": "E",
+          "text": "未按规定参加安全培训，或者考试不合格的"
+        }
       ],
       "answer": "ABCE",
       "explanation": "复审不予通过的情形：健康体检不合格；违章操作造成严重后果或有2次以上违章行为；有安全生产违法行为受行政处罚；拒绝阻碍监督检查；未按规定参加安全培训或考试不合格；操作证被撤销或注销。",
       "examPoint": "特种作业操作证复审不予通过情形",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s3",
+        "sectionTitle": "特种作业人员安全技术培训考核管理规定",
+        "point": "特种作业操作证复审不予通过情形"
+      }
     },
     {
       "id": "laws-07-016",
       "type": "multi",
       "stem": "根据《安全生产事故隐患排查治理暂行规定》，重大事故隐患报告的内容应当包括（ ）。",
       "options": [
-        { "key": "A", "text": "隐患的现状及其产生原因" },
-        { "key": "B", "text": "隐患的危害程度和整改难易程度分析" },
-        { "key": "C", "text": "隐患排查治理制度" },
-        { "key": "D", "text": "隐患的治理方案" },
-        { "key": "E", "text": "企业生产安全事故应急预案" }
+        {
+          "key": "A",
+          "text": "隐患的现状及其产生原因"
+        },
+        {
+          "key": "B",
+          "text": "隐患的危害程度和整改难易程度分析"
+        },
+        {
+          "key": "C",
+          "text": "隐患排查治理制度"
+        },
+        {
+          "key": "D",
+          "text": "隐患的治理方案"
+        },
+        {
+          "key": "E",
+          "text": "企业生产安全事故应急预案"
+        }
       ],
       "answer": "ABD",
       "explanation": "重大事故隐患报告内容应包括：隐患的现状及其产生原因；隐患的危害程度和整改难易程度分析；隐患的治理方案。",
       "examPoint": "重大隐患报告内容",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s5",
+        "sectionTitle": "安全生产事故隐患排查治理暂行规定",
+        "point": "重大隐患报告内容"
+      }
     },
     {
       "id": "laws-07-017",
       "type": "multi",
       "stem": "根据《危险化学品重大危险源监督管理暂行规定》，下列情形中应当对重大危险源重新进行辨识、安全评估及分级的有（ ）。",
       "options": [
-        { "key": "A", "text": "重大危险源安全评估已满三年的" },
-        { "key": "B", "text": "构成重大危险源的装置进行新建、改建、扩建的" },
-        { "key": "C", "text": "危险化学品种类发生变化，影响重大危险源级别或者风险程度的" },
-        { "key": "D", "text": "企业法定代表人发生变更的" },
-        { "key": "E", "text": "发生危险化学品事故造成人员死亡的" }
+        {
+          "key": "A",
+          "text": "重大危险源安全评估已满三年的"
+        },
+        {
+          "key": "B",
+          "text": "构成重大危险源的装置进行新建、改建、扩建的"
+        },
+        {
+          "key": "C",
+          "text": "危险化学品种类发生变化，影响重大危险源级别或者风险程度的"
+        },
+        {
+          "key": "D",
+          "text": "企业法定代表人发生变更的"
+        },
+        {
+          "key": "E",
+          "text": "发生危险化学品事故造成人员死亡的"
+        }
       ],
       "answer": "ABCE",
       "explanation": "重新评估的情形：安全评估已满三年；装置新建改建扩建；品种数量工艺变化影响级别风险程度；外界环境变化影响级别风险程度；事故造成人员死亡或10人以上受伤或影响公共安全；相关标准发生变化。",
       "examPoint": "重大危险源重新评估情形",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s15",
+        "sectionTitle": "工贸企业有限空间作业安全规定",
+        "point": "重大危险源重新评估情形"
+      }
     },
     {
       "id": "laws-07-018",
       "type": "multi",
       "stem": "根据《工贸企业有限空间作业安全规定》，关于有限空间作业安全保障的说法，正确的有（ ）。",
       "options": [
-        { "key": "A", "text": "有限空间作业应当采用纯氧通风换气" },
-        { "key": "B", "text": "存在硫化氢等中毒风险的有限空间作业，应当由工贸企业主要负责人进行审批" },
-        { "key": "C", "text": "工贸企业应当每年至少组织一次有限空间作业专题安全培训" },
-        { "key": "D", "text": "监护人员发现异常情况时，应当立即组织作业人员撤离现场" },
-        { "key": "E", "text": "作业中断超过30分钟，应当重新进行气体检测分析" }
+        {
+          "key": "A",
+          "text": "有限空间作业应当采用纯氧通风换气"
+        },
+        {
+          "key": "B",
+          "text": "存在硫化氢等中毒风险的有限空间作业，应当由工贸企业主要负责人进行审批"
+        },
+        {
+          "key": "C",
+          "text": "工贸企业应当每年至少组织一次有限空间作业专题安全培训"
+        },
+        {
+          "key": "D",
+          "text": "监护人员发现异常情况时，应当立即组织作业人员撤离现场"
+        },
+        {
+          "key": "E",
+          "text": "作业中断超过30分钟，应当重新进行气体检测分析"
+        }
       ],
       "answer": "BCD",
       "explanation": "A错误，不应向有限空间充纯氧气；B正确，存在中毒风险的应由主要负责人或其书面委托人员审批；C正确，每年至少1次专题培训；D正确，发现异常立即组织撤离；E错误，作业中断超过60分钟才需重新检测。",
       "examPoint": "有限空间作业安全保障",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s14",
+        "sectionTitle": "危险化学品重大危险源监督管理暂行规定",
+        "point": "有限空间作业安全保障"
+      }
     }
   ]
 }
