@@ -6,12 +6,36 @@
     "examWeight": 2,
     "scoreNote": "6分（2025年）",
     "sections": [
-      { "id": "s1", "title": "第一节 事故等级与危险源", "examWeight": 3 },
-      { "id": "s2", "title": "第二节 本质安全", "examWeight": 2 },
-      { "id": "s3", "title": "第三节 事故致因理论", "examWeight": 3 },
-      { "id": "s4", "title": "第四节 安全原理与原则", "examWeight": 3 },
-      { "id": "s5", "title": "第五节 人的心理与行为", "examWeight": 2 },
-      { "id": "s6", "title": "第六节 安全文化", "examWeight": 2 }
+      {
+        "id": "s1",
+        "title": "第一节 事故等级与危险源",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 本质安全",
+        "examWeight": 2
+      },
+      {
+        "id": "s3",
+        "title": "第三节 事故致因理论",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 安全原理与原则",
+        "examWeight": 3
+      },
+      {
+        "id": "s5",
+        "title": "第五节 人的心理与行为",
+        "examWeight": 2
+      },
+      {
+        "id": "s6",
+        "title": "第六节 安全文化",
+        "examWeight": 2
+      }
     ]
   },
   {
@@ -19,16 +43,88 @@
     "slug": "chapter-02",
     "title": "安全生产管理内容",
     "examWeight": 3,
-    "scoreNote": "44分（2025年）— 全科最高",
-    "sections": []
+    "scoreNote": "44分（2025年）— 全科最高，含八大特殊作业",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 安全生产主体责任与规章制度",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 安全生产教育培训",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 建设项目“三同时”管理",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 重大危险源管理",
+        "examWeight": 3
+      },
+      {
+        "id": "s5",
+        "title": "第五节 特种设备安全管理",
+        "examWeight": 3
+      },
+      {
+        "id": "s6",
+        "title": "第六节 安全技术措施与安全色标志",
+        "examWeight": 3
+      },
+      {
+        "id": "s7",
+        "title": "第七节 安全生产费用与责任保险",
+        "examWeight": 3
+      },
+      {
+        "id": "s8",
+        "title": "第八节 隐患排查治理与个体防护",
+        "examWeight": 3
+      },
+      {
+        "id": "s9",
+        "title": "第九节 八大特殊作业安全管理",
+        "examWeight": 3
+      },
+      {
+        "id": "s10",
+        "title": "第十节 承包商管理与安全生产标准化",
+        "examWeight": 3
+      }
+    ]
   },
   {
     "number": 3,
     "slug": "chapter-03",
     "title": "安全评价",
     "examWeight": 3,
-    "scoreNote": "17分（2025年）— 分值跃升",
-    "sections": []
+    "scoreNote": "17分（2025年）— 分值跃升，安全评价方法为重点",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 安全评价的程序与内容",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 危险有害因素辨识与分类",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 定性定量安全评价方法",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 常用评价方法（PHA/HAZOP/FTA/风险矩阵）",
+        "examWeight": 3
+      }
+    ]
   },
   {
     "number": 4,
@@ -36,15 +132,47 @@
     "title": "职业病危害预防和管理",
     "examWeight": 2,
     "scoreNote": "4分（2025年）",
-    "sections": []
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 职业病危害因素分类与识别",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 职业病危害控制与管理",
+        "examWeight": 3
+      }
+    ]
   },
   {
     "number": 5,
     "slug": "chapter-05",
     "title": "安全生产应急管理",
     "examWeight": 3,
-    "scoreNote": "2分（2025年，波动大）",
-    "sections": []
+    "scoreNote": "2分（2025年，波动大，历史最高10分）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 事故应急管理理论框架",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 应急预案体系与内容",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 应急预案编制程序与评审",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 应急演练",
+        "examWeight": 3
+      }
+    ]
   },
   {
     "number": 6,
@@ -52,7 +180,18 @@
     "title": "生产安全事故调查与分析",
     "examWeight": 2,
     "scoreNote": "5分（2025年）",
-    "sections": []
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 事故报告与调查",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 事故原因分析与责任认定",
+        "examWeight": 3
+      }
+    ]
   },
   {
     "number": 7,
@@ -60,7 +199,13 @@
     "title": "安全生产监管监察",
     "examWeight": 1,
     "scoreNote": "1分（2025年）",
-    "sections": []
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 安全生产监督管理",
+        "examWeight": 2
+      }
+    ]
   },
   {
     "number": 8,
@@ -68,6 +213,17 @@
     "title": "安全生产统计分析",
     "examWeight": 2,
     "scoreNote": "2分（2025年）",
-    "sections": []
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 统计图类型与统计指标",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 伤亡事故经济损失计算",
+        "examWeight": 3
+      }
+    ]
   }
 ]

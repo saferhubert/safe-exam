@@ -1,0 +1,2573 @@
+{
+  "chapterNumber": 2,
+  "title": "第二章 安全生产管理内容 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-02-s9-01",
+      "type": "single",
+      "stem": "在火灾爆炸危险场所处于运行状态下的生产装置设备、管道、储罐、容器等部位上进行的动火作业，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "特级动火作业"
+        },
+        {
+          "key": "B",
+          "text": "一级动火作业"
+        },
+        {
+          "key": "C",
+          "text": "二级动火作业"
+        },
+        {
+          "key": "D",
+          "text": "三级动火作业"
+        }
+      ],
+      "answer": "A",
+      "explanation": "特级动火作业指在火灾爆炸危险场所处于运行状态下的生产装置设备、管道、储罐、容器等部位上进行的动火作业（含带压不置换动火作业），以及存有易燃易爆介质的重大危险源罐区防火堤内的动火作业。",
+      "examPoint": "动火作业分级",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点32",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "动火作业分级"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s9-02",
+      "type": "single",
+      "stem": "动火期间，距动火点（ ）内不应排放可燃气体。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15m"
+        },
+        {
+          "key": "B",
+          "text": "30m"
+        },
+        {
+          "key": "C",
+          "text": "50m"
+        },
+        {
+          "key": "D",
+          "text": "10m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "动火期间，距动火点 30m 内不应排放可燃气体；距动火点 15m 内不应排放可燃液体；在动火点 10m 范围内、动火点上方及下方不应同时进行可燃溶剂清洗或喷漆作业。",
+      "examPoint": "动火作业安全距离",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点33",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "动火作业安全距离"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s9-03",
+      "type": "single",
+      "stem": "使用气焊、气割动火作业时，氧气瓶与乙炔瓶的间距不应小于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3m"
+        },
+        {
+          "key": "B",
+          "text": "5m"
+        },
+        {
+          "key": "C",
+          "text": "8m"
+        },
+        {
+          "key": "D",
+          "text": "10m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "使用气焊、气割动火作业时，乙炔瓶应直立放置，不应卧放使用；氧气瓶与乙炔瓶的间距不应小于 5m，二者与动火点间距不应小于 10m，并应采取防晒和防倾倒措施；乙炔瓶应安装防回火装置。",
+      "examPoint": "气焊气割安全距离",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点33",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "气焊气割安全距离"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s9-04",
+      "type": "single",
+      "stem": "遇（ ）以上天气，禁止露天动火作业。",
+      "options": [
+        {
+          "key": "A",
+          "text": "三级风"
+        },
+        {
+          "key": "B",
+          "text": "四级风"
+        },
+        {
+          "key": "C",
+          "text": "五级风"
+        },
+        {
+          "key": "D",
+          "text": "六级风"
+        }
+      ],
+      "answer": "C",
+      "explanation": "遇五级风以上（含五级风）天气，禁止露天动火作业；因生产确需动火，动火作业应升级管理。注意：吊装作业是六级及以上大风不应露天作业。",
+      "examPoint": "恶劣天气作业限制",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点33",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "恶劣天气作业限制"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-05",
+      "type": "single",
+      "stem": "特级、一级动火作业中断时间超过（ ），应重新进行气体分析。",
+      "options": [
+        {
+          "key": "A",
+          "text": "30min"
+        },
+        {
+          "key": "B",
+          "text": "60min"
+        },
+        {
+          "key": "C",
+          "text": "90min"
+        },
+        {
+          "key": "D",
+          "text": "120min"
+        }
+      ],
+      "answer": "A",
+      "explanation": "特级、一级动火作业中断时间超过 30min，二级动火作业中断时间超过 60min，应重新进行气体分析；每日动火前均应进行气体分析；特级动火作业期间应连续进行监测。",
+      "examPoint": "动火分析时间要求",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点33",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "动火分析时间要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-06",
+      "type": "single",
+      "stem": "受限空间作业前，应在（ ）内对受限空间进行气体检测，检测分析合格后方可进入。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15min"
+        },
+        {
+          "key": "B",
+          "text": "30min"
+        },
+        {
+          "key": "C",
+          "text": "45min"
+        },
+        {
+          "key": "D",
+          "text": "60min"
+        }
+      ],
+      "answer": "B",
+      "explanation": "作业前 30min 内，对受限空间进行气体检测，检测分析合格后方可进入。作业中断时间超过 60min 时，应重新进行气体检测分析。",
+      "examPoint": "受限空间气体检测",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点34",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "受限空间气体检测"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-07",
+      "type": "single",
+      "stem": "受限空间内气体检测要求：氧气含量为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "18%~21%"
+        },
+        {
+          "key": "B",
+          "text": "19.5%~21%"
+        },
+        {
+          "key": "C",
+          "text": "19.5%~23.5%"
+        },
+        {
+          "key": "D",
+          "text": "20%~23.5%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "受限空间内气体检测：氧气含量为 19.5%~21%（体积分数），在富氧环境下不应大于 23.5%（体积分数）。",
+      "examPoint": "受限空间氧含量",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点34",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "受限空间氧含量"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-08",
+      "type": "single",
+      "stem": "关于受限空间作业监护人，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "监护人应在受限空间内全程陪同监护"
+        },
+        {
+          "key": "B",
+          "text": "监护人应在受限空间外进行全程监护，不应在无任何防护措施的情况下探入或进入"
+        },
+        {
+          "key": "C",
+          "text": "监护人可临时离岗处理其他事务"
+        },
+        {
+          "key": "D",
+          "text": "风险较大时无需增设监护人员"
+        }
+      ],
+      "answer": "B",
+      "explanation": "监护人应在受限空间外进行全程监护，不应在无任何防护措施的情况下探入或进入受限空间；在风险较大的受限空间作业时应增设监护人员；监护人应对进入人员及其携带的工器具种类、数量进行登记，作业完毕后再清点。",
+      "examPoint": "受限空间监护人要求",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点34",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "受限空间监护人要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-09",
+      "type": "single",
+      "stem": "有限空间内使用的照明灯具额定电压不应超过（ ）；在金属结构有限空间作业时不应超过（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "36V；24V"
+        },
+        {
+          "key": "B",
+          "text": "24V；12V"
+        },
+        {
+          "key": "C",
+          "text": "36V；12V"
+        },
+        {
+          "key": "D",
+          "text": "42V；36V"
+        }
+      ],
+      "answer": "A",
+      "explanation": "有限空间内使用的照明灯具额定电压不应超过 36V；在金属结构有限空间作业时不应超过 24V；在积水、结露等潮湿环境的有限空间作业时不应超过 12V。",
+      "examPoint": "有限空间安全电压",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点39",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "有限空间安全电压"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-10",
+      "type": "single",
+      "stem": "有限空间作业过程中应对作业人活动区域进行实时气体监测，并（ ）记录 1 个瞬时值。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每 15min"
+        },
+        {
+          "key": "B",
+          "text": "每 30min"
+        },
+        {
+          "key": "C",
+          "text": "每 1h"
+        },
+        {
+          "key": "D",
+          "text": "每 2h"
+        }
+      ],
+      "answer": "A",
+      "explanation": "有限空间作业过程中应对作业人活动区域进行实时气体监测，每 15min 记录 1 个瞬时值。注意：受限空间（危化品企业）是连续检测并每 2h 记录 1 次。",
+      "examPoint": "有限空间监测频次",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点39",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "有限空间监测频次"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-11",
+      "type": "single",
+      "stem": "同一盲板的抽、堵作业，应当（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "办理一张安全作业票即可"
+        },
+        {
+          "key": "B",
+          "text": "分别办理盲板抽堵安全作业票，一张安全作业票只能进行一块盲板的一项作业"
+        },
+        {
+          "key": "C",
+          "text": "抽堵同时进行时办理一张作业票"
+        },
+        {
+          "key": "D",
+          "text": "由作业单位自行决定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "同一盲板的抽、堵作业，应分别办理盲板抽堵安全作业票，一张安全作业票只能进行一块盲板的一项作业。盲板抽堵作业结束，由作业单位和危险化学品企业专人共同确认。",
+      "examPoint": "盲板抽堵作业票",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点35",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "盲板抽堵作业票"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-12",
+      "type": "single",
+      "stem": "在火灾爆炸危险场所进行盲板抽堵作业时，距盲板抽堵作业地点（ ）内不应有动火作业。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10m"
+        },
+        {
+          "key": "B",
+          "text": "15m"
+        },
+        {
+          "key": "C",
+          "text": "25m"
+        },
+        {
+          "key": "D",
+          "text": "30m"
+        }
+      ],
+      "answer": "D",
+      "explanation": "在火灾爆炸危险场所进行盲板抽堵作业时，作业人员应穿防静电工作服、工作鞋，并使用防爆工具；距盲板抽堵作业地点 30m 内不应有动火作业。",
+      "examPoint": "盲板作业安全距离",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点35",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "盲板作业安全距离"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-13",
+      "type": "single",
+      "stem": "高处作业的安全作业票有效期最长为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3天"
+        },
+        {
+          "key": "B",
+          "text": "5天"
+        },
+        {
+          "key": "C",
+          "text": "7天"
+        },
+        {
+          "key": "D",
+          "text": "15天"
+        }
+      ],
+      "answer": "C",
+      "explanation": "安全作业票的有效期最长为 7 天。当作业中断，再次作业前，应重新对环境条件和安全措施进行确认。",
+      "examPoint": "高处作业票有效期",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点36",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "高处作业票有效期"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-14",
+      "type": "single",
+      "stem": "在同一坠落方向上如需进行上下交叉作业，坠落高度超过（ ）的交叉作业应设双层防护。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15m"
+        },
+        {
+          "key": "B",
+          "text": "20m"
+        },
+        {
+          "key": "C",
+          "text": "24m"
+        },
+        {
+          "key": "D",
+          "text": "30m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "在同一坠落方向上，一般不应进行上下交叉作业，如需进行交叉作业，中间应设置安全防护层，坠落高度超过 24m 的交叉作业应设双层防护。30m 以上高处作业应配备通信联络工具。",
+      "examPoint": "高处作业防护",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点36",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "高处作业防护"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-15",
+      "type": "single",
+      "stem": "利用两台或多台起重机械吊运同一吊物时，各台起重机械所承受的载荷不应超过各自额定起重能力的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "70%"
+        },
+        {
+          "key": "B",
+          "text": "80%"
+        },
+        {
+          "key": "C",
+          "text": "90%"
+        },
+        {
+          "key": "D",
+          "text": "100%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "利用两台或多台起重机械吊运同一吊物时应保持同步，各台起重机械所承受的载荷不应超过各自额定起重能力的 80%。",
+      "examPoint": "双机抬吊载荷",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点37",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "双机抬吊载荷"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-16",
+      "type": "single",
+      "stem": "吊装作业在（ ）天气时不应露天作业。",
+      "options": [
+        {
+          "key": "A",
+          "text": "四级及以上大风"
+        },
+        {
+          "key": "B",
+          "text": "五级及以上大风"
+        },
+        {
+          "key": "C",
+          "text": "六级及以上大风"
+        },
+        {
+          "key": "D",
+          "text": "七级及以上大风"
+        }
+      ],
+      "answer": "C",
+      "explanation": "大雪、暴雨、大雾、六级及以上大风时，不应露天作业。注意区分：动火作业与高处作业对应的是五级风。",
+      "examPoint": "吊装恶劣天气",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点37",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "吊装恶劣天气"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-17",
+      "type": "single",
+      "stem": "临时用电线路架空敷设时，其最大弧垂与地面距离在作业现场不低于（ ），穿越机动车道不低于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.0m；4m"
+        },
+        {
+          "key": "B",
+          "text": "2.5m；5m"
+        },
+        {
+          "key": "C",
+          "text": "2.5m；4.5m"
+        },
+        {
+          "key": "D",
+          "text": "3m；5m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "临时用电架空线应采用绝缘铜芯线，并应架设在专用电杆或支架上，其最大弧垂与地面距离，在作业现场不低于 2.5m，穿越机动车道不低于 5m。",
+      "examPoint": "临时用电架空线",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点38",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "临时用电架空线"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-18",
+      "type": "single",
+      "stem": "临时用电时间一般不超过（ ），特殊情况不应超过（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "7天；15天"
+        },
+        {
+          "key": "B",
+          "text": "15天；30天"
+        },
+        {
+          "key": "C",
+          "text": "30天；60天"
+        },
+        {
+          "key": "D",
+          "text": "15天；45天"
+        }
+      ],
+      "answer": "B",
+      "explanation": "临时用电时间一般不超过 15 天，特殊情况不应超过 30 天；用于动火、受限空间作业的临时用电时间应和相应作业时间一致。",
+      "examPoint": "临时用电时限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点38",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "临时用电时限"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s9-19",
+      "type": "judge",
+      "stem": "动火作业、高处作业、吊装作业实行分级管理，其余特殊作业不涉及分级。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。动火作业、高处作业、吊装作业实行分级管理，其余特殊作业不涉及分级。注意：动火作业有节假日、夜间升级管理；高处作业没有节假日、夜间升级管理；吊装作业无升级管理。",
+      "examPoint": "特殊作业分级",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点32",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "特殊作业分级"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-02-s9-20",
+      "type": "judge",
+      "stem": "在盛装过易燃易爆危险化学品的设备、管道上动火作业时，可以用水封或仅关闭阀门代替盲板作为隔断措施。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "F",
+      "explanation": "错误。应将设备设施与生产系统彻底断开或隔离，不应以水封或仅关闭阀门代替盲板作为隔断措施。受限空间作业隔离同样不得用水封或关闭阀门代替盲板。",
+      "examPoint": "动火隔离措施",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点33",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 八大特殊作业安全管理",
+        "point": "动火隔离措施"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-02-s1-01",
+      "type": "single",
+      "stem": "生产经营单位依法对安全生产设施、设备或项目进行安全评价，属于七类安全生产主体责任中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "设备设施（或物质）保障责任"
+        },
+        {
+          "key": "B",
+          "text": "安全生产管理责任"
+        },
+        {
+          "key": "C",
+          "text": "规章制度制定责任"
+        },
+        {
+          "key": "D",
+          "text": "资金投入责任"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全评价属于「安全生产管理责任」。设备设施保障责任包括具备安全生产条件、履行三同时规定、提供劳动防护用品。注意：获取法律法规也属于安全生产管理责任。",
+      "examPoint": "主体责任分类",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产主体责任与规章制度",
+        "point": "主体责任分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s1-02",
+      "type": "single",
+      "stem": "技术规程、安全操作规程等技术性较强的安全生产规章制度，一般由（ ）签发。",
+      "options": [
+        {
+          "key": "A",
+          "text": "主要负责人"
+        },
+        {
+          "key": "B",
+          "text": "主管生产的领导或总工程师"
+        },
+        {
+          "key": "C",
+          "text": "安全管理部门负责人"
+        },
+        {
+          "key": "D",
+          "text": "职工代表大会"
+        }
+      ],
+      "answer": "B",
+      "explanation": "技术规程、安全操作规程等技术性较强的安全生产规章制度，一般由生产经营单位主管生产的领导或总工程师签发；涉及全局性的综合管理制度应由主要负责人签发。",
+      "examPoint": "规章制度签发权限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产主体责任与规章制度",
+        "point": "规章制度签发权限"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s1-03",
+      "type": "single",
+      "stem": "对安全操作规程类规章制度，除每年进行审查和修订外，每（ ）应进行一次全面修订，并重新发布。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-2年"
+        },
+        {
+          "key": "B",
+          "text": "2-3年"
+        },
+        {
+          "key": "C",
+          "text": "3-5年"
+        },
+        {
+          "key": "D",
+          "text": "5-8年"
+        }
+      ],
+      "answer": "C",
+      "explanation": "生产经营单位应每年制定规章制度制定、修订计划，并应公布现行有效的安全生产规章制度清单。对安全操作规程类规章制度，除每年进行审查和修订外，每 3-5 年应进行一次全面修订，并重新发布。",
+      "examPoint": "规章制度全面修订周期",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产主体责任与规章制度",
+        "point": "规章制度全面修订周期"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s1-04",
+      "type": "single",
+      "stem": "安全生产规章制度四大体系中，「三同时」制度属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "综合管理制度"
+        },
+        {
+          "key": "B",
+          "text": "人员制度"
+        },
+        {
+          "key": "C",
+          "text": "设备设施制度"
+        },
+        {
+          "key": "D",
+          "text": "环境制度"
+        }
+      ],
+      "answer": "C",
+      "explanation": "安全生产规章制度分为综合管理、人员管理、设备设施管理、环境管理 4 类。「三同时」制度、劳动防护用品发放使用和管理、定期巡视检查、定期维护检修、定期检测检验、安全操作规程、职业健康检查属于设备设施制度。",
+      "examPoint": "规章制度四大体系",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产主体责任与规章制度",
+        "point": "规章制度四大体系"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s1-05",
+      "type": "judge",
+      "stem": "生产经营单位制定或者修改有关安全生产的规章制度，应当听取工会的意见。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。生产经营单位制定或者修改有关安全生产的规章制度，应当听取工会的意见。会签或公开征求意见阶段，意见不能取得一致时，应由分管领导组织讨论。",
+      "examPoint": "规章制度会签",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产主体责任与规章制度",
+        "point": "规章制度会签"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-02-s2-01",
+      "type": "single",
+      "stem": "高危企业主要负责人的新上岗（初次）安全培训时间不得少于（ ）学时，每年再培训时间不得少于（ ）学时。",
+      "options": [
+        {
+          "key": "A",
+          "text": "32；12"
+        },
+        {
+          "key": "B",
+          "text": "48；16"
+        },
+        {
+          "key": "C",
+          "text": "72；20"
+        },
+        {
+          "key": "D",
+          "text": "24；12"
+        }
+      ],
+      "answer": "B",
+      "explanation": "高危企业主要负责人及安全生产管理人员：初次培训 48 学时，再培训 16 学时。非高危企业为 32/12。其他人员高危 72/20，非高危 24。",
+      "examPoint": "安全培训学时",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "安全培训学时"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s2-02",
+      "type": "single",
+      "stem": "高危企业其他从业人员的新上岗安全培训时间不得少于（ ）学时。",
+      "options": [
+        {
+          "key": "A",
+          "text": "24"
+        },
+        {
+          "key": "B",
+          "text": "32"
+        },
+        {
+          "key": "C",
+          "text": "48"
+        },
+        {
+          "key": "D",
+          "text": "72"
+        }
+      ],
+      "answer": "D",
+      "explanation": "高危企业其他人员初次培训 72 学时，再培训 20 学时。非高危企业其他人员初次培训 24 学时。高危企业指煤矿、非煤矿山、危险化学品、烟花爆竹、金属冶炼企业。",
+      "examPoint": "其他人员培训学时",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "其他人员培训学时"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s2-03",
+      "type": "single",
+      "stem": "特种作业操作证的有效期为（ ），（ ）范围内有效。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3年；本省"
+        },
+        {
+          "key": "B",
+          "text": "6年；全国"
+        },
+        {
+          "key": "C",
+          "text": "6年；本省"
+        },
+        {
+          "key": "D",
+          "text": "3年；全国"
+        }
+      ],
+      "answer": "B",
+      "explanation": "特种作业操作证有效期为 6 年，在全国范围内有效。换证应在有效期届满前 6 个月内完成相应的理论培训和理论考试，并在届满前 60 日内提出换证申请。",
+      "examPoint": "特种作业操作证有效期",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "特种作业操作证有效期"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s2-04",
+      "type": "single",
+      "stem": "特种作业人员的实际操作考试不得超过（ ），仍不合格的，申请人应当重新参加理论考试。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3次"
+        },
+        {
+          "key": "B",
+          "text": "5次"
+        },
+        {
+          "key": "C",
+          "text": "8次"
+        },
+        {
+          "key": "D",
+          "text": "不限次数"
+        }
+      ],
+      "answer": "B",
+      "explanation": "理论考试合格后方可参加实际操作考试；实际操作考试不得超过 5 次，仍不合格的，申请人应当重新参加理论考试。每次考试不合格的可按规定免费补考。",
+      "examPoint": "特种作业考试次数",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "特种作业考试次数"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s2-05",
+      "type": "single",
+      "stem": "从业人员在本生产经营单位内调整工作岗位或离岗（ ）以上重新上岗时，应当重新接受车间和班组级的安全培训。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3个月"
+        },
+        {
+          "key": "B",
+          "text": "6个月"
+        },
+        {
+          "key": "C",
+          "text": "1年"
+        },
+        {
+          "key": "D",
+          "text": "2年"
+        }
+      ],
+      "answer": "C",
+      "explanation": "从业人员在本生产经营单位内调整工作岗位或离岗一年以上重新上岗时，应当重新接受车间（工段、区、队）和班组级的安全培训。原则上由车间组织。",
+      "examPoint": "调整岗位重新培训",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "调整岗位重新培训"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s2-06",
+      "type": "multi",
+      "stem": "三级安全教育培训包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "厂级"
+        },
+        {
+          "key": "B",
+          "text": "车间级"
+        },
+        {
+          "key": "C",
+          "text": "班组级"
+        },
+        {
+          "key": "D",
+          "text": "工段级"
+        },
+        {
+          "key": "E",
+          "text": "岗位级"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "三级安全教育培训包括厂级、车间级、班组级。厂级培训重点是风险辨识、目标、规章制度、劳动纪律、考核奖惩、权利义务等；车间级侧重本岗位作业环境的风险辨识、评价和控制措施；班组级侧重岗位安全操作规程、岗位间衔接配合等。",
+      "examPoint": "三级安全教育培训",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "三级安全教育培训"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "mgmt-02-s2-07",
+      "type": "single",
+      "stem": "新从业人员进入班组后实习期间，（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可安排单独上岗作业"
+        },
+        {
+          "key": "B",
+          "text": "实习期间不得安排单独上岗作业"
+        },
+        {
+          "key": "C",
+          "text": "经班长同意可单独作业"
+        },
+        {
+          "key": "D",
+          "text": "实习满一周可单独作业"
+        }
+      ],
+      "answer": "B",
+      "explanation": "进入班组的新从业人员，都应有具体的跟班学习、实习期，实习期间不得安排单独上岗作业。我国传统的师傅带徒弟的方式，也是搞好班组安全教育培训的一种重要方法。",
+      "examPoint": "新从业人员实习要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 安全生产教育培训",
+        "point": "新从业人员实习要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s3-01",
+      "type": "single",
+      "stem": "建设项目安全设施试运行时间应当不少于（ ），最长不得超过（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "30日；180日"
+        },
+        {
+          "key": "B",
+          "text": "60日；180日"
+        },
+        {
+          "key": "C",
+          "text": "30日；90日"
+        },
+        {
+          "key": "D",
+          "text": "15日；180日"
+        }
+      ],
+      "answer": "A",
+      "explanation": "试运行时间应当不少于 30 日，最长不得超过 180 日，国家有关部门有规定或者特殊要求的行业除外。生产、储存危险化学品的建设项目和化工建设项目，应当在试运行前将试运行方案报负责安全许可的部门备案。",
+      "examPoint": "三同时试运行时限",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点11",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 建设项目“三同时”管理",
+        "point": "三同时试运行时限"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s3-02",
+      "type": "single",
+      "stem": "下列建设项目中，其安全设施设计不需要向应急管理部门提出审查申请，而由生产经营单位组织审查形成书面报告备查的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "非煤矿矿山建设项目"
+        },
+        {
+          "key": "B",
+          "text": "生产、储存危险化学品的建设项目"
+        },
+        {
+          "key": "C",
+          "text": "金属冶炼建设项目"
+        },
+        {
+          "key": "D",
+          "text": "普通机械加工厂房建设项目"
+        }
+      ],
+      "answer": "D",
+      "explanation": "需向应急管理部门提出审查申请的是：①非煤矿矿山建设项目 ②生产、储存危险化学品的建设项目 ③生产、储存烟花爆竹的建设项目 ④金属冶炼建设项目。其他建设项目安全设施设计，由生产经营单位组织审查，形成书面报告备查。",
+      "examPoint": "三同时设计审查范围",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点10",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 建设项目“三同时”管理",
+        "point": "三同时设计审查范围"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s3-03",
+      "type": "single",
+      "stem": "已经批准的建设项目及其安全设施设计，在下列哪种情形下应当报原批准部门审查同意，未经审查同意的不得开工建设（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "调整施工进度计划"
+        },
+        {
+          "key": "B",
+          "text": "改变安全设施设计且可能降低安全性能"
+        },
+        {
+          "key": "C",
+          "text": "更换施工单位"
+        },
+        {
+          "key": "D",
+          "text": "增加现场管理人员"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应报原批准部门审查同意的三种情形：①建设项目的规模、生产工艺、原料、设备发生重大变更的；②改变安全设施设计且可能降低安全性能的；③在施工期间重新设计的。",
+      "examPoint": "设计变更重新审批",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点10",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 建设项目“三同时”管理",
+        "point": "设计变更重新审批"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s3-04",
+      "type": "single",
+      "stem": "施工单位发现安全设施存在重大事故隐患时，应当（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "继续施工并报告建设单位"
+        },
+        {
+          "key": "B",
+          "text": "立即停止施工并报告生产经营单位进行整改，整改合格后方可恢复施工"
+        },
+        {
+          "key": "C",
+          "text": "自行整改后继续施工"
+        },
+        {
+          "key": "D",
+          "text": "报告监理单位即可"
+        }
+      ],
+      "answer": "B",
+      "explanation": "施工单位发现安全设施存在重大事故隐患时，应当立即停止施工并报告生产经营单位进行整改。整改合格后，方可恢复施工。施工单位发现设计文件有错漏的，应及时向生产经营单位、设计单位提出。",
+      "examPoint": "施工单位隐患处理",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点11",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 建设项目“三同时”管理",
+        "point": "施工单位隐患处理"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s3-05",
+      "type": "single",
+      "stem": "跨省、自治区、直辖市的建设项目和生产剧毒化学品的建设项目，其安全审查（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以委托下一级应急管理部门实施"
+        },
+        {
+          "key": "B",
+          "text": "不得委托实施安全审查"
+        },
+        {
+          "key": "C",
+          "text": "可以委托县级应急管理部门实施"
+        },
+        {
+          "key": "D",
+          "text": "由企业自行组织审查"
+        }
+      ],
+      "answer": "B",
+      "explanation": "负责实施建设项目安全审查的应急管理部门可以将其负责的工作委托下一级实施，审查结果由委托的部门负责。但跨省、自治区、直辖市的建设项目和生产剧毒化学品的建设项目，不得委托实施安全审查。",
+      "examPoint": "三同时委托审查限制",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点9",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 建设项目“三同时”管理",
+        "point": "三同时委托审查限制"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s4-01",
+      "type": "single",
+      "stem": "重大危险源安全包保责任制中，主要负责人、技术负责人、操作负责人组织安全风险隐患排查的频次分别是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每年；每半年；每季度"
+        },
+        {
+          "key": "B",
+          "text": "每半年；每季度；每周"
+        },
+        {
+          "key": "C",
+          "text": "每季度；每月；每周"
+        },
+        {
+          "key": "D",
+          "text": "每半年；每月；每周"
+        }
+      ],
+      "answer": "B",
+      "explanation": "主要负责人每半年至少 1 次；技术负责人每季度至少组织一次，重大活动、重点时段和节假日前均应组织；操作负责人每周至少组织一次。层级越低，频次越高。",
+      "examPoint": "安全包保排查频次",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点12",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "安全包保排查频次"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s4-02",
+      "type": "single",
+      "stem": "重大危险源辨识中，生产单元内装置及设施之间有切断阀时，以（ ）作为分隔界限划分为独立的单元。",
+      "options": [
+        {
+          "key": "A",
+          "text": "防火堤"
+        },
+        {
+          "key": "B",
+          "text": "切断阀"
+        },
+        {
+          "key": "C",
+          "text": "独立库房"
+        },
+        {
+          "key": "D",
+          "text": "管道走向"
+        }
+      ],
+      "answer": "B",
+      "explanation": "生产单元以切断阀作为分隔界限划分为独立单元。储存单元：①储罐区以罐区防火堤为界限；②仓库以独立库房（独立建筑物）为界限。注意：配管桥区可作为独立的评价单元；散设地上的管道不可作为独立单元处理。",
+      "examPoint": "评价单元划分",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "评价单元划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s4-03",
+      "type": "single",
+      "stem": "重大危险源分级中，校正系数 α 的取值依据是危险化学品重大危险源厂区边界向外扩展（ ）范围内常住人口数量。",
+      "options": [
+        {
+          "key": "A",
+          "text": "200m"
+        },
+        {
+          "key": "B",
+          "text": "300m"
+        },
+        {
+          "key": "C",
+          "text": "500m"
+        },
+        {
+          "key": "D",
+          "text": "1000m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "根据危险化学品重大危险源的厂区边界向外扩展 500m 范围内常住人口数量，设定暴露人员校正系数 α：0人 α=0.5；1~29人 α=1.0；30~49人 α=1.2；50~99人 α=1.5；≥100人 α=2.0。",
+      "examPoint": "重大危险源α系数",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "重大危险源α系数"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s4-04",
+      "type": "single",
+      "stem": "重大危险源分级中，R 值 ≥100 的属于（ ），对应的事故等级为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一级；特别重大事故"
+        },
+        {
+          "key": "B",
+          "text": "二级；重大事故"
+        },
+        {
+          "key": "C",
+          "text": "三级；较大事故"
+        },
+        {
+          "key": "D",
+          "text": "四级；一般事故"
+        }
+      ],
+      "answer": "A",
+      "explanation": "一级 R≥100 对应特别重大事故（重伤≥100人）；二级 R 50~100 对应重大事故；三级 R 10~50 对应较大事故；四级 R＜10 对应一般事故。",
+      "examPoint": "重大危险源分级标准",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "重大危险源分级标准"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s4-05",
+      "type": "single",
+      "stem": "同一危险化学品具有多种类别时，校正系数 β 的优先采用顺序是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "易燃气体＞毒性气体＞爆炸品＞其他危化品"
+        },
+        {
+          "key": "B",
+          "text": "毒性气体＞爆炸品＞易燃气体＞其他危化品"
+        },
+        {
+          "key": "C",
+          "text": "爆炸品＞毒性气体＞易燃气体＞其他危化品"
+        },
+        {
+          "key": "D",
+          "text": "其他危化品＞易燃气体＞爆炸品＞毒性气体"
+        }
+      ],
+      "answer": "B",
+      "explanation": "同一危险化学品具有多种类别，优先采用 β 系数类别顺序为：毒性气体＞爆炸品＞易燃气体＞其他危化品。",
+      "examPoint": "重大危险源β系数",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "重大危险源β系数"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s4-06",
+      "type": "single",
+      "stem": "重大危险源辨识中，生产单元、储存单元内危险化学品为多品种时的判定公式是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "S = Σqᵢ / Qᵢ ≤ 1"
+        },
+        {
+          "key": "B",
+          "text": "S = Σqᵢ / Qᵢ ≥ 1"
+        },
+        {
+          "key": "C",
+          "text": "S = Σqᵢ × Qᵢ ≥ 1"
+        },
+        {
+          "key": "D",
+          "text": "S = ΣQᵢ / qᵢ ≥ 1"
+        }
+      ],
+      "answer": "B",
+      "explanation": "多品种时按规定计算，若 S = q₁/Q₁ + q₂/Q₂ + …… + qₙ/Qₙ ≥ 1，则定为重大危险源。其中 q 为每种危险化学品实际存在量（t，按设计最大量确定），Q 为对应的临界量（t）。",
+      "examPoint": "重大危险源判定公式",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点13",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 重大危险源管理",
+        "point": "重大危险源判定公式"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s5-01",
+      "type": "single",
+      "stem": "承压蒸汽锅炉的划分标准是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "容积≥30L，且压力≥0.1MPa"
+        },
+        {
+          "key": "B",
+          "text": "容积≥50L，且压力≥0.2MPa"
+        },
+        {
+          "key": "C",
+          "text": "容积≥30L，且压力≥0.2MPa"
+        },
+        {
+          "key": "D",
+          "text": "容积≥20L，且压力≥0.1MPa"
+        }
+      ],
+      "answer": "A",
+      "explanation": "承压蒸汽锅炉：容积≥30L，且压力≥0.1MPa。承压热水锅炉：出口水压≥0.1MPa（表压），且额定功率≥0.1MW。有机热载体锅炉：功率≥0.1MW。",
+      "examPoint": "锅炉划分标准",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点14",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "锅炉划分标准"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s5-02",
+      "type": "single",
+      "stem": "气瓶的划分标准中，压力与容积的乘积应（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "≥0.1MPa·L"
+        },
+        {
+          "key": "B",
+          "text": "≥0.5MPa·L"
+        },
+        {
+          "key": "C",
+          "text": "≥1.0MPa·L"
+        },
+        {
+          "key": "D",
+          "text": "≥2.0MPa·L"
+        }
+      ],
+      "answer": "C",
+      "explanation": "气瓶：①公称工作压力≥0.2MPa（表压）②压力与容积的乘积≥1.0MPa·L ③盛装介质为气体、液化气体和标准沸点≤60℃液体。",
+      "examPoint": "气瓶划分标准",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点14",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "气瓶划分标准"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s5-03",
+      "type": "single",
+      "stem": "在用的特种设备，使用单位应当至少（ ）进行一次自行检查，并作出记录。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每15日"
+        },
+        {
+          "key": "B",
+          "text": "每月"
+        },
+        {
+          "key": "C",
+          "text": "每季度"
+        },
+        {
+          "key": "D",
+          "text": "每半年"
+        }
+      ],
+      "answer": "B",
+      "explanation": "特种设备使用单位对在用特种设备应当至少每月进行一次自行检查，并作出记录。电梯应当至少每 15 日进行一次清洁、润滑、调整和检查。",
+      "examPoint": "自行检查频次",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点17",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "自行检查频次"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s5-04",
+      "type": "single",
+      "stem": "电梯的日常维护保养中，应当至少每（ ）进行一次清洁、润滑、调整和检查。",
+      "options": [
+        {
+          "key": "A",
+          "text": "7日"
+        },
+        {
+          "key": "B",
+          "text": "15日"
+        },
+        {
+          "key": "C",
+          "text": "30日"
+        },
+        {
+          "key": "D",
+          "text": "60日"
+        }
+      ],
+      "answer": "B",
+      "explanation": "电梯应当至少每 15 日进行一次清洁、润滑、调整和检查。电梯的日常维护保养必须由依照本条例取得许可的安装、改造、维修单位或者电梯制造单位进行。",
+      "examPoint": "电梯维护保养频次",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点17",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "电梯维护保养频次"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s5-05",
+      "type": "single",
+      "stem": "特种设备使用单位应当在检验合格有效期届满前（ ）向特种设备检验机构提出定期检验的要求。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15日"
+        },
+        {
+          "key": "B",
+          "text": "1个月"
+        },
+        {
+          "key": "C",
+          "text": "2个月"
+        },
+        {
+          "key": "D",
+          "text": "3个月"
+        }
+      ],
+      "answer": "B",
+      "explanation": "特种设备使用单位应当按照安全技术规范的要求，在检验合格有效期届满前一个月向特种设备检验机构提出定期检验的要求。未经定期检验或者检验不合格的特种设备，不得继续使用。",
+      "examPoint": "定期检验申请时限",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点17",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "定期检验申请时限"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s5-06",
+      "type": "single",
+      "stem": "特种设备应当在投入使用前或者投入使用后（ ）内，向特种设备安全监督管理部门登记。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15日"
+        },
+        {
+          "key": "B",
+          "text": "30日"
+        },
+        {
+          "key": "C",
+          "text": "60日"
+        },
+        {
+          "key": "D",
+          "text": "90日"
+        }
+      ],
+      "answer": "B",
+      "explanation": "特种设备在投入使用前或者投入使用后 30 日内，特种设备使用单位应当向直辖市或者设区的市的特种设备安全监督管理部门登记。对于整机出厂的特种设备，一般应当在投入使用前办理使用登记。",
+      "examPoint": "使用登记时限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点15",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "使用登记时限"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s5-07",
+      "type": "multi",
+      "stem": "下列特种设备中，应当按单位办理使用登记的有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "气瓶（车用气瓶除外）"
+        },
+        {
+          "key": "B",
+          "text": "工业管道"
+        },
+        {
+          "key": "C",
+          "text": "电梯"
+        },
+        {
+          "key": "D",
+          "text": "锅炉"
+        },
+        {
+          "key": "E",
+          "text": "起重机械"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "按单位办理使用登记的特种设备：气瓶（车用气瓶除外）、工业管道，以使用单位为对象。锅炉、压力容器（气瓶除外）、电梯、起重机械、客运索道、大型游乐设施和场（厂）内专用机动车辆应当按台（套）办理；车用气瓶以车为单位。",
+      "examPoint": "使用登记标准",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点15",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "使用登记标准"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "mgmt-02-s5-08",
+      "type": "judge",
+      "stem": "对达到设计使用年限的特种设备，原制造企业仍应承担相应安全责任。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "F",
+      "explanation": "错误。对达到设计使用年限的特种设备，原制造企业不再承担相应安全责任，而是由对其进行修理、改造或安全评估的机构承担相应安全责任。",
+      "examPoint": "超期使用责任转移",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点18",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特种设备安全管理",
+        "point": "超期使用责任转移"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-02-s6-01",
+      "type": "single",
+      "stem": "机械装置的安全防护罩、室内外变压器的安全栅栏，属于防止事故发生安全技术措施中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "消除危险源"
+        },
+        {
+          "key": "B",
+          "text": "限制能量或危险物质"
+        },
+        {
+          "key": "C",
+          "text": "隔离"
+        },
+        {
+          "key": "D",
+          "text": "故障—安全设计"
+        }
+      ],
+      "answer": "C",
+      "explanation": "隔离是一种常用的控制能量或危险物质的安全技术措施，例如机械装置的安全防护罩或安全防护壳、室内外变压器的安全栅栏。消除危险源包括选择合适的工艺技术设备、合理的结构形式、选择无害无毒物料。",
+      "examPoint": "安全技术措施分类",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点19",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 安全技术措施与安全色标志",
+        "point": "安全技术措施分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s6-02",
+      "type": "single",
+      "stem": "选择无害、无毒或不能致人伤害的物料，属于防止事故发生安全技术措施中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "消除危险源"
+        },
+        {
+          "key": "B",
+          "text": "隔离"
+        },
+        {
+          "key": "C",
+          "text": "限制能量"
+        },
+        {
+          "key": "D",
+          "text": "故障—安全设计"
+        }
+      ],
+      "answer": "A",
+      "explanation": "消除危险源包括：①选择合适的工艺、技术、设备和设施（如防爆电气设备的选择）②合理的结构形式（设计合理的安全距离、避免锐边尖角）③选择无害、无毒或不能致人伤害的物料（原料或工艺采取无毒替换有毒）。",
+      "examPoint": "消除危险源",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点19",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 安全技术措施与安全色标志",
+        "point": "消除危险源"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s6-03",
+      "type": "single",
+      "stem": "腐蚀性介质的作业场所应在现场就近（ ）内配备人员应急用冲洗水源。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15m"
+        },
+        {
+          "key": "B",
+          "text": "30m"
+        },
+        {
+          "key": "C",
+          "text": "50m"
+        },
+        {
+          "key": "D",
+          "text": "100m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "腐蚀性介质的作业场所应在现场就近（30m 内）配备人员应急用冲洗水源。",
+      "examPoint": "冲洗水源距离",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点31",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 安全技术措施与安全色标志",
+        "point": "冲洗水源距离"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s7-01",
+      "type": "single",
+      "stem": "安全生产责任保险的行业范围不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "矿山"
+        },
+        {
+          "key": "B",
+          "text": "危险化学品"
+        },
+        {
+          "key": "C",
+          "text": "渔业生产"
+        },
+        {
+          "key": "D",
+          "text": "餐饮服务"
+        }
+      ],
+      "answer": "D",
+      "explanation": "安责险行业范围：矿山、危险化学品、烟花爆竹、交通运输、建筑施工、民用爆炸物品、金属冶炼、渔业生产等高危行业、领域。助记口诀：金矿危烟，建交爆渔。",
+      "examPoint": "安责险行业范围",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点28",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全生产费用与责任保险",
+        "point": "安责险行业范围"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s7-02",
+      "type": "single",
+      "stem": "安全生产责任保险中，每人死亡伤残责任限额不得低于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "20万元"
+        },
+        {
+          "key": "B",
+          "text": "30万元"
+        },
+        {
+          "key": "C",
+          "text": "40万元"
+        },
+        {
+          "key": "D",
+          "text": "50万元"
+        }
+      ],
+      "answer": "C",
+      "explanation": "每人死亡伤残责任限额不得低于 40 万元。各地区可根据实际情况确定安责险中涉及人员死亡的最低责任限额，并按本地区城镇居民人均可支配收入的变化适时调整。",
+      "examPoint": "安责险责任限额",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点28",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全生产费用与责任保险",
+        "point": "安责险责任限额"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s7-03",
+      "type": "single",
+      "stem": "关于安全生产责任保险，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "保费可以摊派给从业人员个人承担"
+        },
+        {
+          "key": "B",
+          "text": "生产经营单位应当及时足额缴纳安责险保费，不得以任何方式摊派给从业人员个人"
+        },
+        {
+          "key": "C",
+          "text": "安责险只覆盖正式员工"
+        },
+        {
+          "key": "D",
+          "text": "保险金额可因工作岗位不同而有差别"
+        }
+      ],
+      "answer": "B",
+      "explanation": "生产经营单位应当及时足额缴纳安责险保费，不得以任何方式摊派给从业人员个人。保费可以据实从企业安全生产费用中列支。安责险覆盖全体从业人员，保险金额实行同一标准，不得因用工方式、工作岗位等差别对待。",
+      "examPoint": "安责险缴纳与覆盖",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点28",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全生产费用与责任保险",
+        "point": "安责险缴纳与覆盖"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s7-04",
+      "type": "single",
+      "stem": "企业提取的安全生产费用属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "政府监管的专项资金"
+        },
+        {
+          "key": "B",
+          "text": "企业自提自用资金"
+        },
+        {
+          "key": "C",
+          "text": "第三方托管资金"
+        },
+        {
+          "key": "D",
+          "text": "行业协会统筹资金"
+        }
+      ],
+      "answer": "B",
+      "explanation": "企业提取的安全生产费用属于企业自提自用资金，除集团总部按规定统筹使用外，任何单位和个人不得采取收取、代管等形式对其进行集中管理和使用。法律、行政法规另有规定的，从其规定。",
+      "examPoint": "安全生产费用性质",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点27",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全生产费用与责任保险",
+        "point": "安全生产费用性质"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s7-05",
+      "type": "judge",
+      "stem": "企业作为承揽人向客户提供服务，且外购材料和服务成本高于自客户取得营业收入85%以上的，可以将营业收入扣除相关外购材料和服务成本的净额，作为安全生产费用计提依据。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。企业作为承揽人或承运人向客户提供纳入本办法规定范围的服务，且外购材料和服务成本高于自客户取得营业收入 85% 以上的，可以将营业收入扣除相关外购材料和服务成本的净额，作为企业安全生产费用计提依据。",
+      "examPoint": "安全生产费用计提依据",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点26",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全生产费用与责任保险",
+        "point": "安全生产费用计提依据"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-02-s8-01",
+      "type": "single",
+      "stem": "生产经营单位应当每季、每年对本单位事故隐患排查治理情况进行统计分析，并分别于下一季度（ ）前和下一年（ ）前报送书面统计分析表。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15日；1月31日"
+        },
+        {
+          "key": "B",
+          "text": "10日；1月31日"
+        },
+        {
+          "key": "C",
+          "text": "15日；1月15日"
+        },
+        {
+          "key": "D",
+          "text": "20日；2月1日"
+        }
+      ],
+      "answer": "A",
+      "explanation": "生产经营单位应当每季、每年对本单位事故隐患排查治理情况进行统计分析，并分别于下一季度 15 日前和下一年 1 月 31 日前向安全监管监察部门和有关部门报送书面统计分析表，统计分析表应当由主要负责人签字。",
+      "examPoint": "隐患统计分析报送",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点29",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "隐患统计分析报送"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s8-02",
+      "type": "single",
+      "stem": "对于一般事故隐患，由（ ）立即组织整改。",
+      "options": [
+        {
+          "key": "A",
+          "text": "生产经营单位主要负责人"
+        },
+        {
+          "key": "B",
+          "text": "生产经营单位（车间、分厂、区队等）负责人或者有关人员"
+        },
+        {
+          "key": "C",
+          "text": "安全管理部门负责人"
+        },
+        {
+          "key": "D",
+          "text": "当地应急管理部门"
+        }
+      ],
+      "answer": "B",
+      "explanation": "对于一般事故隐患，由生产经营单位（车间、分厂、区队等）负责人或者有关人员立即组织整改。对于重大事故隐患，由生产经营单位主要负责人组织制定并实施事故隐患治理方案。",
+      "examPoint": "隐患整改责任划分",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点29",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "隐患整改责任划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s8-03",
+      "type": "multi",
+      "stem": "重大事故隐患报告内容应当包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "隐患的现状及其产生原因"
+        },
+        {
+          "key": "B",
+          "text": "隐患的危害程度和整改难易程度分析"
+        },
+        {
+          "key": "C",
+          "text": "隐患的治理方案"
+        },
+        {
+          "key": "D",
+          "text": "隐患责任人的处分决定"
+        },
+        {
+          "key": "E",
+          "text": "隐患的历史记录"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "重大事故隐患报告内容应当包括：①隐患的现状及其产生原因；②隐患的危害程度和整改难易程度分析；③隐患的治理方案。",
+      "examPoint": "重大隐患报告内容",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点29",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "重大隐患报告内容"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "mgmt-02-s8-04",
+      "type": "single",
+      "stem": "对挂牌督办并采取全部或者局部停产停业治理的重大事故隐患，安全监管监察部门收到恢复生产的申请报告后，应当在（ ）内进行现场审查。",
+      "options": [
+        {
+          "key": "A",
+          "text": "5日"
+        },
+        {
+          "key": "B",
+          "text": "10日"
+        },
+        {
+          "key": "C",
+          "text": "15日"
+        },
+        {
+          "key": "D",
+          "text": "30日"
+        }
+      ],
+      "answer": "B",
+      "explanation": "对挂牌督办并采取全部或者局部停产停业治理的重大事故隐患，安全监管监察部门收到生产经营单位恢复生产的申请报告后，应当在 10 日内进行现场审查。审查合格的对事故隐患进行核销，同意恢复生产经营。",
+      "examPoint": "恢复生产审查时限",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点29",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "恢复生产审查时限"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s8-05",
+      "type": "single",
+      "stem": "个体防护装备的配备中，（ ）是整个配备流程的关键环节。",
+      "options": [
+        {
+          "key": "A",
+          "text": "采购和验收"
+        },
+        {
+          "key": "B",
+          "text": "危害因素的辨识和评估、个体防护装备的选择"
+        },
+        {
+          "key": "C",
+          "text": "发放和登记"
+        },
+        {
+          "key": "D",
+          "text": "报废和更换"
+        }
+      ],
+      "answer": "B",
+      "explanation": "个体防护装备的配备应按照相关流程执行，其中危害因素的辨识和评估、个体防护装备的选择是整个配备流程的关键环节。",
+      "examPoint": "个体防护配备关键环节",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点30",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "个体防护配备关键环节"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s8-06",
+      "type": "single",
+      "stem": "生产经营单位安排用于配备个体防护装备的专项经费，（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以货币形式发放给员工自行购买"
+        },
+        {
+          "key": "B",
+          "text": "可在成本中据实列支，不得以货币或者其他物品替代"
+        },
+        {
+          "key": "C",
+          "text": "可以发放实物替代"
+        },
+        {
+          "key": "D",
+          "text": "由员工个人承担"
+        }
+      ],
+      "answer": "B",
+      "explanation": "生产经营单位应当安排专项经费用于配备个体防护装备，在成本中据实列支，不得以货币或者其他物品替代。",
+      "examPoint": "个体防护经费要求",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点30",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "个体防护经费要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s8-07",
+      "type": "single",
+      "stem": "下列个体防护装备中，应当按照有效防护功能最低指标和有效使用期到期强制报废的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "工作服"
+        },
+        {
+          "key": "B",
+          "text": "安全帽、呼吸器、绝缘手套"
+        },
+        {
+          "key": "C",
+          "text": "防砸鞋"
+        },
+        {
+          "key": "D",
+          "text": "棉手套"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全帽、呼吸器、绝缘手套等安全性能要求高、易损耗的个体防护装备，应当按照有效防护功能最低指标和有效使用期，到期强制报废。被判废或被更换后的个体防护装备不得再次使用。",
+      "examPoint": "个体防护强制报废",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点30",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "个体防护强制报废"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s8-08",
+      "type": "single",
+      "stem": "公用的个体防护装备应当由（ ）统一保管，定期维护。",
+      "options": [
+        {
+          "key": "A",
+          "text": "个人自行保管"
+        },
+        {
+          "key": "B",
+          "text": "车间或班组"
+        },
+        {
+          "key": "C",
+          "text": "安全管理部门"
+        },
+        {
+          "key": "D",
+          "text": "仓库"
+        }
+      ],
+      "answer": "B",
+      "explanation": "个体防护装备应当按照要求妥善保存。公用的防护装备应当由车间或班组统一保管，定期维护。",
+      "examPoint": "公用防护装备保管",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点30",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 隐患排查治理与个体防护",
+        "point": "公用防护装备保管"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s10-01",
+      "type": "single",
+      "stem": "两个以上生产经营单位在同一作业区域内进行生产经营活动，可能危及对方生产安全的，应当（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "各自独立作业互不干涉"
+        },
+        {
+          "key": "B",
+          "text": "签订安全生产管理协议，明确各自的安全生产管理职责和应当采取的安全措施，并指定专职安全生产管理人员进行安全检查与协调"
+        },
+        {
+          "key": "C",
+          "text": "由其中一家统一管理即可"
+        },
+        {
+          "key": "D",
+          "text": "报当地政府审批"
+        }
+      ],
+      "answer": "B",
+      "explanation": "两个以上生产经营单位在同一作业区域内进行生产经营活动，可能危及对方生产安全的，应当签订安全生产管理协议，明确各自的安全生产管理职责和应当采取的安全措施，并指定专职安全生产管理人员进行安全检查与协调。",
+      "examPoint": "交叉作业安全管理",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点42",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "交叉作业安全管理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s10-02",
+      "type": "single",
+      "stem": "生产经营单位发包工程项目，应当以（ ）名义进行。",
+      "options": [
+        {
+          "key": "A",
+          "text": "生产经营单位"
+        },
+        {
+          "key": "B",
+          "text": "安全管理部门"
+        },
+        {
+          "key": "C",
+          "text": "工程项目部"
+        },
+        {
+          "key": "D",
+          "text": "发包经办人"
+        }
+      ],
+      "answer": "A",
+      "explanation": "生产经营单位发包工程项目，应以生产经营单位名义进行，严禁以某一部门的名义进行发包。生产经营单位应明确发包工程归口管理部门，统一对发包工程进行管理。",
+      "examPoint": "发包名义要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点40",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "发包名义要求"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-02-s10-03",
+      "type": "single",
+      "stem": "承包商资质审查中，安全资质要求企业提供近（ ）年的安全业绩。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1年"
+        },
+        {
+          "key": "B",
+          "text": "2年"
+        },
+        {
+          "key": "C",
+          "text": "3年"
+        },
+        {
+          "key": "D",
+          "text": "5年"
+        }
+      ],
+      "answer": "B",
+      "explanation": "承包商资质审查中，安全资质要求企业近两年的安全业绩，包括施工经历、重大安全事故情况档案、事故发生率及原始记录、安全隐患治理情况档案等。",
+      "examPoint": "承包商安全业绩年限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点41",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "承包商安全业绩年限"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s10-04",
+      "type": "single",
+      "stem": "在承包商队伍进入作业现场前，发包单位要对其进行（ ）方面的教育。",
+      "options": [
+        {
+          "key": "A",
+          "text": "消防安全、设备设施保护及社会治安"
+        },
+        {
+          "key": "B",
+          "text": "生产工艺和操作规程"
+        },
+        {
+          "key": "C",
+          "text": "财务结算流程"
+        },
+        {
+          "key": "D",
+          "text": "企业文化和价值观"
+        }
+      ],
+      "answer": "A",
+      "explanation": "在承包商队伍进入作业现场前，发包单位要对其进行消防安全、设备设施保护及社会治安方面的教育。承包商作业人员施工前，生产经营单位应将安全技术要求向承包商作业人员作出详细说明，双方签字确认。",
+      "examPoint": "承包商入场教育",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点42",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "承包商入场教育"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s10-05",
+      "type": "single",
+      "stem": "安全生产标准化建设采用（ ）的运行模式。",
+      "options": [
+        {
+          "key": "A",
+          "text": "PDCA"
+        },
+        {
+          "key": "B",
+          "text": "LS-PDCA（领导-支持-策划-实施-检查-改进）"
+        },
+        {
+          "key": "C",
+          "text": "OHSAS"
+        },
+        {
+          "key": "D",
+          "text": "ISO 9001"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全生产标准化采用 LS-PDCA（领导-支持-策划-实施-检查-改进）的运行模式。通过构建「安全风险管控」「隐患排查治理」「应急处置与救援」三道防线，推动企业安全生产管理模式向事前预防转型。",
+      "examPoint": "安全生产标准化运行模式",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点43",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "安全生产标准化运行模式"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-02-s10-06",
+      "type": "multi",
+      "stem": "安全生产标准化建设通过构建三道防线推动企业安全生产管理模式向事前预防转型，这三道防线是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全风险管控"
+        },
+        {
+          "key": "B",
+          "text": "隐患排查治理"
+        },
+        {
+          "key": "C",
+          "text": "应急处置与救援"
+        },
+        {
+          "key": "D",
+          "text": "安全教育培训"
+        },
+        {
+          "key": "E",
+          "text": "安全投入保障"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "三道防线：安全风险管控、隐患排查治理、应急处置与救援，推动企业安全生产管理模式向事前预防转型。",
+      "examPoint": "安全生产标准化三道防线",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点43",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "安全生产标准化三道防线"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "mgmt-02-s10-07",
+      "type": "single",
+      "stem": "大中型企业安全生产标准化管理体系设置一级要素（ ）个、二级要素（ ）个。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10；32"
+        },
+        {
+          "key": "B",
+          "text": "8；30"
+        },
+        {
+          "key": "C",
+          "text": "12；36"
+        },
+        {
+          "key": "D",
+          "text": "10；28"
+        }
+      ],
+      "answer": "A",
+      "explanation": "大中型企业安全生产标准化管理体系要素设置一级要素 10 个、二级要素 32 个。",
+      "examPoint": "标准化要素数量",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点43",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s10",
+        "sectionTitle": "第十节 承包商管理与安全生产标准化",
+        "point": "标准化要素数量"
+      },
+      "scope": "single"
+    }
+  ]
+}

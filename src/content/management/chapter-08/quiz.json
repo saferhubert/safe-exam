@@ -1,0 +1,441 @@
+{
+  "chapterNumber": 8,
+  "title": "第八章 安全生产统计分析 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-08-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "要比较某企业各车间事故起数的多少，宜选用的统计图是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "条图"
+        },
+        {
+          "key": "B",
+          "text": "圆图"
+        },
+        {
+          "key": "C",
+          "text": "线图"
+        },
+        {
+          "key": "D",
+          "text": "散点图"
+        }
+      ],
+      "answer": "A",
+      "explanation": "条图（直条图）表示独立指标在不同阶段的情况，选用原则是比较分类资料各类别数值大小。圆图用于分析事物内部各组成部分所占比重。",
+      "examPoint": "统计图选用原则",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第八章考点1",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "统计图选用原则"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "要描述某地区 10 年间事故死亡人数的变化趋势，宜选用的统计图是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "条图"
+        },
+        {
+          "key": "B",
+          "text": "圆图"
+        },
+        {
+          "key": "C",
+          "text": "线图"
+        },
+        {
+          "key": "D",
+          "text": "直方图"
+        }
+      ],
+      "answer": "C",
+      "explanation": "线图用线条的升降表示事物的发展变化趋势，主要用于计量资料，选用原则是描述事物随时间变化趋势或描述两现象相互变化趋势。若要描述「变化速度」则用半对数线图。",
+      "examPoint": "统计图选用原则",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第八章考点1",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "统计图选用原则"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-03",
+      "type": "single",
+      "stem": "描述某现象的数量在地域上的分布，宜选用的统计图是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "散点图"
+        },
+        {
+          "key": "B",
+          "text": "统计地图"
+        },
+        {
+          "key": "C",
+          "text": "直方图"
+        },
+        {
+          "key": "D",
+          "text": "半对数线图"
+        }
+      ],
+      "answer": "B",
+      "explanation": "统计地图用于描述某现象的数量在地域上的分布。散点图描述双变量资料的相互关系；直方图描述连续性变量的频数分布。",
+      "examPoint": "统计地图",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第八章考点1",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "统计图类型"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-04",
+      "type": "single",
+      "stem": "下列事故统计指标中，属于「相对指标」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事故起数"
+        },
+        {
+          "key": "B",
+          "text": "死亡人数"
+        },
+        {
+          "key": "C",
+          "text": "千人事故死亡率"
+        },
+        {
+          "key": "D",
+          "text": "直接经济损失"
+        }
+      ],
+      "answer": "C",
+      "explanation": "绝对指标是反映伤亡事故全面情况的绝对数值，如事故起数、死亡人数、重伤人数、直接经济损失、损失工作日等。相对指标是两个相联系的绝对指标之比，如千人事故死亡率、百万吨死亡率等。",
+      "examPoint": "绝对指标与相对指标",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第八章考点2",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "统计指标体系"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-05",
+      "type": "single",
+      "stem": "某企业某年平均从业人员 5000 人，当年因事故死亡 2 人。该企业千人事故死亡率为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.4"
+        },
+        {
+          "key": "B",
+          "text": "0.04"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "0.0004"
+        }
+      ],
+      "answer": "A",
+      "explanation": "千人事故死亡率 = 死亡人数 ÷ 平均从业人员数 × 10³ = 2 ÷ 5000 × 1000 = 0.4。",
+      "examPoint": "千人事故死亡率计算",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点2",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "事故指标计算"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-06",
+      "type": "single",
+      "stem": "关于「百万人火灾死亡率」，其计算分母是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "平均从业人员数"
+        },
+        {
+          "key": "B",
+          "text": "机动车数"
+        },
+        {
+          "key": "C",
+          "text": "地区总人口"
+        },
+        {
+          "key": "D",
+          "text": "实际产量"
+        }
+      ],
+      "answer": "C",
+      "explanation": "百万人火灾死亡率 = 火灾造成的死亡人数 ÷ 地区总人口 × 10⁶。注意：绝大多数指标的分母是「单位平均从业人员」，但火灾死亡率的分母是「地区平均人口」，这是高频易错点。",
+      "examPoint": "百万人火灾死亡率",
+      "difficulty": "hard",
+      "source": "考点精粹手册 第八章考点2",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "事故指标计算"
+      }
+    },
+    {
+      "id": "mgmt-08-s1-07",
+      "type": "judge",
+      "stem": "百万工时死亡率的计算方法是：死亡人数 ÷ 实际总工时 × 10⁶。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。百万工时死亡率指一定时期内平均每百万工时因事故造成的死亡人数，计算方法是死亡人数 ÷ 实际总工时 × 10⁶。",
+      "examPoint": "百万工时死亡率",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点2",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 统计图类型与统计指标",
+        "point": "事故指标计算"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "下列费用中，属于事故「间接经济损失」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事故伤亡人员的医疗费"
+        },
+        {
+          "key": "B",
+          "text": "事故罚款"
+        },
+        {
+          "key": "C",
+          "text": "事故应急救援的救援人工费"
+        },
+        {
+          "key": "D",
+          "text": "伤亡人员亲属参与善后处理的交通费"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故罚款（单位实际罚款额，不含个人）属于间接经济损失。A、C 属于人身伤亡支出费用和应急救援费用，D 属于事务性费用，三者均为直接经济损失。",
+      "examPoint": "直接与间接经济损失划分",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "经济损失划分"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "事故直接经济损失统计应包括人身伤亡后所支出的费用、财产损失价值、事故应急救援费用、清理事故现场以及影响区域的费用和事务性费用。其助记口诀是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人财救清事"
+        },
+        {
+          "key": "B",
+          "text": "人财两空"
+        },
+        {
+          "key": "C",
+          "text": "救清理赔"
+        },
+        {
+          "key": "D",
+          "text": "清理善后"
+        }
+      ],
+      "answer": "A",
+      "explanation": "直接经济损失的 5 类：人身伤亡后所支出的费用、财产损失价值、事故应急救援费用、清理事故现场以及影响区域的费用、事务性费用。助记口诀：人财救清事（人才旧情事）。",
+      "examPoint": "直接经济损失构成",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "直接经济损失构成"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-03",
+      "type": "multi",
+      "stem": "下列属于事故「间接经济损失」的有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "停产、减产、停业、复产损失价值"
+        },
+        {
+          "key": "B",
+          "text": "补充新从业人员的招收和培训费用"
+        },
+        {
+          "key": "C",
+          "text": "事故应急救援的设备使用费"
+        },
+        {
+          "key": "D",
+          "text": "资源损失价值"
+        },
+        {
+          "key": "E",
+          "text": "因事故导致不能如期履行合同的赔偿费"
+        }
+      ],
+      "answer": "ABDE",
+      "explanation": "间接经济损失包括：停产减产停业复产损失价值、工作损失价值、资源损失价值、其他民事赔偿费（含不能如期履行合同的赔偿费）、事故罚款、补充新从业人员的招收和培训费用、事故调查费、消除事故次生危害主动支出的费用、其他间接经济损失。C 属于直接经济损失中的应急救援费用。",
+      "examPoint": "间接经济损失构成",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "间接经济损失构成"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-04",
+      "type": "single",
+      "stem": "计算工作损失价值时，若题干未告知生产经营单位上年法定工作日数，则应按照（ ）工作日计算。",
+      "options": [
+        {
+          "key": "A",
+          "text": "240"
+        },
+        {
+          "key": "B",
+          "text": "250"
+        },
+        {
+          "key": "C",
+          "text": "260"
+        },
+        {
+          "key": "D",
+          "text": "365"
+        }
+      ],
+      "answer": "B",
+      "explanation": "工作损失价值公式中，D 为生产经营单位上年法定工作日数，题干一般会告知，未告知时按照 250 工作日计算。",
+      "examPoint": "工作损失价值计算",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "工作损失价值"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-05",
+      "type": "judge",
+      "stem": "计算工作损失价值时，若生产经营单位上年税利为零或负值，则公式中的 M 取最近为正值的年份的利润总额。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。工作损失价值公式中 M 为生产经营单位上年度利润总额；若上年税利为零或负值，则 M 取最近为正值的年份的利润总额。",
+      "examPoint": "工作损失价值特殊情形",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "工作损失价值"
+      }
+    },
+    {
+      "id": "mgmt-08-s2-06",
+      "type": "single",
+      "stem": "某企业上年平均从业人员 200 人，上年度利润总额 500 万元，上年法定工作日数 250 日。事故总损失工作日数为 100 个工日。该事故的工作损失价值为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.5 万元"
+        },
+        {
+          "key": "B",
+          "text": "1 万元"
+        },
+        {
+          "key": "C",
+          "text": "2 万元"
+        },
+        {
+          "key": "D",
+          "text": "5 万元"
+        }
+      ],
+      "answer": "B",
+      "explanation": "VW = DL × M ÷ (S × D) = 100 × 500 ÷ (200 × 250) = 50000 ÷ 50000 = 1 万元。",
+      "examPoint": "工作损失价值计算",
+      "difficulty": "hard",
+      "source": "考点精粹手册 第八章考点3",
+      "sourceRef": {
+        "chapter": "chapter-08",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 伤亡事故经济损失计算",
+        "point": "工作损失价值"
+      }
+    }
+  ]
+}

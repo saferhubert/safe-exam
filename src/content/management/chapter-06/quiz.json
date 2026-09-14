@@ -1,0 +1,406 @@
+{
+  "chapterNumber": 6,
+  "title": "第六章 生产安全事故调查与分析 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-06-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "某起事故造成 5 人死亡。事故现场有关人员和李某（单位负责人）关于上报时限的说法，正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "李某应在接到报告后 2 小时内向县级以上应急管理部门报告"
+        },
+        {
+          "key": "B",
+          "text": "李某应在接到报告后 1 小时内向县级以上应急管理部门报告"
+        },
+        {
+          "key": "C",
+          "text": "李某应在接到报告后 24 小时内向省级应急管理部门报告"
+        },
+        {
+          "key": "D",
+          "text": "李某应立即向国务院报告"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故现场有关人员应当立即向本单位负责人报告；单位负责人接到报告后，应当于 1 小时内向事故发生地县级以上人民政府应急管理部门和负有安全生产监督管理职责的有关部门报告。部门每级上报时间不得超过 2 小时。",
+      "examPoint": "事故上报时限",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "事故上报时限"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "某起较大事故，关于部门逐级上报的时限要求，正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "部门每级上报的时间不得超过 1 小时"
+        },
+        {
+          "key": "B",
+          "text": "部门每级上报的时间不得超过 2 小时"
+        },
+        {
+          "key": "C",
+          "text": "部门每级上报的时间不得超过 4 小时"
+        },
+        {
+          "key": "D",
+          "text": "部门每级上报的时间不得超过 12 小时"
+        }
+      ],
+      "answer": "B",
+      "explanation": "部门每级上报的时间不得超过 2 小时，并应当同时报告本级人民政府。必要时可以越级上报。",
+      "examPoint": "事故续报与逐级上报",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "部门逐级上报时限"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-03",
+      "type": "single",
+      "stem": "某起重大事故，其事故调查的最终组织部门（直接组织调查的主体）是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "国务院或者国务院授权有关部门"
+        },
+        {
+          "key": "B",
+          "text": "省级人民政府"
+        },
+        {
+          "key": "C",
+          "text": "设区的市级人民政府"
+        },
+        {
+          "key": "D",
+          "text": "县级人民政府"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故调查组织：特别重大事故由国务院或国务院授权有关部门组织；重大事故由省级人民政府组织；较大事故由设区的市级人民政府组织；一般事故由县级人民政府负责。",
+      "examPoint": "事故调查组织权限",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "事故调查组织权限"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-04",
+      "type": "single",
+      "stem": "关于事故调查期限，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "自事故发生之日起 30 日内提交事故调查报告"
+        },
+        {
+          "key": "B",
+          "text": "自事故发生之日起 60 日内提交，特殊情况经批准延长最长不超过 60 日"
+        },
+        {
+          "key": "C",
+          "text": "自事故发生之日起 90 日内提交，不得延长"
+        },
+        {
+          "key": "D",
+          "text": "自事故发生之日起 60 日内提交，特殊情况可无限期延长"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故调查期限为自事故发生之日起 60 日内提交事故调查报告；特殊情况下经负责事故调查的人民政府批准，延长的期限最长不超过 60 日。技术鉴定所需时间不计入事故调查期限。",
+      "examPoint": "事故调查期限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "事故调查期限"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-05",
+      "type": "single",
+      "stem": "关于事故调查报告的批复时限，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "重大、较大、一般事故 15 日内批复；特别重大事故 30 日内批复"
+        },
+        {
+          "key": "B",
+          "text": "所有事故均为 15 日内批复"
+        },
+        {
+          "key": "C",
+          "text": "重大、较大、一般事故 30 日内批复；特别重大事故 60 日内批复"
+        },
+        {
+          "key": "D",
+          "text": "所有事故均为 30 日内批复，不得延长"
+        }
+      ],
+      "answer": "A",
+      "explanation": "重大、较大、一般事故，负责事故调查的人民政府应当自收到事故调查报告之日起 15 日内作出批复；特别重大事故 30 日内作出批复，特殊情况下批复时间可适当延长，但延长的时间最长不超过 30 日。",
+      "examPoint": "事故调查报告批复时限",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "批复时限"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-06",
+      "type": "judge",
+      "stem": "事故调查可以提级调查，也可以降级调查。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "F",
+      "explanation": "错误。事故调查的要求是「可以提级不可以降级」。省级、设区的市级、县级人民政府可以直接组织事故调查组，也可以授权或委托有关部门组织调查，且注意是同级授权或委托。",
+      "examPoint": "事故调查层级要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "提级不降级"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-07",
+      "type": "multi",
+      "stem": "事故调查组由有关人民政府、安全生产监督管理部门、负有安全生产监督管理职责的有关部门以及（ ）派人组成，并应当邀请人民检察院派人参加。",
+      "options": [
+        {
+          "key": "A",
+          "text": "监察机关"
+        },
+        {
+          "key": "B",
+          "text": "公安机关"
+        },
+        {
+          "key": "C",
+          "text": "工会"
+        },
+        {
+          "key": "D",
+          "text": "人民法院"
+        },
+        {
+          "key": "E",
+          "text": "律师事务所"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "事故调查组的组成包括：有关人民政府、安全生产监督管理部门、负有安全生产监督管理职责的有关部门、监察机关、公安机关以及工会派人组成，并应当邀请人民检察院派人参加。可以聘请有关专家参与调查。",
+      "examPoint": "事故调查组组成",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "事故调查组组成"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-08",
+      "type": "single",
+      "stem": "某起重大事故，关于续报频次的要求正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每日至少续报 1 次"
+        },
+        {
+          "key": "B",
+          "text": "每日至少续报 2 次"
+        },
+        {
+          "key": "C",
+          "text": "每周至少续报 2 次"
+        },
+        {
+          "key": "D",
+          "text": "无需续报"
+        }
+      ],
+      "answer": "B",
+      "explanation": "续报要求：较大涉险事故、一般事故、较大事故每日至少续报 1 次；重大事故、特别重大事故每日至少续报 2 次。",
+      "examPoint": "事故续报要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "续报频次"
+      }
+    },
+    {
+      "id": "mgmt-06-s1-09",
+      "type": "single",
+      "stem": "事故调查组进行现场调查取证时，安全生产行政执法人员的人数不得少于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 人"
+        },
+        {
+          "key": "B",
+          "text": "2 人"
+        },
+        {
+          "key": "C",
+          "text": "3 人"
+        },
+        {
+          "key": "D",
+          "text": "5 人"
+        }
+      ],
+      "answer": "B",
+      "explanation": "进行调查取证时，行政执法人员的人数不得少于 2 人。这是通用要求，在行政执法中同样适用。",
+      "examPoint": "调查取证人数要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点1",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故报告与调查",
+        "point": "调查取证人数"
+      }
+    },
+    {
+      "id": "mgmt-06-s2-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "根据事故原因分析理论，下列属于事故「间接原因」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事故现场作业人员未佩戴安全帽"
+        },
+        {
+          "key": "B",
+          "text": "事故现场设备存在缺陷的不安全状态"
+        },
+        {
+          "key": "C",
+          "text": "企业未按规定进行安全教育培训"
+        },
+        {
+          "key": "D",
+          "text": "作业人员违规操作"
+        }
+      ],
+      "answer": "C",
+      "explanation": "直接原因指与事故发生有直接因果关系的物的不安全状态和人的不安全行为（A、B、D）。间接原因指导致事故直接原因产生的原因，包括技术和设计缺陷、单位安全管理缺陷、监管部门问题等。未按规定培训属于安全管理缺陷。",
+      "examPoint": "直接原因与间接原因",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第六章考点2",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 事故原因分析与责任认定",
+        "point": "直接原因与间接原因"
+      }
+    },
+    {
+      "id": "mgmt-06-s2-02",
+      "type": "judge",
+      "stem": "判断事故直接原因的重要特征是：去掉直接原因，就可以避免事故发生。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。直接原因指与事故发生有直接因果关系的物的不安全状态和人的不安全行为，其重要特征就是「去掉直接原因，可以避免事故发生」。",
+      "examPoint": "直接原因判断特征",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第六章考点2",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 事故原因分析与责任认定",
+        "point": "直接原因特征"
+      }
+    },
+    {
+      "id": "mgmt-06-s2-03",
+      "type": "single",
+      "stem": "依据《生产安全事故调查技术规范》（GB 6442-2025），事故责任分析中应根据领导责任者在事故发生及后果中所起作用的大小，确定（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "直接责任者和间接责任者"
+        },
+        {
+          "key": "B",
+          "text": "主要领导责任和重要领导责任"
+        },
+        {
+          "key": "C",
+          "text": "全部责任和部分责任"
+        },
+        {
+          "key": "D",
+          "text": "刑事责任和行政责任"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故责任分析应确定直接责任者、领导责任者和其他责任者；并根据领导责任者在事故发生及后果中所起作用的大小，确定主要领导责任和重要领导责任。",
+      "examPoint": "事故责任认定",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第六章考点2",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 事故原因分析与责任认定",
+        "point": "事故责任认定"
+      }
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "chapterNumber": 7,
+  "title": "第七章 安全生产监管监察 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-07-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "我国安全生产监督管理体制中，属于综合监管部门的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "交通运输部"
+        },
+        {
+          "key": "B",
+          "text": "应急管理部门"
+        },
+        {
+          "key": "C",
+          "text": "住房和城乡建设部"
+        },
+        {
+          "key": "D",
+          "text": "市场监管部门"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应急管理部门是综合监管部门。行业监管部门包括交通运输部（交通、铁路、民航）、水利部（水利工程）、住房和城乡建设部（建筑工程）、工业和信息化部（国防工业、邮电）、文化和旅游（旅游）、市场监管（特种设备）等。",
+      "examPoint": "综合监管与行业监管",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "综合监管与行业监管"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "针对矿山这一危险性较高的特殊领域，我国建立的国家监察体制是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "省以下垂直管理"
+        },
+        {
+          "key": "B",
+          "text": "垂直管理，人财物全部由中央负责"
+        },
+        {
+          "key": "C",
+          "text": "垂直与分级相结合"
+        },
+        {
+          "key": "D",
+          "text": "完全归地方政府管理"
+        }
+      ],
+      "answer": "B",
+      "explanation": "矿山实行垂直管理的安全监察体制：国家设立国家矿山安全监察局，产矿地区设立省级局，省级局设若干监察处，监察机构的人、财、物全部由中央负责，避免受地方政府干扰。特种设备实行省以下垂直管理；水上交通实行垂直与分级相结合。",
+      "examPoint": "国家监察与地方监管",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "国家监察与地方监管"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-03",
+      "type": "single",
+      "stem": "我国特种设备的监察实行（ ）体制。",
+      "options": [
+        {
+          "key": "A",
+          "text": "国务院垂直管理"
+        },
+        {
+          "key": "B",
+          "text": "省以下垂直管理"
+        },
+        {
+          "key": "C",
+          "text": "市级以下垂直管理"
+        },
+        {
+          "key": "D",
+          "text": "属地分级管理"
+        }
+      ],
+      "answer": "B",
+      "explanation": "特种设备的监察实行省以下垂直管理的体制。矿山是纯垂直（人财物中央负责），水上交通是垂直与分级相结合。",
+      "examPoint": "特种设备监察体制",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "国家监察与地方监管"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-04",
+      "type": "multi",
+      "stem": "下列属于安全生产「其他监督」的有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "工会的监督"
+        },
+        {
+          "key": "B",
+          "text": "新闻媒体的监督"
+        },
+        {
+          "key": "C",
+          "text": "监察部门的监督"
+        },
+        {
+          "key": "D",
+          "text": "社会公众的监督"
+        },
+        {
+          "key": "E",
+          "text": "居民委员会、村民委员会等组织的监督"
+        }
+      ],
+      "answer": "ABDE",
+      "explanation": "政府监督主要有应急管理部门和其他负有安全生产监督管理职责部门的监督、监察部门的监督。其他监督包括安全技术/管理服务机构的监督、社会公众的监督、工会的监督、新闻媒体的监督、居民委员会和村民委员会等组织的监督。C 属于政府监督。",
+      "examPoint": "政府监督与其他监督",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "政府监督与其他监督"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-05",
+      "scope": "inline",
+      "type": "single",
+      "stem": "安全生产行政执法中，对生产经营单位处以（ ）以下罚款或者警告的行政处罚，执法人员可以当场作出行政处罚决定。",
+      "options": [
+        {
+          "key": "A",
+          "text": "200 元"
+        },
+        {
+          "key": "B",
+          "text": "1000 元"
+        },
+        {
+          "key": "C",
+          "text": "3000 元"
+        },
+        {
+          "key": "D",
+          "text": "5000 元"
+        }
+      ],
+      "answer": "C",
+      "explanation": "简易程序：违法事实确凿并有法定依据，对个人处以 200 元以下罚款、对生产经营单位处以 3000 元以下罚款或者警告的行政处罚的，安全生产行政执法人员可以当场作出行政处罚决定。口诀：个人 200，单位 3000。",
+      "examPoint": "行政处罚简易程序",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "行政处罚简易程序"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-06",
+      "type": "single",
+      "stem": "对确需立即查处的安全生产违法行为，可以先行调查取证，并在（ ）内补办立案手续。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 日"
+        },
+        {
+          "key": "B",
+          "text": "5 日"
+        },
+        {
+          "key": "C",
+          "text": "7 日"
+        },
+        {
+          "key": "D",
+          "text": "10 日"
+        }
+      ],
+      "answer": "B",
+      "explanation": "对确需立即查处的安全生产违法行为，可以先行调查取证，并在 5 日内补办立案手续。",
+      "examPoint": "行政处罚立案程序",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "行政处罚立案程序"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-07",
+      "type": "single",
+      "stem": "安全生产监督管理中，「有关安全生产许可事项的审批」和「三同时审查」属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事前监督管理"
+        },
+        {
+          "key": "B",
+          "text": "事中监督管理"
+        },
+        {
+          "key": "C",
+          "text": "事后监督管理"
+        },
+        {
+          "key": "D",
+          "text": "全过程监督管理"
+        }
+      ],
+      "answer": "A",
+      "explanation": "事前监督管理包括：①有关安全生产许可事项的审批（证书）②三同时审查。事中监督管理重点是作业场所的监督检查（行为监管、技术监管）；事后监督管理包括应急救援和事故处理。",
+      "examPoint": "监督管理方式",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "监督管理方式"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-08",
+      "type": "judge",
+      "stem": "监督检查时发现生产经营单位存在重大事故隐患，且在排除前或排除过程中无法保证安全的，应当责令从危险区域撤出作业人员，并责令暂时停产停业、停止建设、停止施工或者停止使用相关设施或设备，限期排除隐患。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。能够立即排除的，应当责令立即排除；重大事故隐患排除前或者排除过程中无法保证安全的，应当责令从危险区域撤出作业人员，并责令暂时停产停业、停止建设、停止施工或者停止使用相关设施或设备，限期排除隐患。",
+      "examPoint": "现场处理措施",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "现场处理措施"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-09",
+      "type": "multi",
+      "stem": "安全生产监督管理的方式按阶段划分为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事前监督管理"
+        },
+        {
+          "key": "B",
+          "text": "事中监督管理"
+        },
+        {
+          "key": "C",
+          "text": "事后监督管理"
+        },
+        {
+          "key": "D",
+          "text": "全程监督管理"
+        },
+        {
+          "key": "E",
+          "text": "专项监督管理"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "安全生产监督管理的方式分为：事前监督管理（许可审批、三同时审查）、事中监督管理（作业场所监督检查）、事后监督管理（应急救援、事故处理）。",
+      "examPoint": "监督管理方式阶段",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "监督管理方式"
+      }
+    },
+    {
+      "id": "mgmt-07-s1-10",
+      "type": "single",
+      "stem": "安全生产行政执法中，调查取证时执法人员的要求是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "不得少于 1 人，无需出示证件"
+        },
+        {
+          "key": "B",
+          "text": "不得少于 2 人，并出示有效的执法证件表明身份"
+        },
+        {
+          "key": "C",
+          "text": "不得少于 3 人，并出示有效的执法证件表明身份"
+        },
+        {
+          "key": "D",
+          "text": "人数不限，只需出示证件"
+        }
+      ],
+      "answer": "B",
+      "explanation": "调查取证时，执法人员不得少于 2 人，并出示有效的执法证件表明身份。",
+      "examPoint": "行政执法人数要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第七章考点1",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全生产监督管理",
+        "point": "行政执法要求"
+      }
+    }
+  ]
+}

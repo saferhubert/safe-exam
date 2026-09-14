@@ -1,0 +1,1259 @@
+{
+  "chapterNumber": 3,
+  "title": "第三章 安全评价 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-03-s1-01",
+      "type": "single",
+      "stem": "安全评价的程序顺序正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "前期准备→划分评价单元→辨识与分析危险有害因素→定性定量评价→提出安全对策措施建议→作出安全评价结论→编制安全评价报告"
+        },
+        {
+          "key": "B",
+          "text": "前期准备→辨识与分析危险有害因素→划分评价单元→定性定量评价→提出安全对策措施建议→作出安全评价结论→编制安全评价报告"
+        },
+        {
+          "key": "C",
+          "text": "辨识与分析危险有害因素→前期准备→划分评价单元→定性定量评价→作出安全评价结论→提出安全对策措施建议→编制安全评价报告"
+        },
+        {
+          "key": "D",
+          "text": "前期准备→辨识与分析危险有害因素→定性定量评价→划分评价单元→提出安全对策措施建议→编制安全评价报告→作出安全评价结论"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全评价程序：前期准备→辨识与分析危险、有害因素→划分评价单元→定性、定量评价→提出安全对策措施建议→作出安全评价结论→编制安全评价报告。顺序不能错，先辨识危险有害因素再划分评价单元。",
+      "examPoint": "安全评价程序",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全评价的程序与内容",
+        "point": "安全评价程序"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s1-02",
+      "type": "single",
+      "stem": "安全验收评价的划分评价单元不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "法律法规等方面的符合性"
+        },
+        {
+          "key": "B",
+          "text": "设施、设备、装置及工艺方面的安全性"
+        },
+        {
+          "key": "C",
+          "text": "企业经济效益与市场占有率"
+        },
+        {
+          "key": "D",
+          "text": "周边环境适应性和应急救援有效性"
+        }
+      ],
+      "answer": "C",
+      "explanation": "安全验收评价划分评价单元包括：①法律法规等方面的符合性 ②设施、设备、装置及工艺方面的安全性 ③物料、产品安全性能 ④公用工程、辅助设施配套性 ⑤周边环境适应性和应急救援有效性 ⑥人员管理和安全培训方面充分性。经济效益不属于安全评价单元。",
+      "examPoint": "安全验收评价单元划分",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全评价的程序与内容",
+        "point": "安全验收评价单元划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s1-03",
+      "type": "single",
+      "stem": "安全验收评价的符合性评价中，需要检查安全设施、设备、装置是否已与主体工程做到（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "同时设计、同时施工、同时投入生产和使用"
+        },
+        {
+          "key": "B",
+          "text": "同时规划、同时设计、同时施工"
+        },
+        {
+          "key": "C",
+          "text": "同时审批、同时建设、同时验收"
+        },
+        {
+          "key": "D",
+          "text": "同时设计、同时预算、同时结算"
+        }
+      ],
+      "answer": "A",
+      "explanation": "符合性评价包括：①检查各类安全生产相关证照是否齐全 ②审查、确认主体工程建设是否满足安全生产法律法规要求 ③检查安全设施、设备、装置是否已与主体工程同时设计、同时施工、同时投入生产和使用 ④检查安全生产管理措施是否到位。",
+      "examPoint": "符合性评价内容",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全评价的程序与内容",
+        "point": "符合性评价内容"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s1-04",
+      "type": "single",
+      "stem": "安全对策措施建议应具有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "针对性、可操作性和经济合理性"
+        },
+        {
+          "key": "B",
+          "text": "强制性、统一性和规范性"
+        },
+        {
+          "key": "C",
+          "text": "先进性、创新性和前瞻性"
+        },
+        {
+          "key": "D",
+          "text": "保密性、专有性和排他性"
+        }
+      ],
+      "answer": "A",
+      "explanation": "安全对策措施建议应具有针对性、可操作性和经济合理性。安全评价结论应按照客观、公正、真实的原则，严谨、明确地作出。",
+      "examPoint": "安全对策措施建议要求",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全评价的程序与内容",
+        "point": "安全对策措施建议要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s1-05",
+      "type": "single",
+      "stem": "安全预评价前期准备阶段，需要对（ ）进行实地调查。",
+      "options": [
+        {
+          "key": "A",
+          "text": "类比工程"
+        },
+        {
+          "key": "B",
+          "text": "同类事故现场"
+        },
+        {
+          "key": "C",
+          "text": "监管部门"
+        },
+        {
+          "key": "D",
+          "text": "行业协会"
+        }
+      ],
+      "answer": "A",
+      "explanation": "安全预评价前期准备：明确评价对象和评价范围，组建评价组，收集国内外相关法律法规、标准、行政规章、规范，收集并分析评价对象的基础资料、相关事故案例，对类比工程进行实地调查等。",
+      "examPoint": "安全预评价前期准备",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点1",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 安全评价的程序与内容",
+        "point": "安全预评价前期准备"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-01",
+      "type": "single",
+      "stem": "根据《生产过程危险和有害因素分类与代码》（GB/T 13861），「违章指挥」属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人的因素—心理、生理性危险和有害因素"
+        },
+        {
+          "key": "B",
+          "text": "人的因素—行为性危险和有害因素"
+        },
+        {
+          "key": "C",
+          "text": "管理因素"
+        },
+        {
+          "key": "D",
+          "text": "环境因素"
+        }
+      ],
+      "answer": "B",
+      "explanation": "指挥错误（指挥失误、违章指挥）代码 1201，属于人的因素中的行为性危险和有害因素。心理、生理性包括负荷超限、健康状况异常、从事禁忌作业、心理异常、辨识功能缺陷。",
+      "examPoint": "GB/T 13861 人的因素分类",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB/T 13861 人的因素分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s2-02",
+      "type": "single",
+      "stem": "根据 GB/T 13861，「防护距离不够」属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人的因素—行为性"
+        },
+        {
+          "key": "B",
+          "text": "物的因素—物理性"
+        },
+        {
+          "key": "C",
+          "text": "环境因素"
+        },
+        {
+          "key": "D",
+          "text": "管理因素"
+        }
+      ],
+      "answer": "B",
+      "explanation": "防护缺陷（无防护、防护装置设施缺陷、防护不当、支撑(支护)不当、防护距离不够）代码 2102，属于物的因素中的物理性危险和有害因素。",
+      "examPoint": "GB/T 13861 物理性因素",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB/T 13861 物理性因素"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s2-03",
+      "type": "single",
+      "stem": "根据 GB/T 13861，「强迫体位」属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人的因素"
+        },
+        {
+          "key": "B",
+          "text": "物的因素"
+        },
+        {
+          "key": "C",
+          "text": "环境因素—其他作业环境不良"
+        },
+        {
+          "key": "D",
+          "text": "管理因素"
+        }
+      ],
+      "answer": "C",
+      "explanation": "强迫体位代码 3901，属于环境因素中的「其他作业环境不良」。指生产设备、设施的设计或作业位置不符合人类工效学要求而易引起作业人员疲劳、劳损或事故的一种作业姿势。",
+      "examPoint": "GB/T 13861 环境因素",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB/T 13861 环境因素"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-04",
+      "type": "single",
+      "stem": "根据 GB/T 13861，下列属于「管理因素」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急管理缺陷"
+        },
+        {
+          "key": "B",
+          "text": "电离辐射"
+        },
+        {
+          "key": "C",
+          "text": "监护失误"
+        },
+        {
+          "key": "D",
+          "text": "室内作业场所狭窄"
+        }
+      ],
+      "answer": "A",
+      "explanation": "管理因素（代码 4）包括：机构和人员、制度及制度落实情况。具体含 41 管理机构设置和人员配备不健全、42 责任制不完善或未落实、43 管理制度不完善或未落实、44 投入不足、46 应急管理缺陷。",
+      "examPoint": "GB/T 13861 管理因素",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点2",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB/T 13861 管理因素"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-05",
+      "type": "single",
+      "stem": "根据《生产安全事故分类与编码》（GB 6441），由于防治水措施不到位导致地表水或地下水无控制地进入生产作业区造成的事故，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "淹溺"
+        },
+        {
+          "key": "B",
+          "text": "水害"
+        },
+        {
+          "key": "C",
+          "text": "坍塌"
+        },
+        {
+          "key": "D",
+          "text": "泄漏"
+        }
+      ],
+      "answer": "B",
+      "explanation": "水害：由于防治水措施不到位导致地表水或地下水无控制地进入生产作业区造成的事故。淹溺是大量液体或液态物质经口、鼻进入肺部使呼吸道阻塞，引起人体急性缺氧窒息伤亡的事故。注意区分：淹溺是人掉进水里，水害是水涌入将人淹了。",
+      "examPoint": "GB 6441 淹溺与水害",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB 6441 淹溺与水害"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-06",
+      "type": "single",
+      "stem": "根据 GB 6441，非高处作业时，坠落或跌倒至非液体或非液态物质基准面造成的事故，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "高处坠落"
+        },
+        {
+          "key": "B",
+          "text": "跌落"
+        },
+        {
+          "key": "C",
+          "text": "坍塌"
+        },
+        {
+          "key": "D",
+          "text": "淹溺"
+        }
+      ],
+      "answer": "B",
+      "explanation": "跌落：非高处作业时，坠落或跌倒至非液体或非液态物质基准面造成的事故。高处坠落是高处作业时发生坠落造成的事故。注意：从小于 2m 高度跌落在液体上造成伤害的属于淹溺。",
+      "examPoint": "GB 6441 高处坠落与跌落",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB 6441 高处坠落与跌落"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-07",
+      "type": "single",
+      "stem": "根据 GB 6441，建筑物、构筑物或堆置物等在外力、重力或环境作用下超过自身强度极限或因结构稳定性破坏发生塌落、倾倒造成的事故，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "滑坡"
+        },
+        {
+          "key": "B",
+          "text": "坍塌"
+        },
+        {
+          "key": "C",
+          "text": "水害"
+        },
+        {
+          "key": "D",
+          "text": "物体打击"
+        }
+      ],
+      "answer": "B",
+      "explanation": "坍塌：建筑物、构筑物或堆置物等在外力、重力或环境作用下超过自身强度极限或因结构稳定性破坏发生塌落、倾倒造成的事故。滑坡是由生产经营活动引发的斜坡岩土体沿着贯通剪切破坏面产生相对滑移造成的事故。区别：坍塌是人工物，滑坡是土体。",
+      "examPoint": "GB 6441 坍塌与滑坡",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB 6441 坍塌与滑坡"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s2-08",
+      "type": "judge",
+      "stem": "根据 GB 6441，泄漏仅指发生气体、液体或固体颗粒等流出或漏出造成的事故，未引发火灾、爆炸、中毒、窒息等次生事故。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。泄漏仅发生气体、液体或固体颗粒等流出或漏出造成的事故。判断原则：以最先发生、直接致害的事故类型为准；泄漏只是诱因的，按后续发生的爆炸/火灾/中毒定。",
+      "examPoint": "GB 6441 泄漏判定",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB 6441 泄漏判定"
+      },
+      "scope": "judge"
+    },
+    {
+      "id": "mgmt-03-s2-09",
+      "type": "single",
+      "stem": "根据 GB 6441，车辆在生产经营单位内部或生产作业场所内进行生产经营活动过程中由于碰撞、刮擦、碾压等造成的事故，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "道路（轨道）车辆致害"
+        },
+        {
+          "key": "B",
+          "text": "厂（场）内车辆致害"
+        },
+        {
+          "key": "C",
+          "text": "机械致害"
+        },
+        {
+          "key": "D",
+          "text": "起重致害"
+        }
+      ],
+      "answer": "B",
+      "explanation": "厂(场)内车辆致害：车辆在生产经营单位内部或生产作业场所内进行生产经营活动过程中由于碰撞、刮擦、碾压、挤压、翻车、脱轨等造成的事故。道路(轨道)车辆致害是在公共道路或轨道上。",
+      "examPoint": "GB 6441 车辆致害",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点3",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 危险有害因素辨识与分类",
+        "point": "GB 6441 车辆致害"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-01",
+      "type": "single",
+      "stem": "在安全预评价中使用最多的评价方法是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "道化学公司的火灾、爆炸危险指数法（DOW）"
+        },
+        {
+          "key": "B",
+          "text": "故障树分析法（FTA）"
+        },
+        {
+          "key": "C",
+          "text": "预先危险分析法（PHA）"
+        },
+        {
+          "key": "D",
+          "text": "风险矩阵法"
+        }
+      ],
+      "answer": "A",
+      "explanation": "道化学公司的火灾、爆炸危险指数法 DOW 在安全预评价中使用得最多。其基本特点：①基于对物质危险性和工艺过程危险性的评价（物质危险性更为基础）②未涉及人的、管理的因素 ③本质上是定性的、相对比较的方法。",
+      "examPoint": "DOW 法适用范围",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点4",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "DOW 法适用范围"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s3-02",
+      "type": "single",
+      "stem": "DOW 法中，火灾、爆炸危险指数 F&EI 的计算公式是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "F&EI = F1 × F2"
+        },
+        {
+          "key": "B",
+          "text": "F&EI = F3 × MF"
+        },
+        {
+          "key": "C",
+          "text": "F&EI = F2 × MF"
+        },
+        {
+          "key": "D",
+          "text": "F&EI = F1 + F2 + MF"
+        }
+      ],
+      "answer": "B",
+      "explanation": "确定工艺危险系数 F3 = F2 × F1；确定火灾、爆炸危险指数 F&EI = F3 × MF（MF 为物质系数）。这两个公式都是计算考点。",
+      "examPoint": "DOW 法计算公式",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点4",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "DOW 法计算公式"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s3-03",
+      "type": "single",
+      "stem": "帝国化学公司的蒙德法（ICI）在道化学危险指数评价法的基础上引进了（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人的因素"
+        },
+        {
+          "key": "B",
+          "text": "管理因素"
+        },
+        {
+          "key": "C",
+          "text": "毒性概念"
+        },
+        {
+          "key": "D",
+          "text": "经济指标"
+        }
+      ],
+      "answer": "C",
+      "explanation": "帝国化学工业公司的蒙德法在道化学危险指数评价法的基础上引进了毒性概念，并发展了一些新的补偿系数，提出了蒙德火灾、爆炸、毒性指标评价法。本题也是 2025 年超纲题涉及的评价方法应用方向。",
+      "examPoint": "ICI 蒙德法特点",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点4",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "ICI 蒙德法特点"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-04",
+      "type": "single",
+      "stem": "DOW 法的评价程序第③步是确定工艺危险系数 F3，其计算公式是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "F3 = F1 + F2"
+        },
+        {
+          "key": "B",
+          "text": "F3 = F2 × F1"
+        },
+        {
+          "key": "C",
+          "text": "F3 = F2 ÷ F1"
+        },
+        {
+          "key": "D",
+          "text": "F3 = F1 × MF"
+        }
+      ],
+      "answer": "B",
+      "explanation": "DOW 法评价程序：①选取工艺单元、确定物质系数 MF ②计算一般工艺危险系数 F1、特殊工艺危险系数 F2 ③确定工艺危险系数 F3（F3 = F2 × F1）④确定火灾、爆炸危险指数 F&EI（F&EI = F3 × MF）。",
+      "examPoint": "DOW 法 F3 计算",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点4",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "DOW 法 F3 计算"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-05",
+      "type": "single",
+      "stem": "预先危险分析方法（PHA）属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "宏观概略定性分析方法"
+        },
+        {
+          "key": "B",
+          "text": "精确定量分析方法"
+        },
+        {
+          "key": "C",
+          "text": "半定量分析方法"
+        },
+        {
+          "key": "D",
+          "text": "概率风险分析方法"
+        }
+      ],
+      "answer": "A",
+      "explanation": "预先危险分析是进一步进行危险分析的先导，是一种宏观概略定性分析方法。适用于固有系统中采取新的方法，接触新的物料、设备和设施的危险性评价，一般在项目的发展初期使用。",
+      "examPoint": "PHA 方法性质",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点5",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "PHA 方法性质"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-06",
+      "type": "single",
+      "stem": "PHA 危险性等级划分中，「会造成人员伤亡和系统损坏，要立即采取防范措施」的等级是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ⅰ级（安全的）"
+        },
+        {
+          "key": "B",
+          "text": "Ⅱ级（临界的）"
+        },
+        {
+          "key": "C",
+          "text": "Ⅲ级（危险的）"
+        },
+        {
+          "key": "D",
+          "text": "Ⅳ级（灾难性的）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "PHA 危险性分级：Ⅰ安全的（不会造成人员伤亡及系统损坏）；Ⅱ临界的（处于事故的边缘状态，暂时还不至于造成人员伤亡、系统破坏或降低系统性能，但应予以排除或采取控制措施）；Ⅲ危险的（会造成人员伤亡和系统损坏，要立即采取防范措施）；Ⅳ灾难性的（造成人员重大伤亡及系统严重破坏，必须予以果断排除并进行重点防范）。",
+      "examPoint": "PHA 危险性分级",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点5",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "PHA 危险性分级"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-07",
+      "type": "single",
+      "stem": "危险和可操作性研究方法（HAZOP）中使用引导词确定偏差后，下一步应当（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "直接制定补救措施"
+        },
+        {
+          "key": "B",
+          "text": "识别原因和后果"
+        },
+        {
+          "key": "C",
+          "text": "确定是否存在重大问题"
+        },
+        {
+          "key": "D",
+          "text": "识别保护检测和显示装置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "HAZOP 分析步骤：①将系统分解为若干部分 ②选择某一部分并明确设计目的 ③对每个要素使用引导词确定偏差 ④识别原因和后果 ⑤确定是否存在重大问题 ⑥识别保护、检测和显示装置 ⑦确定可能的补救/减缓措施 ⑧对建议措施达成一致意见。序号③④常考，通过引导词确定工艺偏差后应先识别原因和后果。",
+      "examPoint": "HAZOP 分析步骤",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "HAZOP 分析步骤"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-08",
+      "type": "single",
+      "stem": "HAZOP 中，引导词「过量（高）」的意义是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "完全实现不了设计或操作规定的要求"
+        },
+        {
+          "key": "B",
+          "text": "比设计规定的标准值数量增大或提前到达"
+        },
+        {
+          "key": "C",
+          "text": "比设计规定的标准值少或滞后到达"
+        },
+        {
+          "key": "D",
+          "text": "出现与设计或操作要求相反的事件和物"
+        }
+      ],
+      "answer": "B",
+      "explanation": "HAZOP 引导词：空白(无)指完全实现不了设计或操作规定的要求；过量(高)指比设计规定的标准值数量增大或提前到达；减量(低)指比设计规定的标准值少或滞后到达；相逆(反向)指出现与设计或操作要求相反的事件和物。",
+      "examPoint": "HAZOP 引导词",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "HAZOP 引导词"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-09",
+      "type": "single",
+      "stem": "HAZOP 方法中，「无流量」这一表述中，「无」是（ ），「流量」是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "参数；引导词"
+        },
+        {
+          "key": "B",
+          "text": "引导词；参数"
+        },
+        {
+          "key": "C",
+          "text": "后果；原因"
+        },
+        {
+          "key": "D",
+          "text": "偏差；原因"
+        }
+      ],
+      "answer": "B",
+      "explanation": "偏差 = 引导词 + 参数。例如「无流量」，「无」是引导词，「流量」是参数。通过分析工艺单元或操作步骤的节点，识别潜在的危险偏差。",
+      "examPoint": "HAZOP 偏差构成",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "HAZOP 偏差构成"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-10",
+      "type": "single",
+      "stem": "HAZOP 方法的主要缺点是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "方法过于复杂难以实施"
+        },
+        {
+          "key": "B",
+          "text": "分析结果受分析评价人员主观因素的影响"
+        },
+        {
+          "key": "C",
+          "text": "需要大量历史数据"
+        },
+        {
+          "key": "D",
+          "text": "无法用于现有生产装置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "HAZOP 优点是简便易行，背景各异的专家在一起工作能发现和鉴别更多问题，汇集集体智慧。缺点是分析结果受分析评价人员主观因素的影响。适用于设计阶段和现有的生产装置的评价。",
+      "examPoint": "HAZOP 优缺点",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点6",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "HAZOP 优缺点"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s3-11",
+      "type": "single",
+      "stem": "预先危险分析方法（PHA）的优点是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "精确度高、可量化"
+        },
+        {
+          "key": "B",
+          "text": "方法简单、易行、经济、有效"
+        },
+        {
+          "key": "C",
+          "text": "适用于已投产装置的详细分析"
+        },
+        {
+          "key": "D",
+          "text": "能完全消除危险"
+        }
+      ],
+      "answer": "B",
+      "explanation": "PHA 优点：①方法简单、易行、经济、有效 ②能为项目开发组分析和设计提供指南 ③能识别可能的危险，用很少的费用、时间实现改进。",
+      "examPoint": "PHA 优点",
+      "difficulty": "easy",
+      "source": "考点精粹手册 考点5",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 定性定量安全评价方法",
+        "point": "PHA 优点"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-01",
+      "type": "single",
+      "stem": "故障树分析中，代表「不要求进一步展开的基本引发故障事件」的符号是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "矩形符号"
+        },
+        {
+          "key": "B",
+          "text": "圆形符号"
+        },
+        {
+          "key": "C",
+          "text": "菱形符号"
+        },
+        {
+          "key": "D",
+          "text": "椭圆形符号"
+        }
+      ],
+      "answer": "B",
+      "explanation": "圆形符号代表基本事件，表示不要求进一步展开的基本引发故障事件（不能再往下分析的事件）。矩形符号代表顶上事件或中间事件；菱形符号代表未探明事件；椭圆形符号代表条件事件。",
+      "examPoint": "FTA 图形符号",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 图形符号"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s4-02",
+      "type": "single",
+      "stem": "故障树分析中，「仅当所有输入事件发生时，输出事件才发生」的逻辑门是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "或门"
+        },
+        {
+          "key": "B",
+          "text": "与门"
+        },
+        {
+          "key": "C",
+          "text": "异或门"
+        },
+        {
+          "key": "D",
+          "text": "表决门"
+        }
+      ],
+      "answer": "B",
+      "explanation": "与门：表示仅当所有输入事件发生时，输出事件才发生。或门：至少一个输入事件发生时，输出事件就发生。异或门：仅当单个输入事件发生时，输出事件才发生。",
+      "examPoint": "FTA 逻辑门",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 逻辑门"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "mgmt-03-s4-03",
+      "type": "single",
+      "stem": "设三个基本事件 X1、X2、X3 的发生概率均为 0.1，故障树结构式为 T = X1·X2·(X1+X3)，化简后顶上事件发生概率为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.0019"
+        },
+        {
+          "key": "B",
+          "text": "0.01"
+        },
+        {
+          "key": "C",
+          "text": "0.019"
+        },
+        {
+          "key": "D",
+          "text": "0.1"
+        }
+      ],
+      "answer": "B",
+      "explanation": "运用幂等律化简：T = X1·X2·(X1+X3) = X1·X2·X1 + X1·X2·X3 = X1·X2 + X1·X2·X3 = X1·X2。所以 qT = q1 × q2 = 0.1 × 0.1 = 0.01。不化简时错误地算出 0.0019，因为未考虑重复事件 X1。",
+      "examPoint": "FTA 化简与概率计算",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 化简与概率计算"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-04",
+      "type": "single",
+      "stem": "布尔代数中，A·A 等于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "A"
+        },
+        {
+          "key": "D",
+          "text": "2A"
+        }
+      ],
+      "answer": "C",
+      "explanation": "幂等律：A·A = A，A+A = A。这是化简故障树求最小割集时的常用定律。吸收律：A+A·B = A。",
+      "examPoint": "布尔代数幂等律",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "布尔代数幂等律"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-05",
+      "type": "single",
+      "stem": "若故障树最终化简后存在两个最小割集 A+B，则顶上事件发生概率的计算公式是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "q = qA + qB"
+        },
+        {
+          "key": "B",
+          "text": "q = qA × qB"
+        },
+        {
+          "key": "C",
+          "text": "q = qA + qB - qA × qB"
+        },
+        {
+          "key": "D",
+          "text": "q = qA + qB + qA × qB"
+        }
+      ],
+      "answer": "C",
+      "explanation": "情形1：最后存在两个最小割集 A+B，转换概率计算 q = qA + qB - qA × qB（必须掌握）。情形2：三个最小割集 A+B+C，q = qA+qB+qC - qA·qB - qA·qC - qB·qC + qA·qB·qC。",
+      "examPoint": "FTA 顶上事件概率",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 顶上事件概率"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-06",
+      "type": "single",
+      "stem": "故障树中，当某些基本事件都发生时顶上事件必然发生，且任意去掉一个基本事件就不再是割集，则该集合称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "割集"
+        },
+        {
+          "key": "B",
+          "text": "最小割集"
+        },
+        {
+          "key": "C",
+          "text": "径集"
+        },
+        {
+          "key": "D",
+          "text": "最小径集"
+        }
+      ],
+      "answer": "B",
+      "explanation": "割集指故障树中某些基本事件的集合，当这些事件都发生时，顶上事件必然发生。如果某一割集中任意去掉一个基本事件时，它就不再是割集了，则称其为最小割集。",
+      "examPoint": "FTA 最小割集",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 最小割集"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-07",
+      "type": "single",
+      "stem": "关于风险矩阵，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "横坐标为失效可能性，纵坐标为影响程度"
+        },
+        {
+          "key": "B",
+          "text": "横坐标为失效后果（影响程度），纵坐标为失效可能性（概率）"
+        },
+        {
+          "key": "C",
+          "text": "横纵坐标均为影响程度"
+        },
+        {
+          "key": "D",
+          "text": "横纵坐标均为可能性"
+        }
+      ],
+      "answer": "B",
+      "explanation": "风险矩阵的横坐标为失效后果（影响程度），纵坐标为失效可能性（概率）。工程管理中常用的是 5×5 风险矩阵，分为 3 个区域，依次为低风险区、中等风险区和高风险区。",
+      "examPoint": "风险矩阵坐标含义",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "风险矩阵坐标含义"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-08",
+      "type": "single",
+      "stem": "美国石油学会（API）推荐的基于风险检验方法中，将风险矩阵分为（ ）个区域。",
+      "options": [
+        {
+          "key": "A",
+          "text": "2个"
+        },
+        {
+          "key": "B",
+          "text": "3个"
+        },
+        {
+          "key": "C",
+          "text": "4个"
+        },
+        {
+          "key": "D",
+          "text": "5个"
+        }
+      ],
+      "answer": "C",
+      "explanation": "美国石油学会（API）推荐的基于风险检验方法中将风险矩阵分为 4 个区域，依次为低风险区、中等风险区、中高风险区和高风险区。工程管理中常用的 5×5 风险矩阵分为 3 个区域。",
+      "examPoint": "API 风险矩阵分区",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "API 风险矩阵分区"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-09",
+      "type": "single",
+      "stem": "概率风险分析方法也称（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "定性风险分析（QLA）"
+        },
+        {
+          "key": "B",
+          "text": "定量风险分析（QRA）或概率安全分析（PSA）"
+        },
+        {
+          "key": "C",
+          "text": "半定量风险分析"
+        },
+        {
+          "key": "D",
+          "text": "风险指数分析"
+        }
+      ],
+      "answer": "B",
+      "explanation": "概率风险分析方法也称定量风险分析（QRA）或概率安全分析（PSA）。常用的概率风险分析方法包括组合概率法、事故树分析、频率组合法、马尔科夫模型、管理失误和风险树分析（MORT）等。",
+      "examPoint": "QRA / PSA",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "QRA / PSA"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-10",
+      "type": "single",
+      "stem": "故障树中，代表「开关事件（正常事件）」的符号是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "矩形符号"
+        },
+        {
+          "key": "B",
+          "text": "圆形符号"
+        },
+        {
+          "key": "C",
+          "text": "房形符号"
+        },
+        {
+          "key": "D",
+          "text": "菱形符号"
+        }
+      ],
+      "answer": "C",
+      "explanation": "房形符号代表开关事件（正常事件），即在正常工作条件下必然发生或者必然不发生的特殊事件。圆形代表基本事件，菱形代表未探明事件，椭圆形代表条件事件。",
+      "examPoint": "FTA 事件符号",
+      "difficulty": "hard",
+      "source": "考点精粹手册 考点7",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "FTA 事件符号"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "mgmt-03-s4-11",
+      "type": "single",
+      "stem": "关于风险矩阵法，下列说法错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "风险矩阵是用于识别风险和对其进行优先排序的有效工具"
+        },
+        {
+          "key": "B",
+          "text": "风险矩阵是目前最常用的风险表征方法"
+        },
+        {
+          "key": "C",
+          "text": "风险表征就是采用什么方法和方式表示风险的大小和量值"
+        },
+        {
+          "key": "D",
+          "text": "风险矩阵只能采用定量方法进行评价"
+        }
+      ],
+      "answer": "D",
+      "explanation": "风险表征就是人们采用什么样的方法和方式表示风险的大小和量值。对失效发生可能性的高低、后果严重程度的评估有定性、定量等方法。所以 D 错误，风险矩阵可结合定性方法（如极低/低/中等/高/极高）使用。",
+      "examPoint": "风险矩阵法综合",
+      "difficulty": "medium",
+      "source": "考点精粹手册 考点8",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 常用评价方法详解",
+        "point": "风险矩阵法综合"
+      },
+      "scope": "single"
+    }
+  ]
+}

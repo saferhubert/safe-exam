@@ -1,0 +1,550 @@
+{
+  "chapterNumber": 4,
+  "title": "第四章 职业病危害预防和管理 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-04-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "职业病危害因素中，生产过程中产生的「化学因素」包括生产性粉尘和化学有毒物质。下列属于生产性粉尘的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "苯"
+        },
+        {
+          "key": "B",
+          "text": "矽尘"
+        },
+        {
+          "key": "C",
+          "text": "硫化氢"
+        },
+        {
+          "key": "D",
+          "text": "甲醇"
+        }
+      ],
+      "answer": "B",
+      "explanation": "生产性粉尘包括矽尘、煤尘、石棉尘、电焊烟尘等。化学有毒物质包括铅、汞、锰、苯、一氧化碳、硫化氢、甲醛、甲醇等。",
+      "examPoint": "职业病危害因素按来源分类",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第四章考点1",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "职业病危害因素分类"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "根据《职业病危害因素分类目录》，化学因素的种数是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "52 种"
+        },
+        {
+          "key": "B",
+          "text": "375 种"
+        },
+        {
+          "key": "C",
+          "text": "15 种"
+        },
+        {
+          "key": "D",
+          "text": "8 种"
+        }
+      ],
+      "answer": "B",
+      "explanation": "粉尘 52 种、化学因素 375 种、物理因素 15 种、放射性因素 8 种、生物因素 6 种、其他因素 3 种。口诀：尘 52、化 375、物 15、放 8、生 6、其他 3。",
+      "examPoint": "职业病危害因素分类目录种数",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点1",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "分类目录种数"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-03",
+      "type": "single",
+      "stem": "下列属于《职业病危害因素分类目录》中「其他因素」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "炭疽芽孢杆菌"
+        },
+        {
+          "key": "B",
+          "text": "氡及其短寿命子体"
+        },
+        {
+          "key": "C",
+          "text": "金属烟"
+        },
+        {
+          "key": "D",
+          "text": "噪声"
+        }
+      ],
+      "answer": "C",
+      "explanation": "其他因素（3 种）包括：金属烟、井下不良作业条件（限于井下工人）、刮研作业（限于手工刮研作业人员）。炭疽芽孢杆菌属生物因素，氡及其短寿命子体属放射性因素，噪声属物理因素。",
+      "examPoint": "其他因素分类",
+      "difficulty": "hard",
+      "source": "考点精粹手册 第四章考点1",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "分类目录种数"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-04",
+      "type": "single",
+      "stem": "某企业苯作业场所，苯在常温下是液体，通过挥发形成有毒物质存在形态。苯的存在形态属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "气态"
+        },
+        {
+          "key": "B",
+          "text": "蒸气"
+        },
+        {
+          "key": "C",
+          "text": "雾"
+        },
+        {
+          "key": "D",
+          "text": "烟"
+        }
+      ],
+      "answer": "B",
+      "explanation": "蒸气指常温下是液体挥发的形态，例如苯、丙酮；或常温下是固体有挥发性、特别是在高温工作场所，例如酚、三氧化二砷。铅烟、铜烟属于烟。",
+      "examPoint": "生产性毒物存在形态",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点2",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "职业中毒存在形态"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-05",
+      "type": "multi",
+      "stem": "生产性毒物侵入人体的途径有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "吸入"
+        },
+        {
+          "key": "B",
+          "text": "经皮吸收"
+        },
+        {
+          "key": "C",
+          "text": "食入"
+        },
+        {
+          "key": "D",
+          "text": "黏膜接触传染"
+        },
+        {
+          "key": "E",
+          "text": "血液注射"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "生产性毒物侵入人体的途径有：吸入、经皮吸收、食入（三条）。职业中毒类型分急性中毒、慢性中毒、亚急性中毒。",
+      "examPoint": "毒物侵入途径",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第四章考点2",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "职业中毒"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-06",
+      "type": "single",
+      "stem": "长期从事使用锤打工具、手持转动工具作业的工人，最可能导致的职业病是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "噪声聋"
+        },
+        {
+          "key": "B",
+          "text": "手臂振动病"
+        },
+        {
+          "key": "C",
+          "text": "白内障"
+        },
+        {
+          "key": "D",
+          "text": "电光性眼炎"
+        }
+      ],
+      "answer": "B",
+      "explanation": "振动（使用锤打工具、手持转动工具、固定轮转工具作业，驾驶交通运输工具或农业机械作业）导致手臂振动病。噪声导致噪声聋。",
+      "examPoint": "物理性因素致病",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第四章考点3",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "物理性因素致病"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-07",
+      "type": "single",
+      "stem": "电焊作业工人长期接触紫外线辐射，最可能导致的职业病是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "白内障"
+        },
+        {
+          "key": "B",
+          "text": "电光性眼炎"
+        },
+        {
+          "key": "C",
+          "text": "噪声聋"
+        },
+        {
+          "key": "D",
+          "text": "手臂振动病"
+        }
+      ],
+      "answer": "B",
+      "explanation": "紫外线辐射导致电光性眼炎（辐射源：冶炼炉、电焊、氧乙炔气焊、氩弧焊、等离子焊接等）。红外线辐射导致白内障（炼钢工、轧钢工、锻造工、焊接工可接触）。两者易混淆。",
+      "examPoint": "非电离辐射致病",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点3",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "物理性因素致病"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-08",
+      "type": "single",
+      "stem": "炼钢工、轧钢工长期接触红外线辐射，最可能导致的职业病是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电光性眼炎"
+        },
+        {
+          "key": "B",
+          "text": "噪声聋"
+        },
+        {
+          "key": "C",
+          "text": "白内障"
+        },
+        {
+          "key": "D",
+          "text": "中暑"
+        }
+      ],
+      "answer": "C",
+      "explanation": "红外线辐射导致白内障（炼钢工、轧钢工、锻造工、焊接工可接触）。紫外线导致电光性眼炎。异常气象条件导致中暑、减压病、高原病。",
+      "examPoint": "非电离辐射致病",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点3",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "物理性因素致病"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-09",
+      "type": "single",
+      "stem": "确认的职业性致癌物「苯」主要导致（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "肝血管瘤"
+        },
+        {
+          "key": "B",
+          "text": "白血病"
+        },
+        {
+          "key": "C",
+          "text": "膀胱癌"
+        },
+        {
+          "key": "D",
+          "text": "胸膜间皮瘤"
+        }
+      ],
+      "answer": "B",
+      "explanation": "苯导致白血病；氯乙烯导致肝血管瘤；联苯胺、4-氨基联苯、1-萘胺导致泌尿系统膀胱癌；石棉导致肺、胸膜间皮瘤。",
+      "examPoint": "职业性致癌物",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点4",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "职业性致癌物"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-10",
+      "type": "single",
+      "stem": "确认的职业性致癌物「氯乙烯」主要导致（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "白血病"
+        },
+        {
+          "key": "B",
+          "text": "肝血管瘤"
+        },
+        {
+          "key": "C",
+          "text": "肺癌"
+        },
+        {
+          "key": "D",
+          "text": "皮肤癌"
+        }
+      ],
+      "answer": "B",
+      "explanation": "氯乙烯导致肝血管瘤。记忆技巧：氯乙烯用于生产塑料，经肝脏代谢，故导致肝血管瘤；苯在骨髓造血系统积累，导致白血病。",
+      "examPoint": "职业性致癌物",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点4",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "职业性致癌物"
+      }
+    },
+    {
+      "id": "mgmt-04-s1-11",
+      "type": "single",
+      "stem": "异常气象条件可导致的职业病不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "中暑"
+        },
+        {
+          "key": "B",
+          "text": "减压病"
+        },
+        {
+          "key": "C",
+          "text": "高原病"
+        },
+        {
+          "key": "D",
+          "text": "噪声聋"
+        }
+      ],
+      "answer": "D",
+      "explanation": "异常气象条件（温度、湿度、风速、热辐射、气压）导致的职业病为：中暑、减压病、高原病。噪声聋由噪声引起。",
+      "examPoint": "异常气象条件致病",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第四章考点3",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 职业病危害因素分类与识别",
+        "point": "物理性因素致病"
+      }
+    },
+    {
+      "id": "mgmt-04-s2-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "控制作业场所中存在的粉尘，常采用湿式作业或者密闭抽风除尘的措施。这属于职业危害控制中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "工程技术措施"
+        },
+        {
+          "key": "B",
+          "text": "个体防护措施"
+        },
+        {
+          "key": "C",
+          "text": "组织管理措施"
+        },
+        {
+          "key": "D",
+          "text": "卫生保健措施"
+        }
+      ],
+      "answer": "A",
+      "explanation": "工程控制技术措施是应用工程技术的措施和手段（密闭、通风、冷却、隔离等），控制生产工艺过程中产生或存在的职业危害因素的浓度或强度。粉尘采用湿式作业或密闭抽风除尘，属于工程技术措施。",
+      "examPoint": "职业危害控制措施",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点5",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 职业病危害控制与管理",
+        "point": "职业危害控制三措施"
+      }
+    },
+    {
+      "id": "mgmt-04-s2-02",
+      "type": "single",
+      "stem": "作业场所管理中，一般有毒作业和高毒作业场所设置的区域警示线颜色分别是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "红色、黄色"
+        },
+        {
+          "key": "B",
+          "text": "黄色、红色"
+        },
+        {
+          "key": "C",
+          "text": "蓝色、黄色"
+        },
+        {
+          "key": "D",
+          "text": "黄色、蓝色"
+        }
+      ],
+      "answer": "B",
+      "explanation": "一般有毒作业设置黄色区域警示线；高毒作业场所设红色区域警示线。口诀：一般有毒黄，高毒红。",
+      "examPoint": "作业场所警示线",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点6",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 职业病危害控制与管理",
+        "point": "作业场所管理"
+      }
+    },
+    {
+      "id": "mgmt-04-s2-03",
+      "type": "single",
+      "stem": "从事职业病危害作业或岗位（ ）内离岗，且该岗位危害因素低于职业接触限值的，免于离岗时职业健康检查。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15 天"
+        },
+        {
+          "key": "B",
+          "text": "30 天"
+        },
+        {
+          "key": "C",
+          "text": "60 天"
+        },
+        {
+          "key": "D",
+          "text": "90 天"
+        }
+      ],
+      "answer": "B",
+      "explanation": "离岗前 90 天内的职业健康检查可视为离岗检查；从事职业病危害作业或岗位 30 天内离岗，且该岗位危害因素低于职业接触限值的，免于离岗时检查。",
+      "examPoint": "离岗时职业健康检查",
+      "difficulty": "hard",
+      "source": "考点精粹手册 第四章考点6",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 职业病危害控制与管理",
+        "point": "职业健康监护"
+      }
+    },
+    {
+      "id": "mgmt-04-s2-04",
+      "type": "single",
+      "stem": "职业健康检查中，上岗前检查的主要目的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "早期发现职业病或疑似职业病"
+        },
+        {
+          "key": "B",
+          "text": "发现有无职业禁忌症，建立基础健康档案"
+        },
+        {
+          "key": "C",
+          "text": "确定离岗时的健康状况"
+        },
+        {
+          "key": "D",
+          "text": "评价工作场所危害因素的控制效果"
+        }
+      ],
+      "answer": "B",
+      "explanation": "上岗前检查的目的是发现有无职业禁忌症，建立接触职业病危害因素劳动者的基础健康档案，属于强制性检查。A、D 是在岗期间检查的目的；C 是离岗时检查的目的。",
+      "examPoint": "职业健康检查三阶段",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第四章考点6",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 职业病危害控制与管理",
+        "point": "职业健康检查"
+      }
+    },
+    {
+      "id": "mgmt-04-s2-05",
+      "type": "judge",
+      "stem": "职业健康监护档案包括劳动者的职业史、职业病危害接触史、职业健康检查结果和职业病诊疗等有关个人健康资料。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "T",
+      "explanation": "正确。职业健康监护工作的开展必须有专职人员负责，并建立、健全职业健康监护档案，档案包括劳动者的职业史、职业病危害接触史、职业健康检查结果和职业病诊疗等有关个人健康资料。",
+      "examPoint": "职业健康监护档案",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第四章考点6",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 职业病危害控制与管理",
+        "point": "职业健康监护"
+      }
+    }
+  ]
+}

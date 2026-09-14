@@ -1,0 +1,583 @@
+{
+  "chapterNumber": 5,
+  "title": "第五章 安全生产应急管理 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "mgmt-05-s1-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "应急管理理论框架中，为有效应对突发事件而事先采取的各种措施的总称是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "预防"
+        },
+        {
+          "key": "B",
+          "text": "准备"
+        },
+        {
+          "key": "C",
+          "text": "响应"
+        },
+        {
+          "key": "D",
+          "text": "恢复"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应急准备是指为有效应对突发事件而事先采取的各种措施的总称，包括意识、组织、机制、预案、队伍、资源、培训演练等。应急准备工作涵盖了应急管理工作的全过程。",
+      "examPoint": "应急管理四阶段",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点1",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故应急管理理论框架",
+        "point": "应急管理理论框架"
+      }
+    },
+    {
+      "id": "mgmt-05-s1-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "突发事件发生以后所进行的各种紧急处置和救援工作，属于应急管理的（ ）阶段。",
+      "options": [
+        {
+          "key": "A",
+          "text": "预防"
+        },
+        {
+          "key": "B",
+          "text": "准备"
+        },
+        {
+          "key": "C",
+          "text": "响应"
+        },
+        {
+          "key": "D",
+          "text": "恢复"
+        }
+      ],
+      "answer": "C",
+      "explanation": "响应是指在突发事件发生以后所进行的各种紧急处置和救援工作。恢复是指突发事件的威胁和危害得到控制或者消除后所采取的处置工作。",
+      "examPoint": "应急管理四阶段",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点1",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故应急管理理论框架",
+        "point": "应急管理理论框架"
+      }
+    },
+    {
+      "id": "mgmt-05-s1-03",
+      "type": "judge",
+      "stem": "应急准备工作仅涵盖突发事件发生前的阶段，不涉及事故后的处置。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "F",
+      "explanation": "错误。应急准备工作涵盖了应急管理工作的全过程，不限于事前阶段。",
+      "examPoint": "应急准备范围",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点1",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 事故应急管理理论框架",
+        "point": "应急管理理论框架"
+      }
+    },
+    {
+      "id": "mgmt-05-s2-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "生产经营单位为应对各种生产安全事故而制定的综合性工作方案，是本单位应急预案体系的总纲。这属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "综合应急预案"
+        },
+        {
+          "key": "B",
+          "text": "专项应急预案"
+        },
+        {
+          "key": "C",
+          "text": "现场处置方案"
+        },
+        {
+          "key": "D",
+          "text": "应急处置卡"
+        }
+      ],
+      "answer": "A",
+      "explanation": "综合应急预案是生产经营单位为应对各种生产安全事故而制定的综合性工作方案，是本单位应对生产安全事故的总体工作程序、措施和应急预案体系的总纲。",
+      "examPoint": "应急预案体系",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点2",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "应急预案体系"
+      }
+    },
+    {
+      "id": "mgmt-05-s2-02",
+      "scope": "inline",
+      "type": "single",
+      "stem": "事故风险单一、危险性小的生产经营单位，可以（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "只编制综合应急预案"
+        },
+        {
+          "key": "B",
+          "text": "只编制专项应急预案"
+        },
+        {
+          "key": "C",
+          "text": "只编制现场处置方案"
+        },
+        {
+          "key": "D",
+          "text": "不编制任何预案"
+        }
+      ],
+      "answer": "C",
+      "explanation": "事故风险单一、危险性小的生产经营单位，可只编制现场处置方案。另：专项应急预案与综合应急预案中的应急组织机构、应急响应程序相近时，可不编写专项应急预案，相应的应急处置措施并入综合应急预案。",
+      "examPoint": "应急预案简化条件",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点2",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "应急预案体系"
+      }
+    },
+    {
+      "id": "mgmt-05-s2-03",
+      "type": "single",
+      "stem": "综合应急预案内容的口诀是「总责响处保」，其中「处」指的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急处置"
+        },
+        {
+          "key": "B",
+          "text": "后期处置"
+        },
+        {
+          "key": "C",
+          "text": "处置措施"
+        },
+        {
+          "key": "D",
+          "text": "应急处理"
+        }
+      ],
+      "answer": "B",
+      "explanation": "综合应急预案口诀「总责响处保」= 总则、应急组织机构及职责、应急响应、后期处置、应急保障。专项预案口诀「适责响处保」= 适用范围、应急组织机构及职责、响应启动、处置措施、应急保障。现场处置方案口诀「风责处注」= 事故风险描述、应急工作职责、应急处置、注意事项。",
+      "examPoint": "预案内容口诀",
+      "difficulty": "hard",
+      "source": "考点精粹手册 第五章考点3",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "预案内容口诀"
+      }
+    },
+    {
+      "id": "mgmt-05-s2-04",
+      "type": "single",
+      "stem": "关于应急预案中的响应分级，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "响应分级必须与事故分级完全一致"
+        },
+        {
+          "key": "B",
+          "text": "响应分级不必照搬事故分级"
+        },
+        {
+          "key": "C",
+          "text": "响应分级由政府部门统一规定"
+        },
+        {
+          "key": "D",
+          "text": "响应分级只分两级"
+        }
+      ],
+      "answer": "B",
+      "explanation": "响应分级是依据事故危害程度、影响范围和生产经营单位控制事态的能力，对事故应急响应进行分级，明确分级响应的基本原则。响应分级不必照搬事故分级。",
+      "examPoint": "响应分级",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点3",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "预案内容"
+      }
+    },
+    {
+      "id": "mgmt-05-s2-05",
+      "type": "multi",
+      "stem": "现场处置方案中「事故风险描述」应包括的内容有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "风险类型"
+        },
+        {
+          "key": "B",
+          "text": "可能发生的事故类型"
+        },
+        {
+          "key": "C",
+          "text": "事故发生的区域、地点或装置的名称"
+        },
+        {
+          "key": "D",
+          "text": "事故前可能出现的征兆"
+        },
+        {
+          "key": "E",
+          "text": "事故可能引发的次生、衍生事故"
+        }
+      ],
+      "answer": "ABCDE",
+      "explanation": "事故风险描述包括：①风险类型 ②可能发生的事故类型 ③事故发生的区域、地点或装置的名称 ④事故发生的可能时间段或概率 ⑤事故的危害严重程度及其影响范围 ⑥事故前可能出现的征兆 ⑦事故可能引发的次生、衍生事故等。",
+      "examPoint": "现场处置方案内容",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点3",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "现场处置方案"
+      }
+    },
+    {
+      "id": "mgmt-05-s3-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "应急预案评审表决时，应有不少于出席会议专家人数的（ ）同意方为通过。",
+      "options": [
+        {
+          "key": "A",
+          "text": "二分之一"
+        },
+        {
+          "key": "B",
+          "text": "三分之二"
+        },
+        {
+          "key": "C",
+          "text": "四分之三"
+        },
+        {
+          "key": "D",
+          "text": "全体"
+        }
+      ],
+      "answer": "B",
+      "explanation": "评审采取会议审查形式，表决时应有不少于出席会议专家人数的三分之二同意方为通过。评审会议应形成评审意见（经评审组组长签字），附参加评审会议的专家签字表。",
+      "examPoint": "应急预案评审表决",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点4",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 应急预案编制程序与演练",
+        "point": "应急预案评审"
+      }
+    },
+    {
+      "id": "mgmt-05-s3-02",
+      "type": "single",
+      "stem": "应急预案编制程序的第一步是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "资料收集"
+        },
+        {
+          "key": "B",
+          "text": "风险评估"
+        },
+        {
+          "key": "C",
+          "text": "成立预案编制组"
+        },
+        {
+          "key": "D",
+          "text": "应急预案编制"
+        }
+      ],
+      "answer": "C",
+      "explanation": "应急预案编制程序：①成立预案编制组 ②资料收集 ③风险评估 ④应急资源调查 ⑤应急预案编制 ⑥桌面推演 ⑦应急预案评审 ⑧批准实施。编制组以单位有关负责人为组长。",
+      "examPoint": "应急预案编制程序",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点4",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 应急预案编制程序与演练",
+        "point": "应急预案编制程序"
+      }
+    },
+    {
+      "id": "mgmt-05-s3-03",
+      "type": "single",
+      "stem": "应急预案编制完成后，在正式评审前，可采取（ ）形式检验应急预案的可行性并进一步完善。",
+      "options": [
+        {
+          "key": "A",
+          "text": "桌面推演"
+        },
+        {
+          "key": "B",
+          "text": "综合演练"
+        },
+        {
+          "key": "C",
+          "text": "专项演练"
+        },
+        {
+          "key": "D",
+          "text": "实战演习"
+        }
+      ],
+      "answer": "A",
+      "explanation": "应急预案编制程序的第 6 步为桌面推演：可采取桌面演练的形式，模拟生产安全事故应对过程，逐步分析讨论并形成记录，检验应急预案的可行性，并进一步完善应急预案。",
+      "examPoint": "桌面推演",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点4",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 应急预案编制程序与演练",
+        "point": "应急预案编制程序"
+      }
+    },
+    {
+      "id": "mgmt-05-s3-04",
+      "type": "single",
+      "stem": "通过评审的应急预案，由（ ）签发实施。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全管理部门负责人"
+        },
+        {
+          "key": "B",
+          "text": "评审专家组组长"
+        },
+        {
+          "key": "C",
+          "text": "生产经营单位主要负责人"
+        },
+        {
+          "key": "D",
+          "text": "当地应急管理部门"
+        }
+      ],
+      "answer": "C",
+      "explanation": "通过评审的应急预案，由生产经营单位主要负责人签发实施。本单位内公布，发放到有关部门、岗位和救援队伍，高危行业 20 个工作日内报安监部门备案。",
+      "examPoint": "预案批准实施",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点4",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 应急预案编制程序与演练",
+        "point": "应急预案编制程序"
+      }
+    },
+    {
+      "id": "mgmt-05-s3-05",
+      "type": "judge",
+      "stem": "应急预案评审专家可以与评审单位存在利害关系。",
+      "options": [
+        {
+          "key": "T",
+          "text": "正确"
+        },
+        {
+          "key": "F",
+          "text": "错误"
+        }
+      ],
+      "answer": "F",
+      "explanation": "错误。评审专家不得与评审单位有利害关系。评审表决不通过的，生产经营单位应修改完善后按评审程序重新组织专家评审。",
+      "examPoint": "评审专家要求",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点4",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 应急预案编制程序与演练",
+        "point": "应急预案评审"
+      }
+    },
+    {
+      "id": "mgmt-05-s4-01",
+      "scope": "inline",
+      "type": "single",
+      "stem": "应急演练内容中，对事故现场进行观察、分析或测定，确定事故严重程度、影响范围和变化趋势，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "警戒与管制"
+        },
+        {
+          "key": "B",
+          "text": "事故监测"
+        },
+        {
+          "key": "C",
+          "text": "现场处置"
+        },
+        {
+          "key": "D",
+          "text": "医疗卫生"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故监测：根据事故情景，对事故现场进行观察、分析或测定，确定事故严重程度、影响范围和变化趋势等。警戒与管制是建立警戒区域、实行交通管制。",
+      "examPoint": "应急演练内容",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点6",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 应急演练",
+        "point": "应急演练内容"
+      }
+    },
+    {
+      "id": "mgmt-05-s4-02",
+      "type": "single",
+      "stem": "应急演练内容中，召开新闻发布会或事故情况通报会通报事故有关情况，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急通信"
+        },
+        {
+          "key": "B",
+          "text": "社会沟通"
+        },
+        {
+          "key": "C",
+          "text": "后期处置"
+        },
+        {
+          "key": "D",
+          "text": "指挥与协调"
+        }
+      ],
+      "answer": "B",
+      "explanation": "社会沟通：根据事故情景，召开新闻发布会或事故情况通报会，通报事故有关情况。应急通信是在相关部门或人员之间进行音频、视频信号或数据信息互通。",
+      "examPoint": "应急演练内容",
+      "difficulty": "easy",
+      "source": "考点精粹手册 第五章考点6",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 应急演练",
+        "point": "应急演练内容"
+      }
+    },
+    {
+      "id": "mgmt-05-s4-03",
+      "type": "multi",
+      "stem": "应急演练的内容包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "预警与报告"
+        },
+        {
+          "key": "B",
+          "text": "指挥与协调"
+        },
+        {
+          "key": "C",
+          "text": "疏散与安置"
+        },
+        {
+          "key": "D",
+          "text": "医疗卫生"
+        },
+        {
+          "key": "E",
+          "text": "后期处置"
+        }
+      ],
+      "answer": "ABCDE",
+      "explanation": "应急演练内容包括 11 项：预警与报告、指挥与协调、应急通信、事故监测、警戒与管制、疏散与安置、医疗卫生、现场处置、社会沟通、后期处置、其他。",
+      "examPoint": "应急演练内容范围",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点6",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 应急演练",
+        "point": "应急演练内容"
+      }
+    },
+    {
+      "id": "mgmt-05-s4-04",
+      "type": "single",
+      "stem": "应急处置卡中，「谁预警、谁组织、谁处置、谁撤离」等具体处置步骤属于（ ）应急处置卡的内容。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急管理岗位"
+        },
+        {
+          "key": "B",
+          "text": "基层操作岗位"
+        },
+        {
+          "key": "C",
+          "text": "企业负责人岗位"
+        },
+        {
+          "key": "D",
+          "text": "政府监管岗位"
+        }
+      ],
+      "answer": "B",
+      "explanation": "基层操作岗位应急处置卡内容包括：简要描述岗位主要风险类型及事故情景；列出信息报告、应急响应和处置措施的具体处置步骤；列出应急资源；列出「谁预警、谁组织、谁处置、谁撤离」等具体处置步骤，宜标绘紧急避险路线图等。",
+      "examPoint": "应急处置卡",
+      "difficulty": "medium",
+      "source": "考点精粹手册 第五章考点5",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 应急预案体系与内容",
+        "point": "应急处置卡"
+      }
+    }
+  ]
+}
