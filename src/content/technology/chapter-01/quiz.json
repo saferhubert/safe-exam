@@ -1,0 +1,567 @@
+{
+  "chapterNumber": 1,
+  "title": "第一章 机械安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "tech-01-s1-01",
+      "type": "single",
+      "stem": "实现机械设备安全的三步法中，第一步「本质安全设计措施」又称（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "直接安全技术措施"
+        },
+        {
+          "key": "B",
+          "text": "间接安全技术措施"
+        },
+        {
+          "key": "C",
+          "text": "提示性安全技术措施"
+        },
+        {
+          "key": "D",
+          "text": "补充安全技术措施"
+        }
+      ],
+      "answer": "A",
+      "explanation": "三步法：第一步本质安全设计措施（直接安全技术措施）；第二步安全防护和/或补充保护措施（间接安全技术措施）；第三步使用信息（提示性安全技术措施）。",
+      "examPoint": "机械安全三步法",
+      "difficulty": "easy",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "机械安全三步法"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s1-02",
+      "type": "single",
+      "stem": "转动轴（无凸起部分）的防护，一般在光轴的暴露部分安装一个松散的护套，护套与轴的净距应为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "6mm"
+        },
+        {
+          "key": "B",
+          "text": "12mm"
+        },
+        {
+          "key": "C",
+          "text": "20mm"
+        },
+        {
+          "key": "D",
+          "text": "50mm"
+        }
+      ],
+      "answer": "B",
+      "explanation": "转动轴（无凸起部分）没有适当位置安装固定式防护装置，一般通过在光轴暴露部分安装一个松散的、与轴具有 12mm 净距的护套来防护，护套和轴可以相互滑动。",
+      "examPoint": "转动轴防护",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "转动轴防护"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s1-03",
+      "type": "single",
+      "stem": "齿轮传动机构必须装置（ ）防护装置，且机器外部绝不允许有裸露的啮合齿轮。",
+      "options": [
+        {
+          "key": "A",
+          "text": "半封闭型"
+        },
+        {
+          "key": "B",
+          "text": "全封闭型"
+        },
+        {
+          "key": "C",
+          "text": "可调节型"
+        },
+        {
+          "key": "D",
+          "text": "栅栏型"
+        }
+      ],
+      "answer": "B",
+      "explanation": "齿轮传动机构必须装置全封闭型的防护装置。机器外部绝不允许有裸露的啮合齿轮。防护罩内壁应涂成红色，最好装电气联锁。",
+      "examPoint": "啮合齿轮防护",
+      "difficulty": "easy",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "啮合齿轮防护"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s1-04",
+      "type": "single",
+      "stem": "皮带传动机构的防护，一般传动机构离地面2m以下应设防护罩。下列情况中，即使在离地面2m以上也应加以防护的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "皮带轮中心距之间的距离在2m以上"
+        },
+        {
+          "key": "B",
+          "text": "皮带宽度在10cm以上"
+        },
+        {
+          "key": "C",
+          "text": "皮带回转的速度在9m/min以上"
+        },
+        {
+          "key": "D",
+          "text": "皮带长度为5m以上"
+        }
+      ],
+      "answer": "C",
+      "explanation": "三种情况即使在离地面 2m 以上也应防护：①皮带轮中心距之间的距离在 3m 以上；②皮带宽度在 15cm 以上；③皮带回转的速度在 9m/min 以上。皮带传动防护罩与皮带的距离不应小于 50mm。",
+      "examPoint": "皮带传动防护",
+      "difficulty": "hard",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "皮带传动防护"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s1-05",
+      "type": "single",
+      "stem": "机械工作台和滑枕的运动平板（或滑枕）达到极限位置时，其端面与固定结构的间距不能小于（ ），以免造成挤压。",
+      "options": [
+        {
+          "key": "A",
+          "text": "200mm"
+        },
+        {
+          "key": "B",
+          "text": "300mm"
+        },
+        {
+          "key": "C",
+          "text": "500mm"
+        },
+        {
+          "key": "D",
+          "text": "1000mm"
+        }
+      ],
+      "answer": "C",
+      "explanation": "具有运动平板或滑枕的机械设备应该被合理布置，当其运动平板（或滑枕）达到极限位置时，平板（或滑枕）的端面应和固定结构的间距不能小于 500mm，以免造成挤压。",
+      "examPoint": "机械工作台防护",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "机械工作台防护"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s1-06",
+      "type": "single",
+      "stem": "下列关于机械性危险条件的说法，错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "形状或表面特性如锋利刀刃、锐边、尖角属于产生机械性危险的条件因素"
+        },
+        {
+          "key": "B",
+          "text": "势能包括高空作业人员跌落危险、弹性元件的势能释放"
+        },
+        {
+          "key": "C",
+          "text": "非机械性危险包括电气危险、温度危险、噪声危险"
+        },
+        {
+          "key": "D",
+          "text": "机械强度足够导致的断裂也属于机械性危险的条件因素"
+        }
+      ],
+      "answer": "D",
+      "explanation": "产生机械性危险的条件因素包括：形状或表面特性、相对位置、动能、势能、质量和稳定性、机械强度不够导致的断裂或破裂、料堆坍塌等。D 说「强度足够」错误，应为「机械强度不够」。",
+      "examPoint": "机械性危险条件",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第一节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 机械安全基础知识",
+        "point": "机械性危险条件"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s2-01",
+      "type": "single",
+      "stem": "砂轮机安全技术中，砂轮与托架之间的间隙应调整适当，一般为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "≤1mm"
+        },
+        {
+          "key": "B",
+          "text": "≤3mm"
+        },
+        {
+          "key": "C",
+          "text": "≤5mm"
+        },
+        {
+          "key": "D",
+          "text": "≤10mm"
+        }
+      ],
+      "answer": "B",
+      "explanation": "砂轮与托架之间的间隙应调整适当（一般≤3mm），防止工件被卷入。砂轮防护罩上应标出砂轮旋转的方向和最高线速度等技术参数。",
+      "examPoint": "砂轮机安全技术",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第二节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 金属切削机床及砂轮机安全技术",
+        "point": "砂轮机安全技术"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s2-02",
+      "type": "single",
+      "stem": "砂轮机最主要的危险是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "砂轮碎裂"
+        },
+        {
+          "key": "B",
+          "text": "噪声危害"
+        },
+        {
+          "key": "C",
+          "text": "粉尘危害"
+        },
+        {
+          "key": "D",
+          "text": "触电危险"
+        }
+      ],
+      "answer": "A",
+      "explanation": "砂轮机的三大危险：①砂轮碎裂（最主要危险，砂轮高速旋转时可能因强度不足、安装不当、超速等碎裂飞出）；②磨削时产生的火花和粉尘；③砂轮与工件的卷入、挤压。",
+      "examPoint": "砂轮机危险",
+      "difficulty": "easy",
+      "source": "2026教材 第一章第二节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 金属切削机床及砂轮机安全技术",
+        "point": "砂轮机危险"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s3-01",
+      "type": "single",
+      "stem": "关于剪板机安全技术，下列说法错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "剪板机应有专人操作和保养"
+        },
+        {
+          "key": "B",
+          "text": "严禁两人或多人同时操作同一台剪板机"
+        },
+        {
+          "key": "C",
+          "text": "剪板机可以剪切淬过火的金属材料"
+        },
+        {
+          "key": "D",
+          "text": "剪板机应设置安全防护栅栏"
+        }
+      ],
+      "answer": "C",
+      "explanation": "剪板机上不得剪切淬过火的、超厚的、有硬疤的金属材料。剪板机应有专人操作和保养，离合器应动作灵活可靠，严禁两人或多人同时操作同一台剪板机，应设置安全防护栅栏。",
+      "examPoint": "剪板机安全技术",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第三节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 冲压剪切机械安全技术",
+        "point": "剪板机安全技术"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s4-01",
+      "type": "single",
+      "stem": "圆锯机上防止木料夹锯后反弹伤人的关键防护装置是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "防护罩"
+        },
+        {
+          "key": "B",
+          "text": "分料刀"
+        },
+        {
+          "key": "C",
+          "text": "制动装置"
+        },
+        {
+          "key": "D",
+          "text": "除尘装置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "圆锯机应设置分料刀（防止木料夹锯后反弹）和防回弹装置（防止木料反弹伤人），主轴应装设制动装置。分料刀是圆锯机最关键的防护装置。",
+      "examPoint": "圆锯机安全技术",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第四节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 木工机械安全技术",
+        "point": "圆锯机安全技术"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s7-01",
+      "type": "single",
+      "stem": "体力劳动强度指数 I = 10×T×M×S×W，其中 S 为性别系数，男性的取值为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.8"
+        },
+        {
+          "key": "B",
+          "text": "1.0"
+        },
+        {
+          "key": "C",
+          "text": "1.2"
+        },
+        {
+          "key": "D",
+          "text": "1.3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "体力劳动强度指数 I = 10×T×M×S×W。S 为性别系数（男 1，女 1.3）；W 为体力劳动方式系数（搬 1.00，扛 0.40，推/拉 0.05）。",
+      "examPoint": "体力劳动强度计算",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全人机工程",
+        "point": "体力劳动强度计算"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-01-s7-02",
+      "type": "single",
+      "stem": "某男性搬运工的工作日净劳动时间为6h，工作日总工时为8h，8h工作日能量代谢率为4kJ/(min·m²)，则该工人的体力劳动强度等级是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ⅰ级"
+        },
+        {
+          "key": "B",
+          "text": "Ⅱ级"
+        },
+        {
+          "key": "C",
+          "text": "Ⅲ级"
+        },
+        {
+          "key": "D",
+          "text": "Ⅳ级"
+        }
+      ],
+      "answer": "D",
+      "explanation": "I=T×M×S×W×10=(6/8)×4×1×1×10=30。分级标准：Ⅰ级 I≤15；Ⅱ级 15＜I≤20；Ⅲ级 20＜I≤25；Ⅳ级 I＞25。30＞25，故为Ⅳ级。",
+      "examPoint": "体力劳动强度计算",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全人机工程",
+        "point": "体力劳动强度计算"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s7-03",
+      "type": "single",
+      "stem": "在体力劳动强度分级的计算中，W 为体力劳动方式系数，其中「扛」的取值为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.00"
+        },
+        {
+          "key": "B",
+          "text": "0.40"
+        },
+        {
+          "key": "C",
+          "text": "0.05"
+        },
+        {
+          "key": "D",
+          "text": "0.50"
+        }
+      ],
+      "answer": "B",
+      "explanation": "体力劳动方式系数 W：搬 1.00，扛 0.40，推/拉 0.05。性别系数 S：男 1，女 1.3。",
+      "examPoint": "体力劳动强度系数",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第七节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全人机工程",
+        "point": "体力劳动强度系数"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s7-04",
+      "type": "single",
+      "stem": "下列工作场所中，可以只设置一般照明的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "机加车间"
+        },
+        {
+          "key": "B",
+          "text": "展览厅"
+        },
+        {
+          "key": "C",
+          "text": "办公室"
+        },
+        {
+          "key": "D",
+          "text": "计算机房"
+        }
+      ],
+      "answer": "C",
+      "explanation": "工作场所通常设置一般照明，即照亮整个场所的均匀照明。办公室等场所可以只设置一般照明。",
+      "examPoint": "人机作业环境照明",
+      "difficulty": "medium",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全人机工程",
+        "point": "人机作业环境照明"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s7-05",
+      "type": "single",
+      "stem": "关于人与机器特性的比较，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人的精度和重复性优于机器"
+        },
+        {
+          "key": "B",
+          "text": "机器在感知复杂环境和处理不确定信息方面优于人"
+        },
+        {
+          "key": "C",
+          "text": "人能处理模糊、不确定的信息，具有创造性"
+        },
+        {
+          "key": "D",
+          "text": "机器不会疲劳，因此适合处理创造性任务"
+        }
+      ],
+      "answer": "C",
+      "explanation": "人优于机器：感觉器官灵敏度高、能处理模糊不确定信息、具有创造性、能随机应变、能学习新知识。机器优于人：精度高、重复性好、速度快、力量大、能长时间连续工作、能在恶劣环境下工作。",
+      "examPoint": "人机特性比较",
+      "difficulty": "medium",
+      "source": "2026教材 第一章第七节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 安全人机工程",
+        "point": "人机特性比较"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-01-s8-01",
+      "type": "single",
+      "stem": "工业机器人的编程、示教作业时应处于（ ）状态。",
+      "options": [
+        {
+          "key": "A",
+          "text": "高速"
+        },
+        {
+          "key": "B",
+          "text": "低速"
+        },
+        {
+          "key": "C",
+          "text": "停机"
+        },
+        {
+          "key": "D",
+          "text": "任意速度"
+        }
+      ],
+      "answer": "B",
+      "explanation": "编程、示教作业时应处于低速状态。工业机器人安全技术措施包括：设置安全防护围栏、安全联锁装置、急停装置，工作区域应有警示标志，应进行风险评估并制定安全操作规程。",
+      "examPoint": "工业机器人安全",
+      "difficulty": "easy",
+      "source": "2026教材 第一章第八节",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 工业机器人安全技术",
+        "point": "工业机器人安全"
+      },
+      "scope": "inline"
+    }
+  ]
+}
