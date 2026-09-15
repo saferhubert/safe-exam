@@ -53,7 +53,7 @@ export const SUBJECTS: SubjectMeta[] = [
       "学习机械、电气、防火防爆、特种设备等安全生产通用技术知识。",
     icon: "Wrench",
     order: 3,
-    totalChapters: 12,
+    totalChapters: 5,
     color: "#059669",
   },
   {
