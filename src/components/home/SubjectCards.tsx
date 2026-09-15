@@ -4,6 +4,7 @@ import {
   ClipboardList,
   Wrench,
   FileText,
+  FlaskConical,
   BookOpen,
   ChevronRight,
 } from "lucide-react";
@@ -15,7 +16,13 @@ const iconMap: Record<string, typeof Scale> = {
   ClipboardList,
   Wrench,
   FileText,
+  FlaskConical,
 };
+
+/** 已上线科目（有完整内容） */
+const LIVE_SUBJECTS = ["laws", "management", "technology", "chemical"];
+/** 付费科目（专业实务方向） */
+const PAID_SUBJECTS = ["chemical"];
 
 export default function SubjectCards() {
   return (
@@ -25,14 +32,15 @@ export default function SubjectCards() {
           四大考试科目
         </h2>
         <p className="text-sm text-gray-400 max-w-lg mx-auto">
-          「安全生产法律法规」已全面上线，其余科目陆续更新中
+          法规、管理、技术三科<span className="text-emerald-600 font-medium">永久免费</span>，专业实务方向按需解锁
         </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-        {SUBJECTS.map((subject, i) => {
+        {SUBJECTS.map((subject) => {
           const Icon = iconMap[subject.icon] || BookOpen;
-          const isActive = i === 0;
+          const isActive = LIVE_SUBJECTS.includes(subject.slug);
+          const isPaid = PAID_SUBJECTS.includes(subject.slug);
 
           return (
             <Link key={subject.slug} href={`/${subject.slug}`}>
@@ -65,8 +73,10 @@ export default function SubjectCards() {
 
                   <div className="flex items-center justify-between mt-auto pt-1">
                     <div className="flex items-center gap-2">
-                      <Badge variant={isActive ? "success" : "default"}>
-                        {isActive ? "已上线" : "即将上线"}
+                      <Badge
+                        variant={!isActive ? "default" : isPaid ? "warning" : "success"}
+                      >
+                        {!isActive ? "即将上线" : isPaid ? "免费试读" : "已上线"}
                       </Badge>
                       <span className="text-[11px] text-gray-400">
                         {subject.totalChapters} 章
@@ -83,3 +93,4 @@ export default function SubjectCards() {
     </section>
   );
 }
+

@@ -1,5 +1,13 @@
 [
   {
+    "number": 0,
+    "slug": "outline",
+    "title": "考试大纲与考点框架（免费）",
+    "examWeight": 3,
+    "scoreNote": "免费全文 · SEO 收录页",
+    "sections": []
+  },
+  {
     "number": 1,
     "slug": "chapter-01",
     "title": "化工安全生产概述",

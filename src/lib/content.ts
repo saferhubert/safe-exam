@@ -34,17 +34,28 @@ export const getFullQuiz = cache(
 /**
  * 按分节取出「随堂练习」题（scope === "inline"）。
  * 返回 { [sectionId]: QuizQuestion[] }，供 MDX 中按节调用 <PracticeFrom />。
+ *
+ * @param filterToSections 可选：只保留这些 sectionId 的题目。
+ *   付费科目必须传入免费节的 sectionId，否则题目数据会随 HTML 泄露。
  */
 export const getInlineBySection = cache(
-  (subject: string, chapter: string): Record<string, QuizQuestion[]> => {
+  (
+    subject: string,
+    chapter: string,
+    filterToSections?: string[]
+  ): Record<string, QuizQuestion[]> => {
     const quiz = getFullQuiz(subject, chapter);
     const out: Record<string, QuizQuestion[]> = {};
     if (!quiz?.questions) return out;
+
+    const allow = filterToSections ? new Set(filterToSections) : null;
 
     for (const q of quiz.questions) {
       // 只取随堂练习；未标注 scope 的默认视为章节测验题，不进正文
       if (q.scope !== "inline") continue;
       const sid = q.sourceRef?.sectionId || "_default";
+      // 付费科目：只注入免费节的题目
+      if (allow && !allow.has(sid)) continue;
       if (!out[sid]) out[sid] = [];
       out[sid].push(q);
     }

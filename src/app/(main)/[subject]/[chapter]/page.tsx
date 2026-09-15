@@ -22,6 +22,9 @@ import {
   InlineDataProvider,
 } from "@/components/content";
 import Badge from "@/components/ui/Badge";
+import { UnlockBanner, Paywall } from "@/components/paywall";
+import { isSubjectPaid, FREE_SECTIONS_PER_CHAPTER } from "@/lib/paywall";
+import { splitChapter } from "@/lib/splitChapter";
 import dynamic from "next/dynamic";
 
 const LeadForm = dynamic(() => import("@/components/leads/LeadForm"), {
@@ -111,10 +114,26 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   if (!existsSync(mdxPath)) notFound();
 
   const source = readFileSync(mdxPath, "utf-8");
-  // 按节取出随堂练习，注入 MDX 作用域，供 <PracticeFrom /> 使用
-  const inlineBySection = getInlineBySection(params.subject, params.chapter);
+
+  // 付费科目：按节切分免费/付费内容（付费内容不渲染进 HTML）
+  const split = splitChapter(params.subject, params.chapter);
+  const renderSource = split ? split.freeSource : source;
+  const hasPaid = Boolean(split?.hasPaid);
+
+  // 付费科目：只注入免费节的随堂练习，避免题目数据随 HTML 泄露
+  const freeSectionIds = chapter.sections
+    ? chapter.sections
+        .slice(0, FREE_SECTIONS_PER_CHAPTER)
+        .map((s) => s.id)
+    : undefined;
+  const inlineBySection = getInlineBySection(
+    params.subject,
+    params.chapter,
+    isSubjectPaid(params.subject) ? freeSectionIds : undefined
+  );
+
   const { content, frontmatter } = await compileMDX<ChapterFrontmatter>({
-    source,
+    source: renderSource,
         options: {
       parseFrontmatter: true,
       mdxOptions: {
@@ -206,10 +225,32 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         />
       )}
 
+      {/* 付费科目：已解锁提示 */}
+      <UnlockBanner subjectSlug={params.subject} />
+
       {/* 文章正文 */}
       <div className="prose-cn bg-white rounded-xl border border-gray-200 p-6 sm:p-8 shadow-sm">
         {content}
       </div>
+
+      {/* 付费科目：免费节之后显示付费墙 */}
+      {hasPaid && (
+        <>
+          <div className="mt-6 rounded-xl border border-amber-200 bg-amber-50/60 px-4 py-3">
+            <p className="text-xs text-amber-800 leading-relaxed">
+              <span className="font-semibold">免费试读结束。</span>
+              本章共 {chapter.sections?.length || "多"} 节，前{" "}
+              <span className="font-semibold">2 节</span>
+              可免费阅读。以下内容需解锁后查看。
+            </p>
+          </div>
+          <Paywall
+            subjectSlug={params.subject}
+            subjectTitle={subject.title}
+            context="本章剩余内容"
+          />
+        </>
+      )}
 
       {/* 章尾导航 */}
       <div className="flex items-center justify-between mt-8 pt-6 border-t border-gray-200">
@@ -242,14 +283,16 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             章节练习
           </h3>
           <p className="text-sm text-gray-600">
-            完成本章习题，检验学习效果。目标正确率 80%以上即可进入下一章。
+            {isSubjectPaid(params.subject)
+              ? "本章全部习题共含解析，解锁后可作答。目标正确率 80% 以上即可进入下一章。"
+              : "完成本章习题，检验学习效果。目标正确率 80%以上即可进入下一章。"}
           </p>
         </div>
         <Link
           href={`/${params.subject}/${params.chapter}/quiz`}
           className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors shadow-sm"
         >
-          开始练习
+          {isSubjectPaid(params.subject) ? "查看练习（需解锁）" : "开始练习"}
         </Link>
       </div>
 

@@ -16,8 +16,8 @@ export default function Footer() {
               <span className="font-bold text-white">{SITE_NAME}</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
-              中级注册安全工程师免费学习平台。所有学习内容 100%
-              免费，助力每一位注安师考生高效通关。
+              中级注册安全工程师学习平台。法规、管理、技术三科永久免费，
+              专业实务方向按需解锁，助力每一位注安师考生高效通关。
             </p>
           </div>
 

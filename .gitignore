@@ -35,3 +35,6 @@ src/content/laws/_extracted/
 
 # 本地提取的教材原文（体量大，不入库）
 .extract/
+
+# local token (never commit)
+.ght_tmp
