@@ -1,0 +1,925 @@
+{
+  "chapterNumber": 2,
+  "title": "第二章 电气安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "tech-02-s1-01",
+      "type": "single",
+      "stem": "触电事故中，人站在地面或其他接地导体上，人体的某一部位触及一相带电体，这属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "两相电击"
+        },
+        {
+          "key": "B",
+          "text": "单相电击"
+        },
+        {
+          "key": "C",
+          "text": "跨步电压电击"
+        },
+        {
+          "key": "D",
+          "text": "间接接触电击"
+        }
+      ],
+      "answer": "B",
+      "explanation": "单相电击：人站在地面或其他接地导体上，人体的某一部位触及一相带电体，是最常见的触电形式。两相电击：人体两处同时触及两相带电体。跨步电压电击：人站立在接地故障点附近，两脚之间承受跨步电压。",
+      "examPoint": "触电事故种类",
+      "difficulty": "easy",
+      "source": "2026教材 第二章第一节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 电气事故及危害",
+        "point": "触电事故种类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s1-02",
+      "type": "single",
+      "stem": "引起心室纤维性颤动的致命电流，工频交流约为（ ）以上。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10mA"
+        },
+        {
+          "key": "B",
+          "text": "30mA"
+        },
+        {
+          "key": "C",
+          "text": "50mA"
+        },
+        {
+          "key": "D",
+          "text": "100mA"
+        }
+      ],
+      "answer": "C",
+      "explanation": "致命电流（室颤电流）约 50mA 以上会引起心室纤维性颤动。30mA 是重要的安全电流界限（漏电保护装置动作电流常取 30mA）。感知电流男性约 1.1mA、女性约 0.7mA；摆脱电流男性约 16mA、女性约 10.5mA。",
+      "examPoint": "电流对人体的影响",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第一节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 电气事故及危害",
+        "point": "电流对人体的影响"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s1-03",
+      "type": "single",
+      "stem": "下列触电形式中，危险性最大的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "单相电击"
+        },
+        {
+          "key": "B",
+          "text": "两相电击"
+        },
+        {
+          "key": "C",
+          "text": "跨步电压电击"
+        },
+        {
+          "key": "D",
+          "text": "间接接触电击"
+        }
+      ],
+      "answer": "B",
+      "explanation": "两相电击是人体两处同时触及两相带电体，危险性比单相电击大。单相电击是最常见的触电形式。",
+      "examPoint": "触电事故种类",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第一节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 电气事故及危害",
+        "point": "触电事故种类"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s1-04",
+      "type": "single",
+      "stem": "架空线路断线接地时，为了防止跨步电压伤人，在离接地点（ ）范围内不能随意进入。",
+      "options": [
+        {
+          "key": "A",
+          "text": "4m"
+        },
+        {
+          "key": "B",
+          "text": "6m"
+        },
+        {
+          "key": "C",
+          "text": "8m"
+        },
+        {
+          "key": "D",
+          "text": "10m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "架空线路断线接地时，为了防止跨步电压伤人，在离接地点 8m 范围内，不能随意进入。",
+      "examPoint": "跨步电压防护",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 电气事故及危害",
+        "point": "跨步电压防护"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-01",
+      "type": "single",
+      "stem": "绝缘材料按耐热性能分级，允许工作温度为105℃的是（ ）级。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y级"
+        },
+        {
+          "key": "B",
+          "text": "A级"
+        },
+        {
+          "key": "C",
+          "text": "E级"
+        },
+        {
+          "key": "D",
+          "text": "B级"
+        }
+      ],
+      "answer": "B",
+      "explanation": "绝缘材料耐热分级：Y=90℃、A=105℃、E=120℃、B=130℃、F=155℃、H=180℃、C＞180℃。",
+      "examPoint": "绝缘材料分级",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "绝缘材料分级"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s2-02",
+      "type": "single",
+      "stem": "绝缘材料的阻燃性能用氧指数表示，氧指数在（ ）以上的为阻燃性材料。",
+      "options": [
+        {
+          "key": "A",
+          "text": "21%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "27%"
+        },
+        {
+          "key": "D",
+          "text": "30%"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氧指数在 21% 以下的为可燃性材料，21%~27% 之间的为自熄性材料，27% 以上的为阻燃性材料。",
+      "examPoint": "绝缘材料阻燃性能",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "绝缘材料阻燃性能"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s2-03",
+      "type": "single",
+      "stem": "固体绝缘的击穿形式中，特点是「电压作用时间较长，而击穿电压较低」的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电击穿"
+        },
+        {
+          "key": "B",
+          "text": "热击穿"
+        },
+        {
+          "key": "C",
+          "text": "电化学击穿"
+        },
+        {
+          "key": "D",
+          "text": "放电击穿"
+        }
+      ],
+      "answer": "B",
+      "explanation": "固体绝缘四种击穿形式：电击穿（作用时间短、击穿电压高）；热击穿（电压作用时间较长、击穿电压较低）；电化学击穿（电压作用时间很长、击穿电压往往很低）；放电击穿（内部气泡碰撞电离放电发展导致）。",
+      "examPoint": "绝缘击穿形式",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "绝缘击穿形式"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-04",
+      "type": "single",
+      "stem": "屏护装置中，遮栏的高度不应小于（ ），下部边缘离地面高度不应大于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.2m；0.1m"
+        },
+        {
+          "key": "B",
+          "text": "1.5m；0.15m"
+        },
+        {
+          "key": "C",
+          "text": "1.7m；0.1m"
+        },
+        {
+          "key": "D",
+          "text": "1.7m；0.2m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "遮栏高度不应小于 1.7m，下部边缘离地面高度不应大于 0.1m。户内栅栏高度不应小于 1.2m；户外栅栏高度不应小于 1.5m。",
+      "examPoint": "屏护装置要求",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "屏护装置要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-05",
+      "type": "single",
+      "stem": "在TN系统中，对于供给手持式电动工具、移动式电气设备的线路或插座回路，电压220V者故障持续时间不应超过（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.2s"
+        },
+        {
+          "key": "B",
+          "text": "0.4s"
+        },
+        {
+          "key": "C",
+          "text": "1s"
+        },
+        {
+          "key": "D",
+          "text": "5s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "TN 系统故障持续时间要求：配电线路或仅供给固定式电气设备的线路，不宜超过 5s；供给手持式电动工具、移动式电气设备的线路或插座回路，电压 220V 者不应超过 0.4s，380V 者不应超过 0.2s。",
+      "examPoint": "TN系统故障持续时间",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "TN系统故障持续时间"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-06",
+      "type": "single",
+      "stem": "保护导体和中性导体完全分开的系统是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "TN-S系统"
+        },
+        {
+          "key": "B",
+          "text": "TN-C-S系统"
+        },
+        {
+          "key": "C",
+          "text": "TN-C系统"
+        },
+        {
+          "key": "D",
+          "text": "TT系统"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TN-S 系统是保护接地导体(PE)与中性导体(N)完全分开的系统；TN-C-S 系统是干线部分前一段 PE 与 N 共用、后一段分开；TN-C 系统是干线部分 PE 与 N 完全共用。",
+      "examPoint": "TN系统分类",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "TN系统分类"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-07",
+      "type": "single",
+      "stem": "TN-S系统宜用于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "有爆炸危险、或火灾危险性较大、或安全要求较高的场所"
+        },
+        {
+          "key": "B",
+          "text": "无爆炸危险、火灾危险性不大的场所"
+        },
+        {
+          "key": "C",
+          "text": "用电设备较少、用电线路简单的场所"
+        },
+        {
+          "key": "D",
+          "text": "非生产性楼房"
+        }
+      ],
+      "answer": "A",
+      "explanation": "TN-S 系统可用于有爆炸危险，或火灾危险性较大，或安全要求较高的场所，宜用于有独立附设变电站的车间。TN-C-S 宜用于厂内设有总变电站、厂内低压配电的场所及非生产性楼房。TN-C 可用于无爆炸危险、火灾危险性不大、用电设备较少、用电线路简单且安全条件较好的场所。",
+      "examPoint": "TN系统应用范围",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "TN系统应用范围"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-08",
+      "type": "multi",
+      "stem": "重复接地的作用包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "减轻电击的危险性"
+        },
+        {
+          "key": "B",
+          "text": "降低漏电设备的对地电压"
+        },
+        {
+          "key": "C",
+          "text": "改善架空线路的防雷性能"
+        },
+        {
+          "key": "D",
+          "text": "缩短漏电故障持续时间"
+        },
+        {
+          "key": "E",
+          "text": "提高设备运行效率"
+        }
+      ],
+      "answer": "ABCD",
+      "explanation": "重复接地的四大作用：①减轻电击的危险性 ②降低漏电设备的对地电压 ③改善架空线路的防雷性能（对雷电流有分流作用）④缩短漏电故障持续时间（增大单相短路电流，加速保护装置动作）。",
+      "examPoint": "重复接地作用",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "重复接地作用"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "tech-02-s2-09",
+      "type": "single",
+      "stem": "关于TN系统的使用，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以在TN系统中随意混用TT方式"
+        },
+        {
+          "key": "B",
+          "text": "除非接地的设备装有快速切断故障的自动保护装置，不得在TN系统中混用TT方式"
+        },
+        {
+          "key": "C",
+          "text": "TN系统中个别设备只接地不会有任何危险"
+        },
+        {
+          "key": "D",
+          "text": "TN系统中故障电流很大，短路保护一定能动作"
+        }
+      ],
+      "answer": "B",
+      "explanation": "在 TN 系统中，如果个别设备只接地（构成 TT 系统），则该设备和 TN 系统中其他设备的对地电压都可能成为危险电压，而且故障电流不太大，短路保护元件往往不能动作切断电源，危险状态将在大范围内持续存在。因此，除非接地的设备装有快速切断故障的自动保护装置（如剩余电流动作保护装置），不得在 TN 系统中混用 TT 方式。",
+      "examPoint": "TN系统安全要求",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "TN系统安全要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s2-10",
+      "type": "single",
+      "stem": "当保护导体与线导体材料相同时，若线导体截面积 SL ≤ 16mm²，则保护导体最小截面积 SPE 应为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "SL/2"
+        },
+        {
+          "key": "B",
+          "text": "SL"
+        },
+        {
+          "key": "C",
+          "text": "16mm²"
+        },
+        {
+          "key": "D",
+          "text": "10mm²"
+        }
+      ],
+      "answer": "B",
+      "explanation": "保护导体截面积：SL≤16mm² 时 SPE=SL；16＜SL≤35mm² 时 SPE=16mm²；SL＞35mm² 时 SPE=SL/2。",
+      "examPoint": "保护导体截面积",
+      "difficulty": "hard",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 触电防护技术",
+        "point": "保护导体截面积"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s3-01",
+      "type": "single",
+      "stem": "面粉倒袋站的料斗内部，其爆炸危险区域应划分为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0区"
+        },
+        {
+          "key": "B",
+          "text": "21区"
+        },
+        {
+          "key": "C",
+          "text": "1区"
+        },
+        {
+          "key": "D",
+          "text": "20区"
+        }
+      ],
+      "answer": "D",
+      "explanation": "20 区包括粉尘容器、旋风除尘器、搅拌器等设备内部的区域。爆炸性粉尘、纤维分三个区域：20 区（连续或长期出现）、21 区（正常运行时可能出现）、22 区（正常运行时不常出现或仅短时存在）。",
+      "examPoint": "爆炸危险区域划分",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 电气防火防爆技术",
+        "point": "爆炸危险区域划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s3-02",
+      "type": "single",
+      "stem": "爆炸性气体、蒸气按危险程度分为三个区域，其中「在正常运行时可能出现爆炸性气体混合物的环境」是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0区"
+        },
+        {
+          "key": "B",
+          "text": "1区"
+        },
+        {
+          "key": "C",
+          "text": "2区"
+        },
+        {
+          "key": "D",
+          "text": "21区"
+        }
+      ],
+      "answer": "B",
+      "explanation": "爆炸性气体、蒸气分三个区域：0 区（连续出现或长期出现）；1 区（正常运行时可能出现）；2 区（正常运行时不太可能出现，或即使出现也仅是短时存在）。",
+      "examPoint": "爆炸危险区域划分",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第三节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 电气防火防爆技术",
+        "point": "爆炸危险区域划分"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s3-03",
+      "type": "single",
+      "stem": "0区只允许使用的电气设备类型是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "隔爆型"
+        },
+        {
+          "key": "B",
+          "text": "增安型"
+        },
+        {
+          "key": "C",
+          "text": "本质安全型"
+        },
+        {
+          "key": "D",
+          "text": "正压型"
+        }
+      ],
+      "answer": "C",
+      "explanation": "0 区只允许使用本质安全型电气设备。防爆电气设备类型包括隔爆型(d)、增安型(e)、本安型(i)、正压型(p)、充油型(o)、充砂型(q)、无火花型(n)等。",
+      "examPoint": "防爆电气设备",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第三节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 电气防火防爆技术",
+        "point": "防爆电气设备"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s4-01",
+      "type": "single",
+      "stem": "关于直击雷防护技术，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "严禁在装有避雷针的构筑物上架设通信线"
+        },
+        {
+          "key": "B",
+          "text": "独立避雷针与建筑物可共用接地装置"
+        },
+        {
+          "key": "C",
+          "text": "严禁利用照明灯塔作独立避雷针的支柱"
+        },
+        {
+          "key": "D",
+          "text": "壁厚大于4mm的露天接地金属罐需装接闪器"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B 错：独立避雷针是离开建筑物单独装设的，一般情况下其接地装置应当单设。C 错：可以利用照明灯塔作独立避雷针支柱，但照明电源线必须采用铅皮电缆或穿入铁管，并将铅皮电缆或铁管埋入地下经 10m 以上（水平距离，埋深 0.5~0.8m）才能引进室内。D 错：露天装设的有爆炸危险的金属储罐和工艺装置，当其壁厚不小于 4mm 时，允许不再装设接闪器，但必须接地。",
+      "examPoint": "直击雷防护",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 雷击和静电防护技术",
+        "point": "直击雷防护"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s4-02",
+      "type": "single",
+      "stem": "采用静电防护措施时，最常用的措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "环境危险程度的控制"
+        },
+        {
+          "key": "B",
+          "text": "工艺控制"
+        },
+        {
+          "key": "C",
+          "text": "静电接地"
+        },
+        {
+          "key": "D",
+          "text": "增湿"
+        }
+      ],
+      "answer": "C",
+      "explanation": "静电防护四大类措施：①环境危险程度的控制 ②工艺控制 ③静电接地（最常用的措施）④增湿/抗静电添加剂/静电中和器。",
+      "examPoint": "静电防护措施",
+      "difficulty": "easy",
+      "source": "2026教材 第二章第四节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 雷击和静电防护技术",
+        "point": "静电防护措施"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s4-03",
+      "type": "multi",
+      "stem": "静电防护的措施包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "环境危险程度的控制"
+        },
+        {
+          "key": "B",
+          "text": "工艺控制"
+        },
+        {
+          "key": "C",
+          "text": "静电接地"
+        },
+        {
+          "key": "D",
+          "text": "增湿"
+        },
+        {
+          "key": "E",
+          "text": "使用抗静电添加剂"
+        }
+      ],
+      "answer": "ABCDE",
+      "explanation": "静电防护四大类措施：①环境危险程度的控制（取代易燃介质、降低浓度、减少氧化剂）②工艺控制（材料选用、限制物料运动速度、加大静电消散过程）③静电接地 ④增湿、抗静电添加剂、静电中和器。",
+      "examPoint": "静电防护措施",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第四节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 雷击和静电防护技术",
+        "point": "静电防护措施"
+      },
+      "scope": "multi"
+    },
+    {
+      "id": "tech-02-s4-04",
+      "type": "single",
+      "stem": "防雷电侵入波的措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "装设避雷针"
+        },
+        {
+          "key": "B",
+          "text": "装设避雷带"
+        },
+        {
+          "key": "C",
+          "text": "装设避雷器"
+        },
+        {
+          "key": "D",
+          "text": "接地"
+        }
+      ],
+      "answer": "C",
+      "explanation": "防直击雷：装设避雷针、避雷线、避雷带、避雷网。防感应雷：接地、等电位联结。防雷电侵入波：装设避雷器。",
+      "examPoint": "雷电防护措施",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第四节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 雷击和静电防护技术",
+        "point": "雷电防护措施"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s5-01",
+      "type": "single",
+      "stem": "我国规定的安全电压等级中，在潮湿场所或金属容器内作业时，安全电压应为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "36V"
+        },
+        {
+          "key": "B",
+          "text": "24V"
+        },
+        {
+          "key": "C",
+          "text": "12V"
+        },
+        {
+          "key": "D",
+          "text": "6V"
+        }
+      ],
+      "answer": "B",
+      "explanation": "我国规定的安全电压等级：42V、36V、24V、12V、6V。一般场所 36V；潮湿场所/金属容器内 24V；特别潮湿/有导电尘埃/水下 12V；水下等特殊场所 6V。环境越危险，安全电压越低。",
+      "examPoint": "安全电压",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第五节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 电气装置安全技术",
+        "point": "安全电压"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-02-s5-02",
+      "type": "single",
+      "stem": "兼具短路保护、过载保护和欠压保护三种功能的保护电器是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "熔断器"
+        },
+        {
+          "key": "B",
+          "text": "断路器（自动开关）"
+        },
+        {
+          "key": "C",
+          "text": "漏电保护器"
+        },
+        {
+          "key": "D",
+          "text": "热继电器"
+        }
+      ],
+      "answer": "B",
+      "explanation": "熔断器：短路保护；断路器（自动开关）：短路保护 + 过载保护 + 欠压保护（功能最全）；漏电保护器：漏电（接地故障）保护，兼有短路、过载保护功能。",
+      "examPoint": "低压保护电器",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第五节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 电气装置安全技术",
+        "point": "低压保护电器"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s5-03",
+      "type": "single",
+      "stem": "判断绝缘质量最基本、最简易的指标是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "介电常数"
+        },
+        {
+          "key": "B",
+          "text": "耐压强度"
+        },
+        {
+          "key": "C",
+          "text": "绝缘电阻"
+        },
+        {
+          "key": "D",
+          "text": "介质损耗"
+        }
+      ],
+      "answer": "C",
+      "explanation": "绝缘电阻相当于漏导电流遇到的电阻，是直流电阻，是判断绝缘质量最基本、最简易的指标。绝缘物受潮后绝缘电阻明显降低。",
+      "examPoint": "绝缘检测",
+      "difficulty": "easy",
+      "source": "2026教材 第二章第二节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 电气装置安全技术",
+        "point": "绝缘检测"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s5-04",
+      "type": "single",
+      "stem": "漏电保护器的额定动作电流常取（ ），动作时间不大于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10mA；0.1s"
+        },
+        {
+          "key": "B",
+          "text": "30mA；0.1s"
+        },
+        {
+          "key": "C",
+          "text": "30mA；0.5s"
+        },
+        {
+          "key": "D",
+          "text": "50mA；0.1s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "漏电保护器的额定动作电流常取 30mA，动作时间不大于 0.1s。30mA 是一般安全电流界限。",
+      "examPoint": "漏电保护器",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第五节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 电气装置安全技术",
+        "point": "漏电保护器"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-02-s5-05",
+      "type": "single",
+      "stem": "关于双重绝缘，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "双重绝缘设备需要接地或接零"
+        },
+        {
+          "key": "B",
+          "text": "双重绝缘是指具有工作绝缘和保护绝缘的绝缘结构，Ⅱ类设备不需要接地或接零"
+        },
+        {
+          "key": "C",
+          "text": "双重绝缘只有一层绝缘结构"
+        },
+        {
+          "key": "D",
+          "text": "加强绝缘的防护水平低于双重绝缘"
+        }
+      ],
+      "answer": "B",
+      "explanation": "双重绝缘是指同时具有工作绝缘（基本绝缘）和保护绝缘（附加绝缘）的绝缘结构。加强绝缘是具有与双重绝缘同等水平的单一绝缘结构。双重绝缘是防间接接触电击的重要措施，Ⅱ类设备（双重绝缘设备）不需要接地或接零。",
+      "examPoint": "双重绝缘",
+      "difficulty": "medium",
+      "source": "2026教材 第二章第五节",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 电气装置安全技术",
+        "point": "双重绝缘"
+      },
+      "scope": "single"
+    }
+  ]
+}
