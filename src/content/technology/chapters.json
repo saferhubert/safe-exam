@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "slug": "chapter-01",
+    "title": "机械安全技术",
+    "examWeight": 3,
+    "scoreNote": "20分（2025年）— 基础大章",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 机械安全基础知识",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 金属切削机床及砂轮机安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 冲压剪切机械安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s4",
+        "title": "第四节 木工机械安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s5",
+        "title": "第五节 铸造安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s6",
+        "title": "第六节 锻造安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s7",
+        "title": "第七节 安全人机工程",
+        "examWeight": 3
+      },
+      {
+        "id": "s8",
+        "title": "第八节 工业机器人安全技术",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "chapter-02",
+    "title": "电气安全技术",
+    "examWeight": 3,
+    "scoreNote": "24分（2025年）— 全科最高",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 电气事故及危害",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 触电防护技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 电气防火防爆技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 雷击和静电防护技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s5",
+        "title": "第五节 电气装置安全技术",
+        "examWeight": 3
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "chapter-03",
+    "title": "特种设备安全技术",
+    "examWeight": 3,
+    "scoreNote": "13分（2025年）— 识图题重点",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 特种设备的基础知识",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 锅炉安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s3",
+        "title": "第三节 气瓶安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 压力容器安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s5",
+        "title": "第五节 压力管道安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s6",
+        "title": "第六节 起重机械安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s7",
+        "title": "第七节 场（厂）内专用机动车辆安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s8",
+        "title": "第八节 客运索道安全技术",
+        "examWeight": 1
+      },
+      {
+        "id": "s9",
+        "title": "第九节 大型游乐设施安全技术",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "chapter-04",
+    "title": "防火防爆安全技术",
+    "examWeight": 3,
+    "scoreNote": "16分（2025年）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 火灾爆炸事故机理",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 防火防爆技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 烟花爆竹安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 民用爆炸物品安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s5",
+        "title": "第五节 消防设施与器材",
+        "examWeight": 3
+      },
+      {
+        "id": "s6",
+        "title": "第六节 燃烧与爆炸灾害定量评价",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "chapter-05",
+    "title": "危险化学品安全基础知识",
+    "examWeight": 3,
+    "scoreNote": "14分（2025年）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 危险化学品的分类与主要危害",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 危险化学品燃烧爆炸事故的危害",
+        "examWeight": 2
+      },
+      {
+        "id": "s3",
+        "title": "第三节 危险化学品事故的控制和防护措施",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 危险化学品储存、运输与包装安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s5",
+        "title": "第五节 危险化学品经营的安全要求",
+        "examWeight": 2
+      },
+      {
+        "id": "s6",
+        "title": "第六节 泄漏控制与销毁处置技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s7",
+        "title": "第七节 危险化学品的危害及防护",
+        "examWeight": 2
+      }
+    ]
+  }
+]
