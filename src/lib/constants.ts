@@ -57,13 +57,24 @@ export const SUBJECTS: SubjectMeta[] = [
     color: "#059669",
   },
   {
+    slug: "chemical",
+    title: "化工安全（专业实务）",
+    shortTitle: "化工安全",
+    description:
+      "化工安全专业实务：18种重点监管危险化工工艺、化工运行与防火防爆、化学品储运、建设项目安全、事故应急与案例分析。",
+    icon: "FlaskConical",
+    order: 4,
+    totalChapters: 7,
+    color: "#DC2626",
+  },
+  {
     slug: "case-study",
     title: "安全生产专业实务",
     shortTitle: "专业实务",
     description:
       "分专业方向深入学习安全生产实务知识，掌握案例分析答题技巧。",
     icon: "FileText",
-    order: 4,
+    order: 5,
     totalChapters: 10,
     color: "#DC2626",
   },
@@ -84,11 +95,11 @@ export const EXAM_INFO = {
 
 // 当前已完成的科目、章节、题目统计
 export const SITE_STATS = {
-  subjectsCompleted: 1,      // 法律法规已上线
+  subjectsCompleted: 4,      // 法律法规、安全生产管理、技术基础、化工安全 已上线
   subjectsTotal: 4,
-  chaptersCompleted: 7,
-  chaptersTotal: 7,          // 只保留7章
-  questionsTotal: 148,
-  mindmapsTotal: 7,
+  chaptersCompleted: 27,     // 法规7章 + 管理8章 + 技术5章 + 化工7章
+  chaptersTotal: 27,
+  questionsTotal: 547,       // 148 + 205 + 90 + 104
+  mindmapsTotal: 27,
   compareTables: 8,
 };

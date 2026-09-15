@@ -1,0 +1,497 @@
+{
+  "chapterNumber": 7,
+  "title": "第七章 化工安全类案例 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-7-s1-01",
+      "type": "single",
+      "stem": "依据《危险化学品重大危险源辨识》，重大危险源是指长期地或临时地生产、加工、使用或储存危险化学品，且危险化学品的数量（ ）临界量的单元。",
+      "options": [
+        {
+          "key": "A",
+          "text": "大于"
+        },
+        {
+          "key": "B",
+          "text": "等于或超过"
+        },
+        {
+          "key": "C",
+          "text": "小于"
+        },
+        {
+          "key": "D",
+          "text": "远小于"
+        }
+      ],
+      "answer": "B",
+      "explanation": "重大危险源的定义：长期地或临时地生产、加工、使用或储存危险化学品，且危险化学品的数量等于或超过临界量的单元。",
+      "examPoint": "重大危险源定义",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源定义"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s1-02",
+      "type": "single",
+      "stem": "依据《危险化学品重大危险源辨识》，同属一个生产经营单位的且边缘距离小于（ ）的几个（套）生产装置、设施或场所，可划分为一个单元。",
+      "options": [
+        {
+          "key": "A",
+          "text": "100m"
+        },
+        {
+          "key": "B",
+          "text": "200m"
+        },
+        {
+          "key": "C",
+          "text": "300m"
+        },
+        {
+          "key": "D",
+          "text": "500m"
+        }
+      ],
+      "answer": "D",
+      "explanation": "单元是指一个（套）生产装置、设施或场所，或同属一个生产经营单位的且边缘距离小于500m的几个（套）生产装置、设施或场所。注意500m是「边缘距离」，不是「中心距离」，这是易错点。",
+      "examPoint": "重大危险源单元划分",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源单元划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s1-03",
+      "type": "single",
+      "stem": "某单元内存在多种危险化学品，判定其是否构成重大危险源的方法是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "只要有一种化学品超过临界量即构成"
+        },
+        {
+          "key": "B",
+          "text": "Σ（每种危险化学品实际存在量÷该品种临界量）≥1即构成"
+        },
+        {
+          "key": "C",
+          "text": "所有化学品实际存在量之和≥最大临界量即构成"
+        },
+        {
+          "key": "D",
+          "text": "按化学品数量最多的品种判定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "多品种重大危险源的辨识方法：Σ（每种危险化学品实际存在量÷该品种临界量）≥1，则构成重大危险源。单一品种则是实际存在量÷临界量≥1。",
+      "examPoint": "重大危险源辨识方法",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源辨识方法"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s1-04",
+      "type": "single",
+      "stem": "重大危险源划分为一级、二级、三级、四级，其中危险程度最高的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一级"
+        },
+        {
+          "key": "B",
+          "text": "二级"
+        },
+        {
+          "key": "C",
+          "text": "三级"
+        },
+        {
+          "key": "D",
+          "text": "四级"
+        }
+      ],
+      "answer": "A",
+      "explanation": "重大危险源根据危险化学品数量与临界量比值及暴露人员数量，分为一级、二级、三级、四级，其中一级最高。",
+      "examPoint": "重大危险源分级",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源分级"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s1-05",
+      "type": "single",
+      "stem": "重大危险源的安全评估应当每（ ）进行一次。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1年"
+        },
+        {
+          "key": "B",
+          "text": "2年"
+        },
+        {
+          "key": "C",
+          "text": "3年"
+        },
+        {
+          "key": "D",
+          "text": "5年"
+        }
+      ],
+      "answer": "C",
+      "explanation": "重大危险源应当每3年进行一次安全评估。此外，重大危险源实行安全包保责任制，主要负责人每半年至少1次排查、技术负责人每季度至少1次、操作负责人每周至少1次。",
+      "examPoint": "重大危险源安全评估",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源安全评估"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s1-06",
+      "type": "single",
+      "stem": "重大危险源安全包保责任制中，主要负责人的排查频次要求是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每周至少1次"
+        },
+        {
+          "key": "B",
+          "text": "每季度至少1次"
+        },
+        {
+          "key": "C",
+          "text": "每半年至少1次"
+        },
+        {
+          "key": "D",
+          "text": "每年至少1次"
+        }
+      ],
+      "answer": "C",
+      "explanation": "重大危险源安全包保责任制：主要负责人每半年至少1次排查，技术负责人每季度至少1次，操作负责人每周至少1次。",
+      "examPoint": "重大危险源包保责任制",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 重大危险源相关案例",
+        "point": "重大危险源包保责任制"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-07",
+      "type": "single",
+      "stem": "某化工厂发生事故，造成8人死亡、60人重伤，直接经济损失3000万元。依据《生产安全事故报告和调查处理条例》，该事故等级为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一般事故"
+        },
+        {
+          "key": "B",
+          "text": "较大事故"
+        },
+        {
+          "key": "C",
+          "text": "重大事故"
+        },
+        {
+          "key": "D",
+          "text": "特别重大事故"
+        }
+      ],
+      "answer": "C",
+      "explanation": "事故等级划分：死亡人数10人以上30人以下，或重伤50人以上100人以下，或直接经济损失5000万元以上1亿元以下，为重大事故。本例死亡8人（属较大事故区间3~10人），但重伤60人已进入重大事故区间（50~100人），经济损失3000万属较大事故区间。按「满足其一即可、择重原则」，重伤60人对应重大事故，故为重大事故。",
+      "examPoint": "生产安全事故等级划分",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "生产安全事故等级划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-08",
+      "type": "single",
+      "stem": "依据《生产安全事故报告和调查处理条例》，造成30人以上死亡的事故属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一般事故"
+        },
+        {
+          "key": "B",
+          "text": "较大事故"
+        },
+        {
+          "key": "C",
+          "text": "重大事故"
+        },
+        {
+          "key": "D",
+          "text": "特别重大事故"
+        }
+      ],
+      "answer": "D",
+      "explanation": "特别重大事故：造成30人以上死亡，或100人以上重伤，或1亿元以上直接经济损失。记忆口诀：死亡3/10/30，重伤10/50/100，损失1000万/5000万/1亿。「以上」含本数。",
+      "examPoint": "生产安全事故等级划分",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "生产安全事故等级划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-09",
+      "type": "single",
+      "stem": "依据《生产安全事故报告和调查处理条例》，较大事故的死亡人数区间是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3人以下"
+        },
+        {
+          "key": "B",
+          "text": "3人以上10人以下"
+        },
+        {
+          "key": "C",
+          "text": "10人以上30人以下"
+        },
+        {
+          "key": "D",
+          "text": "30人以上"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故等级：一般事故——3人以下死亡；较大事故——3人以上10人以下死亡；重大事故——10人以上30人以下死亡；特别重大事故——30人以上死亡。",
+      "examPoint": "生产安全事故等级划分",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "生产安全事故等级划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-10",
+      "type": "single",
+      "stem": "某化工厂反应釜因超压发生破裂爆炸，依据《企业职工伤亡事故分类》（GB 6441），该事故类别应判定为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "锅炉爆炸"
+        },
+        {
+          "key": "B",
+          "text": "容器爆炸"
+        },
+        {
+          "key": "C",
+          "text": "其他爆炸"
+        },
+        {
+          "key": "D",
+          "text": "火药爆炸"
+        }
+      ],
+      "answer": "B",
+      "explanation": "反应釜属于压力容器，因超压破裂爆炸应判定为「容器爆炸」。注意区分：锅炉超压爆炸为「锅炉爆炸」；可燃气体、蒸气、粉尘与空气混合形成的爆炸为「其他爆炸」；火药爆炸为「火药爆炸」。化工考试常考容器爆炸与其它爆炸的区分。",
+      "examPoint": "事故类别判定",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "事故类别判定"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-11",
+      "type": "single",
+      "stem": "某化工厂因可燃气体泄漏与空气混合形成爆炸性混合物，遇火源发生爆炸。依据GB 6441，该事故类别应判定为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "容器爆炸"
+        },
+        {
+          "key": "B",
+          "text": "锅炉爆炸"
+        },
+        {
+          "key": "C",
+          "text": "其他爆炸"
+        },
+        {
+          "key": "D",
+          "text": "火药爆炸"
+        }
+      ],
+      "answer": "C",
+      "explanation": "可燃气体、蒸气、粉尘与空气混合形成的爆炸性混合物爆炸，属于「其他爆炸」。容器爆炸是指压力容器破裂；锅炉爆炸是指锅炉超压破裂。",
+      "examPoint": "事故类别判定",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "事故类别判定"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-12",
+      "type": "single",
+      "stem": "某炼油厂污水井清淤作业中，作业人员因硫化氢中毒死亡。依据GB 6441，该事故类别应判定为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "中毒和窒息"
+        },
+        {
+          "key": "B",
+          "text": "灼烫"
+        },
+        {
+          "key": "C",
+          "text": "淹溺"
+        },
+        {
+          "key": "D",
+          "text": "其他伤害"
+        }
+      ],
+      "answer": "A",
+      "explanation": "硫化氢中毒属于「中毒和窒息」类事故。GB 6441的20类事故中，第19类即为「中毒和窒息」。污水井清淤属于受限空间作业，硫化氢是典型的有毒气体。",
+      "examPoint": "事故类别判定",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "事故类别判定"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-13",
+      "type": "single",
+      "stem": "化工事故案例分析中，事故的间接原因主要是指（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "设备缺陷、安全装置失效"
+        },
+        {
+          "key": "B",
+          "text": "违规操作、未按规程作业"
+        },
+        {
+          "key": "C",
+          "text": "安全管理制度不健全、教育培训不到位、隐患排查治理不力"
+        },
+        {
+          "key": "D",
+          "text": "自然灾害"
+        }
+      ],
+      "answer": "C",
+      "explanation": "事故间接原因主要指管理缺陷：安全管理制度不健全、安全教育培训不到位、隐患排查治理不力、应急预案缺失或未演练、安全投入不足等。直接原因则是人的不安全行为（违规操作、未检测就作业）和物的不安全状态（设备缺陷、安全装置失效）。",
+      "examPoint": "事故原因分析",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "事故原因分析"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-7-s2-14",
+      "type": "single",
+      "stem": "某化工厂静电引起甲苯装卸槽车爆炸起火，其直接原因是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全管理制度不健全"
+        },
+        {
+          "key": "B",
+          "text": "槽车装卸时未有效接地，静电积聚放电引燃甲苯蒸气"
+        },
+        {
+          "key": "C",
+          "text": "安全教育培训不到位"
+        },
+        {
+          "key": "D",
+          "text": "隐患排查治理不力"
+        }
+      ],
+      "answer": "B",
+      "explanation": "事故直接原因包括人的不安全行为（违规操作、未按规程作业、未检测就作业）和物的不安全状态（设备缺陷、安全装置失效）。本例中槽车装卸时未有效接地导致静电积聚放电引燃甲苯蒸气，属于物的不安全状态与违规操作结合的直接原因。安全管理制度不健全、教育培训不到位、隐患排查不力均属间接原因（管理缺陷）。",
+      "examPoint": "事故原因分析",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-07",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 典型化工事故案例分析",
+        "point": "事故原因分析"
+      },
+      "scope": "inline"
+    }
+  ]
+}

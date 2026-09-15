@@ -1,0 +1,427 @@
+{
+  "chapterNumber": 6,
+  "title": "第六章 化工事故应急管理及救援 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-6-s1-01",
+      "type": "single",
+      "stem": "下列不属于危险化学品事故主要类型的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "火灾"
+        },
+        {
+          "key": "B",
+          "text": "爆炸"
+        },
+        {
+          "key": "C",
+          "text": "中毒"
+        },
+        {
+          "key": "D",
+          "text": "机械伤害"
+        }
+      ],
+      "answer": "D",
+      "explanation": "危险化学品事故的主要类型包括：火灾、爆炸、中毒、泄漏、灼伤。机械伤害属于《企业职工伤亡事故分类》（GB 6441）中的事故类别，不属于危险化学品事故的典型类型划分。",
+      "examPoint": "危险化学品事故类型",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品事故类型与特点",
+        "point": "危险化学品事故类型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s1-02",
+      "type": "single",
+      "stem": "危险化学品事故的主要特点不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "突发性强"
+        },
+        {
+          "key": "B",
+          "text": "危害范围大"
+        },
+        {
+          "key": "C",
+          "text": "易引发次生灾害"
+        },
+        {
+          "key": "D",
+          "text": "事故后果单一、影响可控"
+        }
+      ],
+      "answer": "D",
+      "explanation": "危险化学品事故的主要特点：①突发性强（难以预测）；②危害范围大（毒气扩散、火灾蔓延）；③易引发次生灾害（连锁反应）；④救援难度大（需专业装备）；⑤社会影响大。事故后果往往复杂且难以控制。",
+      "examPoint": "危险化学品事故特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品事故类型与特点",
+        "point": "危险化学品事故特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s1-03",
+      "type": "single",
+      "stem": "储罐区一个储罐着火后，火焰辐射加热邻罐导致邻罐超压破裂，进而引发更大范围火灾爆炸。这种现象称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "连锁泄漏"
+        },
+        {
+          "key": "B",
+          "text": "多米诺效应"
+        },
+        {
+          "key": "C",
+          "text": "溢流效应"
+        },
+        {
+          "key": "D",
+          "text": "热辐射效应"
+        }
+      ],
+      "answer": "B",
+      "explanation": "多米诺效应：一起事故触发邻近装置或储罐发生第二起、第三起事故，形成连锁反应。防范措施包括：足够的防火间距、储罐喷淋降温（防止邻罐受热）、防火堤（防止液体外流）、及时疏散和隔离。",
+      "examPoint": "多米诺效应",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品事故类型与特点",
+        "point": "多米诺效应"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s2-04",
+      "type": "single",
+      "stem": "应急管理的四个阶段依次是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "准备→预防→响应→恢复"
+        },
+        {
+          "key": "B",
+          "text": "预防→准备→响应→恢复"
+        },
+        {
+          "key": "C",
+          "text": "响应→预防→准备→恢复"
+        },
+        {
+          "key": "D",
+          "text": "预防→响应→准备→恢复"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应急管理的四个阶段依次为：预防→准备→响应→恢复。这一分类与《安全生产管理》科目一致。",
+      "examPoint": "应急管理四阶段",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工事故应急准备与响应",
+        "point": "应急管理四阶段"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s2-05",
+      "type": "single",
+      "stem": "化工事故应急处置的首要原则是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "先灭火、后控制"
+        },
+        {
+          "key": "B",
+          "text": "先控制、后消灭"
+        },
+        {
+          "key": "C",
+          "text": "先救人、后灭火"
+        },
+        {
+          "key": "D",
+          "text": "先报告、后处置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "化工事故应急处置的首要原则是「先控制、后消灭」——首要任务是控制危险源（切断泄漏源、控制火势蔓延），而不是立即灭火。如果是气体火灾（如氢气、天然气），盲目灭火会导致气体积聚，形成爆炸性混合物，一旦遇到火源会引发更严重的爆炸。",
+      "examPoint": "事故应急处置原则",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工事故应急准备与响应",
+        "point": "事故应急处置原则"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s2-06",
+      "type": "single",
+      "stem": "对于不能切断气源的气体火灾，正确的处置方式是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "立即用干粉灭火器扑灭火焰"
+        },
+        {
+          "key": "B",
+          "text": "保持稳定燃烧，同时冷却周围设备"
+        },
+        {
+          "key": "C",
+          "text": "用大量水直接冲击火焰"
+        },
+        {
+          "key": "D",
+          "text": "立即疏散人员，不做任何处置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "气体火灾应在确保能切断气源的前提下才灭火；不能切断气源时，应保持稳定燃烧，同时冷却周围设备。盲目灭火会导致气体积聚形成爆炸性混合物，引发更严重的爆炸。",
+      "examPoint": "气体火灾处置",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工事故应急准备与响应",
+        "point": "气体火灾处置"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s3-07",
+      "type": "single",
+      "stem": "依据《生产安全事故应急预案管理办法》，生产经营单位应当在编制应急预案的基础上，针对工作场所、岗位的特点，编制（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急处置卡"
+        },
+        {
+          "key": "B",
+          "text": "风险评估报告"
+        },
+        {
+          "key": "C",
+          "text": "应急资源调查报告"
+        },
+        {
+          "key": "D",
+          "text": "安全生产责任制"
+        }
+      ],
+      "answer": "A",
+      "explanation": "依据《生产安全事故应急预案管理办法》（应急管理部令第2号）第十九条：生产经营单位应当在编制应急预案的基础上，针对工作场所、岗位的特点，编制简明、实用、有效的应急处置卡。",
+      "examPoint": "应急处置卡编制要求",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工企业现场应急处置方案与应急处置卡编制技术",
+        "point": "应急处置卡编制要求"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s3-08",
+      "type": "single",
+      "stem": "基层操作岗位应急处置卡的内容不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "简要描述岗位主要风险类型及事故情景"
+        },
+        {
+          "key": "B",
+          "text": "列出信息报告、应急响应和处置措施的具体处置步骤"
+        },
+        {
+          "key": "C",
+          "text": "列出「谁预警、谁组织、谁处置、谁撤离」等具体处置步骤"
+        },
+        {
+          "key": "D",
+          "text": "本单位三年安全生产规划"
+        }
+      ],
+      "answer": "D",
+      "explanation": "基层操作岗位应急处置卡内容包括：①简要描述岗位主要风险类型及事故情景；②列出该岗位在信息报告、应急响应和处置措施方面的具体处置步骤，明确每个步骤的责任人；③列出需要的人力、设备、物资等应急资源；④列出「谁预警、谁组织、谁处置、谁撤离」等具体处置步骤，宜标绘紧急避险路线图；⑤其他注意事项；⑥根据需要附上装置工艺流程图。",
+      "examPoint": "应急处置卡内容",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工企业现场应急处置方案与应急处置卡编制技术",
+        "point": "应急处置卡内容"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s3-09",
+      "type": "single",
+      "stem": "应急处置卡与应急预案的主要区别是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "应急处置卡内容更详细"
+        },
+        {
+          "key": "B",
+          "text": "应急处置卡简明、实用、便于携带，是针对岗位的行动卡"
+        },
+        {
+          "key": "C",
+          "text": "应急处置卡不需要审批"
+        },
+        {
+          "key": "D",
+          "text": "应急处置卡只适用于管理人员"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应急预案是详细的体系文件（综合预案、专项预案、现场处置方案）；应急处置卡是简明、便于携带的岗位行动卡。应急处置卡是「口袋里的预案」，核心是让一线人员知道第一步该干什么。",
+      "examPoint": "应急处置卡特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工企业现场应急处置方案与应急处置卡编制技术",
+        "point": "应急处置卡特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s4-10",
+      "type": "single",
+      "stem": "在缺氧环境下进行应急救援，应选用的呼吸防护装备是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "过滤式防毒面具"
+        },
+        {
+          "key": "B",
+          "text": "隔绝式呼吸防护装备（正压式空气呼吸器）"
+        },
+        {
+          "key": "C",
+          "text": "一次性口罩"
+        },
+        {
+          "key": "D",
+          "text": "医用外科口罩"
+        }
+      ],
+      "answer": "B",
+      "explanation": "缺氧环境下，过滤式防毒面具完全无效（因为它需要空气通过滤毒罐，缺氧环境无氧可过滤），必须使用隔绝式呼吸防护装备（正压式空气呼吸器）。隔绝式装备适用于缺氧、高浓度有毒气体、紧急救援，适用范围最广。",
+      "examPoint": "呼吸防护装备选择",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 化工事故应急演练与救援装备",
+        "point": "呼吸防护装备选择"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s4-11",
+      "type": "single",
+      "stem": "过滤式防毒面具的适用条件是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "氧含量≥19.5%且有毒气体浓度在允许范围内"
+        },
+        {
+          "key": "B",
+          "text": "缺氧环境"
+        },
+        {
+          "key": "C",
+          "text": "高浓度有毒气体环境"
+        },
+        {
+          "key": "D",
+          "text": "任何环境均可使用"
+        }
+      ],
+      "answer": "A",
+      "explanation": "过滤式防毒面具适用于氧含量≥19.5%且有毒气体浓度在允许范围内的场合，不能用于缺氧环境。缺氧、高浓度有毒气体、紧急救援时应使用隔绝式呼吸防护装备（正压式空气呼吸器）。",
+      "examPoint": "呼吸防护装备选择",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 化工事故应急演练与救援装备",
+        "point": "呼吸防护装备选择"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-6-s4-12",
+      "type": "single",
+      "stem": "关于应急演练的频次要求，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "每三年至少组织一次综合应急预案演练"
+        },
+        {
+          "key": "B",
+          "text": "每年至少组织一次综合应急预案演练或现场处置方案演练"
+        },
+        {
+          "key": "C",
+          "text": "每半年至少组织一次"
+        },
+        {
+          "key": "D",
+          "text": "无明确频次要求"
+        }
+      ],
+      "answer": "B",
+      "explanation": "应急演练的要求：每年至少组织一次综合应急预案演练或现场处置方案演练；应按应急预案的要求开展；演练后应进行评估，形成评估报告；应根据评估结果修订完善应急预案。",
+      "examPoint": "应急演练要求",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-06",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 化工事故应急演练与救援装备",
+        "point": "应急演练要求"
+      },
+      "scope": "inline"
+    }
+  ]
+}

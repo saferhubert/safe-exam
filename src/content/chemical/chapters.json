@@ -1,0 +1,220 @@
+[
+  {
+    "number": 1,
+    "slug": "chapter-01",
+    "title": "化工安全生产概述",
+    "examWeight": 2,
+    "scoreNote": "6分（2025年）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 化工企业安全生产特点",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 化工生产过程安全",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 危险化学品基础知识",
+        "examWeight": 3
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "chapter-02",
+    "title": "化工运行安全技术",
+    "examWeight": 3,
+    "scoreNote": "31分（2025年）— 全科最高",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 危险化工工艺及安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 工艺安全风险分析技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 化工装置开停工安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 主要化工机械设备安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s5",
+        "title": "第五节 特殊作业环节安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s6",
+        "title": "第六节 化工过程控制和检测技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s7",
+        "title": "第七节 危险化学品企业重大生产安全事故隐患判定",
+        "examWeight": 3
+      },
+      {
+        "id": "s8",
+        "title": "第八节 危险化学品重大危险源安全监控",
+        "examWeight": 3
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "chapter-03",
+    "title": "化工防火防爆安全技术",
+    "examWeight": 2,
+    "scoreNote": "2分（2025年）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 化工防火防爆基本要求",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 主要化工防火防爆技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 化工消防技术",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "chapter-04",
+    "title": "化学品储运安全技术",
+    "examWeight": 2,
+    "scoreNote": "4分（2025年，历史最高19分）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 化工企业常用储存设施及安全附件",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 罐区安全技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 储罐安全操作与维护技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 气柜安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s5",
+        "title": "第五节 铁路装卸设施及作业安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s6",
+        "title": "第六节 船舶装运安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s7",
+        "title": "第七节 汽车装卸作业安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s8",
+        "title": "第八节 油气回收安全技术",
+        "examWeight": 2
+      },
+      {
+        "id": "s9",
+        "title": "第九节 危险化学品包装安全技术",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "chapter-05",
+    "title": "化工建设项目安全技术",
+    "examWeight": 3,
+    "scoreNote": "25分（2025年）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 化工建设项目安全设计技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 化工建设项目工程质量安全保障",
+        "examWeight": 3
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "chapter-06",
+    "title": "化工事故应急管理及救援",
+    "examWeight": 2,
+    "scoreNote": "1分（2025年，历史最高8分）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 危险化学品事故类型与特点",
+        "examWeight": 2
+      },
+      {
+        "id": "s2",
+        "title": "第二节 化工事故应急准备与响应",
+        "examWeight": 3
+      },
+      {
+        "id": "s3",
+        "title": "第三节 化工企业现场应急处置方案与应急处置卡编制技术",
+        "examWeight": 3
+      },
+      {
+        "id": "s4",
+        "title": "第四节 化工事故应急演练与救援装备",
+        "examWeight": 2
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "chapter-07",
+    "title": "化工安全类案例",
+    "examWeight": 3,
+    "scoreNote": "6分（2025年，历史最高20分）",
+    "sections": [
+      {
+        "id": "s1",
+        "title": "第一节 重大危险源相关案例",
+        "examWeight": 3
+      },
+      {
+        "id": "s2",
+        "title": "第二节 典型化工事故案例分析",
+        "examWeight": 3
+      }
+    ]
+  }
+]

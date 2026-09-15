@@ -1,0 +1,567 @@
+{
+  "chapterNumber": 4,
+  "title": "第四章 化学品储运安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-4-s1-01",
+      "type": "single",
+      "stem": "下列储罐类型中，最适合储存易挥发油品以减少蒸发损失和降低火灾风险的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "固定顶罐"
+        },
+        {
+          "key": "B",
+          "text": "浮顶罐"
+        },
+        {
+          "key": "C",
+          "text": "球罐"
+        },
+        {
+          "key": "D",
+          "text": "卧式罐"
+        }
+      ],
+      "answer": "B",
+      "explanation": "储罐的选用原则：易挥发、易挥发损失的油品应选用浮顶罐（减少蒸发损失、降低火灾风险）；液化气体、高压介质选用球罐或卧式罐；小容量、临时储存选用卧式罐；大量储存、不易挥发选用固定顶罐。",
+      "examPoint": "储罐分类与选用",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业常用储存设施及安全附件",
+        "point": "储罐分类与选用"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s1-02",
+      "type": "single",
+      "stem": "储罐上用于维持罐内压力平衡，防止罐体因超压或真空而损坏，同时减少油品蒸发损失的安全附件是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "阻火器"
+        },
+        {
+          "key": "B",
+          "text": "呼吸阀"
+        },
+        {
+          "key": "C",
+          "text": "液位计"
+        },
+        {
+          "key": "D",
+          "text": "泡沫发生器"
+        }
+      ],
+      "answer": "B",
+      "explanation": "呼吸阀用于维持罐内压力平衡，防止罐体因超压或真空而损坏，同时减少油品蒸发损失。阻火器（防火器）用于阻止外部火焰通过呼吸阀进入罐内，防止罐内油气被点燃。",
+      "examPoint": "储罐安全附件",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业常用储存设施及安全附件",
+        "point": "储罐安全附件"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s1-03",
+      "type": "single",
+      "stem": "储罐上阻火器的正确安装位置是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "呼吸阀内侧（靠近罐体一侧）"
+        },
+        {
+          "key": "B",
+          "text": "呼吸阀外侧（靠近外部环境一侧）"
+        },
+        {
+          "key": "C",
+          "text": "罐体底部"
+        },
+        {
+          "key": "D",
+          "text": "罐顶中央"
+        }
+      ],
+      "answer": "B",
+      "explanation": "呼吸阀与阻火器必须配套使用，且阻火器应安装在呼吸阀外侧（靠近外部环境一侧），这样才能有效阻止外部火焰通过呼吸阀进入罐内。",
+      "examPoint": "储罐安全附件安装",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业常用储存设施及安全附件",
+        "point": "储罐安全附件安装"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s1-04",
+      "type": "single",
+      "stem": "液化气体、高压介质储存时，最适宜的储罐类型是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "固定顶罐"
+        },
+        {
+          "key": "B",
+          "text": "浮顶罐"
+        },
+        {
+          "key": "C",
+          "text": "球罐或卧式罐"
+        },
+        {
+          "key": "D",
+          "text": "气柜"
+        }
+      ],
+      "answer": "C",
+      "explanation": "储罐选用原则：液化气体、高压介质选用球罐或卧式罐；易挥发油品选用浮顶罐；大量储存、不易挥发选用固定顶罐。",
+      "examPoint": "储罐分类与选用",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业常用储存设施及安全附件",
+        "point": "储罐分类与选用"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s2-05",
+      "type": "single",
+      "stem": "罐区防火堤的有效容积应能容纳（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "最大储罐泄漏的液体量"
+        },
+        {
+          "key": "B",
+          "text": "最小储罐的全部容积"
+        },
+        {
+          "key": "C",
+          "text": "全部储罐容积之和"
+        },
+        {
+          "key": "D",
+          "text": "最大储罐容积的50%"
+        }
+      ],
+      "answer": "A",
+      "explanation": "罐区应设置防火堤（防止液体外流扩散），防火堤的有效容积应能容纳最大储罐泄漏的液体量；防火堤内应设置排水设施（带水封，防止液体外流）。",
+      "examPoint": "罐区安全管理",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 罐区安全技术",
+        "point": "罐区安全管理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s2-06",
+      "type": "single",
+      "stem": "重大危险源罐区防火堤内的动火作业属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "特级动火"
+        },
+        {
+          "key": "B",
+          "text": "一级动火"
+        },
+        {
+          "key": "C",
+          "text": "二级动火"
+        },
+        {
+          "key": "D",
+          "text": "三级动火"
+        }
+      ],
+      "answer": "A",
+      "explanation": "重大危险源罐区防火堤内的动火作业属「特级动火」（最高级别），必须严格执行动火作业许可管理。",
+      "examPoint": "罐区动火管理",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 罐区安全技术",
+        "point": "罐区动火管理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s2-07",
+      "type": "single",
+      "stem": "罐区防火堤内的排水设施设置水封的主要目的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "防止雨水倒灌"
+        },
+        {
+          "key": "B",
+          "text": "防止堤内液体外流"
+        },
+        {
+          "key": "C",
+          "text": "加快排水速度"
+        },
+        {
+          "key": "D",
+          "text": "便于检测水质"
+        }
+      ],
+      "answer": "B",
+      "explanation": "防火堤内应设置排水设施（带水封），水封的作用是防止堤内泄漏的液体（可能含可燃液体）外流扩散，同时允许雨水排出。",
+      "examPoint": "罐区安全管理",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 罐区安全技术",
+        "point": "罐区安全管理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s3-08",
+      "type": "single",
+      "stem": "储罐清洗作业在安全管理上应按（ ）管理。",
+      "options": [
+        {
+          "key": "A",
+          "text": "动火作业"
+        },
+        {
+          "key": "B",
+          "text": "受限空间作业"
+        },
+        {
+          "key": "C",
+          "text": "高处作业"
+        },
+        {
+          "key": "D",
+          "text": "吊装作业"
+        }
+      ],
+      "answer": "B",
+      "explanation": "储罐清洗作业属于受限空间作业，必须按受限空间作业管理：必须办理作业许可（受限空间作业票）、必须设置监护人在罐外全程监护、作业人员必须佩戴个体防护装备、严禁使用明火和产生火花的工具。",
+      "examPoint": "储罐清洗安全",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 储罐安全操作与维护技术",
+        "point": "储罐清洗安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s3-09",
+      "type": "single",
+      "stem": "储罐清洗作业的正确安全顺序是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "先检测→再置换→后作业"
+        },
+        {
+          "key": "B",
+          "text": "先作业→再检测→后置换"
+        },
+        {
+          "key": "C",
+          "text": "先置换→再检测→后作业"
+        },
+        {
+          "key": "D",
+          "text": "先置换→后作业→再检测"
+        }
+      ],
+      "answer": "C",
+      "explanation": "储罐清洗的安全要求：清洗前必须进行置换（用惰性气体或水置换油气）→ 清洗前必须进行气体检测（确认可燃气体浓度在安全范围内）→ 作业。必须先置换后检测，最后才作业。",
+      "examPoint": "储罐清洗安全",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 储罐安全操作与维护技术",
+        "point": "储罐清洗安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s3-10",
+      "type": "single",
+      "stem": "储罐的全面检验（内部检验）一般每（ ）进行一次。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1~2年"
+        },
+        {
+          "key": "B",
+          "text": "2~3年"
+        },
+        {
+          "key": "C",
+          "text": "5~6年"
+        },
+        {
+          "key": "D",
+          "text": "10年"
+        }
+      ],
+      "answer": "C",
+      "explanation": "储罐检查维护：日常检查（液位、温度、压力、有无泄漏）、定期检查（罐体壁厚、基础沉降、浮盘密封）、年度检查（全面检查安全附件）、全面检验（按规范周期进行，一般5~6年一次内部检验）。",
+      "examPoint": "储罐检查维护",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 储罐安全操作与维护技术",
+        "point": "储罐检查维护"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s3-11",
+      "type": "single",
+      "stem": "储罐防腐措施中，通过电化学原理对储罐实施保护的措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "内防腐涂层"
+        },
+        {
+          "key": "B",
+          "text": "外防腐涂层"
+        },
+        {
+          "key": "C",
+          "text": "阴极保护"
+        },
+        {
+          "key": "D",
+          "text": "定期检测壁厚"
+        }
+      ],
+      "answer": "C",
+      "explanation": "储罐防腐措施：内防腐（防止介质腐蚀罐壁，涂层、衬里）、外防腐（防止大气环境腐蚀，涂层）、阴极保护（电化学保护）、定期检测壁厚（监测腐蚀状况）。",
+      "examPoint": "储罐防腐",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 储罐安全操作与维护技术",
+        "point": "储罐防腐"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s4-12",
+      "type": "single",
+      "stem": "气柜设置阻火器的主要作用是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "防止气体泄漏"
+        },
+        {
+          "key": "B",
+          "text": "防止外部火焰进入气柜"
+        },
+        {
+          "key": "C",
+          "text": "调节气体压力"
+        },
+        {
+          "key": "D",
+          "text": "计量气体流量"
+        }
+      ],
+      "answer": "B",
+      "explanation": "气柜安全的核心是防泄漏+防超压：防泄漏靠保持密封良好（湿式气柜的水封、干式气柜的油封）；防超压靠设置安全阀、放散管；防回火靠设置阻火器（防止外部火焰进入气柜）。",
+      "examPoint": "气柜安全技术",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 气柜安全技术",
+        "point": "气柜安全技术"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s7-13",
+      "type": "single",
+      "stem": "汽车槽车装卸作业中，静电接地的正确操作顺序是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "装卸前先接地，装卸后先拆接地再拆管线"
+        },
+        {
+          "key": "B",
+          "text": "装卸前先接地，装卸后先拆管线再拆接地"
+        },
+        {
+          "key": "C",
+          "text": "装卸前先连管线再接地，装卸后先拆接地再拆管线"
+        },
+        {
+          "key": "D",
+          "text": "接地与接管线的顺序无关"
+        }
+      ],
+      "answer": "B",
+      "explanation": "汽车装卸的静电防护顺序：装卸前——先接地→再连接管线→再开始装卸；装卸后——先停止装卸→再拆除管线→最后拆除接地。顺序不能错！如果先拆接地再拆管线，管线脱离时可能产生静电火花，引燃残余油气，导致爆炸。",
+      "examPoint": "汽车装卸静电防护",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 汽车装卸作业安全技术",
+        "point": "汽车装卸静电防护"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s7-14",
+      "type": "single",
+      "stem": "汽车槽车装卸作业中，为避免喷溅产生静电，应采用（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "顶部喷淋进料"
+        },
+        {
+          "key": "B",
+          "text": "底部装卸方式"
+        },
+        {
+          "key": "C",
+          "text": "高速大流量装卸"
+        },
+        {
+          "key": "D",
+          "text": "敞口装卸"
+        }
+      ],
+      "answer": "B",
+      "explanation": "汽车装卸安全要点：应采用底部装卸方式（避免喷溅产生静电）；限制装卸流速；必须设置静电接地；严禁超装；装卸过程中禁止启动车辆；驾押人员必须持证上岗；现场应配备灭火器材；设置警戒区。",
+      "examPoint": "汽车装卸作业安全",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 汽车装卸作业安全技术",
+        "point": "汽车装卸作业安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s8-15",
+      "type": "single",
+      "stem": "采用活性炭吸附法进行油气回收时，最主要的风险是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "活性炭中毒"
+        },
+        {
+          "key": "B",
+          "text": "活性炭吸附放热导致自燃"
+        },
+        {
+          "key": "C",
+          "text": "活性炭结冰"
+        },
+        {
+          "key": "D",
+          "text": "活性炭溶解"
+        }
+      ],
+      "answer": "B",
+      "explanation": "活性炭吸附法回收油气的风险：活性炭吸附油气时放热，若热量积聚可能导致活性炭自燃。因此必须控温、定期更换活性炭、设置温度监测和报警。所有油气回收装置都必须设置阻火器。",
+      "examPoint": "油气回收安全",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s8",
+        "sectionTitle": "第八节 油气回收安全技术",
+        "point": "油气回收安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-4-s9-16",
+      "type": "single",
+      "stem": "关于盛装液体爆炸品的包装要求，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "容器封闭形式应具有防止渗漏的双重保护"
+        },
+        {
+          "key": "B",
+          "text": "可以使用无防护涂料的金属部件穿透外包装"
+        },
+        {
+          "key": "C",
+          "text": "内容器无需衬垫"
+        },
+        {
+          "key": "D",
+          "text": "包装不需考虑电磁辐射影响"
+        }
+      ],
+      "answer": "A",
+      "explanation": "盛装爆炸品包装的附加要求：①盛装液体爆炸品容器的封闭形式，应具有防止渗漏的双重保护；②除内包装能充分防止爆炸品与金属物接触外，铁钉和其他没有防护涂料的金属部件不应穿透外包装；③包装内的爆炸物质和物品，包括内容器，应衬垫妥实，在运输中不允许发生危险性移动；④盛装有对外部电磁辐射敏感的电引发装置的爆炸物品，包装应具备防止受外部电磁辐射影响的功能。",
+      "examPoint": "危险化学品包装安全",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 危险化学品包装安全技术",
+        "point": "危险化学品包装安全"
+      },
+      "scope": "inline"
+    }
+  ]
+}

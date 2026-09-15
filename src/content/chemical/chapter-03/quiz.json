@@ -1,0 +1,357 @@
+{
+  "chapterNumber": 3,
+  "title": "第三章 化工防火防爆安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-3-s1-01",
+      "type": "single",
+      "stem": "化工防火防爆的基本措施中，采用惰性介质保护（如加入氮气）属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "控制可燃物"
+        },
+        {
+          "key": "B",
+          "text": "控制助燃物"
+        },
+        {
+          "key": "C",
+          "text": "控制点火源"
+        },
+        {
+          "key": "D",
+          "text": "限制事故后果"
+        }
+      ],
+      "answer": "B",
+      "explanation": "控制助燃物的措施包括：惰性介质保护（加入N₂、CO₂等，使氧含量降到极限氧浓度以下）、密闭操作、通风（防止可燃气体积聚）。加入惰性气体是隔绝/稀释助燃物（氧气），属于控制助燃物。",
+      "examPoint": "防火防爆基本措施",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工防火防爆基本要求",
+        "point": "防火防爆基本措施"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s1-02",
+      "type": "single",
+      "stem": "关于爆炸危险区域划分，连续出现或长期出现爆炸性气体混合物的环境属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0区"
+        },
+        {
+          "key": "B",
+          "text": "1区"
+        },
+        {
+          "key": "C",
+          "text": "2区"
+        },
+        {
+          "key": "D",
+          "text": "20区"
+        }
+      ],
+      "answer": "A",
+      "explanation": "爆炸性气体、蒸气环境分3个区域：0区——连续出现或长期出现爆炸性气体混合物的环境；1区——在正常运行时可能出现爆炸性气体混合物的环境；2区——在正常运行时不太可能出现，或即使出现也仅是短时存在的环境。粉尘环境分20、21、22区。",
+      "examPoint": "爆炸危险区域划分",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工防火防爆基本要求",
+        "point": "爆炸危险区域划分"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s1-03",
+      "type": "single",
+      "stem": "在0区（连续出现或长期出现爆炸性气体混合物的环境）内，只允许使用的电气设备是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "隔爆型"
+        },
+        {
+          "key": "B",
+          "text": "增安型"
+        },
+        {
+          "key": "C",
+          "text": "本质安全型"
+        },
+        {
+          "key": "D",
+          "text": "正压型"
+        }
+      ],
+      "answer": "C",
+      "explanation": "防爆电气设备的选型原则：0区只允许使用本质安全型电气设备；1区可使用隔爆型、增安型、本安型、正压型等；2区可使用无火花型等。",
+      "examPoint": "防爆电气设备选型",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工防火防爆基本要求",
+        "point": "防爆电气设备选型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s1-04",
+      "type": "single",
+      "stem": "工业建筑防火与防爆措施中，用于防止爆炸冲击波造成主体结构破坏的措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "设置防火墙"
+        },
+        {
+          "key": "B",
+          "text": "设置防爆泄压面积"
+        },
+        {
+          "key": "C",
+          "text": "设置防火门"
+        },
+        {
+          "key": "D",
+          "text": "设置安全疏散通道"
+        }
+      ],
+      "answer": "B",
+      "explanation": "工业建筑防火与防爆措施包括：建筑物的耐火等级应符合要求；应设置防爆泄压面积（轻质屋盖、泄压门窗），用于泄放爆炸压力、保护主体结构；应设置防火分隔（防火墙、防火门）；易燃易爆厂房应单独设置并保持防火间距；应设置安全疏散通道。",
+      "examPoint": "工业建筑防火防爆",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工防火防爆基本要求",
+        "point": "工业建筑防火防爆"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s2-05",
+      "type": "single",
+      "stem": "化工防静电措施中，针对可燃液体输送和装卸的核心要求是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "提高输送温度"
+        },
+        {
+          "key": "B",
+          "text": "限制流速、禁止喷溅"
+        },
+        {
+          "key": "C",
+          "text": "增加管道直径"
+        },
+        {
+          "key": "D",
+          "text": "使用绝缘管道"
+        }
+      ],
+      "answer": "B",
+      "explanation": "防静电措施包括：静电接地、限制流速（防止高速流动产生静电）、禁止喷溅（装卸时避免高速喷溅，应从底部进料）、增湿、抗静电添加剂、静电中和器、个体防护（穿防静电工作服和工作鞋）、禁用化纤。其中限制流速和禁止喷溅是化工可燃液体作业的核心要求。",
+      "examPoint": "防静电措施",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 主要化工防火防爆技术",
+        "point": "防静电措施"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s2-06",
+      "type": "single",
+      "stem": "爆炸危险场所内，不应使用的工具和材料是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "铜制工具"
+        },
+        {
+          "key": "B",
+          "text": "防静电工作服"
+        },
+        {
+          "key": "C",
+          "text": "化纤材料的工具和抹布"
+        },
+        {
+          "key": "D",
+          "text": "木质工具"
+        }
+      ],
+      "answer": "C",
+      "explanation": "爆炸危险场所不应使用化纤材料的工具、抹布。化纤材料易产生和积聚静电，是潜在点火源。操作人员应穿防静电工作服和工作鞋。",
+      "examPoint": "防静电个体防护",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 主要化工防火防爆技术",
+        "point": "防静电个体防护"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s2-07",
+      "type": "single",
+      "stem": "防直击雷的主要措施是装设（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "避雷器"
+        },
+        {
+          "key": "B",
+          "text": "避雷针、避雷线、避雷带、避雷网"
+        },
+        {
+          "key": "C",
+          "text": "接地装置"
+        },
+        {
+          "key": "D",
+          "text": "等电位联结"
+        }
+      ],
+      "answer": "B",
+      "explanation": "防雷措施：防直击雷——装设避雷针、避雷线、避雷带、避雷网；防感应雷——接地、等电位联结；防雷电侵入波——装设避雷器。",
+      "examPoint": "防雷措施",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 主要化工防火防爆技术",
+        "point": "防雷措施"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s3-08",
+      "type": "single",
+      "stem": "油品储罐区最常用、最适宜的灭火系统是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "气体灭火系统"
+        },
+        {
+          "key": "B",
+          "text": "泡沫灭火系统"
+        },
+        {
+          "key": "C",
+          "text": "干粉灭火系统"
+        },
+        {
+          "key": "D",
+          "text": "蒸汽灭火系统"
+        }
+      ],
+      "answer": "B",
+      "explanation": "化工常用消防设施：泡沫灭火系统适用于油品、可燃液体储罐区（最常用），通过泡沫覆盖窒息灭火；气体灭火系统（CO₂、七氟丙烷）适用于精密仪器、计算机房、配电室；蒸汽灭火系统适用于化工装置区气体火灾。",
+      "examPoint": "化工消防设施选用",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工消防技术",
+        "point": "化工消防设施选用"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s3-09",
+      "type": "single",
+      "stem": "化工储罐区发生火灾时，首要的处置措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "立即用大量水直接灭火"
+        },
+        {
+          "key": "B",
+          "text": "冷却降温，防止邻罐受热爆炸"
+        },
+        {
+          "key": "C",
+          "text": "立即排空罐内物料"
+        },
+        {
+          "key": "D",
+          "text": "关闭所有消防设施"
+        }
+      ],
+      "answer": "B",
+      "explanation": "化工储罐区火灾的首要措施是冷却降温（通过水喷淋系统），防止邻罐受热超压破裂引发连锁事故（多米诺效应），而不是直接灭火。气体火灾尤其要遵循「先控制、后消灭」原则。",
+      "examPoint": "储罐区火灾处置",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工消防技术",
+        "point": "储罐区火灾处置"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-3-s3-10",
+      "type": "single",
+      "stem": "配电室、计算机房等场所发生火灾时，最适宜选用的灭火系统是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "泡沫灭火系统"
+        },
+        {
+          "key": "B",
+          "text": "水喷淋系统"
+        },
+        {
+          "key": "C",
+          "text": "气体灭火系统（CO₂/七氟丙烷）"
+        },
+        {
+          "key": "D",
+          "text": "蒸汽灭火系统"
+        }
+      ],
+      "answer": "C",
+      "explanation": "气体灭火系统（CO₂、七氟丙烷）适用于精密仪器、计算机房、配电室等场所，灭火后无残留、不导电、不损坏设备。泡沫和水系统会造成设备损坏和电气短路。",
+      "examPoint": "消防设施选用",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工消防技术",
+        "point": "消防设施选用"
+      },
+      "scope": "inline"
+    }
+  ]
+}

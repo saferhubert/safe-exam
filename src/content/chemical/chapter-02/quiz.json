@@ -1,0 +1,847 @@
+{
+  "chapterNumber": 2,
+  "title": "第二章 化工运行安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-2-s1-01",
+      "type": "single",
+      "stem": "国家公布的重点监管危险化工工艺共有（ ）种。",
+      "options": [
+        {
+          "key": "A",
+          "text": "15种"
+        },
+        {
+          "key": "B",
+          "text": "16种"
+        },
+        {
+          "key": "C",
+          "text": "18种"
+        },
+        {
+          "key": "D",
+          "text": "20种"
+        }
+      ],
+      "answer": "C",
+      "explanation": "国家安全生产监督管理总局分别于2009年、2013年公布了首批和第二批重点监管的危险化工工艺目录，明确了18种重点监管的危险化工工艺及其工艺安全控制措施。",
+      "examPoint": "重点监管危险化工工艺数量",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "重点监管危险化工工艺数量"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-02",
+      "type": "single",
+      "stem": "下列重点监管危险化工工艺中，属于吸热反应的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "氯化工艺"
+        },
+        {
+          "key": "B",
+          "text": "硝化工艺"
+        },
+        {
+          "key": "C",
+          "text": "电解工艺（氯碱）"
+        },
+        {
+          "key": "D",
+          "text": "加氢工艺"
+        }
+      ],
+      "answer": "C",
+      "explanation": "电解工艺（氯碱）属于吸热反应。裂解（裂化）工艺属于高温吸热反应。除电解工艺和裂解工艺外，其余重点监管危险化工工艺（光气化、氯化、硝化、合成氨、氟化、加氢、重氮化、氧化、过氧化、胺基化、磺化、聚合、烷基化）均为放热反应。",
+      "examPoint": "危险化工工艺反应类型",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "危险化工工艺反应类型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-03",
+      "type": "single",
+      "stem": "光气及光气化工艺中，副产物（ ）具有腐蚀性，易造成设备和管线泄漏，使人员发生中毒事故。",
+      "options": [
+        {
+          "key": "A",
+          "text": "氯化氢"
+        },
+        {
+          "key": "B",
+          "text": "三氯化氮"
+        },
+        {
+          "key": "C",
+          "text": "硫化氢"
+        },
+        {
+          "key": "D",
+          "text": "二氧化碳"
+        }
+      ],
+      "answer": "A",
+      "explanation": "光气及光气化工艺的工艺危险特点：①光气为剧毒气体，泄漏后易造成大面积污染、中毒事故；②反应介质具有燃爆危险性；③副产物氯化氢具有腐蚀性，易造成设备和管线泄漏，使人员发生中毒事故。",
+      "examPoint": "光气及光气化工艺",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "光气及光气化工艺"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-04",
+      "type": "single",
+      "stem": "光气及光气化工艺的重点监控单元是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电解槽、氯气储运单元"
+        },
+        {
+          "key": "B",
+          "text": "光气化反应釜、光气储运单元"
+        },
+        {
+          "key": "C",
+          "text": "硝化反应釜、分离单元"
+        },
+        {
+          "key": "D",
+          "text": "加氢反应釜、氢气压缩机"
+        }
+      ],
+      "answer": "B",
+      "explanation": "光气及光气化工艺的重点监控单元为光气化反应釜、光气储运单元。电解工艺为电解槽和氯气储运单元；硝化工艺为硝化反应釜和分离单元；加氢工艺为加氢反应釜和氢气压缩机。",
+      "examPoint": "危险化工工艺重点监控单元",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "危险化工工艺重点监控单元"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-05",
+      "type": "single",
+      "stem": "电解食盐水过程中，当氯气中含氢量达到（ ）以上时，随时可能在光照或受热情况下发生爆炸。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3%"
+        },
+        {
+          "key": "B",
+          "text": "5%"
+        },
+        {
+          "key": "C",
+          "text": "8%"
+        },
+        {
+          "key": "D",
+          "text": "10%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "电解食盐水过程中产生的氢气是极易燃烧的气体，氯气是氧化性很强的剧毒气体，两种气体混合极易发生爆炸，当氯气中含氢量达到5%以上，则随时可能在光照或受热情况下发生爆炸。",
+      "examPoint": "电解工艺危险特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "电解工艺危险特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-06",
+      "type": "single",
+      "stem": "电解工艺中，当盐水中铵盐超标，在pH＜4.5条件下可生成黄色油状的三氯化氮，该物质与有机物接触或加热至（ ）以上以及被撞击、摩擦等，即发生剧烈分解而爆炸。",
+      "options": [
+        {
+          "key": "A",
+          "text": "60℃"
+        },
+        {
+          "key": "B",
+          "text": "70℃"
+        },
+        {
+          "key": "C",
+          "text": "80℃"
+        },
+        {
+          "key": "D",
+          "text": "90℃"
+        }
+      ],
+      "answer": "D",
+      "explanation": "如果盐水中存在的铵盐超标，在适宜的条件（pH<4.5）下，铵盐和氯作用可生成氯化铵，浓氯化铵溶液与氯还可生成黄色油状的三氯化氮。三氯化氮是一种爆炸性物质，与许多有机物接触或加热至90℃以上以及被撞击、摩擦等，即发生剧烈的分解而爆炸。",
+      "examPoint": "电解工艺三氯化氮",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "电解工艺三氯化氮"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-07",
+      "type": "single",
+      "stem": "硝化工艺中，最危险的操作状态是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "反应过程中持续搅拌"
+        },
+        {
+          "key": "B",
+          "text": "反应开始阶段停止搅拌或搅拌叶片脱落造成搅拌失效"
+        },
+        {
+          "key": "C",
+          "text": "反应釜温度稳定"
+        },
+        {
+          "key": "D",
+          "text": "硝化剂匀速进料"
+        }
+      ],
+      "answer": "B",
+      "explanation": "硝化反应速度快、放热量大，大多数硝化反应在非均相中进行，反应组分的不均匀分布容易引起局部过热导致危险。尤其在硝化反应开始阶段，停止搅拌或由于搅拌叶片脱落等造成搅拌失效是非常危险的，一旦搅拌再次开动，就会突然引发局部激烈反应，瞬间释放大量的热量，引起爆炸事故。",
+      "examPoint": "硝化工艺危险特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "硝化工艺危险特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-08",
+      "type": "single",
+      "stem": "下列物质中，属于硝化工艺典型工艺产物的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "聚碳酸酯"
+        },
+        {
+          "key": "B",
+          "text": "硝酸甘油、三硝基甲苯（TNT）"
+        },
+        {
+          "key": "C",
+          "text": "1,2-二氯乙烷"
+        },
+        {
+          "key": "D",
+          "text": "环己烷"
+        }
+      ],
+      "answer": "B",
+      "explanation": "硝化工艺典型工艺（直接硝化法）：丙三醇与混酸反应制备硝酸甘油；氯苯硝化制备邻硝基氯苯、对硝基氯苯；苯硝化制备硝基苯；甲苯硝化生产三硝基甲苯（俗称梯恩梯，TNT）等。聚碳酸酯属于光气化工艺；1,2-二氯乙烷属于氯化工艺；环己烷属于加氢工艺（苯加氢生成环己烷）。",
+      "examPoint": "硝化工艺典型工艺",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "硝化工艺典型工艺"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-09",
+      "type": "single",
+      "stem": "合成氨工艺的工艺条件是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "N₂和H₂按1:1比例，200~300℃、5~10MPa"
+        },
+        {
+          "key": "B",
+          "text": "N₂和H₂按1:3比例，300~450℃、15~30MPa"
+        },
+        {
+          "key": "C",
+          "text": "N₂和H₂按3:1比例，400~500℃、30~50MPa"
+        },
+        {
+          "key": "D",
+          "text": "N₂和H₂按1:2比例，500~600℃、50~80MPa"
+        }
+      ],
+      "answer": "B",
+      "explanation": "合成氨工艺：氮和氢两种组分按一定比例（1:3）组成的气体（合成气），在高温、高压下（一般为300~450℃，15~30MPa）经催化反应生成氨。",
+      "examPoint": "合成氨工艺条件",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "合成氨工艺条件"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-10",
+      "type": "single",
+      "stem": "合成氨工艺中，气体物料一旦过氧（透氧），极易发生的事故是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "中毒事故"
+        },
+        {
+          "key": "B",
+          "text": "设备和管道内爆炸"
+        },
+        {
+          "key": "C",
+          "text": "腐蚀泄漏"
+        },
+        {
+          "key": "D",
+          "text": "积炭"
+        }
+      ],
+      "answer": "B",
+      "explanation": "合成氨工艺危险特点之一：高温、高压使可燃气体爆炸极限扩宽，气体物料一旦过氧（亦称透氧），极易在设备和管道内发生爆炸。",
+      "examPoint": "合成氨工艺危险特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "合成氨工艺危险特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-11",
+      "type": "single",
+      "stem": "裂解（裂化）工艺的反应类型是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "放热反应"
+        },
+        {
+          "key": "B",
+          "text": "吸热反应"
+        },
+        {
+          "key": "C",
+          "text": "高温吸热反应"
+        },
+        {
+          "key": "D",
+          "text": "低温放热反应"
+        }
+      ],
+      "answer": "C",
+      "explanation": "裂解（裂化）工艺的反应类型为高温吸热反应。这是18种重点监管危险化工工艺中与电解工艺并列为「非放热」的两种工艺之一。",
+      "examPoint": "裂解工艺反应类型",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "裂解工艺反应类型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-12",
+      "type": "single",
+      "stem": "裂解工艺中，一旦引风机故障停车，正确的联锁动作是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "裂解炉自动停止进料并切断燃料供应，同时停止供应稀释蒸汽"
+        },
+        {
+          "key": "B",
+          "text": "裂解炉自动停止进料并切断燃料供应，但应继续供应稀释蒸汽"
+        },
+        {
+          "key": "C",
+          "text": "维持进料不变，仅切断燃料供应"
+        },
+        {
+          "key": "D",
+          "text": "立即启动备用引风机，一切操作不变"
+        }
+      ],
+      "answer": "B",
+      "explanation": "将引风机电流与裂解炉进料阀、燃料油进料阀、稀释蒸汽阀之间形成联锁关系，一旦引风机故障停车，则裂解炉自动停止进料并切断燃料供应，但应继续供应稀释蒸汽，以带走炉膛内的余热。",
+      "examPoint": "裂解工艺联锁控制",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "裂解工艺联锁控制"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-13",
+      "type": "single",
+      "stem": "氢气的爆炸极限为（ ），具有高燃爆危险特性。",
+      "options": [
+        {
+          "key": "A",
+          "text": "4%~75%"
+        },
+        {
+          "key": "B",
+          "text": "5%~15%"
+        },
+        {
+          "key": "C",
+          "text": "3%~80%"
+        },
+        {
+          "key": "D",
+          "text": "10%~50%"
+        }
+      ],
+      "answer": "A",
+      "explanation": "加氢工艺中反应物料具有燃爆危险性，氢气的爆炸极限为4%~75%，具有高燃爆危险特性。加氢为强烈的放热反应，氢气在高温高压下与钢材接触，钢材内的碳分子易与氢气发生反应生成碳氢化合物，使钢制设备强度降低，发生氢脆。",
+      "examPoint": "加氢工艺氢气爆炸极限",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "加氢工艺氢气爆炸极限"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-14",
+      "type": "single",
+      "stem": "加氢工艺中，氢气在高温高压下与钢材接触，使钢制设备强度降低的现象称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "蠕变"
+        },
+        {
+          "key": "B",
+          "text": "氢脆"
+        },
+        {
+          "key": "C",
+          "text": "渗氮"
+        },
+        {
+          "key": "D",
+          "text": "积炭"
+        }
+      ],
+      "answer": "B",
+      "explanation": "加氢为强烈的放热反应，氢气在高温高压下与钢材接触，钢材内的碳分子易与氢气发生反应生成碳氢化合物，使钢制设备强度降低，发生氢脆。",
+      "examPoint": "加氢工艺氢脆",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "加氢工艺氢脆"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-15",
+      "type": "single",
+      "stem": "加氢工艺的重点监控单元是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "加氢反应釜、氢气压缩机"
+        },
+        {
+          "key": "B",
+          "text": "硝化反应釜、分离单元"
+        },
+        {
+          "key": "C",
+          "text": "氟化剂储运单元"
+        },
+        {
+          "key": "D",
+          "text": "裂解炉、制冷系统"
+        }
+      ],
+      "answer": "A",
+      "explanation": "加氢工艺的重点监控单元为加氢反应釜、氢气压缩机。氟化工艺重点监控单元为氟化剂储运单元；硝化工艺为硝化反应釜、分离单元；裂解工艺为裂解炉、制冷系统、压缩机、引风机、分离单元。",
+      "examPoint": "危险化工工艺重点监控单元",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "危险化工工艺重点监控单元"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s1-16",
+      "type": "single",
+      "stem": "聚合工艺最主要的危险特点是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "反应吸热导致温度过低"
+        },
+        {
+          "key": "B",
+          "text": "反应热难以导出，易发生暴聚"
+        },
+        {
+          "key": "C",
+          "text": "产物具有强腐蚀性"
+        },
+        {
+          "key": "D",
+          "text": "原料不易燃爆"
+        }
+      ],
+      "answer": "B",
+      "explanation": "聚合工艺属于放热反应，反应热难以导出，易发生暴聚；单体易自聚。这是聚合工艺的核心危险特点。",
+      "examPoint": "聚合工艺危险特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化工工艺及安全技术",
+        "point": "聚合工艺危险特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s2-17",
+      "type": "single",
+      "stem": "在化工工艺危害分析中，以「引导词」为引导，对工艺或操作的「节点」进行分析，找出「偏差」，分析原因、后果及对策的方法是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全检查表（SCL）"
+        },
+        {
+          "key": "B",
+          "text": "危险与可操作性研究（HAZOP）"
+        },
+        {
+          "key": "C",
+          "text": "故障树分析（FTA）"
+        },
+        {
+          "key": "D",
+          "text": "事件树分析（ETA）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "HAZOP（危险和可操作性研究）以引导词为引导，对工艺或操作的节点进行分析，找出偏差，分析原因、后果及对策，广泛应用于化工工艺安全分析。偏差=引导词+参数。",
+      "examPoint": "HAZOP分析方法",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 工艺安全风险分析技术",
+        "point": "HAZOP分析方法"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s2-18",
+      "type": "single",
+      "stem": "HAZOP分析中，「偏差」的构成要素是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "事故+后果"
+        },
+        {
+          "key": "B",
+          "text": "引导词+参数"
+        },
+        {
+          "key": "C",
+          "text": "原因+措施"
+        },
+        {
+          "key": "D",
+          "text": "节点+风险"
+        }
+      ],
+      "answer": "B",
+      "explanation": "HAZOP分析中，偏差=引导词+参数（如「无流量」「过量温度」）。常见引导词包括：空白（无）、过量（高）、减量（低）、伴随（多余）、部分（局部）、相逆（反向）、异常。",
+      "examPoint": "HAZOP偏差构成",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 工艺安全风险分析技术",
+        "point": "HAZOP偏差构成"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s3-19",
+      "type": "single",
+      "stem": "化工装置停工过程中，与运行系统可靠隔离的最重要措施是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "关闭阀门"
+        },
+        {
+          "key": "B",
+          "text": "加盲板"
+        },
+        {
+          "key": "C",
+          "text": "降温降压"
+        },
+        {
+          "key": "D",
+          "text": "退料置换"
+        }
+      ],
+      "answer": "B",
+      "explanation": "停工安全管理要点：制定详细的停工方案（经审批）→ 降温、降压按规程进行 → 退料、置换、吹扫 → 加盲板隔离（与运行系统可靠隔离）→ 清洗、置换合格后交检修。关闭阀门可能因内漏不可靠，加盲板才是可靠隔离措施。",
+      "examPoint": "化工装置停工安全",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工装置开停工安全技术",
+        "point": "化工装置停工安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s3-20",
+      "type": "single",
+      "stem": "石化装置的危险性与正常运行阶段相比，通常（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "开停车阶段远大于正常运行阶段"
+        },
+        {
+          "key": "B",
+          "text": "正常运行阶段远大于开停车阶段"
+        },
+        {
+          "key": "C",
+          "text": "两者基本相当"
+        },
+        {
+          "key": "D",
+          "text": "取决于装置规模，无规律"
+        }
+      ],
+      "answer": "A",
+      "explanation": "研究表明，石化装置的危险性在开停车阶段远远大于装置正常运行阶段。因此，在开停工安全管理中必须严格执行方案、操作票制度和专人监护。",
+      "examPoint": "开停工危险性",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 化工装置开停工安全技术",
+        "point": "开停工危险性"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s4-21",
+      "type": "single",
+      "stem": "关于安全阀与爆破片的选择，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "黏稠、易结晶介质宜选用安全阀"
+        },
+        {
+          "key": "B",
+          "text": "需要可重新关闭的场合宜选用爆破片"
+        },
+        {
+          "key": "C",
+          "text": "安全阀适用于清洁介质，爆破片适用于黏稠、易结晶、腐蚀性强的介质"
+        },
+        {
+          "key": "D",
+          "text": "两者不能组合使用"
+        }
+      ],
+      "answer": "C",
+      "explanation": "安全阀适用于清洁介质，需可重新关闭的场合；爆破片适用于黏稠、易结晶、腐蚀性强的介质，或需要快速泄压的场合。两者可组合使用：安全阀+爆破片串联（爆破片在安全阀前，防止安全阀被腐蚀或堵塞）。",
+      "examPoint": "安全附件选用",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 主要化工机械设备安全技术",
+        "point": "安全附件选用"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s5-22",
+      "type": "single",
+      "stem": "化工企业动火作业中，距动火点（ ）内不应排放可燃液体。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10m"
+        },
+        {
+          "key": "B",
+          "text": "15m"
+        },
+        {
+          "key": "C",
+          "text": "20m"
+        },
+        {
+          "key": "D",
+          "text": "30m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GB 30871规定：距动火点30m内不应排放可燃气体；15m内不应排放可燃液体；10m内不应进行可燃溶剂清洗或喷漆。五级风以上禁止露天动火。",
+      "examPoint": "动火作业安全距离",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 特殊作业环节安全技术",
+        "point": "动火作业安全距离"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s6-23",
+      "type": "single",
+      "stem": "可燃气体检测报警仪的报警值一般设定为爆炸下限（LEL）的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "5%~10%"
+        },
+        {
+          "key": "B",
+          "text": "10%~25%"
+        },
+        {
+          "key": "C",
+          "text": "25%~50%"
+        },
+        {
+          "key": "D",
+          "text": "50%~75%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "可燃气体检测报警仪检测可燃气体浓度，报警值一般设为LEL的10%~25%（常用10%）。检测报警仪应定期校验（每年至少一次），并应与联锁系统联动。",
+      "examPoint": "检测报警设施",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 化工过程控制和检测技术",
+        "point": "检测报警设施"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-2-s6-24",
+      "type": "single",
+      "stem": "关于安全仪表系统（SIS）与基本过程控制系统（BPCS/DCS）的关系，正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "SIS可以替代BPCS实现过程控制"
+        },
+        {
+          "key": "B",
+          "text": "BPCS可以替代SIS实现安全停车功能"
+        },
+        {
+          "key": "C",
+          "text": "SIS必须独立于BPCS，避免共因失效"
+        },
+        {
+          "key": "D",
+          "text": "SIS与BPCS可以由同一系统兼管以节省投资"
+        }
+      ],
+      "answer": "C",
+      "explanation": "DCS（BPCS）是过程控制系统，管「日常生产」；SIS是安全仪表系统，管「安全停车」。两者必须独立，避免共因失效。如果用一个系统兼管，一旦系统故障，既不能生产也不能停车，会引发灾难。SIS应具有冗余配置，并通过LOPA分析确定其安全完整性等级（SIL1~SIL4，SIL4最高）。",
+      "examPoint": "安全仪表系统SIS",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-02",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 化工过程控制和检测技术",
+        "point": "安全仪表系统SIS"
+      },
+      "scope": "inline"
+    }
+  ]
+}

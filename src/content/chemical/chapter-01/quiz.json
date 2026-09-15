@@ -1,0 +1,427 @@
+{
+  "chapterNumber": 1,
+  "title": "第一章 化工安全生产概述 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "chem-1-s1-01",
+      "type": "single",
+      "stem": "化工生产中，从原料到产品包括半成品、中间体、溶剂等化学品中，具有易燃易爆、有毒有害或腐蚀性等危害特性的比例是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "50%以上"
+        },
+        {
+          "key": "B",
+          "text": "60%以上"
+        },
+        {
+          "key": "C",
+          "text": "70%以上"
+        },
+        {
+          "key": "D",
+          "text": "80%以上"
+        }
+      ],
+      "answer": "C",
+      "explanation": "化工生产中化学品种类繁多，这些化学品中70%以上具有易燃易爆、有毒有害或有腐蚀性等危害特性，而且多数以气体、液体状态存在。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s1-02",
+      "type": "single",
+      "stem": "石油烃类裂解中，裂解炉出口温度高达（ ），而裂解产物气的分离需要在-96℃下进行。",
+      "options": [
+        {
+          "key": "A",
+          "text": "650℃"
+        },
+        {
+          "key": "B",
+          "text": "750℃"
+        },
+        {
+          "key": "C",
+          "text": "850℃"
+        },
+        {
+          "key": "D",
+          "text": "950℃"
+        }
+      ],
+      "answer": "D",
+      "explanation": "石油烃类裂解，裂解炉出口的温度高达950℃，而裂解产物气的分离需要在-96℃下进行。这体现了化工生产操作条件苛刻的特点。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s1-03",
+      "type": "single",
+      "stem": "氨的合成需要在（ ）的条件下进行。",
+      "options": [
+        {
+          "key": "A",
+          "text": "5~10MPa、200℃左右"
+        },
+        {
+          "key": "B",
+          "text": "10~30MPa、300℃左右"
+        },
+        {
+          "key": "C",
+          "text": "30~50MPa、400℃左右"
+        },
+        {
+          "key": "D",
+          "text": "50~80MPa、500℃左右"
+        }
+      ],
+      "answer": "B",
+      "explanation": "氨的合成要在10~30MPa、300℃左右的条件下进行。乙烯聚合生产聚乙烯是在压力130~300MPa、温度150~300℃的条件下进行的。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s1-04",
+      "type": "single",
+      "stem": "化工生产中因物料投放顺序、速度、配料比等工艺参数失控导致热量积聚，温度急剧失控上升的现象称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "暴聚"
+        },
+        {
+          "key": "B",
+          "text": "飞温"
+        },
+        {
+          "key": "C",
+          "text": "闪蒸"
+        },
+        {
+          "key": "D",
+          "text": "喘振"
+        }
+      ],
+      "answer": "B",
+      "explanation": "放热反应若因物料的投放顺序、速度、配料比、冷却剂温度、流量、搅拌、供电、杂质等工艺参数的失控，极易导致热量积聚，进而引发局部过热或「飞温」（温度急剧失控上升），甚至导致反应器爆炸。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s1-05",
+      "type": "single",
+      "stem": "关于我国化工行业「两极化」发展态势，下列说法错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "大型化工企业具有装置大型化、工艺复杂化、产业集约化、技术资金密集化特点"
+        },
+        {
+          "key": "B",
+          "text": "中小化工企业以工艺落后、人员专业素质不高、装备水平较低为特征"
+        },
+        {
+          "key": "C",
+          "text": "中小化工企业综合管理水平较低、过程安全管理能力差，事故易发多发"
+        },
+        {
+          "key": "D",
+          "text": "大型化工企业因自动化程度高，生产过程安全管理难度反而小于中小化工企业"
+        }
+      ],
+      "answer": "D",
+      "explanation": "大型化工企业工艺过程连续性强、自动化程度高，但企业综合管理和化工过程安全管理难度大。两类企业各有其安全管理难点，不能说大型企业难度更小。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s1-06",
+      "type": "single",
+      "stem": "化工生产涉及的关键物性参数中，直接决定可燃物爆炸危险范围的参数是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "闪点"
+        },
+        {
+          "key": "B",
+          "text": "沸点"
+        },
+        {
+          "key": "C",
+          "text": "爆炸极限"
+        },
+        {
+          "key": "D",
+          "text": "蒸气压"
+        }
+      ],
+      "answer": "C",
+      "explanation": "关键物性参数通常包括闪点、燃点、自燃点、熔点或凝固点、沸点、蒸气压、溶解度、爆炸极限、热稳定性、光稳定性、毒性、腐蚀性、空气中的允许浓度等。其中爆炸极限直接决定可燃物的爆炸危险范围。",
+      "examPoint": "化工企业安全生产特点",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 化工企业安全生产特点",
+        "point": "化工企业安全生产特点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s2-07",
+      "type": "single",
+      "stem": "依据《化工过程安全管理导则》，变更管理的基本程序正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "申请→审批→评估→实施→验收"
+        },
+        {
+          "key": "B",
+          "text": "申请→评估→审批→实施→验收"
+        },
+        {
+          "key": "C",
+          "text": "评估→申请→审批→实施→验收"
+        },
+        {
+          "key": "D",
+          "text": "申请→评估→实施→审批→验收"
+        }
+      ],
+      "answer": "B",
+      "explanation": "变更管理程序为：变更申请→变更评估（风险分析）→变更审批→变更实施→变更验收。核心是必须先评估再审批，最后要验收。（2025年真题考点）",
+      "examPoint": "变更管理程序",
+      "difficulty": "hard",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工生产过程安全",
+        "point": "变更管理程序"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s2-08",
+      "type": "single",
+      "stem": "关于变更管理的说法，正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "临时性变更无需审批"
+        },
+        {
+          "key": "B",
+          "text": "变更实施后不需要进行培训"
+        },
+        {
+          "key": "C",
+          "text": "任何变更都必须经过审批，严禁擅自变更"
+        },
+        {
+          "key": "D",
+          "text": "变更完成后无需更新相关文件"
+        }
+      ],
+      "answer": "C",
+      "explanation": "变更管理的核心要求：任何变更都必须经过审批，严禁擅自变更；变更前应进行风险评估；变更后应进行验收和培训；应及时更新相关文件（图纸、规程、台账等）。临时性变更同样需要审批。",
+      "examPoint": "变更管理程序",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工生产过程安全",
+        "point": "变更管理程序"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s2-09",
+      "type": "single",
+      "stem": "变更管理按变更性质可分为工艺技术变更、设备设施变更和（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "人员变更"
+        },
+        {
+          "key": "B",
+          "text": "管理变更"
+        },
+        {
+          "key": "C",
+          "text": "资金变更"
+        },
+        {
+          "key": "D",
+          "text": "时间变更"
+        }
+      ],
+      "answer": "B",
+      "explanation": "变更按性质分为工艺技术变更、设备设施变更、管理变更；按变更时限分为永久性变更和临时性变更。",
+      "examPoint": "变更管理分类",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 化工生产过程安全",
+        "point": "变更管理分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s3-10",
+      "type": "single",
+      "stem": "危险化学品安全技术说明书（SDS）中，不属于其16项必备内容的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "成分/组成信息"
+        },
+        {
+          "key": "B",
+          "text": "急救措施"
+        },
+        {
+          "key": "C",
+          "text": "消防措施"
+        },
+        {
+          "key": "D",
+          "text": "产品销售价格"
+        }
+      ],
+      "answer": "D",
+      "explanation": "SDS的16项内容包括：化学品及企业标识、成分/组成信息、危险性概述、急救措施、消防措施、泄漏应急处理、操作处置与储存、接触控制/个体防护、理化特性、稳定性和反应活性、毒理学信息、生态学信息、废弃处置、运输信息、法规信息、其他信息。产品销售价格不属于技术内容。",
+      "examPoint": "化学品安全技术说明书",
+      "difficulty": "easy",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 危险化学品基础知识",
+        "point": "化学品安全技术说明书"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s3-11",
+      "type": "single",
+      "stem": "化学品安全标签的内容一般不包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "化学品标识"
+        },
+        {
+          "key": "B",
+          "text": "象形图"
+        },
+        {
+          "key": "C",
+          "text": "信号词"
+        },
+        {
+          "key": "D",
+          "text": "理化特性数据表"
+        }
+      ],
+      "answer": "D",
+      "explanation": "化学品安全标签内容包括：化学品标识（名称、分子式/结构式）、象形图、信号词（危险/警告）、危险性说明、防范说明、供应商标识、资料参阅提示语。理化特性数据表属于SDS的内容。",
+      "examPoint": "化学品安全标签",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 危险化学品基础知识",
+        "point": "化学品安全标签"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "chem-1-s3-12",
+      "type": "single",
+      "stem": "危险化学品按《危险化学品目录》分类，下列不属于其8大类之一的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "爆炸品"
+        },
+        {
+          "key": "B",
+          "text": "易燃液体"
+        },
+        {
+          "key": "C",
+          "text": "有毒品"
+        },
+        {
+          "key": "D",
+          "text": "易燃固体"
+        }
+      ],
+      "answer": "D",
+      "explanation": "易燃固体属于「易燃固体、自燃物品和遇湿易燃物品」这一大类的组成部分，不作为独立大类。危险化学品8大类为：爆炸品、压缩气体和液化气体、易燃液体、易燃固体/自燃物品/遇湿易燃物品、氧化剂和有机过氧化物、有毒品、放射性物品、腐蚀品。",
+      "examPoint": "危险化学品分类",
+      "difficulty": "medium",
+      "source": "2026教材 化工安全",
+      "sourceRef": {
+        "chapter": "chapter-01",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 危险化学品基础知识",
+        "point": "危险化学品分类"
+      },
+      "scope": "inline"
+    }
+  ]
+}
