@@ -1,0 +1,567 @@
+{
+  "chapterNumber": 3,
+  "title": "第三章 特种设备安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "tech-03-s3-01",
+      "type": "single",
+      "stem": "气瓶的瓶阀中，与乙炔接触的瓶阀材料应选用含铜量小于（ ）的铜合金，因为铜会与乙炔起反应生成爆炸性的乙炔铜。",
+      "options": [
+        {
+          "key": "A",
+          "text": "55%"
+        },
+        {
+          "key": "B",
+          "text": "65%"
+        },
+        {
+          "key": "C",
+          "text": "75%"
+        },
+        {
+          "key": "D",
+          "text": "85%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "与乙炔接触的瓶阀材料，选用含铜量小于 65% 的铜合金（质量比）。因为铜会与乙炔起反应，生成乙炔铜，乙炔铜是一种爆炸性化合物。",
+      "examPoint": "气瓶瓶阀要求",
+      "difficulty": "hard",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "气瓶瓶阀要求"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s3-02",
+      "type": "single",
+      "stem": "盛装助燃和不可燃气体瓶阀的出气口螺纹为（ ），可燃气体的出气口螺纹为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "左旋；右旋"
+        },
+        {
+          "key": "B",
+          "text": "右旋；左旋"
+        },
+        {
+          "key": "C",
+          "text": "右旋；右旋"
+        },
+        {
+          "key": "D",
+          "text": "左旋；左旋"
+        }
+      ],
+      "answer": "B",
+      "explanation": "瓶阀出气口的连接型式和尺寸应能防止气体错装错用：盛装助燃和不可燃气体瓶阀的出气口螺纹为右旋，可燃气体瓶阀的出气口螺纹为左旋。记忆：可左助右。",
+      "examPoint": "气瓶瓶阀螺纹",
+      "difficulty": "hard",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "气瓶瓶阀螺纹"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s3-03",
+      "type": "single",
+      "stem": "气瓶安全泄压装置的主要作用（甚至是唯一作用）是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "防止气瓶超装"
+        },
+        {
+          "key": "B",
+          "text": "保护气瓶在遇到周围发生火灾时，不会因瓶体受热、瓶内温度升高过快而造成气瓶爆炸"
+        },
+        {
+          "key": "C",
+          "text": "防止气瓶腐蚀"
+        },
+        {
+          "key": "D",
+          "text": "防止气瓶泄漏"
+        }
+      ],
+      "answer": "B",
+      "explanation": "气瓶安全泄压装置的主要作用（甚至是唯一作用）是保护气瓶在遇到周围发生火灾时，不会因瓶体受热、瓶内温度升高过快而造成气瓶爆炸。",
+      "examPoint": "安全泄压装置作用",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "安全泄压装置作用"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s3-04",
+      "type": "single",
+      "stem": "用于溶解乙炔的易熔合金塞装置，其公称动作温度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "70℃"
+        },
+        {
+          "key": "B",
+          "text": "100℃"
+        },
+        {
+          "key": "C",
+          "text": "102.5℃"
+        },
+        {
+          "key": "D",
+          "text": "110℃"
+        }
+      ],
+      "answer": "B",
+      "explanation": "易熔合金塞装置公称动作温度：溶解乙炔气瓶 100℃；公称工作压力≤3.45MPa 的气瓶（除溶解乙炔外）70℃；公称工作压力＞3.45MPa 且≤30MPa 的气瓶 102.5℃；车用压缩天然气气瓶 110℃。",
+      "examPoint": "易熔合金塞动作温度",
+      "difficulty": "hard",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "易熔合金塞动作温度"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s3-05",
+      "type": "single",
+      "stem": "下列气瓶中，禁止装设安全泄压装置的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "车用气瓶"
+        },
+        {
+          "key": "B",
+          "text": "溶解乙炔气瓶"
+        },
+        {
+          "key": "C",
+          "text": "盛装剧毒气体、自燃气体的气瓶"
+        },
+        {
+          "key": "D",
+          "text": "焊接绝热气瓶"
+        }
+      ],
+      "answer": "C",
+      "explanation": "禁止装设安全泄压装置的是盛装剧毒气体、自燃气体的气瓶。应当装设的是车用气瓶、溶解乙炔气瓶、焊接绝热气瓶、液化气体气瓶集束装置等。燃气气瓶和氧气、氮气以及惰性气体气瓶一般不装设安全泄压装置。",
+      "examPoint": "安全泄压装置选用",
+      "difficulty": "hard",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "安全泄压装置选用"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s3-06",
+      "type": "single",
+      "stem": "无缝气瓶的安全泄压装置应当装设在（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "气瓶封头上"
+        },
+        {
+          "key": "B",
+          "text": "瓶阀上"
+        },
+        {
+          "key": "C",
+          "text": "气瓶底部"
+        },
+        {
+          "key": "D",
+          "text": "气瓶外壳封头部位"
+        }
+      ],
+      "answer": "B",
+      "explanation": "无缝气瓶的安全泄压装置应当装设在瓶阀上。焊接气瓶的安全泄压装置应当单独设置在气瓶封头上或装设在瓶阀或阀座上。低温绝热气瓶的安全泄压装置应当装设在气瓶外壳的封头部位。",
+      "examPoint": "安全泄压装置装设部位",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "安全泄压装置装设部位"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s3-07",
+      "type": "single",
+      "stem": "关于四种安全泄压装置的特点，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "易熔合金塞装置适用于固定式容器"
+        },
+        {
+          "key": "B",
+          "text": "安全阀可重新关闭，密封性能最好"
+        },
+        {
+          "key": "C",
+          "text": "爆破片－易熔塞复合装置密封性能更佳，一般用于对密封性能要求特别严格的气瓶"
+        },
+        {
+          "key": "D",
+          "text": "一般气瓶都安装了安全阀"
+        }
+      ],
+      "answer": "C",
+      "explanation": "易熔合金塞装置只适用于气瓶，不适用于固定式容器（A错）。安全阀可重新关闭，但密封性能是各类泄压装置中最差的（B错）。一般气瓶都没有安装安全阀（D错）。爆破片－易熔塞复合装置具有双重密封机构，密封性能更佳，一般用于对密封性能要求特别严格的气瓶，如盛装三氟化硼、氯化氢等气体的气瓶。",
+      "examPoint": "安全泄压装置特点",
+      "difficulty": "hard",
+      "source": "2026教材 第三章第三节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 气瓶安全技术",
+        "point": "安全泄压装置特点"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s6-01",
+      "type": "single",
+      "stem": "用于塔式起重机、门座式起重机，防止超载倾覆的安全装置是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "起重量限制器"
+        },
+        {
+          "key": "B",
+          "text": "力矩限制器"
+        },
+        {
+          "key": "C",
+          "text": "上升极限位置限制器"
+        },
+        {
+          "key": "D",
+          "text": "缓冲器"
+        }
+      ],
+      "answer": "B",
+      "explanation": "力矩限制器用于塔式起重机、门座式起重机等，防止超载倾覆。起重量限制器（超载限制器）防止超载，超过额定起重量时自动切断起升动力。上升极限位置限制器防吊钩过卷扬。",
+      "examPoint": "起重机械安全装置",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第六节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 起重机械安全技术",
+        "point": "起重机械安全装置"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s6-02",
+      "type": "single",
+      "stem": "起重机械中用于防止起重机在风力下滑移的安全装置是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "缓冲器"
+        },
+        {
+          "key": "B",
+          "text": "防碰撞装置"
+        },
+        {
+          "key": "C",
+          "text": "夹轨器（防风抗滑装置）"
+        },
+        {
+          "key": "D",
+          "text": "防后倾装置"
+        }
+      ],
+      "answer": "C",
+      "explanation": "夹轨器（防风抗滑装置）防止起重机在风力下滑移。缓冲器吸收碰撞能量；防碰撞装置防止多台起重机相互碰撞；防后倾装置防止臂架后倾。",
+      "examPoint": "起重机械安全装置",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第六节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 起重机械安全技术",
+        "point": "起重机械安全装置"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s6-03",
+      "type": "single",
+      "stem": "起重机械在停工和休息时，（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可将吊物悬在空中以节省时间"
+        },
+        {
+          "key": "B",
+          "text": "不应将吊物、吊笼、吊具和吊索悬在空中"
+        },
+        {
+          "key": "C",
+          "text": "可将吊物降至一半高度"
+        },
+        {
+          "key": "D",
+          "text": "可根据需要悬停"
+        }
+      ],
+      "answer": "B",
+      "explanation": "停工和休息时，不应将吊物、吊笼、吊具和吊索悬在空中。此外还有三个以上的吊装作业人员规定，例如下放吊物时不应自由下落(溜)，不应利用极限位置限制器停车。",
+      "examPoint": "起重机械安全操作",
+      "difficulty": "easy",
+      "source": "2026教材 第三章第六节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 起重机械安全技术",
+        "point": "起重机械安全操作"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s7-01",
+      "type": "single",
+      "stem": "场（厂）内专用机动车辆使用安全技术中，叉车作业的禁令是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以使用货叉载人"
+        },
+        {
+          "key": "B",
+          "text": "严禁货叉载人"
+        },
+        {
+          "key": "C",
+          "text": "行驶时货叉应升高"
+        },
+        {
+          "key": "D",
+          "text": "门架前倾时可提升货物"
+        }
+      ],
+      "answer": "B",
+      "explanation": "叉车安全的核心禁令：严禁货叉载人；严禁超载；行驶时应货叉降低；转弯、坡道减速；门架前倾时严禁提升货物。叉车倾翻的主要原因：超载、转弯过急、坡道行驶、货物装载偏斜。",
+      "examPoint": "厂内机动车辆安全",
+      "difficulty": "easy",
+      "source": "2026教材 第三章第七节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 场（厂）内专用机动车辆安全技术",
+        "point": "厂内机动车辆安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s9-01",
+      "type": "single",
+      "stem": "大型游乐设施的界定标准是最大运行线速度≥2m/s或运行高度（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "≥1m"
+        },
+        {
+          "key": "B",
+          "text": "≥2m"
+        },
+        {
+          "key": "C",
+          "text": "≥3m"
+        },
+        {
+          "key": "D",
+          "text": "≥5m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "大型游乐设施：①最大运行线速度≥2m/s ②或运行高度≥2m。用于体育运动、文艺演出和非经营活动的大型游乐设施除外。",
+      "examPoint": "大型游乐设施界定",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第九节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 大型游乐设施安全技术",
+        "point": "大型游乐设施界定"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s9-02",
+      "type": "single",
+      "stem": "大型游乐设施的主要安全装置中，用于限制乘客身体移动、防止甩出的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全带"
+        },
+        {
+          "key": "B",
+          "text": "安全压杠（压肩）"
+        },
+        {
+          "key": "C",
+          "text": "止逆装置"
+        },
+        {
+          "key": "D",
+          "text": "限速装置"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全压杠（压肩）限制乘客身体移动，防止甩出。安全带也用于防止乘客在运行中甩出。止逆装置防止设备逆转；限速装置限制运行速度。",
+      "examPoint": "大型游乐设施安全装置",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第九节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s9",
+        "sectionTitle": "第九节 大型游乐设施安全技术",
+        "point": "大型游乐设施安全装置"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-03-s1-01",
+      "type": "single",
+      "stem": "下列特种设备中，属于承压类的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电梯"
+        },
+        {
+          "key": "B",
+          "text": "压力管道"
+        },
+        {
+          "key": "C",
+          "text": "客运索道"
+        },
+        {
+          "key": "D",
+          "text": "场（厂）内专用机动车辆"
+        }
+      ],
+      "answer": "B",
+      "explanation": "承压类特种设备：锅炉、压力容器（含气瓶）、压力管道。机电类：电梯、起重机械、客运索道、大型游乐设施、场（厂）内专用机动车辆。",
+      "examPoint": "特种设备分类",
+      "difficulty": "easy",
+      "source": "2026教材 第三章第一节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 特种设备的基础知识",
+        "point": "特种设备分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s2-01",
+      "type": "single",
+      "stem": "锅炉的三大安全附件是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全阀、压力表、水位计"
+        },
+        {
+          "key": "B",
+          "text": "安全阀、温度计、排污阀"
+        },
+        {
+          "key": "C",
+          "text": "压力表、液位计、减压阀"
+        },
+        {
+          "key": "D",
+          "text": "安全阀、止回阀、排污阀"
+        }
+      ],
+      "answer": "A",
+      "explanation": "锅炉三大安全附件：安全阀（超压自动泄压）、压力表（指示压力）、水位计（指示水位）。",
+      "examPoint": "锅炉安全附件",
+      "difficulty": "easy",
+      "source": "2026教材 第三章第二节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 锅炉安全技术",
+        "point": "锅炉安全附件"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-03-s2-02",
+      "type": "single",
+      "stem": "锅炉发生严重缺水事故时，正确的处理方法是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "立即向锅炉上水"
+        },
+        {
+          "key": "B",
+          "text": "严禁立即上水，应先紧急停炉，待冷却后处理"
+        },
+        {
+          "key": "C",
+          "text": "继续运行观察"
+        },
+        {
+          "key": "D",
+          "text": "加大燃料供给"
+        }
+      ],
+      "answer": "B",
+      "explanation": "锅炉缺水事故是最危险的事故，如果严重缺水后盲目上水，会导致锅炉急剧汽化、压力骤增而爆炸。因此发现严重缺水，严禁立即上水，应先紧急停炉，待锅炉冷却后再处理。",
+      "examPoint": "锅炉事故处理",
+      "difficulty": "medium",
+      "source": "2026教材 第三章第二节",
+      "sourceRef": {
+        "chapter": "chapter-03",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 锅炉安全技术",
+        "point": "锅炉事故处理"
+      },
+      "scope": "single"
+    }
+  ]
+}
