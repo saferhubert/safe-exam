@@ -1,0 +1,567 @@
+{
+  "chapterNumber": 4,
+  "title": "第四章 防火防爆安全技术 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "tech-04-s1-01",
+      "type": "single",
+      "stem": "燃烧的三要素（必要条件）是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可燃物、助燃物、点火源"
+        },
+        {
+          "key": "B",
+          "text": "可燃物、氧气、温度"
+        },
+        {
+          "key": "C",
+          "text": "燃料、空气、火花"
+        },
+        {
+          "key": "D",
+          "text": "可燃物、助燃物、催化剂"
+        }
+      ],
+      "answer": "A",
+      "explanation": "燃烧三要素：①可燃物 ②助燃物（氧化剂，通常是空气中的氧）③点火源（引火源）。三者同时具备、相互作用，燃烧才能发生。灭火原理即破坏三要素：隔离、窒息、冷却、化学抑制。",
+      "examPoint": "燃烧三要素",
+      "difficulty": "easy",
+      "source": "2026教材 第四章第一节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 火灾爆炸事故机理",
+        "point": "燃烧三要素"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s1-02",
+      "type": "single",
+      "stem": "评定液体火灾危险性的主要依据是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "燃点"
+        },
+        {
+          "key": "B",
+          "text": "闪点"
+        },
+        {
+          "key": "C",
+          "text": "自燃点"
+        },
+        {
+          "key": "D",
+          "text": "沸点"
+        }
+      ],
+      "answer": "B",
+      "explanation": "闪点是可燃液体表面挥发的蒸气与空气形成的混合物，遇火源能发生闪燃的最低温度，是评定液体火灾危险性的主要依据。闪点越低，火灾危险性越大。",
+      "examPoint": "闪点",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第一节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 火灾爆炸事故机理",
+        "point": "闪点"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s1-03",
+      "type": "single",
+      "stem": "锅炉爆炸、气瓶爆炸属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "化学爆炸"
+        },
+        {
+          "key": "B",
+          "text": "物理爆炸"
+        },
+        {
+          "key": "C",
+          "text": "核爆炸"
+        },
+        {
+          "key": "D",
+          "text": "粉尘爆炸"
+        }
+      ],
+      "answer": "B",
+      "explanation": "物理爆炸：物质因状态或压力发生突变而形成的爆炸（如锅炉爆炸、气瓶爆炸），没有化学反应。化学爆炸：物质发生极迅速的化学反应，产生高温高压而引起的爆炸（如可燃气体爆炸、粉尘爆炸、炸药爆炸）。",
+      "examPoint": "爆炸分类",
+      "difficulty": "easy",
+      "source": "2026教材 第四章第一节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 火灾爆炸事故机理",
+        "point": "爆炸分类"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s1-04",
+      "type": "single",
+      "stem": "关于爆炸极限的影响因素，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "温度升高，爆炸极限范围变窄"
+        },
+        {
+          "key": "B",
+          "text": "压力升高，爆炸下限降低、上限升高"
+        },
+        {
+          "key": "C",
+          "text": "加入惰性介质，爆炸极限范围变宽"
+        },
+        {
+          "key": "D",
+          "text": "容器直径越大，越不易爆炸"
+        }
+      ],
+      "answer": "B",
+      "explanation": "温度升高，爆炸极限范围变宽（A错）；压力升高，爆炸下限降低、上限升高，范围变宽（B对）；加入惰性介质，爆炸极限范围变窄（C错）；容器直径越小，越不易爆炸（D错）。",
+      "examPoint": "爆炸极限影响因素",
+      "difficulty": "hard",
+      "source": "2026教材 第四章第一节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 火灾爆炸事故机理",
+        "point": "爆炸极限影响因素"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s1-05",
+      "type": "single",
+      "stem": "可燃气体检测报警仪的报警值一般设为爆炸下限（LEL）的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "5%"
+        },
+        {
+          "key": "B",
+          "text": "10%"
+        },
+        {
+          "key": "C",
+          "text": "50%"
+        },
+        {
+          "key": "D",
+          "text": "75%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "实际应用中常用 LEL 的 10% 作为可燃气体报警值（也有设 10%~25% 的）。动火作业要求氧含量≤23.5%。",
+      "examPoint": "可燃气体报警值",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第一节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 火灾爆炸事故机理",
+        "point": "可燃气体报警值"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s2-01",
+      "type": "single",
+      "stem": "阻火器阻止火焰蔓延、防止回火的工作原理是利用（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "冷却降温"
+        },
+        {
+          "key": "B",
+          "text": "器壁效应（狭小通道散热使火焰熄灭）"
+        },
+        {
+          "key": "C",
+          "text": "化学抑制"
+        },
+        {
+          "key": "D",
+          "text": "隔绝氧气"
+        }
+      ],
+      "answer": "B",
+      "explanation": "阻火器由多层金属网或细孔材料组成，利用器壁效应（狭小通道散热）使火焰熄灭，用于可燃气体管道、油罐呼吸阀等。",
+      "examPoint": "阻火器原理",
+      "difficulty": "hard",
+      "source": "2026教材 第四章第二节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 防火防爆技术",
+        "point": "阻火器原理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s2-02",
+      "type": "single",
+      "stem": "关于安全阀和爆破片的比较，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "安全阀是一次性泄压，爆破片可重复使用"
+        },
+        {
+          "key": "B",
+          "text": "安全阀可重新关闭，但泄压反应慢；爆破片一次性使用，但反应迅速"
+        },
+        {
+          "key": "C",
+          "text": "两者都可重复使用"
+        },
+        {
+          "key": "D",
+          "text": "两者密封性能都很好"
+        }
+      ],
+      "answer": "B",
+      "explanation": "安全阀：泄压后可重新关闭（可重复使用），但泄压反应慢（因阀的开启具有滞后作用）；爆破片：一次性泄压（破裂后需更换），但反应迅速及时。",
+      "examPoint": "安全阀与爆破片",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第二节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 防火防爆技术",
+        "point": "安全阀与爆破片"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s2-03",
+      "type": "single",
+      "stem": "在爆炸性混合物中加入惰性气体（如N₂、CO₂），使混合物中的氧含量降低到（ ）以下，可有效防止爆炸。",
+      "options": [
+        {
+          "key": "A",
+          "text": "爆炸下限"
+        },
+        {
+          "key": "B",
+          "text": "爆炸上限"
+        },
+        {
+          "key": "C",
+          "text": "极限氧浓度"
+        },
+        {
+          "key": "D",
+          "text": "LEL的10%"
+        }
+      ],
+      "answer": "C",
+      "explanation": "惰性介质保护：在爆炸性混合物中加入惰性气体（N₂、CO₂等），使混合物中的氧含量降低到极限氧浓度以下。",
+      "examPoint": "爆炸控制措施",
+      "difficulty": "hard",
+      "source": "2026教材 第四章第二节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s2",
+        "sectionTitle": "第二节 防火防爆技术",
+        "point": "爆炸控制措施"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s3-01",
+      "type": "single",
+      "stem": "烟花爆竹作业场所严禁使用铁质工具，主要原因是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "铁质工具太重"
+        },
+        {
+          "key": "B",
+          "text": "铁质工具碰撞摩擦易产生火花，引燃药剂"
+        },
+        {
+          "key": "C",
+          "text": "铁质工具易生锈"
+        },
+        {
+          "key": "D",
+          "text": "铁质工具导电"
+        }
+      ],
+      "answer": "B",
+      "explanation": "烟花爆竹作业严禁使用铁质工具（产生火花），严禁穿化纤衣物、钉子鞋（产生静电、摩擦火花），严禁超量存放药剂，必须使用防爆电气设备。静电是烟花爆竹作业的重要危险源。",
+      "examPoint": "烟花爆竹安全",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第三节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 烟花爆竹安全技术",
+        "point": "烟花爆竹安全"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s3-02",
+      "type": "single",
+      "stem": "烟花爆竹的主要危险中，因药剂对静电敏感而产生的危险是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "爆炸危险"
+        },
+        {
+          "key": "B",
+          "text": "火灾危险"
+        },
+        {
+          "key": "C",
+          "text": "静电危险"
+        },
+        {
+          "key": "D",
+          "text": "中毒危险"
+        }
+      ],
+      "answer": "C",
+      "explanation": "烟花爆竹的主要危险：①爆炸危险（药剂本身是爆炸性物质）②火灾危险 ③静电危险（药剂对静电敏感）④摩擦撞击危险 ⑤有毒有害。",
+      "examPoint": "烟花爆竹危险",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第三节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 烟花爆竹安全技术",
+        "point": "烟花爆竹危险"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s4-01",
+      "type": "single",
+      "stem": "民用爆炸物品行业最核心的安全管理制度是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "准入制度"
+        },
+        {
+          "key": "B",
+          "text": "定员定量"
+        },
+        {
+          "key": "C",
+          "text": "许可制度"
+        },
+        {
+          "key": "D",
+          "text": "备案制度"
+        }
+      ],
+      "answer": "B",
+      "explanation": "「定员定量」是民爆行业最核心的安全管理制度。民爆物品安全四防：防静电、防摩擦撞击、防火、防超量。",
+      "examPoint": "民爆物品安全管理",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第四节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 民用爆炸物品安全技术",
+        "point": "民爆物品安全管理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s5-01",
+      "type": "single",
+      "stem": "可用于扑救带电火灾（E类）的灭火器是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "水型灭火器"
+        },
+        {
+          "key": "B",
+          "text": "泡沫灭火器"
+        },
+        {
+          "key": "C",
+          "text": "干粉灭火器和二氧化碳灭火器"
+        },
+        {
+          "key": "D",
+          "text": "清水灭火器"
+        }
+      ],
+      "answer": "C",
+      "explanation": "干粉灭火器适用于 A、B、C 类及带电火灾（E类），用途最广泛；二氧化碳灭火器适用于 B、C 类及带电火灾，适合精密仪器、贵重设备、计算机房。水和泡沫灭火器不能用于带电火灾。",
+      "examPoint": "灭火器选型",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第五节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 消防设施与器材",
+        "point": "灭火器选型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s5-02",
+      "type": "single",
+      "stem": "适用于精密仪器、贵重设备、计算机房的火灾，应优先选用（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "水型灭火器"
+        },
+        {
+          "key": "B",
+          "text": "泡沫灭火器"
+        },
+        {
+          "key": "C",
+          "text": "二氧化碳灭火器"
+        },
+        {
+          "key": "D",
+          "text": "干粉灭火器"
+        }
+      ],
+      "answer": "C",
+      "explanation": "二氧化碳灭火器适用于 B、C 类火灾及带电火灾，适用于精密仪器、贵重设备、计算机房（灭火后不留残渣）。卤代烷灭火器也适用于此类场所，但已逐步淘汰。",
+      "examPoint": "灭火器选型",
+      "difficulty": "medium",
+      "source": "2026教材 第四章第五节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 消防设施与器材",
+        "point": "灭火器选型"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s5-03",
+      "type": "single",
+      "stem": "B类火灾是指（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "固体物质火灾"
+        },
+        {
+          "key": "B",
+          "text": "液体或可熔化的固体物质火灾"
+        },
+        {
+          "key": "C",
+          "text": "气体火灾"
+        },
+        {
+          "key": "D",
+          "text": "金属火灾"
+        }
+      ],
+      "answer": "B",
+      "explanation": "火灾分类：A类（固体物质如木材、纸张）；B类（液体或可熔化的固体物质如汽油、煤油、沥青）；C类（气体如煤气、天然气）；D类（金属如钾、钠、镁）；E类（带电火灾）。",
+      "examPoint": "火灾分类",
+      "difficulty": "easy",
+      "source": "2026教材 第四章第五节",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 消防设施与器材",
+        "point": "火灾分类"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-04-s6-01",
+      "type": "single",
+      "stem": "建筑物经受爆炸冲击波作用后，门窗大部分破坏、砖墙有较大裂缝且出现倾斜，属于（ ）破坏。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一级"
+        },
+        {
+          "key": "B",
+          "text": "二级"
+        },
+        {
+          "key": "C",
+          "text": "三级"
+        },
+        {
+          "key": "D",
+          "text": "四级"
+        }
+      ],
+      "answer": "D",
+      "explanation": "四级破坏：门窗大部分破坏，砖墙有较大裂缝且出现倾斜。一级：仅门窗玻璃部分或全部破坏，墙体无裂缝。二级：门窗玻璃全部破坏，部分门窗扇损坏，砖墙出现小裂缝。三级：门窗大部分破坏，砖墙有较大裂缝但无明显倾斜。倾斜是三级与四级的分界线。",
+      "examPoint": "爆炸破坏等级",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 燃烧与爆炸灾害定量评价",
+        "point": "爆炸破坏等级"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-04-s6-02",
+      "type": "single",
+      "stem": "惰性气体转换系数K（单位m³/m³）从大到小的正确排序是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "CO₂、Ar、He"
+        },
+        {
+          "key": "B",
+          "text": "Ar、CO₂、He"
+        },
+        {
+          "key": "C",
+          "text": "CO₂、He、Ar"
+        },
+        {
+          "key": "D",
+          "text": "He、Ar、CO₂"
+        }
+      ],
+      "answer": "C",
+      "explanation": "转换系数 K 从大到小：CO₂（约5.0）＞He（约3.0）＞Ar（约1.7）。",
+      "examPoint": "惰性气体转换系数",
+      "difficulty": "hard",
+      "source": "2025真题",
+      "sourceRef": {
+        "chapter": "chapter-04",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 燃烧与爆炸灾害定量评价",
+        "point": "惰性气体转换系数"
+      },
+      "scope": "single"
+    }
+  ]
+}
