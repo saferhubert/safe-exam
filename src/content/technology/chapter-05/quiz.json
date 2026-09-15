@@ -1,0 +1,567 @@
+{
+  "chapterNumber": 5,
+  "title": "第五章 危险化学品安全基础知识 — 章节练习",
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "tech-05-s1-01",
+      "type": "single",
+      "stem": "危险化学品按危险特性分为（ ）大类。",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        }
+      ],
+      "answer": "C",
+      "explanation": "危险化学品按危险特性分为 8 大类：①爆炸品 ②压缩气体和液化气体 ③易燃液体 ④易燃固体、自燃物品和遇湿易燃物品 ⑤氧化剂和有机过氧化物 ⑥有毒品 ⑦放射性物品 ⑧腐蚀品。",
+      "examPoint": "危险化学品分类",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第一节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品的分类与主要危害",
+        "point": "危险化学品分类"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s1-02",
+      "type": "single",
+      "stem": "化学品安全技术说明书（SDS）的内容共（ ）项。",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "answer": "C",
+      "explanation": "化学品安全技术说明书（SDS）的内容共 16 项，包括化学品及企业标识、成分/组成信息、危险性概述、急救措施、消防措施、泄漏应急处理、操作处置与储存、接触控制/个体防护、理化特性、稳定性和反应活性、毒理学信息、生态学信息、废弃处置、运输信息、法规信息、其他信息。",
+      "examPoint": "安全技术说明书SDS",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第一节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品的分类与主要危害",
+        "point": "安全技术说明书SDS"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s1-03",
+      "type": "single",
+      "stem": "关于化学品安全技术说明书（SDS）与安全标签的区别，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "SDS是贴在包装上的简明标识"
+        },
+        {
+          "key": "B",
+          "text": "SDS是给专业人员看的详细技术文件，安全标签是贴在包装上的简明标识"
+        },
+        {
+          "key": "C",
+          "text": "安全标签的内容比SDS更详细"
+        },
+        {
+          "key": "D",
+          "text": "两者内容完全相同"
+        }
+      ],
+      "answer": "B",
+      "explanation": "SDS（安全技术说明书）是给专业人员看的详细技术文件，16 项内容；安全标签贴在包装上，简明扼要，含化学品标识、象形图、信号词、危险性说明、防范说明、供应商标识、资料参阅提示语。",
+      "examPoint": "SDS与安全标签",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第一节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品的分类与主要危害",
+        "point": "SDS与安全标签"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s1-04",
+      "type": "single",
+      "stem": "下列不属于化学品安全标签内容的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "象形图"
+        },
+        {
+          "key": "B",
+          "text": "信号词"
+        },
+        {
+          "key": "C",
+          "text": "危险性说明"
+        },
+        {
+          "key": "D",
+          "text": "生产该化学品的企业财务报表"
+        }
+      ],
+      "answer": "D",
+      "explanation": "化学品安全标签内容：①化学品标识 ②象形图 ③信号词（危险/警告）④危险性说明 ⑤防范说明 ⑥供应商标识 ⑦资料参阅提示语。",
+      "examPoint": "安全标签内容",
+      "difficulty": "easy",
+      "source": "2026教材 第五章第一节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s1",
+        "sectionTitle": "第一节 危险化学品的分类与主要危害",
+        "point": "安全标签内容"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s4-01",
+      "type": "single",
+      "stem": "在同一建筑或同一区域内，用隔板或墙将其与禁忌物料分离开的储存方式，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "隔离储存"
+        },
+        {
+          "key": "B",
+          "text": "隔开储存"
+        },
+        {
+          "key": "C",
+          "text": "分离储存"
+        },
+        {
+          "key": "D",
+          "text": "混合储存"
+        }
+      ],
+      "answer": "B",
+      "explanation": "隔开储存：在同一建筑或同一区域内，用隔板或墙，将其与禁忌物料分离开。隔离储存：在同一房间或同一区域内，不同物料之间分开一定距离，用通道保持空间。分离储存：在不同的建筑物或远离所有建筑的外部区域内的储存方式。",
+      "examPoint": "危化品储存方式",
+      "difficulty": "hard",
+      "source": "2026教材 第五章第四节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 危险化学品储存、运输与包装安全技术",
+        "point": "危化品储存方式"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s4-02",
+      "type": "single",
+      "stem": "在不同建筑物内或远离所有建筑的外部区域内储存危险化学品的方式，称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "隔离储存"
+        },
+        {
+          "key": "B",
+          "text": "隔开储存"
+        },
+        {
+          "key": "C",
+          "text": "分离储存"
+        },
+        {
+          "key": "D",
+          "text": "分区储存"
+        }
+      ],
+      "answer": "C",
+      "explanation": "分离储存：在不同的建筑物或远离所有建筑的外部区域内的储存方式。三种储存方式管控严格程度递增：隔离（距离）→ 隔开（隔板墙）→ 分离（不同建筑）。",
+      "examPoint": "危化品储存方式",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第四节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 危险化学品储存、运输与包装安全技术",
+        "point": "危化品储存方式"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s4-03",
+      "type": "single",
+      "stem": "危险化学品储存的基本要求中，最重要的原则是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "按种类分区存放即可"
+        },
+        {
+          "key": "B",
+          "text": "禁忌物料不得混存"
+        },
+        {
+          "key": "C",
+          "text": "可以超量储存以提高效率"
+        },
+        {
+          "key": "D",
+          "text": "无需设置防火措施"
+        }
+      ],
+      "answer": "B",
+      "explanation": "危险化学品储存的基本要求：必须储存在专用仓库、专用场地或专用储存室内；应根据种类和特性分区、分类、分库储存；禁忌物料不得混存（如氧化剂与还原剂、酸与碱）；储存场所应通风良好，配备消防器材，设置防雷、防静电措施。",
+      "examPoint": "危化品储存要求",
+      "difficulty": "easy",
+      "source": "2026教材 第五章第四节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s4",
+        "sectionTitle": "第四节 危险化学品储存、运输与包装安全技术",
+        "point": "危化品储存要求"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s5-01",
+      "type": "single",
+      "stem": "危险化学品经营企业应依法取得（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "营业执照即可"
+        },
+        {
+          "key": "B",
+          "text": "危险化学品经营许可证"
+        },
+        {
+          "key": "C",
+          "text": "安全生产许可证"
+        },
+        {
+          "key": "D",
+          "text": "消防验收合格证"
+        }
+      ],
+      "answer": "B",
+      "explanation": "危险化学品经营企业应依法取得危险化学品经营许可证。此外应具备：符合国家标准的经营场所、设施、建筑物；从业人员经专业培训并考核合格；健全的安全管理制度和岗位操作规程；应急预案和必要的应急救援器材。",
+      "examPoint": "危化品经营许可",
+      "difficulty": "easy",
+      "source": "2026教材 第五章第五节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 危险化学品经营的安全要求",
+        "point": "危化品经营许可"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s5-02",
+      "type": "single",
+      "stem": "危险化学品经营场所应与（ ）保持安全距离。",
+      "options": [
+        {
+          "key": "A",
+          "text": "工业园区"
+        },
+        {
+          "key": "B",
+          "text": "居民区、学校、医院等人员密集场所"
+        },
+        {
+          "key": "C",
+          "text": "农田"
+        },
+        {
+          "key": "D",
+          "text": "河流"
+        }
+      ],
+      "answer": "B",
+      "explanation": "危险化学品经营场所应与居民区、学校、医院等人员密集场所保持安全距离，应有明显的安全警示标志，应配备消防器材，应限量存放危险化学品，严禁超量储存或混存禁忌物品。",
+      "examPoint": "危化品经营安全",
+      "difficulty": "easy",
+      "source": "2026教材 第五章第五节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s5",
+        "sectionTitle": "第五节 危险化学品经营的安全要求",
+        "point": "危化品经营安全"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s6-01",
+      "type": "single",
+      "stem": "泄漏控制的处置程序中，首位的步骤是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "切断泄漏源"
+        },
+        {
+          "key": "B",
+          "text": "报警与报告并启动应急预案"
+        },
+        {
+          "key": "C",
+          "text": "收集处理泄漏物"
+        },
+        {
+          "key": "D",
+          "text": "个体防护"
+        }
+      ],
+      "answer": "B",
+      "explanation": "泄漏控制处置程序：①报警与报告（立即报告有关部门，启动应急预案）②划定警戒区，疏散无关人员 ③切断泄漏源 ④控制扩散 ⑤消除点火源 ⑥个体防护 ⑦收集处理 ⑧监测与善后。",
+      "examPoint": "泄漏控制程序",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第六节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 泄漏控制与销毁处置技术",
+        "point": "泄漏控制程序"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s6-02",
+      "type": "single",
+      "stem": "处理液态危险化学品泄漏时，常用的吸收材料是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "清水"
+        },
+        {
+          "key": "B",
+          "text": "砂土、蛭石等惰性材料"
+        },
+        {
+          "key": "C",
+          "text": "酒精"
+        },
+        {
+          "key": "D",
+          "text": "汽油"
+        }
+      ],
+      "answer": "B",
+      "explanation": "液态泄漏的处理措施：用砂土、蛭石等惰性材料吸收；用泡沫覆盖减少挥发；用围堤防止扩散；收集后妥善处理。气态泄漏：用喷雾水稀释、溶解；用排风机将气体排出；避免在下风向作业。",
+      "examPoint": "泄漏处理措施",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第六节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s6",
+        "sectionTitle": "第六节 泄漏控制与销毁处置技术",
+        "point": "泄漏处理措施"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s7-01",
+      "type": "single",
+      "stem": "急性中毒急救时，应将中毒者迅速转移至（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "下风向、密闭处"
+        },
+        {
+          "key": "B",
+          "text": "上风向、空气新鲜处"
+        },
+        {
+          "key": "C",
+          "text": "原地等待救援"
+        },
+        {
+          "key": "D",
+          "text": "温度较低的房间"
+        }
+      ],
+      "answer": "B",
+      "explanation": "急性中毒急救原则：①迅速脱离现场（将中毒者移至上风向、空气新鲜处）②保持呼吸道通畅 ③脱去污染衣物 ④对症处理 ⑤及时送医（携带SDS）。",
+      "examPoint": "中毒急救原则",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第七节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 危险化学品的危害及防护",
+        "point": "中毒急救原则"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s7-02",
+      "type": "single",
+      "stem": "皮肤接触腐蚀性化学品后，正确的处理方法是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "用毛巾擦干即可"
+        },
+        {
+          "key": "B",
+          "text": "用大量清水冲洗至少15分钟"
+        },
+        {
+          "key": "C",
+          "text": "立即涂抹油脂"
+        },
+        {
+          "key": "D",
+          "text": "用碱液中和"
+        }
+      ],
+      "answer": "B",
+      "explanation": "皮肤接触：用大量清水冲洗至少 15 分钟。眼睛接触：用大量清水或生理盐水冲洗（提起眼睑，至少15分钟）。食入中毒：催吐，但腐蚀性物质严禁催吐（会造成二次损伤）。",
+      "examPoint": "中毒急救处理",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第七节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 危险化学品的危害及防护",
+        "point": "中毒急救处理"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s7-03",
+      "type": "single",
+      "stem": "关于中毒急救，下列说法错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "救护人员未佩戴防护装备时严禁盲目进入现场施救"
+        },
+        {
+          "key": "B",
+          "text": "腐蚀性物质中毒严禁催吐"
+        },
+        {
+          "key": "C",
+          "text": "呼吸停止时应立即进行人工呼吸"
+        },
+        {
+          "key": "D",
+          "text": "中毒者应立即在原地等待，不要移动"
+        }
+      ],
+      "answer": "D",
+      "explanation": "D 错误：应将中毒者迅速脱离现场，转移至上风向、空气新鲜处。A、B、C 均正确。救护人员未佩戴防护装备时严禁盲目进入现场施救，以免造成施救者伤亡。",
+      "examPoint": "中毒急救原则",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第七节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s7",
+        "sectionTitle": "第七节 危险化学品的危害及防护",
+        "point": "中毒急救原则"
+      },
+      "scope": "single"
+    },
+    {
+      "id": "tech-05-s3-01",
+      "type": "single",
+      "stem": "危险化学品事故控制和防护措施中，加入N₂、CO₂等惰性气体使氧含量降低，属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "取代或替代"
+        },
+        {
+          "key": "B",
+          "text": "密闭"
+        },
+        {
+          "key": "C",
+          "text": "惰性介质保护"
+        },
+        {
+          "key": "D",
+          "text": "通风"
+        }
+      ],
+      "answer": "C",
+      "explanation": "惰性介质保护：加入 N₂、CO₂ 等惰性气体，使氧含量降到极限氧浓度以下。措施记忆主线：防泄漏（密闭、通风）、控浓度（惰性介质、控制浓度在爆炸极限外）、去火源（动火管理、防爆电气、防静电）、加防护（安全装置、监测报警、个体防护）。",
+      "examPoint": "危化品事故控制措施",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第三节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 危险化学品事故的控制和防护措施",
+        "point": "危化品事故控制措施"
+      },
+      "scope": "inline"
+    },
+    {
+      "id": "tech-05-s3-02",
+      "type": "single",
+      "stem": "危险化学品事故控制和防护措施的核心逻辑是围绕（ ）展开。",
+      "options": [
+        {
+          "key": "A",
+          "text": "设备维护"
+        },
+        {
+          "key": "B",
+          "text": "燃烧三要素和爆炸条件"
+        },
+        {
+          "key": "C",
+          "text": "人员培训"
+        },
+        {
+          "key": "D",
+          "text": "资金投入"
+        }
+      ],
+      "answer": "B",
+      "explanation": "控制与防护措施的核心逻辑：围绕「燃烧三要素」（可燃物、助燃物、点火源）和「爆炸条件」展开。",
+      "examPoint": "危化品事故控制逻辑",
+      "difficulty": "medium",
+      "source": "2026教材 第五章第三节",
+      "sourceRef": {
+        "chapter": "chapter-05",
+        "sectionId": "s3",
+        "sectionTitle": "第三节 危险化学品事故的控制和防护措施",
+        "point": "危化品事故控制逻辑"
+      },
+      "scope": "single"
+    }
+  ]
+}
