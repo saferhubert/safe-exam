@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Shield } from "lucide-react";
-import { SUBJECTS, SITE_NAME } from "@/lib/constants";
+import { NAV_SUBJECTS, SITE_NAME } from "@/lib/constants";
+import { MAJOR_DIRECTIONS } from "@/lib/majors";
 
 export default function Footer() {
   return (
@@ -25,7 +26,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3 text-sm">考试科目</h4>
             <ul className="space-y-2">
-              {SUBJECTS.map((s) => (
+              {NAV_SUBJECTS.map((s) => (
                 <li key={s.slug}>
                   <Link
                     href={`/${s.slug}`}
@@ -33,6 +34,29 @@ export default function Footer() {
                   >
                     {s.title}
                   </Link>
+                  {/* 专业实务：在页脚展开 7 个方向（利于 SEO 内链） */}
+                  {s.slug === "case-study" && (
+                    <ul className="mt-1.5 ml-3 space-y-1">
+                      {MAJOR_DIRECTIONS.filter((d) => d.available).map((d) => (
+                        <li key={d.slug}>
+                          <Link
+                            href={`/${d.slug}`}
+                            className="text-xs text-gray-500 hover:text-white transition-colors"
+                          >
+                            · {d.title}
+                          </Link>
+                        </li>
+                      ))}
+                      <li>
+                        <Link
+                          href="/case-study"
+                          className="text-xs text-gray-500 hover:text-white transition-colors"
+                        >
+                          · 其余方向筹备中
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
                 </li>
               ))}
             </ul>
