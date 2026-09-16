@@ -10,6 +10,13 @@ export interface SubjectMeta {
   order: number;
   totalChapters: number;
   color: string;
+  /**
+   * 是否从顶级导航隐藏。
+   * 用于专业实务的 7 个专业方向：它们有内容、需要生成页面，
+   * 但不应出现在顶部导航（否则 7 个方向会让导航过长），
+   * 只通过「专业实务」的下拉/方向页进入。
+   */
+  hidden?: boolean;
 }
 
 // 章节元数据
