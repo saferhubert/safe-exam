@@ -12,7 +12,8 @@ import {
   FlaskConical,
   ArrowRight,
 } from "lucide-react";
-import { SUBJECTS, FREE_SUBJECT_SLUGS } from "@/lib/constants";
+import { NAV_SUBJECTS, FREE_SUBJECT_SLUGS } from "@/lib/constants";
+import { MAJOR_DIRECTIONS } from "@/lib/majors";
 
 const ICONS: Record<string, typeof Scale> = {
   Scale,
@@ -51,7 +52,7 @@ export default function SubjectCarousel() {
   const [current, setCurrent] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
 
-  const slides = SUBJECTS;
+  const slides = NAV_SUBJECTS;
 
   const next = useCallback(() => {
     setCurrent((c) => (c + 1) % slides.length);
