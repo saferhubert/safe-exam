@@ -46,8 +46,14 @@ export default function Paywall({
         </h3>
         <p className="text-xs text-gray-500 leading-relaxed max-w-md mx-auto">
           本页前 2 节内容可免费阅读，完整考点详解、章节题库与
-          《考点速记手册》需解锁后查看
+          《考点速记手册》《案例答题模板》需解锁后查看
         </p>
+        <Link
+          href="/chemical/materials"
+          className="inline-flex items-center gap-1 mt-2.5 text-[11px] text-primary-600 hover:underline"
+        >
+          先看看资料包里有什么 →
+        </Link>
       </div>
 
       {/* 定价档位 */}
