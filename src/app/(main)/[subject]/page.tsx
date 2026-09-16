@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { existsSync } from "fs";
+import { join } from "path";
 import { notFound } from "next/navigation";
 import {
   BookOpen,
@@ -7,10 +9,14 @@ import {
   Video,
   GitCompare,
   Network,
+  Sparkles,
 } from "lucide-react";
 import { getSubject, getChapters } from "@/lib/subjects";
 import { loadJsonContent } from "@/lib/content";
 import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
+
+/** 提供「备考专属资料包」的科目 */
+const MATERIAL_SUBJECTS = ["chemical"];
 import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 import dynamic from "next/dynamic";
@@ -61,6 +67,10 @@ export default function SubjectPage({ params }: SubjectPageProps) {
   const hasVideos = Boolean(
     loadJsonContent<unknown[]>(params.subject, "bisai.json")?.length
   );
+  // 资料包页目前只有化工安全提供
+  const hasMaterials =
+    existsSync(join(process.cwd(), "src", "app", "(main)", params.subject, "materials", "page.tsx")) ||
+    MATERIAL_SUBJECTS.includes(params.subject);
 
   return (
     <div>
@@ -89,6 +99,21 @@ export default function SubjectPage({ params }: SubjectPageProps) {
 
       {/* 快捷入口 */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+        {hasMaterials && (
+        <Link
+          href={`/${params.subject}/materials`}
+          className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-amber-200 bg-amber-50/30 hover:border-amber-300 hover:shadow-sm transition-all group"
+        >
+          <div className="w-9 h-9 rounded-xl bg-amber-50 flex items-center justify-center">
+            <Sparkles className="w-4.5 h-4.5 text-amber-500" />
+          </div>
+          <div>
+            <div className="font-medium text-gray-800 text-sm">备考专属资料包</div>
+            <div className="text-xs text-gray-400">速记手册 + 答题模板</div>
+          </div>
+          <ArrowRight className="w-4 h-4 text-gray-300 ml-auto group-hover:text-amber-400 transition-colors" />
+        </Link>
+        )}
         {hasVideos && (
         <Link
           href={`/${params.subject}/bisai`}
