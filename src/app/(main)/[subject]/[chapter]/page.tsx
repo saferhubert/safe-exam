@@ -6,7 +6,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { getSubject, getChapters, getAdjacentChapters } from "@/lib/subjects";
 import { getInlineBySection } from "@/lib/content";
-import { SUBJECTS } from "@/lib/constants";
+import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import {
   Callout,
@@ -43,7 +43,7 @@ interface ChapterPageProps {
 
 export async function generateStaticParams() {
   const params: { subject: string; chapter: string }[] = [];
-  for (const subject of SUBJECTS) {
+  for (const subject of CONTENT_SUBJECTS) {
     const chapters = getChapters(subject.slug);
     for (const ch of chapters) {
       params.push({ subject: subject.slug, chapter: ch.slug });
