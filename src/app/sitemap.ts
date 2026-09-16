@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   });
 
-  // 每个科目
+  // 每个科目（含专业实务方向选择页）
   for (const subject of SUBJECTS) {
     entries.push({
       url: `${baseUrl}/${subject.slug}`,
@@ -40,6 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     });
+
+    // 专业实务容器页无内容子页，跳过
+    if (subject.slug === "case-study") continue;
 
     // 每个章节
     const chapters = getChapters(subject.slug);
