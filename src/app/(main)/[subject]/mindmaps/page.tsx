@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getSubject } from "@/lib/subjects";
 import { loadJsonContent } from "@/lib/content";
-import { SUBJECTS } from "@/lib/constants";
+import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import MindMapEmbed from "@/components/content/MindMapEmbed";
 import type { Metadata } from "next";
@@ -13,7 +13,7 @@ interface MindMapsPageProps {
 }
 
 export async function generateStaticParams() {
-  return SUBJECTS.map((s) => ({ subject: s.slug }));
+  return CONTENT_SUBJECTS.map((s) => ({ subject: s.slug }));
 }
 
 export async function generateMetadata({
