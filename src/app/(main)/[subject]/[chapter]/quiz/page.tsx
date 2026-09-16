@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getSubject, getChapters } from "@/lib/subjects";
 import { getQuiz } from "@/lib/content";
-import { SUBJECTS } from "@/lib/constants";
+import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import QuizClient from "@/components/quiz/QuizClient";
 import type { Metadata } from "next";
@@ -13,7 +13,7 @@ interface QuizPageProps {
 
 export async function generateStaticParams() {
   const params: { subject: string; chapter: string }[] = [];
-  for (const subject of SUBJECTS) {
+  for (const subject of CONTENT_SUBJECTS) {
     const chapters = getChapters(subject.slug);
     for (const ch of chapters) {
       params.push({ subject: subject.slug, chapter: ch.slug });
