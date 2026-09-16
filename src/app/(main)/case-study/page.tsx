@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import {
   GraduationCap,
   ArrowRight,
@@ -12,9 +11,7 @@ import {
   CheckCircle2,
   Clock,
 } from "lucide-react";
-import { getSubject, getChapters } from "@/lib/subjects";
 import { MAJOR_DIRECTIONS } from "@/lib/majors";
-import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 import dynamic from "next/dynamic";
 
@@ -28,10 +25,6 @@ const LeadForm = dynamic(() => import("@/components/leads/LeadForm"), {
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 
-interface PageProps {
-  params: { subject: string };
-}
-
 const DIRECTION_ICONS: Record<string, typeof Flame> = {
   chemical: Flame,
   coal: Mountain,
@@ -42,9 +35,9 @@ const DIRECTION_ICONS: Record<string, typeof Flame> = {
   other: Wrench,
 };
 
-export async function generateStaticParams() {
-  return [{ subject: "case-study" }];
-}
+// 该路由是静态路径 /case-study，不接受任何动态参数
+// 因此不需要 generateStaticParams（有它会与静态路径冲突导致 404）
+export const dynamicParams = false;
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
@@ -62,10 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default function CaseStudyPage({ params }: PageProps) {
-  const subject = getSubject(params.subject);
-  if (!subject) notFound();
-
+export default function CaseStudyPage() {
   return (
     <div>
       {/* 科目概览 */}
