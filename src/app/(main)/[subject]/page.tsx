@@ -9,7 +9,8 @@ import {
   Network,
 } from "lucide-react";
 import { getSubject, getChapters } from "@/lib/subjects";
-import { SUBJECTS } from "@/lib/constants";
+import { loadJsonContent } from "@/lib/content";
+import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
 import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
 import dynamic from "next/dynamic";
@@ -28,7 +29,7 @@ interface SubjectPageProps {
 }
 
 export async function generateStaticParams() {
-  return SUBJECTS.map((s) => ({ subject: s.slug }));
+  return CONTENT_SUBJECTS.map((s) => ({ subject: s.slug }));
 }
 
 export async function generateMetadata({
@@ -49,6 +50,17 @@ export default function SubjectPage({ params }: SubjectPageProps) {
   const chapters = getChapters(params.subject);
 
   const weightLabels = ["", "了解章节", "一般章节", "重点章节"];
+
+  // 只有存在对应数据文件时才显示快捷入口，避免出现空页面
+  const hasMindmaps = Boolean(
+    loadJsonContent<unknown[]>(params.subject, "mindmaps.json")?.length
+  );
+  const hasCompare = Boolean(
+    loadJsonContent<unknown[]>(params.subject, "compare.json")?.length
+  );
+  const hasVideos = Boolean(
+    loadJsonContent<unknown[]>(params.subject, "bisai.json")?.length
+  );
 
   return (
     <div>
@@ -77,6 +89,7 @@ export default function SubjectPage({ params }: SubjectPageProps) {
 
       {/* 快捷入口 */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+        {hasVideos && (
         <Link
           href={`/${params.subject}/bisai`}
           className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-warm-100/70 hover:border-primary-200/60 hover:shadow-sm transition-all group"
@@ -90,6 +103,8 @@ export default function SubjectPage({ params }: SubjectPageProps) {
           </div>
           <ArrowRight className="w-4 h-4 text-gray-300 ml-auto group-hover:text-primary-400 transition-colors" />
         </Link>
+        )}
+        {hasCompare && (
         <Link
           href={`/${params.subject}/compare`}
           className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-warm-100/70 hover:border-primary-200/60 hover:shadow-sm transition-all group"
@@ -103,6 +118,8 @@ export default function SubjectPage({ params }: SubjectPageProps) {
           </div>
           <ArrowRight className="w-4 h-4 text-gray-300 ml-auto group-hover:text-primary-400 transition-colors" />
         </Link>
+        )}
+        {hasMindmaps && (
         <Link
           href={`/${params.subject}/mindmaps`}
           className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-warm-100/70 hover:border-primary-200/60 hover:shadow-sm transition-all group"
@@ -116,6 +133,7 @@ export default function SubjectPage({ params }: SubjectPageProps) {
           </div>
           <ArrowRight className="w-4 h-4 text-gray-300 ml-auto group-hover:text-primary-400 transition-colors" />
         </Link>
+        )}
       </div>
 
       {/* 章节列表 */}
