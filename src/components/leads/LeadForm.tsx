@@ -1,17 +1,28 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { Send, CheckCircle, AlertCircle, BookOpen, Copy, Check } from "lucide-react";
+import {
+  Send,
+  CheckCircle,
+  AlertCircle,
+  BookOpen,
+  Copy,
+  Check,
+  MessageCircle,
+  ChevronDown,
+} from "lucide-react";
 import { submitLead, getLeadChannel, formatLeadText } from "@/lib/supabase";
 import { SUBJECTS, WECHAT_ID } from "@/lib/constants";
 
-const INTENT_OPTIONS = [
-  { value: "self_study", label: "我只需要免费资料自学" },
-  { value: "consider_course", label: "我在考虑是否报班" },
-  { value: "want_course", label: "我想了解报班信息及价格" },
-  { value: "enterprise", label: "企业团报咨询" },
-];
-
+/**
+ * 线索获取组件
+ *
+ * 设计原则（依据转化率实测经验）：
+ * 1. 微信号放在最显眼位置（加微信转化率 10-20%，填表仅 2-5%）
+ * 2. 表单可折叠，默认收起 —— 不想加微信的人再填表
+ * 3. 字段精简到 2 个（称呼 + 联系方式），不索取手机号（降低警惕）
+ * 4. 价值交换明确：加微信领《考点速记手册》+ 案例答题模板
+ */
 export default function LeadForm() {
   const [form, setForm] = useState({
     name: "",
@@ -20,16 +31,30 @@ export default function LeadForm() {
     intent: "",
     note: "",
   });
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [manualText, setManualText] = useState("");
   const [copied, setCopied] = useState(false);
+  const [wechatCopied, setWechatCopied] = useState(false);
+  const [showForm, setShowForm] = useState(false);
+
+  const copyWechat = async () => {
+    try {
+      await navigator.clipboard.writeText(WECHAT_ID);
+      setWechatCopied(true);
+      setTimeout(() => setWechatCopied(false), 2000);
+    } catch {
+      /* 剪贴板不可用时用户可手动选中 */
+    }
+  };
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
-    if (!form.name.trim() || !form.contact.trim()) {
-      setErrorMsg("请填写姓名和联系方式");
+    if (!form.contact.trim()) {
+      setErrorMsg("请填写你的微信号或手机号");
       setStatus("error");
       return;
     }
@@ -38,7 +63,7 @@ export default function LeadForm() {
     setErrorMsg("");
 
     const lead = {
-      name: form.name.trim(),
+      name: form.name.trim() || "未留称呼",
       contact: form.contact.trim(),
       subject: form.subject,
       intent: form.intent || "self_study",
@@ -52,7 +77,7 @@ export default function LeadForm() {
       setStatus("success");
       setForm({ name: "", contact: "", subject: "laws", intent: "", note: "" });
     } else if (result.channel === "manual") {
-      // 未配置任何后端：降级为「复制后发微信」，保证线索不丢
+      // 未配置后端：降级为「复制后发微信」，保证线索不丢
       setManualText(formatLeadText(lead, subjectLabel));
       setStatus("success");
       setForm({ name: "", contact: "", subject: "laws", intent: "", note: "" });
@@ -68,20 +93,22 @@ export default function LeadForm() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // 剪贴板不可用时，提示用户手动选中复制
+      /* 剪贴板不可用时，提示用户手动选中复制 */
     }
   };
 
+  // ===== 提交成功态 =====
   if (status === "success") {
-    // 手动复制模式
     if (manualText) {
       return (
         <div className="bg-green-50 border border-green-200 rounded-xl p-6">
           <div className="text-center mb-4">
             <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-3" />
-            <h3 className="text-lg font-semibold text-green-800 mb-2">再走最后一步就完成啦</h3>
+            <h3 className="text-lg font-semibold text-green-800 mb-2">
+              再走最后一步就完成啦
+            </h3>
             <p className="text-sm text-green-700">
-              请复制下方信息，发送给我们的备考助手微信，即可领取资料包。
+              请复制下方信息，发送给备考助手微信，即可领取资料包。
             </p>
           </div>
           <pre className="whitespace-pre-wrap text-xs text-gray-700 bg-white border border-green-200 rounded-lg p-4 mb-3 font-sans">
@@ -102,13 +129,10 @@ export default function LeadForm() {
               </>
             )}
           </button>
-          {WECHAT_ID ? (
+          {WECHAT_ID && (
             <p className="text-xs text-green-700 text-center mt-3">
-              备考助手微信：<span className="font-semibold">{WECHAT_ID}</span>
-            </p>
-          ) : (
-            <p className="text-xs text-green-600 text-center mt-3">
-              复制后请发送给备考助手，我们会在 24 小时内回复。
+              备考助手微信：
+              <span className="font-semibold">{WECHAT_ID}</span>
             </p>
           )}
         </div>
@@ -119,152 +143,159 @@ export default function LeadForm() {
       <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-center">
         <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-3" />
         <h3 className="text-lg font-semibold text-green-800 mb-2">提交成功！</h3>
-        <p className="text-sm text-green-600">
-          感谢你的登记。我们会尽快通过你留下的联系方式与你取得联系，送上免费备考资料。
+        <p className="text-sm text-green-600 mb-3">
+          我们会尽快与你联系，送上免费备考资料。
         </p>
+        {WECHAT_ID && (
+          <p className="text-xs text-green-700">
+            想更快拿到资料？直接加微信：
+            <span className="font-semibold">{WECHAT_ID}</span>
+          </p>
+        )}
       </div>
     );
   }
 
+  // ===== 默认态 =====
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-      {/* 头部 */}
+      {/* 头部：价值交换 */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-700 px-6 py-4">
         <div className="flex items-center gap-3">
-          <BookOpen className="w-5 h-5 text-white" />
+          <BookOpen className="w-5 h-5 text-white shrink-0" />
           <div>
-            <h3 className="font-semibold text-white text-sm">免费领取备考资料</h3>
+            <h3 className="font-semibold text-white text-sm">
+              免费领取备考资料包
+            </h3>
             <p className="text-primary-200 text-xs">
-              留下联系方式，获取独家整理的高频考点、速记口诀、真题解析
+              《考点速记手册》+《案例答题模板》+ 高频考点清单
             </p>
           </div>
         </div>
       </div>
 
-      {/* 表单 */}
-      <form onSubmit={handleSubmit} className="p-6 space-y-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* 姓名 */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              姓名 <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="text"
-              value={form.name}
-              onChange={(e) => setForm({ ...form, name: e.target.value })}
-              placeholder="你的称呼"
-              className="w-full px-3.5 py-2.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-400 focus:border-primary-400 outline-none transition-shadow"
-            />
+      <div className="p-6">
+        {/* 主推：加微信（转化率最高的方式） */}
+        {WECHAT_ID ? (
+          <div className="text-center">
+            <div className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-green-50 mb-3">
+              <MessageCircle className="w-5 h-5 text-green-600" />
+            </div>
+            <p className="text-sm text-gray-700 mb-1">
+              加备考助手微信，直接领取资料
+            </p>
+            <button
+              type="button"
+              onClick={copyWechat}
+              className="mt-2 inline-flex items-center gap-2 px-5 py-2.5 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 active:scale-[0.98] transition-all shadow-sm"
+            >
+              {wechatCopied ? (
+                <>
+                  <Check className="w-4 h-4" /> 已复制微信号
+                </>
+              ) : (
+                <>
+                  <Copy className="w-4 h-4" />
+                  {WECHAT_ID}
+                </>
+              )}
+            </button>
+            <p className="text-[11px] text-gray-400 mt-2.5">
+              点击复制 → 打开微信 → 添加好友 → 备注「注安」即刻通过
+            </p>
           </div>
-
-          {/* 联系方式 */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              微信/手机 <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="text"
-              value={form.contact}
-              onChange={(e) => setForm({ ...form, contact: e.target.value })}
-              placeholder="微信号或手机号"
-              className="w-full px-3.5 py-2.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-400 focus:border-primary-400 outline-none transition-shadow"
-            />
-          </div>
-        </div>
-
-        {/* 关注科目 */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            你最关注的科目
-          </label>
-          <select
-            value={form.subject}
-            onChange={(e) => setForm({ ...form, subject: e.target.value })}
-            className="w-full px-3.5 py-2.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-400 focus:border-primary-400 outline-none bg-white"
-          >
-            {SUBJECTS.map((s) => (
-              <option key={s.slug} value={s.slug}>
-                {s.title}
-              </option>
-            ))}
-          </select>
-        </div>
-
-        {/* 意向 */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            你的学习需求
-          </label>
-          <div className="space-y-2">
-            {INTENT_OPTIONS.map((opt) => (
-              <label
-                key={opt.value}
-                className={`flex items-center gap-3 p-3 rounded-lg border-2 cursor-pointer transition-all ${
-                  form.intent === opt.value
-                    ? "border-primary-400 bg-primary-50"
-                    : "border-gray-100 hover:border-gray-300"
-                }`}
-              >
-                <input
-                  type="radio"
-                  name="intent"
-                  value={opt.value}
-                  checked={form.intent === opt.value}
-                  onChange={(e) => setForm({ ...form, intent: e.target.value })}
-                  className="w-4 h-4 text-primary-600"
-                />
-                <span className="text-sm text-gray-700">{opt.label}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        {/* 备注 */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            备注（选填）
-          </label>
-          <textarea
-            value={form.note}
-            onChange={(e) => setForm({ ...form, note: e.target.value })}
-            placeholder="如有特殊需求或问题，请在此说明..."
-            rows={2}
-            className="w-full px-3.5 py-2.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-400 focus:border-primary-400 outline-none transition-shadow resize-none"
-          />
-        </div>
-
-        {/* 错误提示 */}
-        {status === "error" && errorMsg && (
-          <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 px-4 py-2.5 rounded-lg">
-            <AlertCircle className="w-4 h-4 flex-shrink-0" />
-            {errorMsg}
+        ) : (
+          <div className="text-center">
+            <p className="text-sm text-gray-500">
+              填写下方信息，我们主动联系你
+            </p>
           </div>
         )}
 
-        {/* 提交按钮 */}
-        <button
-          type="submit"
-          disabled={status === "submitting"}
-          className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm"
-        >
-          {status === "submitting" ? (
-            <>
-              <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-              提交中...
-            </>
+        {/* 次选：填表（折叠） */}
+        <div className="mt-5 pt-4 border-t border-gray-100">
+          {!showForm ? (
+            <button
+              type="button"
+              onClick={() => setShowForm(true)}
+              className="w-full flex items-center justify-center gap-1.5 text-xs text-gray-500 hover:text-primary-600 transition-colors py-1.5"
+            >
+              不方便加微信？留下联系方式，我们联系你
+              <ChevronDown className="w-3.5 h-3.5" />
+            </button>
           ) : (
-            <>
-              <Send className="w-4 h-4" />
-              免费领取资料
-            </>
-          )}
-        </button>
+            <form onSubmit={handleSubmit} className="space-y-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-xs font-medium text-gray-600 mb-1">
+                    怎么称呼（选填）
+                  </label>
+                  <input
+                    value={form.name}
+                    onChange={(e) =>
+                      setForm({ ...form, name: e.target.value })
+                    }
+                    placeholder="如：王工"
+                    className="w-full px-3 py-2 text-sm rounded-lg border border-gray-200 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-medium text-gray-600 mb-1">
+                    微信号或手机号 <span className="text-red-400">*</span>
+                  </label>
+                  <input
+                    value={form.contact}
+                    onChange={(e) =>
+                      setForm({ ...form, contact: e.target.value })
+                    }
+                    placeholder="方便联系到你即可"
+                    className="w-full px-3 py-2 text-sm rounded-lg border border-gray-200 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100"
+                  />
+                </div>
+              </div>
 
-        <p className="text-xs text-gray-400 text-center">
-          你的信息仅用于发送备考资料和课程咨询，不会公开或转售给第三方。
-        </p>
-      </form>
+              <div>
+                <label className="block text-xs font-medium text-gray-600 mb-1">
+                  你准备考哪个科目
+                </label>
+                <select
+                  value={form.subject}
+                  onChange={(e) =>
+                    setForm({ ...form, subject: e.target.value })
+                  }
+                  className="w-full px-3 py-2 text-sm rounded-lg border border-gray-200 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 bg-white"
+                >
+                  {SUBJECTS.map((s) => (
+                    <option key={s.slug} value={s.slug}>
+                      {s.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {status === "error" && errorMsg && (
+                <p className="flex items-center gap-1.5 text-xs text-red-500">
+                  <AlertCircle className="w-3.5 h-3.5" />
+                  {errorMsg}
+                </p>
+              )}
+
+              <button
+                type="submit"
+                disabled={status === "submitting"}
+                className="w-full flex items-center justify-center gap-2 px-6 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 disabled:opacity-60 transition-colors"
+              >
+                <Send className="w-4 h-4" />
+                {status === "submitting" ? "提交中…" : "提交"}
+              </button>
+
+              <p className="text-[11px] text-gray-400 text-center">
+                我们仅用于发送备考资料，不会打扰你
+              </p>
+            </form>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
