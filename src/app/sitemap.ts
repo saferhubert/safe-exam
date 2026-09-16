@@ -81,6 +81,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       });
     }
+
+    // 备考专属资料包（付费科目）
+    if (isPaidSubject) {
+      entries.push({
+        url: `${baseUrl}/${subject.slug}/materials`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      });
+    }
   }
 
   return entries;
