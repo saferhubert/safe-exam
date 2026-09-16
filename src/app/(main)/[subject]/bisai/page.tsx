@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getSubject, getChapters } from "@/lib/subjects";
 import { loadJsonContent } from "@/lib/content";
-import { SUBJECTS } from "@/lib/constants";
+import { SUBJECTS, CONTENT_SUBJECTS } from "@/lib/constants";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import VideoCard from "@/components/content/VideoCard";
 import Badge from "@/components/ui/Badge";
@@ -14,7 +14,7 @@ interface BisaiPageProps {
 }
 
 export async function generateStaticParams() {
-  return SUBJECTS.map((s) => ({ subject: s.slug }));
+  return CONTENT_SUBJECTS.map((s) => ({ subject: s.slug }));
 }
 
 export async function generateMetadata({
