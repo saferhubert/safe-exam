@@ -32,7 +32,7 @@ const MATERIALS: Material[] = [
     title: "化工安全考点速记手册",
     desc: "把 7 章 31 节压缩成「看一眼就能记住」的表格，含必背数字速查表。",
     pages: "约 30 页 · A4 可打印",
-    file: "/downloads/chemical-speed-review.html",
+    file: "/chemical/materials/speed-review",
     highlights: [
       "35 项必背数字速查表（考前反复看）",
       "82 个核心考点速记（按章编排）",
@@ -44,7 +44,7 @@ const MATERIALS: Material[] = [
     title: "案例答题模板",
     desc: "主观题万能框架：五类高频题型的标准答题结构，照着写就能踩到得分点。",
     pages: "约 20 页 · A4 可打印",
-    file: "/downloads/case-answer-templates.html",
+    file: "/chemical/materials/case-templates",
     highlights: [
       "通用答题四步法（定性→定点→分点→作答）",
       "五类高频题型专属模板（含重大危险源计算式）",
@@ -198,10 +198,9 @@ export default function MaterialsClient() {
                       <a
                         href={m.file}
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary-600 text-white text-xs font-medium hover:bg-primary-700 transition-colors"
                       >
-                        <Download className="w-3.5 h-3.5" /> 打开并另存为 PDF
+                        <Download className="w-3.5 h-3.5" /> 打开资料
                       </a>
                       <span className="inline-flex items-center gap-1 text-[11px] text-gray-400">
                         <Printer className="w-3 h-3" /> 打开后 Ctrl+P 即可打印
