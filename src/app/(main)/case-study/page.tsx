@@ -144,7 +144,10 @@ export default function CaseStudyPage() {
                     : d.note}
                 </span>
                 {d.available && (
-                  <ArrowRight className="w-3.5 h-3.5 text-primary-400 group-hover:translate-x-0.5 transition-transform" />
+                  <span className="inline-flex items-center gap-1 text-[11px] text-primary-500 font-medium">
+                    点击进入
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  </span>
                 )}
               </div>
             </div>
