@@ -1,5 +1,9 @@
 import type { MetadataRoute } from "next";
-import { SUBJECTS, SITE_URL } from "@/lib/constants";
+import {
+  NAV_SUBJECTS,
+  CONTENT_SUBJECTS,
+  SITE_URL,
+} from "@/lib/constants";
 import { getChapters } from "@/lib/subjects";
 import { PAID_SUBJECTS } from "@/lib/paywall";
 
@@ -32,19 +36,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   });
 
-  // 每个科目（含专业实务方向选择页）
-  for (const subject of SUBJECTS) {
+  // 顶级导航科目（三科公共科目 + 专业实务容器）
+  for (const subject of NAV_SUBJECTS) {
     entries.push({
       url: `${baseUrl}/${subject.slug}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     });
+  }
 
-    // 专业实务容器页无内容子页，跳过
-    if (subject.slug === "case-study") continue;
+  // 有内容的科目（含专业实务各方向）：章节 + 测验 + 聚合页
+  for (const subject of CONTENT_SUBJECTS) {
+    const isPaidSubject = PAID_SUBJECTS.includes(subject.slug as any);
 
-    // 每个章节
     const chapters = getChapters(subject.slug);
     for (const ch of chapters) {
       // 免费框架页（承担 SEO 收录）优先级高
@@ -57,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
 
       // 章节测验（付费科目不加 sitemap，避免收录半截内容）
-      if (!PAID_SUBJECTS.includes(subject.slug as any) && !isOutline) {
+      if (!isPaidSubject && !isOutline) {
         entries.push({
           url: `${baseUrl}/${subject.slug}/${ch.slug}/quiz`,
           lastModified: new Date(),
@@ -68,24 +73,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // 内容聚合页
-    entries.push({
-      url: `${baseUrl}/${subject.slug}/bisai`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.6,
-    });
-    entries.push({
-      url: `${baseUrl}/${subject.slug}/compare`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.6,
-    });
-    entries.push({
-      url: `${baseUrl}/${subject.slug}/mindmaps`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.6,
-    });
+    for (const page of ["bisai", "compare", "mindmaps"]) {
+      entries.push({
+        url: `${baseUrl}/${subject.slug}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.6,
+      });
+    }
   }
 
   return entries;
